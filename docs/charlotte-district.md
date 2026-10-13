@@ -1,6 +1,6 @@
-# Charlotte-Mecklenburg source and cohort audit
+# Charlotte-Mecklenburg district audits
 
-This is a **source/cohort audit only** for Charlotte-Mecklenburg Schools, North Carolina, school year **2024–25**: exact NCES LEA **`3702970`**, CCD native LEA **`NC-600`** and DPI PSU **`600`**. [audit_charlotte.py](../scripts/audit_charlotte.py) builds [charlotte-district-audit.json](../data/source/charlotte-district-audit.json) from pinned original files. Status remains **`audit_pending`**, scope **`source_cohort_audit_only`**, and both **`approved_for_source`** and **`approved_for_modeling`** remain **false**. No regression, canonical import, normalized ready release or browser comparison is created.
+The historical **source/cohort audit** is for Charlotte-Mecklenburg Schools, North Carolina, school year **2024–25**: exact NCES LEA **`3702970`**, CCD native LEA **`NC-600`** and DPI PSU **`600`**. [audit_charlotte.py](../scripts/audit_charlotte.py) builds [charlotte-district-audit.json](../data/source/charlotte-district-audit.json) from pinned original files. Status remains **`audit_pending`**, scope **`source_cohort_audit_only`**, and both **`approved_for_source`** and **`approved_for_modeling`** remain **false**. It contains no fitted results. The separately verified numerical phase below also retains false approvals; canonical/static integration is still pending.
 
 The statewide North Carolina extract is retained as a checksum-pinned cross-check. Its existing point-only source approval does not approve a separate district model. Discovery counts do not determine source membership, and this audit does not extend high-school, mixed-school or alternate-assessment populations.
 
@@ -86,3 +86,35 @@ Explicit extraction verifies all twelve original file fingerprints, streams both
 Twelve focused tests cover original full inventories/typed references, exact identities and years, lower versus tested/primary populations, Knights View subject suppression, Alternative-school inclusion, original April/fall/LEA differences, discovery reconciliation, real-zero versus unavailable/proxy income, native scope and definition discrepancies, Combined, uncertified counts/floors, immutable false approvals and raw-disabled offline replay. Exact typed fingerprints reject missing/extra records, source/header/row changes, wrong populations, booleans versus numeric counts, fabricated sampling evidence and approval drift. Semantic tests with independently repinned fixtures also exercise direct identity, collection-year, demographic/scope and strict integer header-reference gates.
 
 Independent original-source/cohort review, numerical diagnostics and any separately validated canonical/static integration remain distinct gates. This source artifact records no fitted results, new provider/admissions role, ready comparison, deployment or change to existing district/state comparisons. Issue #3 and incomplete source holds remain open.
+
+## Independent numerical audit
+
+[charlotte-model-audit.json](../data/source/charlotte-model-audit.json) and [audit_charlotte_models.py](../scripts/audit_charlotte_models.py) freeze the complete source artifact, source code/tests and policy. Original records reconstruct exact source eligibility before fitting. Three unweighted district models use same-year April individual EDS and native regular RG/GS/ALL published GLP rates. Statewide North Carolina residuals and coefficients are not reused.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Usable schools | 145 | 146 | 145 |
+| Intercept | 102.572300 | 95.652984 | 98.863298 |
+| Income slope | -0.880229 | -0.911716 | -0.891756 |
+| R² | 0.628451 | 0.665790 | 0.672709 |
+| Maximum leverage | 0.050724 | 0.049389 | 0.050724 |
+| Maximum Cook distance | 0.053324 | 0.034777 | 0.036543 |
+| Largest deleted prediction change across observed income range, percentage points | 0.710972 | 0.549577 | 0.538361 |
+
+All full and **436 explicitly deleted-school fits** have rank two and positive finite residual scale. Full residual degrees of freedom are 143/144/143; deleted residual degrees of freedom are 142/143/142. Externally studentized residuals use the scale estimated from the other `N−1` members with `N−3` degrees of freedom. Combined has its own 145-school fit of equally weighted subject rates; averaging subject coefficients or residual scores is not equivalent.
+
+Income spans 5.2–83.4%. Diagnostic flags are descriptive and never remove a school. Turning Point Middle remains in every fit, including its Math influence flag; Knights View remains ELA-only. Observed-range deletion sensitivity does not certify extrapolation, causal effectiveness, enrollment adjustment or shrinkage.
+
+Every valid-score count, sampling variance and interval endpoint remains null modelwide. The ten-valid-scored floor is uncertified. Internal computational zero-variance sentinels do not claim zero sampling uncertainty. All original masks, enrollment differences, assessment/income populations and outside configurations remain retained. The numerical artifact's status is `numerically_verified_pending_integration`, scope `numerical_audit_only`, and both approvals remain false.
+
+Offline numerical rebuild and replay:
+
+```sh
+.venv/bin/python scripts/audit_charlotte_models.py
+.venv/bin/python scripts/audit_charlotte_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_charlotte_models.py' -v
+```
+
+Two actual fresh CLI builds reproduce **11,411,144 bytes**, SHA-256 **`4fcae9ab70d5b2bb16fdece4cd198919e7b3616c6a3915ee003829b8b7ec02ab`**. All twelve focused tests pass. Two independent reviews reconstruct original evidence and fits: the full review verifies 22,294 typed comparisons, all twelve source pins and every deletion; a complementary 50-digit Decimal review checks all full fits and twelve selected deletions. Maximum independent difference is `3.64e-12`; **115 additional corruption/degeneracy attacks** are rejected. Prior canonical and served data remain unchanged at this gate.
+
+A separately validated normalized contract, repeatable canonical/static integration, preservation checks and HTTP/browser review remain required before master delivery. High/mixed populations, admissions, geometry and assessment provider roles remain unaudited.
