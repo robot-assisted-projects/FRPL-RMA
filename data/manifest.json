@@ -1676,6 +1676,132 @@
       "sha256": "1d1ab0593d9e568fe5104459b8da8b20e3d24bc1e40c6a0387828a3e47366d93"
     },
     {
+      "id": "md-prince-georges-2025:ccd_directory",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "md-prince-georges-2025:ccd_lea_directory",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "md-prince-georges-2025:ccd_lea_membership",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "md-prince-georges-2025:ccd_membership",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "md-prince-georges-2025:extract",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/source/prince-georges.json",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+      "sha256": "0d1d34462a03c177e46c4e35b6b7dfe0329f632a3fba6c0491a498745e820c7f"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_assessment",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-mcap-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+      "sha256": "61789e732bbeff40a451d14a0e6eeb66c0dac54430c26c7ed49db9718aab583f"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_definitions",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-definitions.html",
+      "url": "https://www.reportcard.msde.maryland.gov/Definitions/Index",
+      "sha256": "5086eb37ee1de68c9aa22f9e7d2606f8d7550acfaeb85bd2b139c3f765d2f3f7"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_directory",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-directory-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/539",
+      "sha256": "963f3447d40eb95586efa6f7250c96cd55818313015178a30d05b0b637a916fa"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_enrollment",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-enrollment-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/541",
+      "sha256": "132b3520b0c75e1cbcb83b40a5b8c8b6fa1f064fb300c14710a75dd72b73c061"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_income",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-special-services-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/561",
+      "sha256": "3ed47214da42d4d3bbb88077b3598637a56e8eba52498216dc9c923547984d5c"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_mcap_overview",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/montgomery-mcap-overview-march2025.pdf",
+      "url": "https://www.marylandpublicschools.org/about/Documents/DAAIT/Assessment/MCAP/MCAP-Overview-A.pdf",
+      "sha256": "594f383d7917939572b99d293e89582decfc7819f5a888de21e2b9b6cbcb4680"
+    },
+    {
+      "id": "md-prince-georges-2025:msde_reportcard",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/raw/maryland-reportcard.html",
+      "url": "https://reportcard.msde.maryland.gov/graphs",
+      "sha256": "9857e65d009ccc6614beeaa12e289cbb93c37c8c67f809d394226dc19b5f8125"
+    },
+    {
+      "id": "md-prince-georges-2025:numerical_audit",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/source/prince-georges-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/prince-georges-model-audit.json",
+      "sha256": "8594f53d2722b913bf1907a0c0d8c53c21405c64b3d108a7b722706281b8f661"
+    },
+    {
+      "id": "md-prince-georges-2025:numerical_audit_code",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "scripts/audit_prince_georges_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_prince_georges_models.py",
+      "sha256": "69e0e8440258b440269a3fda491d7005c49c5ffc2ae3f6027a5aff451160897e"
+    },
+    {
+      "id": "md-prince-georges-2025:numerical_audit_tests",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "tests/test_prince_georges_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_prince_georges_models.py",
+      "sha256": "ba9ce66ac140d893c392b6b35c7085b5d274e1de6b4538005a9795d34c33b4e9"
+    },
+    {
+      "id": "md-prince-georges-2025:roster_audit",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "data/source/prince-georges-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/prince-georges-district-audit.json",
+      "sha256": "f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a"
+    },
+    {
+      "id": "md-prince-georges-2025:source_audit_code",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "scripts/audit_prince_georges.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_prince_georges.py",
+      "sha256": "df2553327f7a89771574f95585930ae4ad7e3791e0f8f73fa9087172347d751e"
+    },
+    {
+      "id": "md-prince-georges-2025:source_audit_tests",
+      "dataset_id": "md-prince-georges-2025",
+      "path": "tests/test_prince_georges_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_prince_georges_audit.py",
+      "sha256": "acbf3b0666687db27b820067ab7adcb67b9eb9268cb047c4ecc348511bc3d13b"
+    },
+    {
       "id": "me-edc-ccd-dc:ccd_directory_2025",
       "dataset_id": "me-edc-ccd-dc",
       "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
@@ -18682,6 +18808,16 @@
       "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562"
     },
     {
+      "id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "state": "MD",
+      "name": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "3\u20138 plus accelerated Math courses",
+      "standard": "2021\u201322 four-level regular MCAP standards; 2024\u201325 Math includes accelerated Algebra 1, Geometry and Algebra 2 with applicable grade 6\u20137 course waiver; DLM remains separate",
+      "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562"
+    },
+    {
       "id": "me-edc-ccd-dc:2025:Maine Through Year Assessment grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC:ES",
       "state": "ME",
       "name": "Maine Through Year Assessment grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC",
@@ -19539,6 +19675,12 @@
       "id": "md-montgomery-2025:income",
       "name": "Economically disadvantaged",
       "definition": "Same-year individual direct certification from MSDE Early Attendance: SNAP/FSP, TANF/TCA, foster care, Medicaid and other qualifying categorical statuses. Use the native Economically Disadvantaged count and its Total Student Cnt denominator, not FARMS, meal access, a CEP multiplier or a tested subgroup. The native Early Attendance denominator differs from the September30 enrollment file; September grades establish school scope only. Suppressed or ranged income remains unavailable, with no complement reconstruction or prior-year backfill.",
+      "source_url": "https://www.reportcard.msde.maryland.gov/Definitions/Index"
+    },
+    {
+      "id": "md-prince-georges-2025:income",
+      "name": "Individual direct-certification economic disadvantage",
+      "definition": "Same-year individual direct certification from MSDE Early Attendance: SNAP/FSP, TANF/TCA, foster care, Medicaid and other qualifying categorical statuses. Use the native Economically Disadvantaged count and its Total Student Cnt denominator, not FARMS, meal access, a CEP multiplier or a tested subgroup. The native Early Attendance denominator differs from the September30 enrollment file; September grades establish school scope only. Suppressed or ranged income remains unavailable, with no complement reconstruction or prior-year backfill. Use individual Economically Disadvantaged Cnt divided by its own Early Attendance Total Student Cnt, reconciling the published one-decimal percentage within0.0500001 percentage point. Keep the native whole-school All row for multiband schools; a lone band row establishes the complete native school income record. Never replace with September/CCD enrollment, FARMS, participation, tested subgroup or another year. The collection as-of date is unspecified in the pinned definition.",
       "source_url": "https://www.reportcard.msde.maryland.gov/Definitions/Index"
     },
     {
@@ -21282,6 +21424,30 @@
       "subject": "reading",
       "method_version": "ols-studentized-v1",
       "input_sha256": "cb77b1c508bf1eeef48fbcfb744bc07f645bda1d44163596c3abcc461f9ad8ab"
+    },
+    {
+      "id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:combined:ols-v1:3490ab24445c",
+      "dataset_id": "md-prince-georges-2025",
+      "definition_id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "3490ab24445c435c41b9cfceba80aa783d29c98af4447c5dbdc0327fbcb5a8c5"
+    },
+    {
+      "id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:math:ols-v1:3490ab24445c",
+      "dataset_id": "md-prince-georges-2025",
+      "definition_id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "3490ab24445c435c41b9cfceba80aa783d29c98af4447c5dbdc0327fbcb5a8c5"
+    },
+    {
+      "id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:reading:ols-v1:3490ab24445c",
+      "dataset_id": "md-prince-georges-2025",
+      "definition_id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "3490ab24445c435c41b9cfceba80aa783d29c98af4447c5dbdc0327fbcb5a8c5"
     },
     {
       "id": "me-edc-ccd-dc:2025:Maine Through Year Assessment grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC:ES:combined:ols-v1:43a6320a35f7",
@@ -23436,6 +23602,23 @@
           "map_source": "School coordinates and district boundaries are unavailable in the audited Montgomery County source release.",
           "statewide": false,
           "audit": "data/montgomery/coverage.json"
+        },
+        {
+          "id": "prince-georges",
+          "name": "Prince George\u2019s County",
+          "dataset": "md-prince-georges-2025",
+          "status": "ready",
+          "geography": "prince-georges",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/prince-georges/schools.json",
+          "boundaries": null,
+          "comparison": "Prince George\u2019s County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Prince George\u2019s County independent 2024\u201325 regular MCAP grade-school district models: exact operational NCES LEA 2400510 / CCD native MD-16 / MSDE 16 identities. All 159 native E/M/EM profiles with positive September grades 3\u20138 and no high-grade row remain searchable. Original regular School_Level All Students All Grades Levels 3/4 published rates support 146 Math, 159 ELA and 146 independently fitted Combined results; 13 Math masks retain ELA. Precise same-year individual Early Attendance ratios use their own denominators. Accelerated Math courses and the applicable grade 6\u20137 waiver remain in native totals; DLM stays separate. High, mixed, primary, unknown, unmatched and closed records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Prince George\u2019s County source release.",
+          "statewide": false,
+          "audit": "data/prince-georges/coverage.json"
         }
       ]
     },

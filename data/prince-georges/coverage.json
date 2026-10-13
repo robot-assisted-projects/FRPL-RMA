@@ -1,0 +1,3025 @@
+{
+  "year": 2025,
+  "schools": 159,
+  "cohorts": {
+    "grade": {
+      "directory": 159,
+      "eligible": {
+        "math": 146,
+        "reading": 159,
+        "combined": 146
+      }
+    }
+  },
+  "exclusions": {
+    "Native published proficiency is suppressed or unavailable": 13,
+    "Math: Native published proficiency is suppressed or unavailable": 13
+  },
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/prince-georges-district-audit.json",
+      "sha256": "f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 5404,
+      "complete_original_cell_count": 89640,
+      "note": "Complete original records, headers, definitions, memberships and identity holds stay in the immutable linked source artifact; every numerical replay requires current available unchanged source/code/tests/policy and semantic validation."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/prince-georges-model-audit.json",
+      "sha256": "8594f53d2722b913bf1907a0c0d8c53c21405c64b3d108a7b722706281b8f661",
+      "bytes": 1249923
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_prince_georges.py",
+        "sha256": "df2553327f7a89771574f95585930ae4ad7e3791e0f8f73fa9087172347d751e"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_prince_georges_audit.py",
+        "sha256": "acbf3b0666687db27b820067ab7adcb67b9eb9268cb047c4ecc348511bc3d13b"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_prince_georges_models.py",
+        "sha256": "69e0e8440258b440269a3fda491d7005c49c5ffc2ae3f6027a5aff451160897e"
+      },
+      "tests": {
+        "path": "tests/test_prince_georges_models.py",
+        "sha256": "ba9ce66ac140d893c392b6b35c7085b5d274e1de6b4538005a9795d34c33b4e9"
+      }
+    },
+    "immutable_raw_input_fingerprint": "d73cee70ffb91b37d7f63ef5e7947621d5c59250264fed969012d4bad7ed8708",
+    "immutable_schema_fingerprint": "e2bb249f4fa01a29619d0c2c54c8a1237e7062752a43e66af2d59e2bd0505fb5",
+    "immutable_definition_fingerprint": "9a3f18b926c3639e4a2152ab0ce93ae513dd5f5b660bd5aafd49af1e1d2e4eac",
+    "immutable_identity_fingerprint": "f326855a6626e853568bf1a91cf68b8f6bde256e318971ef76fa85256b3b9f66",
+    "immutable_source_policy_fingerprint": "6bee3876109f64b15621bc28dea7eac88acadb99d3555c9b92962bd07c36ef68",
+    "immutable_numerical_policy_fingerprint": "7190bb7c0b722e5cea16bae8aafe03af5cd8aae58190861a8f3e25f48416e201",
+    "operational_roster": {
+      "native_directory": 204,
+      "ccd_directory": 201,
+      "operational_roster": 199,
+      "matched_operational_native_profiles": 198,
+      "complete_native_profiles": 204,
+      "unmatched_native_profiles": 6,
+      "nonoperational_directory": 2,
+      "unmatched_ccd_schools": 3,
+      "outside_native_records": {
+        "native_enrollment": 18,
+        "native_income": 4,
+        "native_assessment": 24
+      },
+      "source_rows": {
+        "directory": 201,
+        "lea_directory": 1,
+        "membership": 1630,
+        "lea_membership": 16,
+        "native_directory": 204,
+        "native_assessment": 1665,
+        "native_enrollment": 1432,
+        "native_income": 255
+      },
+      "native_grade_spans": {
+        "E": 117,
+        "EH": 1,
+        "EM": 20,
+        "EMH": 3,
+        "H": 25,
+        "M": 25,
+        "MH": 1,
+        "None": 12
+      },
+      "offered_bands": {
+        "grade": 162,
+        "high": 24,
+        "mixed": 5,
+        "primary": 7,
+        "unknown": 1
+      },
+      "prospective_source_profiles": 159,
+      "prospective_usable": {
+        "math": 146,
+        "reading": 159,
+        "combined": 146
+      },
+      "prospective_usable_income": 159,
+      "native_assessment_inventory": {
+        "Algebra 1": 63,
+        "Algebra 2": 15,
+        "English Language Arts 03": 139,
+        "English Language Arts 04": 139,
+        "English Language Arts 05": 139,
+        "English Language Arts 06": 49,
+        "English Language Arts 07": 50,
+        "English Language Arts 08": 50,
+        "English Language Arts 10": 32,
+        "English Language Arts 3-5": 1,
+        "English Language Arts 3-8": 1,
+        "English Language Arts 6-8": 1,
+        "English Language Arts All Grades": 194,
+        "Geometry": 29,
+        "Mathematics 03": 139,
+        "Mathematics 04": 139,
+        "Mathematics 05": 139,
+        "Mathematics 06": 49,
+        "Mathematics 07": 50,
+        "Mathematics 08": 50,
+        "Mathematics 3-5": 1,
+        "Mathematics 3-8": 1,
+        "Mathematics 6-8": 1,
+        "Mathematics All Grades": 194
+      },
+      "native_assessment_worksheets": {
+        "LEA_Level": 24,
+        "School_Level": 1641
+      },
+      "eligible_accelerated_course_rows": 44,
+      "eligible_course_row_presence": {
+        "Algebra 1": 31,
+        "Algebra 2": 1,
+        "Geometry": 12
+      },
+      "eligible_course_rows_numeric_administrative_count": {
+        "Algebra 1": 29,
+        "Geometry": 1
+      },
+      "eligible_administrative_math_component_counts_reconciled": 146,
+      "school_type_prospective": {
+        "Regular School": 159
+      },
+      "district_fall_membership": 132123,
+      "operational_school_fall_sum": 132123,
+      "lea_minus_operational_school_fall_enrollment": 0,
+      "known_school_early_attendance_enrollment_sum": 133427,
+      "district_minus_known_school_early_attendance_enrollment": 0,
+      "missing_school_early_attendance_denominator_ids": [
+        "16-0303",
+        "16-0608",
+        "16-0705",
+        "16-0804",
+        "16-1437",
+        "16-2022"
+      ],
+      "district_september_enrollment": 132151,
+      "native_september_school_total_sum": 132151,
+      "missing_native_september_school_total_ids": [
+        "16-0303",
+        "16-0608",
+        "16-0705",
+        "16-0804",
+        "16-1437",
+        "16-2022"
+      ],
+      "suppressed_native_enrollment_cells": 21,
+      "schools_with_early_attendance_ccd_difference": 189,
+      "schools_with_early_attendance_september_difference": 191,
+      "verified_valid_score_counts": 0,
+      "ten_valid_scored_floor_certified": false,
+      "model_sampling_intervals_available": false,
+      "planning_reconstructed_potential_cohorts": {
+        "ES": 160,
+        "HS": 23
+      },
+      "independent_model_diagnostics_required": true,
+      "canonical_integration_pending": true,
+      "source_and_model_approvals": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "16-0102",
+        "native_school_id": "MD-16-160102",
+        "ncessch": "240051001059",
+        "name": "High Point High",
+        "source_roster_link_index": 0,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0107",
+        "native_school_id": "MD-16-160107",
+        "ncessch": "240051001134",
+        "name": "Frances R Fuchs E C C",
+        "source_roster_link_index": 3,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0108",
+        "native_school_id": "MD-16-160108",
+        "ncessch": "240051001354",
+        "name": "James E. Duckworth",
+        "source_roster_link_index": 4,
+        "native_grade_span": "EH",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0208",
+        "native_school_id": "MD-16-160208",
+        "ncessch": "240051000987",
+        "name": "Bladensburg High",
+        "source_roster_link_index": 10,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0218",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Ellen Ochoa Middle",
+        "source_roster_link_index": 16,
+        "native_grade_span": "M",
+        "identity_hold": "Known malformed original native NCES; no inferred correction",
+        "exclusion": "Known malformed original native NCES; no inferred correction"
+      },
+      {
+        "school_id": "16-0303",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Non-Traditional Program South",
+        "source_roster_link_index": 17,
+        "native_grade_span": null,
+        "identity_hold": "No exact same-year attached-LEA CCD counterpart",
+        "exclusion": "No exact same-year attached-LEA CCD counterpart"
+      },
+      {
+        "school_id": "16-0511",
+        "native_school_id": "MD-16-160511",
+        "ncessch": "240051001038",
+        "name": "Friendly High",
+        "source_roster_link_index": 22,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0603",
+        "native_school_id": "MD-16-160603",
+        "ncessch": "240051001164",
+        "name": "Suitland High",
+        "source_roster_link_index": 24,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0608",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Non-Traditional Program Middle",
+        "source_roster_link_index": 27,
+        "native_grade_span": null,
+        "identity_hold": "No exact same-year attached-LEA CCD counterpart",
+        "exclusion": "No exact same-year attached-LEA CCD counterpart"
+      },
+      {
+        "school_id": "16-0705",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Non-Traditional Program North",
+        "source_roster_link_index": 47,
+        "native_grade_span": null,
+        "identity_hold": "No exact same-year attached-LEA CCD counterpart",
+        "exclusion": "No exact same-year attached-LEA CCD counterpart"
+      },
+      {
+        "school_id": "16-0723",
+        "native_school_id": "MD-16-160723",
+        "ncessch": "240051001384",
+        "name": "C. Elizabeth Rieg",
+        "source_roster_link_index": 55,
+        "native_grade_span": "EMH",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0804",
+        "native_school_id": "MD-16-160804",
+        "ncessch": "240051002950",
+        "name": "William Schmidt Environmental Center",
+        "source_roster_link_index": 58,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0908",
+        "native_school_id": "MD-16-160908",
+        "ncessch": "240051001167",
+        "name": "Surrattsville High",
+        "source_roster_link_index": 61,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-0918",
+        "native_school_id": "MD-16-160918",
+        "ncessch": "240051001763",
+        "name": "James Ryder Randall E C C",
+        "source_roster_link_index": 67,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1001",
+        "native_school_id": "MD-16-161001",
+        "ncessch": "240051001090",
+        "name": "Laurel Elementary",
+        "source_roster_link_index": 68,
+        "native_grade_span": "E",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1008",
+        "native_school_id": "MD-16-161008",
+        "ncessch": "240051001092",
+        "name": "Laurel High",
+        "source_roster_link_index": 69,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1015",
+        "native_school_id": "MD-16-161015",
+        "ncessch": "240051001708",
+        "name": "Chesapeake Math and IT Public Charter",
+        "source_roster_link_index": 74,
+        "native_grade_span": "EMH",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1103",
+        "native_school_id": "MD-16-161103",
+        "ncessch": "240051001052",
+        "name": "Gwynn Park High",
+        "source_roster_link_index": 77,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1209",
+        "native_school_id": "MD-16-161209",
+        "ncessch": "240051001123",
+        "name": "Oxon Hill High",
+        "source_roster_link_index": 84,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1217",
+        "native_school_id": "MD-16-161217",
+        "ncessch": "240051001017",
+        "name": "Crossland High",
+        "source_roster_link_index": 88,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1220",
+        "native_school_id": "MD-16-161220",
+        "ncessch": "240051001133",
+        "name": "Potomac High",
+        "source_roster_link_index": 91,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1313",
+        "native_school_id": "MD-16-161313",
+        "ncessch": "240051001731",
+        "name": "Kenmoor Early Childhood Center",
+        "source_roster_link_index": 101,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1314",
+        "native_school_id": "MD-16-161314",
+        "ncessch": "240051001089",
+        "name": "Largo High",
+        "source_roster_link_index": 102,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1327",
+        "native_school_id": "MD-16-161327",
+        "ncessch": "240051002951",
+        "name": "Charles Herbert Flowers High",
+        "source_roster_link_index": 107,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1350",
+        "native_school_id": "MD-16-161350",
+        "ncessch": "240051001704",
+        "name": "Academy of Health Sciences at PGCC",
+        "source_roster_link_index": 113,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1351",
+        "native_school_id": "MD-16-161351",
+        "ncessch": "240051001726",
+        "name": "Chesapeake Math and IT South Public Charter",
+        "source_roster_link_index": 114,
+        "native_grade_span": "EMH",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1352",
+        "native_school_id": "MD-16-161352",
+        "ncessch": "240051001737",
+        "name": "International High school @ Largo",
+        "source_roster_link_index": 115,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1407",
+        "native_school_id": "MD-16-161407",
+        "ncessch": "240051090502",
+        "name": "Friendship Aspire Bowie Charter",
+        "source_roster_link_index": 116,
+        "native_grade_span": "E",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1409",
+        "native_school_id": "MD-16-161409",
+        "ncessch": "240051001023",
+        "name": "Duval High",
+        "source_roster_link_index": 118,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1423",
+        "native_school_id": "MD-16-161423",
+        "ncessch": "240051000990",
+        "name": "Bowie High",
+        "source_roster_link_index": 124,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1433",
+        "native_school_id": "MD-16-161433",
+        "ncessch": "240051001003",
+        "name": "Chapel Forge E C C",
+        "source_roster_link_index": 129,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1437",
+        "native_school_id": "MD-16-161437",
+        "ncessch": "240051002952",
+        "name": "Howard B. Owens Science Center",
+        "source_roster_link_index": 131,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1502",
+        "native_school_id": "MD-16-161502",
+        "ncessch": "240051001036",
+        "name": "Frederick Douglass High",
+        "source_roster_link_index": 134,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1519",
+        "native_school_id": "MD-16-161519",
+        "ncessch": "240051001542",
+        "name": "Dr. Henry A. Wise, Jr. High",
+        "source_roster_link_index": 139,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1708",
+        "native_school_id": "MD-16-161708",
+        "ncessch": "240051001114",
+        "name": "Northwestern High",
+        "source_roster_link_index": 147,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1732",
+        "native_school_id": "MD-16-161732",
+        "ncessch": "240051001738",
+        "name": "International High School @ Langley Park",
+        "source_roster_link_index": 159,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1806",
+        "native_school_id": "MD-16-161806",
+        "ncessch": "240051001029",
+        "name": "Fairmont Heights High",
+        "source_roster_link_index": 162,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1810",
+        "native_school_id": "MD-16-161810",
+        "ncessch": "240051001002",
+        "name": "Central High",
+        "source_roster_link_index": 164,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1822",
+        "native_school_id": "MD-16-161822",
+        "ncessch": "240051001053",
+        "name": "H Winship Wheatley E C C",
+        "source_roster_link_index": 170,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-1909",
+        "native_school_id": "MD-16-161909",
+        "ncessch": "240051001126",
+        "name": "Parkdale High",
+        "source_roster_link_index": 177,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-2022",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Online Campus Academy",
+        "source_roster_link_index": 189,
+        "native_grade_span": null,
+        "identity_hold": "No exact same-year attached-LEA CCD counterpart",
+        "exclusion": "No exact same-year attached-LEA CCD counterpart"
+      },
+      {
+        "school_id": "16-2114",
+        "native_school_id": "MD-16-162114",
+        "ncessch": "240051001027",
+        "name": "Eleanor Roosevelt High",
+        "source_roster_link_index": 196,
+        "native_grade_span": "H",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-2142",
+        "native_school_id": "MD-16-162142",
+        "ncessch": "240051001718",
+        "name": "College Park Academy",
+        "source_roster_link_index": 201,
+        "native_grade_span": "MH",
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      },
+      {
+        "school_id": "16-2217",
+        "native_school_id": null,
+        "ncessch": null,
+        "name": "Incarcerated Youth Center (JACS)",
+        "source_roster_link_index": 202,
+        "native_grade_span": "H",
+        "identity_hold": "No exact same-year attached-LEA CCD counterpart",
+        "exclusion": "No exact same-year attached-LEA CCD counterpart"
+      },
+      {
+        "school_id": "16-2300",
+        "native_school_id": "MD-16-162300",
+        "ncessch": "240051001476",
+        "name": "Prekindergarten Offsites",
+        "source_roster_link_index": 203,
+        "native_grade_span": null,
+        "identity_hold": null,
+        "exclusion": "Native/CCD/September school configuration is high, mixed, primary, unknown or nonoperational"
+      }
+    ],
+    "unmatched_ccd_references": [
+      {
+        "source_row": 41003,
+        "ncessch": "240051001013",
+        "native_school_id": "MD-16-160647",
+        "status": "Closed"
+      },
+      {
+        "source_row": 41081,
+        "ncessch": "240051001148",
+        "native_school_id": "MD-16-160507",
+        "status": "Closed"
+      },
+      {
+        "source_row": 41162,
+        "ncessch": "240051090501",
+        "native_school_id": "MD-16-160218",
+        "status": "New"
+      }
+    ],
+    "nonoperational_ccd_references": [
+      {
+        "source_row": 41003,
+        "ncessch": "240051001013",
+        "native_school_id": "MD-16-160647",
+        "status": "Closed"
+      },
+      {
+        "source_row": 41081,
+        "ncessch": "240051001148",
+        "native_school_id": "MD-16-160507",
+        "status": "Closed"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 159,
+        "usable_schools": 146,
+        "excluded_configuration_profiles": 13,
+        "excluded_configuration_records": [
+          {
+            "school_id": "16-0606",
+            "native_school_id": "MD-16-160606",
+            "ncessch": "240051000991",
+            "name": "Bradbury Heights Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "12.4"
+            },
+            "source_refs": {
+              "roster_link_index": 25,
+              "directory_source_row": 40987,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 951,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1087
+                ],
+                "selected_source_row": 1087,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6438,
+                  6439,
+                  6440,
+                  6441,
+                  6442,
+                  6443,
+                  6444,
+                  6445
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3885,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3361,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0613",
+            "native_school_id": "MD-16-160613",
+            "ncessch": "240051001019",
+            "name": "District Heights Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "22.0"
+            },
+            "source_refs": {
+              "roster_link_index": 29,
+              "directory_source_row": 41007,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 955,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1090
+                ],
+                "selected_source_row": 1090,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6462,
+                  6463,
+                  6464,
+                  6465,
+                  6466,
+                  6467,
+                  6468,
+                  6469
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3901,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3377,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0615",
+            "native_school_id": "MD-16-160615",
+            "ncessch": "240051001464",
+            "name": "Benjamin Stoddert Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "25.7"
+            },
+            "source_refs": {
+              "roster_link_index": 30,
+              "directory_source_row": 41119,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 956,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1091
+                ],
+                "selected_source_row": 1091,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6470,
+                  6471,
+                  6472,
+                  6473
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3906,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3381,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0645",
+            "native_school_id": "MD-16-160645",
+            "ncessch": "240051001683",
+            "name": "Andrew Jackson Academy",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "26.5"
+            },
+            "source_refs": {
+              "roster_link_index": 41,
+              "directory_source_row": 41140,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 967,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1106,
+                  1107,
+                  1108
+                ],
+                "selected_source_row": 1108,
+                "school_type_field": "School Type",
+                "selected_school_type": "All",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6554,
+                  6555,
+                  6556,
+                  6557,
+                  6558,
+                  6559,
+                  6560,
+                  6561,
+                  6562,
+                  6563,
+                  6564
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3963,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3434,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0660",
+            "native_school_id": "MD-16-160660",
+            "ncessch": "240051001034",
+            "name": "Drew-Freeman Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "17.1"
+            },
+            "source_refs": {
+              "roster_link_index": 44,
+              "directory_source_row": 41016,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 970,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1113
+                ],
+                "selected_source_row": 1113,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6584,
+                  6585,
+                  6586,
+                  6587
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3978,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3449,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0915",
+            "native_school_id": "MD-16-160915",
+            "ncessch": "240051001469",
+            "name": "Stephen Decatur Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.9"
+            },
+            "source_refs": {
+              "roster_link_index": 64,
+              "directory_source_row": 41121,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 990,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1136
+                ],
+                "selected_source_row": 1136,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6718,
+                  6719,
+                  6720,
+                  6721
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4052,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3520,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1234",
+            "native_school_id": "MD-16-161234",
+            "ncessch": "240051001471",
+            "name": "Oxon Hill Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.3"
+            },
+            "source_refs": {
+              "roster_link_index": 96,
+              "directory_source_row": 41122,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1022,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1175
+                ],
+                "selected_source_row": 1175,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6948,
+                  6949,
+                  6950,
+                  6951
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4183,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3644,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1320",
+            "native_school_id": "MD-16-161320",
+            "ncessch": "240051001211",
+            "name": "G. James Gholson Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "23.0"
+            },
+            "source_refs": {
+              "roster_link_index": 103,
+              "directory_source_row": 41104,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1029,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1182
+                ],
+                "selected_source_row": 1182,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6991,
+                  6992,
+                  6993,
+                  6994
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4207,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3666,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1510",
+            "native_school_id": "MD-16-161510",
+            "ncessch": "240051001475",
+            "name": "James Madison Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.7"
+            },
+            "source_refs": {
+              "roster_link_index": 136,
+              "directory_source_row": 41126,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1062,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1223
+                ],
+                "selected_source_row": 1223,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7204,
+                  7205,
+                  7206,
+                  7207
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4346,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3787,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1711",
+            "native_school_id": "MD-16-161711",
+            "ncessch": "240051000999",
+            "name": "Carole Highlands Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "14.1"
+            },
+            "source_refs": {
+              "roster_link_index": 150,
+              "directory_source_row": 40993,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1076,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1241
+                ],
+                "selected_source_row": 1241,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7306,
+                  7307,
+                  7308,
+                  7309,
+                  7310,
+                  7311,
+                  7312,
+                  7313
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4410,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3845,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1733",
+            "native_school_id": "MD-16-161733",
+            "ncessch": "240051090493",
+            "name": "Sonia Sotomayor Middle at Adelphi",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "18.3"
+            },
+            "source_refs": {
+              "roster_link_index": 160,
+              "directory_source_row": 41161,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1086,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1251
+                ],
+                "selected_source_row": 1251,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7378,
+                  7379,
+                  7380,
+                  7381
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4449,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3883,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1830",
+            "native_school_id": "MD-16-161830",
+            "ncessch": "240051001462",
+            "name": "William W. Hall Academy",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "28.4"
+            },
+            "source_refs": {
+              "roster_link_index": 172,
+              "directory_source_row": 41118,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1098,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1267,
+                  1268,
+                  1269
+                ],
+                "selected_source_row": 1269,
+                "school_type_field": "School Type",
+                "selected_school_type": "All",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7459,
+                  7460,
+                  7461,
+                  7462,
+                  7463,
+                  7464,
+                  7465,
+                  7466,
+                  7467,
+                  7468,
+                  7469
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4502,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3929,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-2108",
+            "native_school_id": "MD-16-162108",
+            "ncessch": "240051000993",
+            "name": "Buck Lodge Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "24.7"
+            },
+            "source_refs": {
+              "roster_link_index": 193,
+              "directory_source_row": 40989,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1119,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1291
+                ],
+                "selected_source_row": 1291,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7606,
+                  7607,
+                  7608,
+                  7609
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4595,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 4014,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original regular All Grades rate missing or masked": 13
+        },
+        "charter": {
+          "No": 140,
+          "Yes": 6
+        },
+        "school_types": {
+          "Regular School": 146
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/prince-georges-district-audit.json",
+        "source_evidence_sha256": "f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 159,
+        "usable_schools": 159,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 153,
+          "Yes": 6
+        },
+        "school_types": {
+          "Regular School": 159
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/prince-georges-district-audit.json",
+        "source_evidence_sha256": "f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 159,
+        "usable_schools": 146,
+        "excluded_configuration_profiles": 13,
+        "excluded_configuration_records": [
+          {
+            "school_id": "16-0606",
+            "native_school_id": "MD-16-160606",
+            "ncessch": "240051000991",
+            "name": "Bradbury Heights Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "12.4"
+            },
+            "source_refs": {
+              "roster_link_index": 25,
+              "directory_source_row": 40987,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 951,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1087
+                ],
+                "selected_source_row": 1087,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6438,
+                  6439,
+                  6440,
+                  6441,
+                  6442,
+                  6443,
+                  6444,
+                  6445
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3885,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3361,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0613",
+            "native_school_id": "MD-16-160613",
+            "ncessch": "240051001019",
+            "name": "District Heights Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "22.0"
+            },
+            "source_refs": {
+              "roster_link_index": 29,
+              "directory_source_row": 41007,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 955,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1090
+                ],
+                "selected_source_row": 1090,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6462,
+                  6463,
+                  6464,
+                  6465,
+                  6466,
+                  6467,
+                  6468,
+                  6469
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3901,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3377,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0615",
+            "native_school_id": "MD-16-160615",
+            "ncessch": "240051001464",
+            "name": "Benjamin Stoddert Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "25.7"
+            },
+            "source_refs": {
+              "roster_link_index": 30,
+              "directory_source_row": 41119,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 956,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1091
+                ],
+                "selected_source_row": 1091,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6470,
+                  6471,
+                  6472,
+                  6473
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3906,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3381,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0645",
+            "native_school_id": "MD-16-160645",
+            "ncessch": "240051001683",
+            "name": "Andrew Jackson Academy",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "26.5"
+            },
+            "source_refs": {
+              "roster_link_index": 41,
+              "directory_source_row": 41140,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 967,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1106,
+                  1107,
+                  1108
+                ],
+                "selected_source_row": 1108,
+                "school_type_field": "School Type",
+                "selected_school_type": "All",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6554,
+                  6555,
+                  6556,
+                  6557,
+                  6558,
+                  6559,
+                  6560,
+                  6561,
+                  6562,
+                  6563,
+                  6564
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3963,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3434,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0660",
+            "native_school_id": "MD-16-160660",
+            "ncessch": "240051001034",
+            "name": "Drew-Freeman Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "17.1"
+            },
+            "source_refs": {
+              "roster_link_index": 44,
+              "directory_source_row": 41016,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 970,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1113
+                ],
+                "selected_source_row": 1113,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6584,
+                  6585,
+                  6586,
+                  6587
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 3978,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3449,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-0915",
+            "native_school_id": "MD-16-160915",
+            "ncessch": "240051001469",
+            "name": "Stephen Decatur Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.9"
+            },
+            "source_refs": {
+              "roster_link_index": 64,
+              "directory_source_row": 41121,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 990,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1136
+                ],
+                "selected_source_row": 1136,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6718,
+                  6719,
+                  6720,
+                  6721
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4052,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3520,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1234",
+            "native_school_id": "MD-16-161234",
+            "ncessch": "240051001471",
+            "name": "Oxon Hill Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.3"
+            },
+            "source_refs": {
+              "roster_link_index": 96,
+              "directory_source_row": 41122,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1022,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1175
+                ],
+                "selected_source_row": 1175,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6948,
+                  6949,
+                  6950,
+                  6951
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4183,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3644,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1320",
+            "native_school_id": "MD-16-161320",
+            "ncessch": "240051001211",
+            "name": "G. James Gholson Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "23.0"
+            },
+            "source_refs": {
+              "roster_link_index": 103,
+              "directory_source_row": 41104,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1029,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1182
+                ],
+                "selected_source_row": 1182,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  6991,
+                  6992,
+                  6993,
+                  6994
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4207,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3666,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1510",
+            "native_school_id": "MD-16-161510",
+            "ncessch": "240051001475",
+            "name": "James Madison Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "35.7"
+            },
+            "source_refs": {
+              "roster_link_index": 136,
+              "directory_source_row": 41126,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1062,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1223
+                ],
+                "selected_source_row": 1223,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7204,
+                  7205,
+                  7206,
+                  7207
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4346,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3787,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1711",
+            "native_school_id": "MD-16-161711",
+            "ncessch": "240051000999",
+            "name": "Carole Highlands Elementary",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "14.1"
+            },
+            "source_refs": {
+              "roster_link_index": 150,
+              "directory_source_row": 40993,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1076,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1241
+                ],
+                "selected_source_row": 1241,
+                "school_type_field": "School Type",
+                "selected_school_type": "Elementary",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7306,
+                  7307,
+                  7308,
+                  7309,
+                  7310,
+                  7311,
+                  7312,
+                  7313
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4410,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3845,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1733",
+            "native_school_id": "MD-16-161733",
+            "ncessch": "240051090493",
+            "name": "Sonia Sotomayor Middle at Adelphi",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "18.3"
+            },
+            "source_refs": {
+              "roster_link_index": 160,
+              "directory_source_row": 41161,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1086,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1251
+                ],
+                "selected_source_row": 1251,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7378,
+                  7379,
+                  7380,
+                  7381
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4449,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3883,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-1830",
+            "native_school_id": "MD-16-161830",
+            "ncessch": "240051001462",
+            "name": "William W. Hall Academy",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "28.4"
+            },
+            "source_refs": {
+              "roster_link_index": 172,
+              "directory_source_row": 41118,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1098,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1267,
+                  1268,
+                  1269
+                ],
+                "selected_source_row": 1269,
+                "school_type_field": "School Type",
+                "selected_school_type": "All",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7459,
+                  7460,
+                  7461,
+                  7462,
+                  7463,
+                  7464,
+                  7465,
+                  7466,
+                  7467,
+                  7468,
+                  7469
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4502,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 3929,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "school_id": "16-2108",
+            "native_school_id": "MD-16-162108",
+            "ncessch": "240051000993",
+            "name": "Buck Lodge Middle",
+            "reason": "math: original regular All Grades rate missing or masked",
+            "raw_published_rates": {
+              "math": "<= 5.0",
+              "reading": "24.7"
+            },
+            "source_refs": {
+              "roster_link_index": 193,
+              "directory_source_row": 40989,
+              "native_directory": {
+                "table": "native_directory",
+                "source_row": 1119,
+                "member": "School_Directory_2025.xlsx",
+                "worksheet": "School Directory"
+              },
+              "income": {
+                "table": "native_income",
+                "source_rows": [
+                  1291
+                ],
+                "selected_source_row": 1291,
+                "school_type_field": "School Type",
+                "selected_school_type": "Middle",
+                "fields": [
+                  "Total Student Cnt",
+                  "Economically Disadvantaged Cnt",
+                  "Economically Disadvantaged Pct"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_enrollment",
+                "source_rows": [
+                  7606,
+                  7607,
+                  7608,
+                  7609
+                ],
+                "fields": [
+                  "Grade",
+                  "Enrolled Count"
+                ]
+              },
+              "outcomes": {
+                "math": {
+                  "table": "native_assessment",
+                  "source_row": 4595,
+                  "member": "2025 MCAP MATH Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " Mathematics All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                },
+                "reading": {
+                  "table": "native_assessment",
+                  "source_row": 4014,
+                  "member": "2025 MCAP ELA Administrative Data Report Card.xlsx",
+                  "worksheet": "School_Level",
+                  "assessment": " English Language Arts All Grades",
+                  "fields": [
+                    "Year",
+                    "LEA",
+                    "School",
+                    "Student Group",
+                    "Assessment",
+                    "Proficient Pct",
+                    "Tested Count",
+                    "Proficient Count"
+                  ]
+                }
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original regular All Grades rate missing or masked": 13
+        },
+        "charter": {
+          "No": 140,
+          "Yes": 6
+        },
+        "school_types": {
+          "Regular School": 146
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/prince-georges-district-audit.json",
+        "source_evidence_sha256": "f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "MD",
+      "name": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "3\u20138 plus accelerated Math courses",
+      "standard": "2021\u201322 four-level regular MCAP standards; 2024\u201325 Math includes accelerated Algebra 1, Geometry and Algebra 2 with applicable grade 6\u20137 course waiver; DLM remains separate",
+      "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562"
+    },
+    "historical_state_extract": {
+      "path": "data/source/maryland.json",
+      "sha256": "220a515c2193d4251fd2720719b09576ecf0d54a5349cb6b262b5a6a77fd4bb6"
+    },
+    "count_definition_status": {
+      "status": "unverified_regular_mcap_valid_score_administrative_rules",
+      "raw_fields": [
+        "Tested Count",
+        "Proficient Count"
+      ],
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Native administrative counts/grade-course sums are source evidence only; exact valid-score business rules and ten-valid-scored floor remain uncertified. Income and enrollment never substitute or select model membership."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separately validated exact 2024\u201325 regular MCAP grade-school point-only contract is approved. Source and numerical historical audits remain immutable with false approvals; compact references require available unchanged artifacts/code/tests/policy and current semantic replay on every validation/import. High, mixed, primary, unknown, unmatched and closed scopes, valid-score counts and the scored floor remain held."
+    }
+  }
+}

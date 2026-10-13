@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "MD",
+    "name": "Maryland"
+  },
+  "prepare_script": "scripts/prepare_prince_georges.py",
+  "regions": [
+    {
+      "id": "prince-georges",
+      "name": "Prince George\u2019s County",
+      "dataset": "md-prince-georges-2025",
+      "status": "ready",
+      "geography": "prince-georges",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/prince-georges/schools.json",
+      "boundaries": null,
+      "comparison": "Prince George\u2019s County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Prince George\u2019s County independent 2024\u201325 regular MCAP grade-school district models: exact operational NCES LEA 2400510 / CCD native MD-16 / MSDE 16 identities. All 159 native E/M/EM profiles with positive September grades 3\u20138 and no high-grade row remain searchable. Original regular School_Level All Students All Grades Levels 3/4 published rates support 146 Math, 159 ELA and 146 independently fitted Combined results; 13 Math masks retain ELA. Precise same-year individual Early Attendance ratios use their own denominators. Accelerated Math courses and the applicable grade 6\u20137 waiver remain in native totals; DLM stays separate. High, mixed, primary, unknown, unmatched and closed records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Prince George\u2019s County source release.",
+      "statewide": false,
+      "audit": "data/prince-georges/coverage.json"
+    }
+  ]
+}

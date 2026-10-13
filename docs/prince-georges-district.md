@@ -1,4 +1,4 @@
-# Prince George's County source and cohort audit
+# Prince George's County audit and comparison
 
 The [source-only audit](../data/source/prince-georges-district-audit.json), rebuilt by [audit_prince_georges.py](../scripts/audit_prince_georges.py), covers Prince George's County Public Schools, Maryland, **2024–25**, exact NCES LEA **2400510**, CCD native LEA **MD-16** and MSDE LEA **16**. Source and modeling approvals remain false. Status is `audit_pending`, scope `source_cohort_audit_only`. Numerical models, canonical integration and browser/master delivery are separate later gates.
 
@@ -54,3 +54,23 @@ Fifteen numerical tests pass. Two actual fresh builds reproduce **1,249,923 byte
 ```
 
 Status is `numerically_verified_pending_integration`, scope `numerical_audit_only`, and both historical approvals remain false. Valid-score counts, the scored floor, sampling variances and intervals stay unavailable/uncertified modelwide. Malformed/unmatched identities, broader individual-income population, unspecified Early Attendance date, waiver, DLM separation and all outside records remain unchanged. Separately validated normalized scope, actual repeated canonical imports/exports, preservation and HTTP/browser review must pass before master delivery.
+
+## Canonical and browser integration
+
+The separately validated normalized [prince-georges.json](../data/source/prince-georges.json) supports dataset **`md-prince-georges-2025`**, region **`prince-georges`**, Maryland → Prince George’s County. All **159** exact pure grade-school profiles remain searchable. Native `16-####` school IDs preserve their exact twelve-digit NCES crosswalk and CCD `ST_SCHID`; every identity belongs to its dataset. Identical native IDs in the statewide Maryland, Florida and Delaware populations retain separate ownership. Ellen Ochoa's malformed native NCES remains unjoined.
+
+The release retains **318 original subject observations, three models and 451 results**: 146 Math, 159 ELA and 146 independently fitted Combined members. Thirteen original Math masks remain ELA-only. All six charters and influential Glenarden Woods /Imagine Andrews observations remain. Precise individual Early Attendance ratios use their own whole-school denominators; the as-of date remains unspecified. Regular MCAP All Grades Levels 3–4, accelerated courses, the applicable grade 6–7 waiver and DLM separation remain explicit. Programs stay Unclassified; coordinates, boundaries and provider roles are unavailable.
+
+Historical source and numerical approvals remain false. Readiness belongs only to this exact normalized population. Every replay, including cached paths and preparation before writes, verifies all six complete historical artifact/code/test pins and current policy/definition/raw/schema/identity evidence. Complete raw originals are stored once and referenced through auditable table/worksheet/row/field pointers. A cached live-policy validation gap found during review was repaired in the adapter and tested; the immutable historical artifacts and all numerical values remain unchanged.
+
+Valid-score counts, variances and sampling endpoints remain null throughout every model. Administrative counts never certify score status or the ten-valid-scored floor. High/mixed/primary populations, admissions, provider roles and geometry remain unaudited. Source/model diagnostics never repair missing identities or remove influential eligible schools.
+
+Two actual canonical imports and four district exports repeat exactly. All preceding rows in nine canonical tables and all 245 prior served files remain unchanged before shared catalog/guide regeneration. Independent verification matches all original/canonical/current/history metrics, including all 451 deleted-school fits, with maximum numerical difference `3.41e-13`. Ownership and freshness probes reject altered normalized records, live policies and foreign source/definition/model references before writes.
+
+Repeated shared exports are byte-identical. Only one district region and assessment definition are added, retaining all 62 prior regions, 79 prior guide definitions and provider bindings, geometry and eleven state source holds. The catalog has 39 ready states /63 regions; the guide has 80 definitions. Discovery scope changes only exact LEA `2400510` to an existing comparison, preserving all original planning counts. The original fixed 66-district TODO retains its row and records a finish only after verified master delivery.
+
+```sh
+.venv/bin/python scripts/prepare_prince_georges.py --extract-only
+.venv/bin/python scripts/prepare_prince_georges.py
+.venv/bin/python -m unittest discover -s tests -p 'test_prince_georges.py' -v
+```

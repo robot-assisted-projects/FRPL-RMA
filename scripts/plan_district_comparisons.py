@@ -144,6 +144,8 @@ def scope(row):
         return 'existing_charlotte'
     if row['LEAID'] == '4816230':
         return 'existing_dallas'
+    if row['LEAID'] == '2400510':
+        return 'existing_prince_georges'
     if row['LEAID'] == '3200060':
         return 'existing_clark_county'
     if row['LEAID'] == '1709930':
@@ -328,6 +330,8 @@ def render(payload):
                 status = 'Existing Charlotte-Mecklenburg comparison; native regular grade-school scope only'
             elif row['scope'] == 'existing_dallas':
                 status = 'Existing Dallas ISD comparison; native published-rate grade-school scope only'
+            elif row['scope'] == 'existing_prince_georges':
+                status = "Existing Prince George's County comparison; native regular grade-school scope only"
             elif row['scope'] == 'existing_clark_county':
                 status = 'Existing Clark County comparison; native grade-school scope only'
             elif row['scope'] == 'existing_hawaii_statewide':
@@ -341,7 +345,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        'CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg and Dallas ISD have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide '
+        "CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD and Prince George's County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -569,6 +573,21 @@ def render(payload):
         'stored once and referenced with enforced immutable pins. High/mixed/primary, '
         'admissions, provider and geometry scope remains unaudited. The fixed 66-district '
         'TODO retains its finished row; discovery membership never approves a model.', ''])
+    lines.extend([
+        "The [Prince George's County source, numerical and integration audits](prince-georges-district.md) "
+        'retain exact Maryland LEA `2400510` / `MD-16` / MSDE `16`, all 201 CCD and 204 native '
+        'directory records. The separate regular MCAP grade-school comparison retains 159 '
+        'exact profiles and independent 146 Math / 159 ELA / 146 Combined fits, with all 451 '
+        'deletions verified. Thirteen Math masks remain ELA-only and all six charters remain. '
+        'Individual Early Attendance economic ratios use their own whole-school denominators; '
+        'the as-of date remains unspecified. Regular All Grades Levels 3 and 4, accelerated '
+        'courses and the applicable grade 6–7 waiver remain explicit. Malformed Ellen Ochoa '
+        'NCES stays unjoined. Counts, variance and intervals remain null, with valid-score '
+        'scope and the scored floor uncertified. Historical audits retain false approvals; '
+        'only the separate validated normalized scope supplies readiness. High/mixed/primary, '
+        'admissions, provider and geometry remain unaudited. Planning populations differ '
+        'from audited model populations and never approve a model. The fixed 66-district '
+        'TODO retains every completed row.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

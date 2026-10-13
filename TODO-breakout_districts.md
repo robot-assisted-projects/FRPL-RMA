@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 16:07:20 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 16:45:27 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -8,8 +8,8 @@ Last tracker update: **2026-10-13 16:07:20 America/Chicago**. GitHub account: **
 | --- | --- | --- | --- | --- | --- |
 | [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
 | [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Merged; counts/intervals unavailable | 2026-10-13 15:17:13 |
-| [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Verifying browser/canonical integration | — |
-| DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
+| [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Verifying browser release | — |
+| DUVAL | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Auditing original sources and income | — |
 | Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
 | POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
@@ -109,9 +109,16 @@ Add notes for a district when work starts or a material blocker appears: latest 
 - District: **2400510 / MD-16 / MSDE 16**, 2024–25. Source/cohort audit started **2026-10-13 15:18:59** after Dallas's tested master delivery.
 - Read-only inventory: all eleven original source pins pass; eight original tables retain 5,404 records /89,640 typed cells. Prospective exact native/CCD grade-school profiles: 159; usable Math/ELA/Combined: 146/159/146, with thirteen Math masks and all six charter profiles retained. These planning counts never approve a model.
 - Source gate complete **2026-10-13 15:48:40**: eighteen tests, two byte-identical original builds and both independent reviews pass (166,361 typed checks; 124 corruption rejections). Separate numerical validation is next. Preserve exact native Early Attendance individual income, regular MCAP All Grades Levels 3–4, accelerated courses and the applicable waiver; no statewide fit is reused.
-- Numerical gate complete **2026-10-13 16:07:20**: fifteen tests, two identical fresh builds and both independent reviews pass; all 451 deletions retain positive finite scale, with 174,478 exact checks and 199 corruption/freshness rejections. All charters/influence cases remain. Next: isolated normalized/canonical/static validation, then authorized main imports and browser/master gates.
+- Numerical gate complete **2026-10-13 16:07:20**: fifteen tests, two identical fresh builds and both independent reviews pass; all 451 deletions retain positive finite scale, with 174,478 exact checks and 199 corruption/freshness rejections. All charters/influence cases remain.
+- Canonical integration: thirteen adapter tests and two actual main imports/exports pass, preserving all prior rows in nine tables and 245 preceding served files. All 451 results match independent original-source fits. Repeated shared exports retain 62 preceding regions and 79 guide definitions, adding one separate district population. All 65 source/shared regression tests and 20 JavaScript tests pass. Final HTTP/browser and master gates are pending; finish date remains blank.
 - Identity hold: Ellen Ochoa's native directory NCES is malformed. No original provides an authoritative correction; preserve it and all unmatched/high/mixed/primary/closed/unknown records explicitly. Names or inferred code conversions cannot establish a join.
-- Limitation: administrative tested counts, scored floor and sampling intervals remain uncertified. Source and modeling approval stay false; numerical and canonical/browser gates follow separately. Finish date is blank.
+- Limitation: administrative tested counts, scored floor and sampling intervals remain uncertified. Historical source and modeling approvals stay false; only the separately validated normalized population supplies readiness. Final browser/master gates are pending; finish date is blank.
+
+## Active source work: Duval
+
+- District: **1200480 / FL-16**, 2024–25. Original-source/cohort audit started **2026-10-13 16:44:40** while Prince George’s final browser release is reviewed.
+- Read-only preflight retains 211 CCD directory /203 operational identities, exact 200 native matches, original income/enrollment and School Grades outcomes. A prospective 150-profile tested-grade population has 146 usable published rates per subject, including 30 usable charters; source counts never approve a model.
+- Next: reconstruct complete original records and definitions, verify exact same-year identities and individual-income semantics, preserve suppression and outside configurations, repeat original builds and run source reviews. No models, imports or website release at this phase. Finish date is blank.
 
 ## Blockers for listed districts
 
@@ -155,3 +162,5 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 15:48:40:** Prince George's source gate passes both independent reviews; began separate numerical validation. Source approvals and count/identity holds remain unchanged, finish date blank. Duval has only a read-only inventory; no fourth district source audit is started.
 
 - **2026-10-13 16:07:20:** Prince George's numerical gate passes both independent reviews; began separate canonical/static/browser integration. Historical approvals and source/count holds remain unchanged; finish date blank.
+
+- **2026-10-13 16:44:40:** Began Duval original-source/cohort audit after exact-ID read-only inventory. Prince George’s repeated canonical integration and targeted tests pass; final browser/master gates remain pending. Only the fixed 66 districts remain in scope.

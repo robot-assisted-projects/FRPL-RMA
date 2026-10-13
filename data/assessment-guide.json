@@ -1290,6 +1290,31 @@
               "model_scope": "Montgomery County independent 2024–25 Maryland grade-school district models: exact operational NCES LEA 2400480 / CCD native MD-15 / MSDE LEA 15 identities. All 172 audited grade-school profiles remain visible, including four masked individual Early Attendance incomes. Native regular MCAP School_Level All Grades All Students published Levels 3+4 proficiency supports 166 Math, 167 ELA and 166 Combined fits. Accelerated Algebra I, Geometry and Algebra II courses remain in native Math totals. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable for every model. High, mixed, primary, unknown and district aggregate records remain outside this separate published-rate district release."
             }
           ]
+        },
+        {
+          "id": "md-prince-georges-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+          "state": "MD",
+          "name": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+          "year": 2025,
+          "level": "ES",
+          "grades": "3–8 plus accelerated Math courses",
+          "standard": "2021–22 four-level regular MCAP standards; 2024–25 Math includes accelerated Algebra 1, Geometry and Algebra 2 with applicable grade 6–7 course waiver; DLM remains separate",
+          "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+          "dataset_id": "md-prince-georges-2025",
+          "family": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "prince-georges",
+              "name": "Prince George’s County",
+              "url": "./?state=MD&region=prince-georges&level=ES",
+              "model_scope": "Prince George’s County independent 2024–25 regular MCAP grade-school district models: exact operational NCES LEA 2400510 / CCD native MD-16 / MSDE 16 identities. All 159 native E/M/EM profiles with positive September grades 3–8 and no high-grade row remain searchable. Original regular School_Level All Students All Grades Levels 3/4 published rates support 146 Math, 159 ELA and 146 independently fitted Combined results; 13 Math masks retain ELA. Precise same-year individual Early Attendance ratios use their own denominators. Accelerated Math courses and the applicable grade 6–7 waiver remain in native totals; DLM stays separate. High, mixed, primary, unknown, unmatched and closed records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide."
+            }
+          ]
         }
       ]
     },
