@@ -1,14 +1,14 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 14:48:45 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 15:24:56 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
 | District | State | District ID (NCES / native) | Started working at | Most recent update | Finished on |
 | --- | --- | --- | --- | --- | --- |
 | [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
-| [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Verifying browser/canonical integration | — |
-| Prince George's County Public Schools | MD | 2400510 / MD-16 | — | Not yet started | — |
+| [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Merged; counts/intervals unavailable | 2026-10-13 15:17:13 |
+| Prince George's County Public Schools | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Auditing sources; identity mismatch | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
 | Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
@@ -94,14 +94,23 @@ Add notes for a district when work starts or a material blocker appears: latest 
 - Limitation: valid-score counts, the ten-valid-scored floor and sampling intervals remain uncertified/unavailable. Preserve the historical audit's false approvals. Document any point-rate release explicitly; never invent counts.
 - Finish: verified master delivery **2026-10-13 14:02:33**, commit `cfdd0e5`, through fine-fiddle. [Delivery record](docs/publication-log.md#2026-10-13--charlotte-mecklenburg). Pages deployment and public readback verified **2026-10-13 14:04:52**, with all tested data and browser behavior intact.
 
-## Next work: Dallas ISD
+## Completed: Dallas ISD
 
 - District: **4816230 / TX-057905**, 2024–25. Source/cohort work started **2026-10-13 13:57:10** after a read-only source inventory found exact operational CCD/TAPR identities and individually reconciled economic counts.
 - Verified source inventory: 249 directory records, 239 operational native campuses, 189 grade / 37 high / seven mixed / six primary configurations. Published whole-percent grade-school outcomes suggest 188 Math / ELA / Combined members; the blank disciplinary-alternative outcomes stay unavailable. The source-only artifact has false approvals; these counts do not approve a model.
 - Source gate complete **2026-10-13 14:26:17**: [full original-source audit](docs/dallas-district.md), 2,904 records /112,006 cells, nineteen tests, two final original builds and both independent reviews pass (133,744 strict comparisons; 94 additional corruption rejections). Native whole-percent outcomes differ from unverified count arithmetic at186 Math/184 ELA campuses.
 - Numerical gate complete **2026-10-13 14:48:45**: all188 Math/ELA/Combined members and564 explicit deletions verified; fourteen tests, two fresh CLI builds and both reviews pass (32,608 exact checks;131 additional corruption/freshness rejections). Unbounded ELA expectations and influential/100%-income members remain unchanged.
-- Next: separately validated normalized release, repeat canonical/static preservation and HTTP/browser review, then tested master delivery. Every compact replay/import must verify the complete linked source/code/test/policy evidence. No finished date yet.
-- Limitation: native scored-count/status scope and the ten-valid-scored floor remain uncertified. A separately audited point-only release would keep every verified count, variance and interval null, without substituting enrollment or count arithmetic for published rates.
+- Integration: separately validated normalized release and all canonical/current/history results verified. Two actual imports and shared exports repeat exactly, preserving all previous comparisons. All 93 distinct targeted Python/20 JavaScript tests, both independent integration reviews and 21 HTTP desktop/390-pixel browser assertions pass. Every compact replay/import verifies complete linked source/code/test/policy evidence.
+- Finish: verified master delivery **2026-10-13 15:17:13**, source `2a27f79`, delivered commit `8c024bb`, through fine-fiddle. [Delivery record](docs/publication-log.md#2026-10-13--dallas-isd). Pages deployment and twelve public-browser assertions passed **2026-10-13 15:23:17**; eight public assets match the tested source.
+- Limitation: native scored-count/status scope and the ten-valid-scored floor remain uncertified. The separately audited point-only release keeps every valid-score count, variance and interval null, without substituting enrollment or count arithmetic for published rates.
+
+## Next work: Prince George's County Public Schools
+
+- District: **2400510 / MD-16 / MSDE 16**, 2024–25. Source/cohort audit started **2026-10-13 15:18:59** after Dallas's tested master delivery.
+- Read-only inventory: all eleven original source pins pass; eight original tables retain 5,404 records /89,640 typed cells. Prospective exact native/CCD grade-school profiles: 159; usable Math/ELA/Combined: 146/159/146, with thirteen Math masks and all six charter profiles retained. These planning counts never approve a model.
+- Next: complete original-source/identity/grade/income/proficiency replay, two original rebuilds and independent source reviews. Preserve exact native Early Attendance individual income, regular MCAP All Grades Levels 3–4, accelerated courses and the applicable waiver; no statewide fit is reused.
+- Identity hold: Ellen Ochoa's native directory NCES is malformed. No original provides an authoritative correction; preserve it and all unmatched/high/mixed/primary/closed/unknown records explicitly. Names or inferred code conversions cannot establish a join.
+- Limitation: administrative tested counts, scored floor and sampling intervals remain uncertified. Source and modeling approval stay false; numerical and canonical/browser gates follow separately. Finish date is blank.
 
 ## Blockers for listed districts
 
@@ -135,3 +144,9 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 14:26:17:** Dallas original-source/cohort gate passes both independent reviews, nineteen tests and repaired-code original replay. Began separate numerical validation; approvals/count floor remain false/uncertified and finish date remains blank.
 
 - **2026-10-13 14:48:45:** Dallas numerical gate passes both independent reviews and fourteen tests; canonical/browser implementation begins. Historical approvals and unknown counts remain unchanged, finish date blank.
+
+- **2026-10-13 15:17:13:** Dallas passed all integration/browser gates and reached master at `8c024bb`; recorded its finish date. Its finished row remains in the original 66-district table.
+
+- **2026-10-13 15:18:59:** Began Prince George's original-source/cohort audit after exact-ID preflight. Remaining new districts: 64. Only the fixed 66 queue is active; all other rows retain their status and dates.
+
+- **2026-10-13 15:23:17:** Verified successful Dallas Pages deployment and the live comparison, including all original source masks, fixed models, unbounded ELA expectation, first off-page search and true mobile layout. Prince George's source-only audit continues.
