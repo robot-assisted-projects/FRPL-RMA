@@ -1905,6 +1905,31 @@
       "blocker_summary": null,
       "assessments": [
         {
+          "id": "nc-charlotte-2025:2025:NC regular EOG + grade-8 Math 1 · grade schools · 2025:ES",
+          "state": "NC",
+          "name": "NC regular EOG + grade-8 Math 1 · grade schools · 2025",
+          "year": 2025,
+          "level": "ES",
+          "grades": "3–8",
+          "standard": "Published native regular RG/GS/ALL grade-level proficient (GLP Level3 and above); grades3–8 including grade8 NC Math1 EOC; separate Charlotte-Mecklenburg grade-school population",
+          "source_url": "https://accrpt.tops.ncsu.edu/docs/disag_datasets/Disag_2024-25.zip",
+          "dataset_id": "nc-charlotte-2025",
+          "family": "NC regular EOG + grade-8 Math 1",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "charlotte",
+              "name": "Charlotte-Mecklenburg",
+              "url": "./?state=NC&region=charlotte&level=ES",
+              "model_scope": "Charlotte-Mecklenburg independent 2024–25 North Carolina grade-school district models: exact operational CCD LEA 3702970 / native NC-600 / PSU 600 identities. All 146 audited tested-grade configurations remain visible with same-year April individual EDS. Native regular RG/GS/ALL published GLP Level 3+ rates support 145 Math, 146 ELA and 145 Combined fits. Grade 8 mathematics includes NC Math 1 EOC. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable for every model. Both primary-only schools and all high, mixed, unknown and district aggregate records remain outside this separate published-rate district release."
+            }
+          ]
+        },
+        {
           "id": "nc-native-eds:2025:NC regular EOG + grade-8 Math 1 · grade schools · 2025:ES",
           "state": "NC",
           "name": "NC regular EOG + grade-8 Math 1 · grade schools · 2025",

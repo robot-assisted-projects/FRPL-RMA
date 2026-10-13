@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "NC",
+    "name": "North Carolina"
+  },
+  "prepare_script": "scripts/prepare_charlotte.py",
+  "regions": [
+    {
+      "id": "charlotte",
+      "name": "Charlotte-Mecklenburg",
+      "dataset": "nc-charlotte-2025",
+      "status": "ready",
+      "geography": "charlotte",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/charlotte/schools.json",
+      "boundaries": null,
+      "comparison": "Charlotte-Mecklenburg \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Charlotte-Mecklenburg independent 2024\u201325 North Carolina grade-school district models: exact operational CCD LEA 3702970 / native NC-600 / PSU 600 identities. All 146 audited tested-grade configurations remain visible with same-year April individual EDS. Native regular RG/GS/ALL published GLP Level 3+ rates support 145 Math, 146 ELA and 145 Combined fits. Grade 8 mathematics includes NC Math 1 EOC. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable for every model. Both primary-only schools and all high, mixed, unknown and district aggregate records remain outside this separate published-rate district release.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Charlotte-Mecklenburg source release.",
+      "statewide": false,
+      "audit": "data/charlotte/coverage.json"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Charlotte-Mecklenburg district audits
 
-The historical **source/cohort audit** is for Charlotte-Mecklenburg Schools, North Carolina, school year **2024–25**: exact NCES LEA **`3702970`**, CCD native LEA **`NC-600`** and DPI PSU **`600`**. [audit_charlotte.py](../scripts/audit_charlotte.py) builds [charlotte-district-audit.json](../data/source/charlotte-district-audit.json) from pinned original files. Status remains **`audit_pending`**, scope **`source_cohort_audit_only`**, and both **`approved_for_source`** and **`approved_for_modeling`** remain **false**. It contains no fitted results. The separately verified numerical phase below also retains false approvals; canonical/static integration is still pending.
+The historical **source/cohort audit** is for Charlotte-Mecklenburg Schools, North Carolina, school year **2024–25**: exact NCES LEA **`3702970`**, CCD native LEA **`NC-600`** and DPI PSU **`600`**. [audit_charlotte.py](../scripts/audit_charlotte.py) builds [charlotte-district-audit.json](../data/source/charlotte-district-audit.json) from pinned original files. Status remains **`audit_pending`**, scope **`source_cohort_audit_only`**, and both **`approved_for_source`** and **`approved_for_modeling`** remain **false**. It contains no fitted results. The separately verified numerical phase below also retains false approvals. Readiness belongs only to the separately validated normalized grade-school integration below.
 
 The statewide North Carolina extract is retained as a checksum-pinned cross-check. Its existing point-only source approval does not approve a separate district model. Discovery counts do not determine source membership, and this audit does not extend high-school, mixed-school or alternate-assessment populations.
 
@@ -117,4 +117,28 @@ Offline numerical rebuild and replay:
 
 Two actual fresh CLI builds reproduce **11,411,144 bytes**, SHA-256 **`4fcae9ab70d5b2bb16fdece4cd198919e7b3616c6a3915ee003829b8b7ec02ab`**. All twelve focused tests pass. Two independent reviews reconstruct original evidence and fits: the full review verifies 22,294 typed comparisons, all twelve source pins and every deletion; a complementary 50-digit Decimal review checks all full fits and twelve selected deletions. Maximum independent difference is `3.64e-12`; **115 additional corruption/degeneracy attacks** are rejected. Prior canonical and served data remain unchanged at this gate.
 
-A separately validated normalized contract, repeatable canonical/static integration, preservation checks and HTTP/browser review remain required before master delivery. High/mixed populations, admissions, geometry and assessment provider roles remain unaudited.
+The separately validated canonical/static integration below replays these immutable gates; HTTP/browser verification and tested master delivery are recorded separately. High/mixed populations, admissions, geometry and assessment provider roles remain unaudited.
+
+## Canonical and browser integration
+
+[charlotte.json](../data/source/charlotte.json) is the separately validated published-rate release contract for dataset **`nc-charlotte-2025`**, region **`charlotte`**. [prepare_charlotte.py](../scripts/prepare_charlotte.py) pins all six historical source/numerical artifact, code and test files, replays native eligibility and numerical evidence before importing, then independently verifies canonical and static results. Only this normalized grade-school contract has source/modeling approval true. Historical audits remain byte-identical with false approvals.
+
+All **146** tested-grade profiles and same-year April incomes remain searchable. Native outcomes contain 291 exact rates and Knights View's single Math mask, yielding **145 Math / 146 ELA / 145 Combined** results. Turning Point remains in all three models. The full 186-school roster, 148 lower membership contracts, twelve original pins, 7,702 original rows, all typed raw cells and forty outside configurations remain in provenance. No fit diagnostic screens membership. Enrollment and native unverified tested evidence never become valid-score counts: every verified count, sampling variance and interval endpoint remains null modelwide, and the ten-score floor remains uncertified.
+
+The three independent district fits and every current/one-year-history metric match the numerical audit. April income uses its own broader enrolled population; native regular grade-3–8 GLP includes grade-8 Math 1 and the summer-2024 attribution. High/mixed/primary populations, alternate totals, admissions, provider roles and geometry remain unreleased/unaudited. Programs stay Unclassified; map coordinates and boundaries remain unavailable. Statewide North Carolina and Wake County keep separate models and comparison links.
+
+Offline rebuild from committed evidence:
+
+```sh
+.venv/bin/python scripts/prepare_charlotte.py --extract-only
+.venv/bin/python scripts/prepare_charlotte.py
+.venv/bin/python scripts/export_catalog.py
+.venv/bin/python scripts/export_assessment_guide.py
+.venv/bin/python scripts/plan_district_comparisons.py
+```
+
+The descriptor is automatically discovered by `prepare_states.py`. Two actual normalized builds reproduce SHA-256 **`6e1e8bf9eac231b804085a23c97eb23e16ea8cbf91d92b556a152a48355fce85`**. Two actual live imports preserve every prior row in all nine canonical tables and every prior regional/geometry asset; the complete table contents and four Charlotte exports repeat identically. Repeated catalog/guide/planning output is byte-identical. The catalog contains **39 ready states / 61 ready regions** and the assessment guide **78 separate definitions**, retaining eleven state holds. Discovery now has 65 remaining first-tier candidates; the fixed 66-district TODO retains Charlotte's row.
+
+All eleven focused integration tests and 59 relevant source/planning/catalog/snapshot/guide regression tests pass, with all twenty JavaScript URL/guide tests and syntax/diff checks. Independent original-input/canonical/current/history checks match 19,914 values within `1.85e-13`. Two independent integration reviews pass, including 70 complementary corruption/namespace/policy attacks and four valid controls. Three actual preparation calls reject corrupted inputs before writing. Historical approvals, unknown counts and unaudited outside populations remain intact.
+
+HTTP browser verification passes the first search after reload for off-page Turning Point, keyboard selection, all 146 searchable profiles with pagination, Knights View ELA-only eligibility and Math/Combined masks, selected/all-filtered scope without refitting, share restoration, explicit empty selection, invalid URL fallback and one-year chart/table/history values with unavailable intervals. Desktop and true 390-pixel mobile layouts have no document overflow or console warnings/errors. The guide retains 50 state cards, eleven holds and separate North Carolina statewide/Wake/Charlotte links, with provider and target fields unknown. Its native scope and broader income population remain explicit. Master delivery is recorded after remote verification.

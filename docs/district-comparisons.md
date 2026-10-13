@@ -2,11 +2,7 @@
 
 Implement these after the statewide basics. A district comparison would fit its own same-year, assessment, level and subject models, as CPS does. A filter using statewide predictions remains a district view of the statewide model; it is not a district comparison.
 
-Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 66 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
-
-The root [district TODO](../TODO-breakout_districts.md) records current starts, latest updates, next steps/blockers and verified master-delivery finish dates. It replaces the bulk district issue/attachment workflow and retains all 66 first-tier candidates. The [first-tier issue index](district-issues.md) remains historical evidence. Each completed district must pass its audit, integration and test/browser gates before the user-authorized delivery to `master` through `fine-fiddle`. All 172 second-tier candidates remain paused until further discussion.
-
-**Current work is restricted to the 66 first-tier ordinary district candidates in the TODO.** This broader discovery ledger retains historical/existing, second-tier and special-agency records as evidence; they are not additional tasks. Preserve the fixed TODO membership as listed districts are completed.
+Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 65 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
 
 ## Selection and implementation gates
 
@@ -21,7 +17,6 @@ The root [district TODO](../TODO-breakout_districts.md) records current starts, 
 
 | District | State | NCES LEA | Students | Potential ES / HS | State source status |
 | --- | --- | --- | ---: | ---: | --- |
-| Charlotte-Mecklenburg Schools | NC | 3702970 | 147,299 | 146 / 25 | Available; district audit pending |
 | DALLAS ISD | TX | 4816230 | 139,802 | 189 / 37 | Available; district audit pending |
 | Prince George's County Public Schools | MD | 2400510 | 132,123 | 160 / 23 | Available; district audit pending |
 | DUVAL | FL | 1200480 | 130,054 | 151 / 24 | Available; district audit pending |
@@ -267,7 +262,7 @@ The root [district TODO](../TODO-breakout_districts.md) records current starts, 
 
 ## Existing comparisons and components
 
-CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston and Wake County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
+CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County and Charlotte-Mecklenburg have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
 
 ## Existing scope · size references
 
@@ -287,6 +282,7 @@ CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orang
 | Hawaii Department of Education | HI | 1500030 | 167,071 | 224 / 2 | Existing statewide comparison |
 | Wake County Schools | NC | 3704720 | 163,325 | 162 / 29 | Existing Wake County comparison; native regular grade-school scope only |
 | Montgomery County Public Schools | MD | 2400480 | 159,181 | 172 / 25 | Existing Montgomery County comparison; native regular grade-school scope only |
+| Charlotte-Mecklenburg Schools | NC | 3702970 | 147,299 | 146 / 25 | Existing Charlotte-Mecklenburg comparison; native regular grade-school scope only |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #31 | NY | 3600103 | 60,164 | 35 / 3 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT # 2 | NY | 3600077 | 55,345 | 34 / 50 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #24 | NY | 3600098 | 50,026 | 17 / 10 | NYC component; cohort floor review |
@@ -339,10 +335,8 @@ The [Wake County source, numerical and integration audits](wake-district.md) ret
 
 The [Montgomery County source, numerical and integration audits](montgomery-district.md) retain exact Maryland LEA `2400480` / `MD-15`, all 211 operational native/CCD identities and 172 complete grade-school configurations. The separate Maryland → Montgomery County comparison preserves all 172 profiles, 168 usable same-year individual Early Attendance incomes and independently verified 166-school Math/Combined and 167-school ELA models. All 499 deleted-school fits and canonical/current/history results are verified without diagnostic exclusions. Four income masks, Carl Sandburg’s two subject masks and Montgomery Village’s Math mask remain explicit. Native regular MCAP All Grades rates retain proficiency Levels 3 and 4 and accelerated high-school mathematics courses with the applicable 2024–25 waiver; grade/course rates are never averaged to replace them. Individual direct certification uses its own Early Attendance denominator, distinct from September/CCD enrollment, FARMS and tested subgroups. Native valid-score count scope and the ten-valid-scored floor remain uncertified; counts, variances and sampling intervals stay null modelwide. Both immutable historical audits keep false approvals; readiness belongs to the separately validated normalized adapter. Statewide Maryland remains separate. Montgomery is an existing comparison; planning counts never select or approve models. High/mixed assessment populations, admissions, geometry and provider roles remain unaudited.
 
+The [Charlotte-Mecklenburg source, numerical and integration audits](charlotte-district.md) retain exact North Carolina LEA `3702970` / `NC-600` / PSU `600`, all 186 operational identities, 148 lower membership contracts and 146 tested-grade profiles. The separate North Carolina → Charlotte-Mecklenburg comparison uses same-year April individual EDS and regular RG/GS/ALL GLP Level 3+ rates, including grade-8 Math 1 and the summer-2024 convention. Independently verified fits contain 145 Math / 146 ELA / 145 Combined members and all 436 deleted-school fits. Knights View remains ELA-only; Alternative Turning Point remains in every fit. Counts, variances and intervals remain null modelwide, with valid-score scope and the ten-score floor uncertified. Historical audits retain false approvals; readiness belongs only to the separate normalized grade-school contract. High/mixed/primary configurations, admissions, geometry and provider roles remain outside its release. Planning membership never approves a model. The root [fixed 66-district TODO](../TODO-breakout_districts.md) retains completed districts even when they leave this discovery shortlist.
 
-The [Charlotte-Mecklenburg original-source/cohort audit](charlotte-district.md) retains exact North Carolina LEA `3702970` / `NC-600` / DPI PSU `600`, all 186 operational identities and original 2024–25 native/CCD records. Complete lower-grade membership yields 148 contracts; two PK–2 primaries remain outside the 146 tested-grade configurations. All 146 have usable same-year April individual EDS. Knights View Elementary's Math `>95` mask leaves prospective 145 Math / 146 ELA / 145 Combined members; the eligible Alternative school remains included. Native regular RG/GS/ALL GLP Level 3 and above, grade-8 Math 1, summer-2024 inclusion and the broader enrolled-income population remain explicit. The original fall LEA/school difference is 2,285, all in the observed PK subtotals; no cause or allocation is inferred. Supplemental RCD classifications remain descriptive. Scope/status remains `source_cohort_audit_only` / `audit_pending`, with both approvals false. Valid-score counts and the ten-valid-scored floor remain uncertified; sampling evidence remains unavailable. Independent numerical verification and separate canonical/browser integration are pending. Charlotte remains a candidate and the discovery queue stays 66/172.
-
-Issue [#3](https://github.com/robot-assisted-projects/FRPL-RMA/issues/3#issuecomment-6097264366) now covers only the 66 first-tier candidates. The 172 second-tier candidates belong to [#18](https://github.com/robot-assisted-projects/FRPL-RMA/issues/18) and are paused pending further discussion. Each remaining first-tier district receives its own issue and completes source, numerical, integration and browser gates before closure. The user authorized testing and delivery to `master` after each completed district; incomplete source or numerical phases remain branch progress.
 
 ## Provenance and rebuild
 

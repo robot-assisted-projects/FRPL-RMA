@@ -140,6 +140,8 @@ def scope(row):
         return 'existing_wake'
     if row['LEAID'] == '2400480':
         return 'existing_montgomery'
+    if row['LEAID'] == '3702970':
+        return 'existing_charlotte'
     if row['LEAID'] == '3200060':
         return 'existing_clark_county'
     if row['LEAID'] == '1709930':
@@ -320,6 +322,8 @@ def render(payload):
                 status = 'Existing Wake County comparison; native regular grade-school scope only'
             elif row['scope'] == 'existing_montgomery':
                 status = 'Existing Montgomery County comparison; native regular grade-school scope only'
+            elif row['scope'] == 'existing_charlotte':
+                status = 'Existing Charlotte-Mecklenburg comparison; native regular grade-school scope only'
             elif row['scope'] == 'existing_clark_county':
                 status = 'Existing Clark County comparison; native grade-school scope only'
             elif row['scope'] == 'existing_hawaii_statewide':
@@ -333,7 +337,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        'CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston and Wake County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide '
+        'CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County and Charlotte-Mecklenburg have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide '
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -530,6 +534,21 @@ def render(payload):
         'remains separate. Montgomery is an existing comparison; planning counts never select '
         'or approve models. High/mixed assessment populations, admissions, geometry and '
         'provider roles remain unaudited.', ''])
+    lines.extend([
+        'The [Charlotte-Mecklenburg source, numerical and integration audits](charlotte-district.md) '
+        'retain exact North Carolina LEA `3702970` / `NC-600` / PSU `600`, all 186 operational '
+        'identities, 148 lower membership contracts and 146 tested-grade profiles. The separate '
+        'North Carolina → Charlotte-Mecklenburg comparison uses same-year April individual EDS '
+        'and regular RG/GS/ALL GLP Level 3+ rates, including grade-8 Math 1 and the summer-2024 '
+        'convention. Independently verified fits contain 145 Math / 146 ELA / 145 Combined '
+        'members and all 436 deleted-school fits. Knights View remains ELA-only; Alternative '
+        'Turning Point remains in every fit. Counts, variances and intervals remain null '
+        'modelwide, with valid-score scope and the ten-score floor uncertified. Historical '
+        'audits retain false approvals; readiness belongs only to the separate normalized '
+        'grade-school contract. High/mixed/primary configurations, admissions, geometry and '
+        'provider roles remain outside its release. Planning membership never approves a '
+        'model. The root [fixed 66-district TODO](../TODO-breakout_districts.md) retains completed '
+        'districts even when they leave this discovery shortlist.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '
