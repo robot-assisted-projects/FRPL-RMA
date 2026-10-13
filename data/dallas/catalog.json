@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "TX",
+    "name": "Texas"
+  },
+  "prepare_script": "scripts/prepare_dallas.py",
+  "regions": [
+    {
+      "id": "dallas",
+      "name": "Dallas ISD",
+      "dataset": "tx-dallas-2025",
+      "status": "ready",
+      "geography": "dallas",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/dallas/schools.json",
+      "boundaries": null,
+      "comparison": "Dallas ISD \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Dallas ISD independent 2024\u201325 published-rate grade-school district models: exact operational CCD LEA 4816230 / native TX-057905 / TAPR district 057905 attachments. All 189 native enrolled positive grades 3\u20138/no-high-grade profiles remain searchable; 188 schools enter each separately fitted Math, ELA and Combined model using original whole-percent All Students Meets or Above displays and precise same-year individual economic-status enrollment ratios. The blank Alternative profile remains unmodeled. High, mixed, primary-only and nonoperational records remain outside this distinct point-only population. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Dallas ISD source release.",
+      "statewide": false,
+      "audit": "data/dallas/coverage.json"
+    }
+  ]
+}

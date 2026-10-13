@@ -1,0 +1,977 @@
+{
+  "year": 2025,
+  "schools": 189,
+  "cohorts": {
+    "grade": {
+      "directory": 189,
+      "eligible": {
+        "math": 188,
+        "reading": 188,
+        "combined": 188
+      }
+    }
+  },
+  "exclusions": {
+    "Native TAPR published subject percentage missing or masked; suppression preserved": 2,
+    "Math: Native TAPR published subject percentage missing or masked; suppression preserved; ELA: Native TAPR published subject percentage missing or masked; suppression preserved": 1
+  },
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/dallas-district-audit.json",
+      "sha256": "f2a0fd319e2a5a77a1454117cbd359f399962234115d9bf611bca68fa49a6b6c",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 2904,
+      "complete_original_cell_count": 112006,
+      "note": "Every original record/header/definition/raw value remains in the immutable linked source artifact and must validate on every numerical replay; compact references never permit unavailable or changed source evidence."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/dallas-model-audit.json",
+      "sha256": "d9cc5234421fe0113a95534fcc631daf226a9d6235e29685415d9cf37d9ccaa8"
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_dallas.py",
+        "sha256": "116eb6cd8cd81f717df1878a035b1a7b2db7c34a824cc2b5eb28e84d6f338c43"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_dallas_audit.py",
+        "sha256": "cbe2b4b70872c7b71b7109602f1f03d40e409e31836b6b6413895d1075364a32"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_dallas_models.py",
+        "sha256": "0b8230e13a6624d50e8a49ebc689bb2ed94f555b0167e52f79945ebe2b62fd75"
+      },
+      "tests": {
+        "path": "tests/test_dallas_models.py",
+        "sha256": "8c8a5645f0beee309b73f82e057e1f2d9e8dd1e1a94a7f8731172b87399fc795"
+      }
+    },
+    "immutable_raw_input_fingerprint": "2e80d4ca4223fd5241f9cdb6b4bc7cb4a0783fe1b91105c63c67ed643cbf0e19",
+    "immutable_schema_fingerprint": "afaa08ab40ef16e96e0a90e910e8f5df9048581868dc47cea6f1487a262212d6",
+    "immutable_definition_fingerprint": "41c83100bb0930615830e19b012bf223610e82375602b586dd1d485980605fdc",
+    "immutable_source_policy_fingerprint": "0ac9c52d1266b8d56d1af4a87573d3fdb0a49b8e6a882ed4c6084793e3dc24e7",
+    "operational_roster": {
+      "directory_records": 249,
+      "operational_schools": 239,
+      "native_campuses": 239,
+      "native_scope_counts": {
+        "grade-school": 189,
+        "high": 37,
+        "mixed": 7,
+        "primary-only": 6
+      },
+      "ccd_school_types": {
+        "Alternative School": 6,
+        "Regular School": 242,
+        "Special Education School": 1
+      },
+      "ccd_charter": {
+        "No": 249
+      },
+      "native_usable_income": 239,
+      "prospective_subject_members": {
+        "math": 188,
+        "reading": 188,
+        "combined": 188
+      },
+      "grade_school_published_rates_differing_from_unverified_count_ratios": {
+        "math": 186,
+        "reading": 184
+      },
+      "native_absent_from_ccd": [],
+      "ccd_absent_from_native": [
+        "481623001327",
+        "481623006965",
+        "481623010579",
+        "481623012550",
+        "481623013541",
+        "481623013546",
+        "481623013547",
+        "481623013555",
+        "481623013617",
+        "481623014127"
+      ],
+      "native_reference_high_grade_contradictions": [
+        "057905011",
+        "057905352"
+      ],
+      "verified_valid_score_counts": 0,
+      "reported_reconciled_performance_arithmetic_rows": {
+        "math": 192,
+        "reading": 192
+      },
+      "valid_score_verification_hold": "Current2025 primary documentation must map N/NAAR and M/medical exemption score statuses to these exact native enrolled-grade3\u20138 TAPR #Tests fields.",
+      "ten_valid_scored_floor_certified": false,
+      "sampling_intervals_available": false,
+      "model_results": 0,
+      "canonical_import_performed": false,
+      "served_comparison_created": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "481623001204",
+        "native_school_id": "057905003",
+        "name": "NEW TECH H S AT B F DARRELL H S",
+        "source_roster_link_index": 1,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001205",
+        "native_school_id": "057905001",
+        "name": "BRYAN ADAMS H S LEADERSHIP ACADEMY",
+        "source_roster_link_index": 2,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001206",
+        "native_school_id": "057905002",
+        "name": "W H ADAMSON H S",
+        "source_roster_link_index": 3,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001225",
+        "native_school_id": "057905033",
+        "name": "MARVIN E ROBINSON SCHOOL OF BUSINESS AND MGMT",
+        "source_roster_link_index": 18,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001229",
+        "native_school_id": "057905023",
+        "name": "DAVID W CARTER H S",
+        "source_roster_link_index": 22,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001242",
+        "native_school_id": "057905034",
+        "name": "BOOKER T WASHINGTON SPVA MAGNET",
+        "source_roster_link_index": 32,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001273",
+        "native_school_id": "057905036",
+        "name": "SCHOOL OF HEALTH PROFESSIONS",
+        "source_roster_link_index": 47,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001277",
+        "native_school_id": "057905006",
+        "name": "HILLCREST H S",
+        "source_roster_link_index": 51,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001289",
+        "native_school_id": "057905007",
+        "name": "THOMAS JEFFERSON H S",
+        "source_roster_link_index": 60,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001295",
+        "native_school_id": "057905008",
+        "name": "JUSTIN F KIMBALL H S",
+        "source_roster_link_index": 64,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001304",
+        "native_school_id": "057905009",
+        "name": "LINCOLN HUMANITIES/COMMUNICATIONS MAGNET HIGH SCH",
+        "source_roster_link_index": 72,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001311",
+        "native_school_id": "057905032",
+        "name": "JAMES MADISON H S",
+        "source_roster_link_index": 77,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001324",
+        "native_school_id": "057905024",
+        "name": "NORTH DALLAS H S",
+        "source_roster_link_index": 84,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001327",
+        "native_school_id": "057905191",
+        "name": "ELISHA M PEASE EL",
+        "source_roster_link_index": 86,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623001331",
+        "native_school_id": "057905012",
+        "name": "DR L G PINKSTON SR H S",
+        "source_roster_link_index": 89,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001338",
+        "native_school_id": "057905200",
+        "name": "JOSEPH J RHOADS LEARNING CENTER",
+        "source_roster_link_index": 95,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623001343",
+        "native_school_id": "057905013",
+        "name": "FRANKLIN D ROOSEVELT H S OF INNOVATION",
+        "source_roster_link_index": 100,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001344",
+        "native_school_id": "057905204",
+        "name": "ROSEMONT LOWER - CHRIS V SEMOS BUILDING",
+        "source_roster_link_index": 101,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623001352",
+        "native_school_id": "057905015",
+        "name": "SEAGOVILLE H S",
+        "source_roster_link_index": 108,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001357",
+        "native_school_id": "057905025",
+        "name": "SKYLINE H S",
+        "source_roster_link_index": 111,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001358",
+        "native_school_id": "057905016",
+        "name": "SOUTH OAK CLIFF H S",
+        "source_roster_link_index": 112,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001360",
+        "native_school_id": "057905017",
+        "name": "H GRADY SPRUCE H S",
+        "source_roster_link_index": 114,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001367",
+        "native_school_id": "057905018",
+        "name": "SUNSET H S",
+        "source_roster_link_index": 120,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001379",
+        "native_school_id": "057905014",
+        "name": "W W SAMUELL H S",
+        "source_roster_link_index": 130,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001383",
+        "native_school_id": "057905021",
+        "name": "W T WHITE H S",
+        "source_roster_link_index": 134,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623001387",
+        "native_school_id": "057905022",
+        "name": "WOODROW WILSON H S",
+        "source_roster_link_index": 137,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623003641",
+        "native_school_id": "057905026",
+        "name": "SCHOOL OF SCIENCE AND ENGINEERING",
+        "source_roster_link_index": 140,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623005441",
+        "native_school_id": "057905037",
+        "name": "ROSIE SORRELLS EDUCATION AND SOCIAL SERVICES H S",
+        "source_roster_link_index": 141,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623005444",
+        "native_school_id": "057905038",
+        "name": "JUDGE BAREFOOT SANDERS LAW MAGNET",
+        "source_roster_link_index": 143,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623005865",
+        "native_school_id": "057905039",
+        "name": "SCHOOL FOR THE TALENTED AND GIFTED",
+        "source_roster_link_index": 147,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623006391",
+        "native_school_id": "057905099",
+        "name": "HOSPITAL/HOMEBOUND",
+        "source_roster_link_index": 151,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623006532",
+        "native_school_id": "057905090",
+        "name": "DR WRIGHT L LASSITER JR EARLY COLLEGE H S",
+        "source_roster_link_index": 154,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623006930",
+        "native_school_id": "057905029",
+        "name": "BARBARA M MANNS H S DAEP",
+        "source_roster_link_index": 157,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623006965",
+        "native_school_id": "057905030",
+        "name": "MAYA ANGELOU H S",
+        "source_roster_link_index": 160,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623007244",
+        "native_school_id": "057905011",
+        "name": "BARBARA M MANNS MIDDLE DAEP",
+        "source_roster_link_index": 161,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623007565",
+        "native_school_id": "057905005",
+        "name": "MOISES E MOLINA H S",
+        "source_roster_link_index": 168,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623008518",
+        "native_school_id": "057905302",
+        "name": "CALLIER CENTER PRE-SCHOOL DEAF (0-5)",
+        "source_roster_link_index": 176,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623010560",
+        "native_school_id": "057905028",
+        "name": "EMMETT J CONRAD H S",
+        "source_roster_link_index": 178,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623010561",
+        "native_school_id": "057905035",
+        "name": "IRMA RANGEL YOUNG WOMEN'S LEADERSHIP SCHOOL",
+        "source_roster_link_index": 179,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623010565",
+        "native_school_id": "057905096",
+        "name": "JUVENILE JUSTICE AEP",
+        "source_roster_link_index": 183,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623010579",
+        "native_school_id": "057905290",
+        "name": "ROY P BENAVIDEZ EL",
+        "source_roster_link_index": 197,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623011197",
+        "native_school_id": "057905088",
+        "name": "TRINIDAD GARZA EARLY COLLEGE AT MT VIEW",
+        "source_roster_link_index": 201,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623012028",
+        "native_school_id": "057905085",
+        "name": "KATHLYN JOY GILLIAM COLLEGIATE ACADEMY",
+        "source_roster_link_index": 202,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623012550",
+        "native_school_id": "057905392",
+        "name": "RESERVED FOR FUTURE USE",
+        "source_roster_link_index": 208,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623012551",
+        "native_school_id": "057905380",
+        "name": "WILMER-HUTCHINS H S",
+        "source_roster_link_index": 209,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623012569",
+        "native_school_id": "057905381",
+        "name": "BARACK OBAMA MALE LEADERSHIP ACAD AT A MACEO SMITH",
+        "source_roster_link_index": 210,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623012835",
+        "native_school_id": "057905352",
+        "name": "YOUNG WOMEN'S STEAM ACADEMY AT BALCH SPRINGS MIDDL",
+        "source_roster_link_index": 214,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623013324",
+        "native_school_id": "057905285",
+        "name": "N W HARLLEE EARLY CHILDHOOD CENTER",
+        "source_roster_link_index": 220,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623013331",
+        "native_school_id": "057905382",
+        "name": "INNOVATION DESIGN ENTREPRENEURSHIP ACADEMY",
+        "source_roster_link_index": 221,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623013333",
+        "native_school_id": "057905300",
+        "name": "ARLINGTON PARK EARLY CHILDHOOD CENTER",
+        "source_roster_link_index": 222,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623013334",
+        "native_school_id": "057905102",
+        "name": "PREK PARTNERSHIP CENTER",
+        "source_roster_link_index": 223,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481623013541",
+        "native_school_id": "057905316",
+        "name": "STONE HOTCHKISS AREA",
+        "source_roster_link_index": 224,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623013546",
+        "native_school_id": "057905313",
+        "name": "OAK CLIFF TRANSFORMATION SCHOOL",
+        "source_roster_link_index": 225,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623013547",
+        "native_school_id": "057905317",
+        "name": "INTERNATIONAL STEAM SCHOOL",
+        "source_roster_link_index": 226,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623013553",
+        "native_school_id": "057905383",
+        "name": "CITYLAB H S",
+        "source_roster_link_index": 229,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623013555",
+        "native_school_id": "057905309",
+        "name": "BARACK OBAMA EL MALE LEADERSHIP ACADEMY",
+        "source_roster_link_index": 231,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623013617",
+        "native_school_id": "057905308",
+        "name": "TBD EARLY CHILDHOOD CENTER",
+        "source_roster_link_index": 232,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481623013924",
+        "native_school_id": "057905387",
+        "name": "NORTH LAKE EARLY COLLEGE H S",
+        "source_roster_link_index": 239,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481623014124",
+        "native_school_id": "057905388",
+        "name": "DR FREDERICK HAYNES III GLOBAL PREP AT PAUL QUINN",
+        "source_roster_link_index": 241,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "native_scope": "mixed"
+      },
+      {
+        "school_id": "481623014127",
+        "native_school_id": "057905370",
+        "name": "FOR FUTURE USE",
+        "source_roster_link_index": 242,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 189,
+        "usable_schools": 188,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "481623009196",
+            "native_school_id": "057905241",
+            "name": "ELEMENTARY' DISCIPLINARY ALTERNATIVE EDUCATION PRG",
+            "reason": "math: original published whole-percent rate missing or masked",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "source_refs": {
+              "roster_link_index": 177,
+              "directory_source_row": 85014,
+              "native_source_rows": {
+                "ref": 2292,
+                "stud": 2292,
+                "assessment": 2292
+              },
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original published whole-percent rate missing or masked": 1
+        },
+        "charter": {
+          "No": 188
+        },
+        "school_types": {
+          "Regular School": 188
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/dallas-district-audit.json",
+        "source_evidence_sha256": "f2a0fd319e2a5a77a1454117cbd359f399962234115d9bf611bca68fa49a6b6c"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 189,
+        "usable_schools": 188,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "481623009196",
+            "native_school_id": "057905241",
+            "name": "ELEMENTARY' DISCIPLINARY ALTERNATIVE EDUCATION PRG",
+            "reason": "reading: original published whole-percent rate missing or masked",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "source_refs": {
+              "roster_link_index": 177,
+              "directory_source_row": 85014,
+              "native_source_rows": {
+                "ref": 2292,
+                "stud": 2292,
+                "assessment": 2292
+              },
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "reading: original published whole-percent rate missing or masked": 1
+        },
+        "charter": {
+          "No": 188
+        },
+        "school_types": {
+          "Regular School": 188
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/dallas-district-audit.json",
+        "source_evidence_sha256": "f2a0fd319e2a5a77a1454117cbd359f399962234115d9bf611bca68fa49a6b6c"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 189,
+        "usable_schools": 188,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "481623009196",
+            "native_school_id": "057905241",
+            "name": "ELEMENTARY' DISCIPLINARY ALTERNATIVE EDUCATION PRG",
+            "reason": "math: original published whole-percent rate missing or masked; reading: original published whole-percent rate missing or masked",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "source_refs": {
+              "roster_link_index": 177,
+              "directory_source_row": 85014,
+              "native_source_rows": {
+                "ref": 2292,
+                "stud": 2292,
+                "assessment": 2292
+              },
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original published whole-percent rate missing or masked; reading: original published whole-percent rate missing or masked": 1
+        },
+        "charter": {
+          "No": 188
+        },
+        "school_types": {
+          "Regular School": 188
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/dallas-district-audit.json",
+        "source_evidence_sha256": "f2a0fd319e2a5a77a1454117cbd359f399962234115d9bf611bca68fa49a6b6c"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "TX",
+      "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Enrolled grades 3\u20138, including applicable Algebra I and English I\u2013II EOC",
+      "standard": "2024\u201325 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I\u2013II EOC; separate Dallas no-high-grade population",
+      "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R"
+    },
+    "enrollment_reconciliation": {
+      "ccd_lea_reported": 139802,
+      "ccd_operational_school_sum": 139802,
+      "native_campus_sum": 139802,
+      "native_peims_membership_sum": 139776,
+      "native_enrollment_membership_differences": [
+        {
+          "native_school_id": "057905001",
+          "enrollment": 2208,
+          "membership": 2203
+        },
+        {
+          "native_school_id": "057905152",
+          "enrollment": 337,
+          "membership": 336
+        },
+        {
+          "native_school_id": "057905006",
+          "enrollment": 1572,
+          "membership": 1571
+        },
+        {
+          "native_school_id": "057905009",
+          "enrollment": 580,
+          "membership": 579
+        },
+        {
+          "native_school_id": "057905232",
+          "enrollment": 307,
+          "membership": 306
+        },
+        {
+          "native_school_id": "057905015",
+          "enrollment": 1786,
+          "membership": 1782
+        },
+        {
+          "native_school_id": "057905209",
+          "enrollment": 545,
+          "membership": 544
+        },
+        {
+          "native_school_id": "057905016",
+          "enrollment": 1560,
+          "membership": 1559
+        },
+        {
+          "native_school_id": "057905219",
+          "enrollment": 258,
+          "membership": 257
+        },
+        {
+          "native_school_id": "057905014",
+          "enrollment": 1709,
+          "membership": 1708
+        },
+        {
+          "native_school_id": "057905104",
+          "enrollment": 573,
+          "membership": 572
+        },
+        {
+          "native_school_id": "057905022",
+          "enrollment": 1832,
+          "membership": 1829
+        },
+        {
+          "native_school_id": "057905271",
+          "enrollment": 755,
+          "membership": 754
+        },
+        {
+          "native_school_id": "057905005",
+          "enrollment": 2006,
+          "membership": 2005
+        },
+        {
+          "native_school_id": "057905172",
+          "enrollment": 598,
+          "membership": 596
+        },
+        {
+          "native_school_id": "057905239",
+          "enrollment": 424,
+          "membership": 423
+        }
+      ],
+      "native_economic_disadvantage_sum": 124800,
+      "matched_school_enrollment_differences": [],
+      "definition_note": "TAPR enrolled and CCD reported membership are independent administrative concepts; equality here does not make either a tested denominator."
+    },
+    "historical_state_consistency": {
+      "matched_native_profiles": 239,
+      "original_csv_cells_and_rows_verified": true,
+      "selected_outcome_basis": "Original published whole-percent R cells only; state count-ratio arithmetic and model fits are not reused.",
+      "statewide_ratio_precision_is_not_selected": true,
+      "district_source_approval": false,
+      "district_modeling_approval": false
+    },
+    "count_definition_status": {
+      "status": "unverified_exact_2025_N_M_performance_scope",
+      "raw_fields": {
+        "math": [
+          "CDA38AM0E025D",
+          "CDA38AM0E225N"
+        ],
+        "reading": [
+          "CDA38AR0E025D",
+          "CDA38AR0E225N"
+        ]
+      },
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Exact native reported-performance N/NAAR and M/medical status mapping remains held; native counts/enrollment never screen this published-rate audit or certify the ten-scored floor."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separate exact same-year enrolled-grade point-only contract is approved. Complete original source and numerical audits remain immutable with false historical approvals; compact references require both artifacts and code/test/policy pins on every replay. Count, high/mixed/primary and nonoperational holds remain."
+    }
+  }
+}

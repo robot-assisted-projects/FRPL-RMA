@@ -1,6 +1,6 @@
-# Dallas ISD source and cohort audit
+# Dallas ISD audit and comparison
 
-This **source/cohort audit only** covers Dallas ISD, Texas, **2024–25**, exact NCES LEA **`4816230`**, native CCD LEA **`TX-057905`** and TAPR district **`057905`**. [audit_dallas.py](../scripts/audit_dallas.py) reconstructs [dallas-district-audit.json](../data/source/dallas-district-audit.json) from original files. Status is `audit_pending`, scope `source_cohort_audit_only`, and both source/modeling approvals remain **false**. No numerical model, canonical import or browser comparison is created by this artifact.
+The historical **source/cohort audit only** below covers Dallas ISD, Texas, **2024–25**, exact NCES LEA **`4816230`**, native CCD LEA **`TX-057905`** and TAPR district **`057905`**. [audit_dallas.py](../scripts/audit_dallas.py) reconstructs [dallas-district-audit.json](../data/source/dallas-district-audit.json) from original files. Status is `audit_pending`, scope `source_cohort_audit_only`, and both source/modeling approvals remain **false**. No numerical model, canonical import or browser comparison is created by this artifact.
 
 ## Original evidence and exact identities
 
@@ -94,3 +94,22 @@ Counts, sampling variances and every interval endpoint remain null modelwide. Th
 All **14 numerical tests** pass. Two actual fresh CLI builds reproduce **1,144,532 bytes**, SHA-256 **`d9cc5234421fe0113a95534fcc631daf226a9d6235e29685415d9cf37d9ccaa8`**; offline check and compilation pass. Both independent reviews verify original x/y and source pointers, centered NumPy full/all-deletion fits and complementary 50-digit Decimal full/14 selected deletions. They pass **32,608 exact input/reference/numerical checks** and **131 additional corruption/freshness probes**, with maximum scalar difference `3.64e-12`. Canonical data and all 241 served assets remain unchanged.
 
 A separately validated normalized grade-school contract, actual repeated canonical imports/exports, preservation, independent integration and HTTP/browser review remain required before master delivery.
+
+## Canonical and browser integration
+
+The separately validated [dallas.json](../data/source/dallas.json), dataset `tx-dallas-2025` / region `dallas`, supplies 189 searchable grade-school profiles, 378 native subject observations and 564 independently verified district results across three models. Original NCES school IDs and nine-digit TAPR aliases remain exact. The disciplinary-alternative campus `481623009196` stays searchable with both blank outcomes unavailable. Lakewood's unbounded ELA expectation and all influential/100%-income members remain intact. Program categories stay Unclassified; coordinates and boundaries remain unavailable.
+
+The compact normalized contract retains exact source row/field references and requires the complete immutable source/numerical artifact, code, tests and policy evidence on every replay and import. Changed or missing linked evidence is rejected, including cached-expected validation. Existing corrupt or foreign-owned Dallas namespaces fail before writes. Only the precise normalized published-rate grade-school contract supplies readiness; both historical artifacts retain their false approvals and historical status. Valid-score counts, sampling variances and all interval endpoints remain null modelwide, with the scored floor uncertified. Original individual economic counts and enrollment remain valid income evidence; they are never proficiency denominators.
+
+Two actual main-database imports preserve every preceding row in all nine canonical tables, all 241 prior served assets before shared regeneration and 99 prior source JSONs. Dallas's rows and four exports repeat exactly; two fresh normalized builds reproduce 1,796,757 bytes, SHA-256 `060c776fef6fe6081c9768c8e44bd3ef99fea372256178f31e7069961b1a855c`. Independent integration passes 28,411 original/reference/canonical/current/history comparisons and rejects 129 input, ownership, freshness and static corruption cases. Complementary policy review passes fifteen controls and rejects 31 more scope, metadata and source-pin attacks, for 160 additional integration corruption/freshness rejections total. Shared regeneration preserves all 61 prior regions, 78 assessment definitions/provider bindings and geometry, adding only Dallas's region/definition. The ready catalog contains 39 states /62 regions and the guide 79 definitions; eleven source holds remain unchanged. Repeated shared outputs are byte-identical.
+
+```sh
+.venv/bin/python scripts/prepare_dallas.py --extract-only
+.venv/bin/python scripts/prepare_dallas.py
+.venv/bin/python scripts/export_catalog.py
+.venv/bin/python scripts/export_assessment_guide.py
+.venv/bin/python scripts/plan_district_comparisons.py
+.venv/bin/python -m unittest discover -s tests -p 'test_dallas.py' -v
+```
+
+All 93 distinct targeted Python tests pass: fourteen numerical, twelve adapter/integration and 67 source/shared regressions. Twenty JavaScript tests, syntax/diff checks and 174 local document-link checks pass. Final HTTP/browser review precedes tested master delivery. High/mixed/primary populations, admissions, provider roles and geometry remain outside this release; the Texas count hold remains open. The fixed [66-district TODO](../TODO-breakout_districts.md) retains completed entries while the discovery shortlist has 64 remaining first-tier candidates.

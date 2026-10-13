@@ -2252,6 +2252,31 @@
       "blocker_summary": null,
       "assessments": [
         {
+          "id": "tx-dallas-2025:2025:STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages:ES",
+          "state": "TX",
+          "name": "STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Enrolled grades 3–8, including applicable Algebra I and English I–II EOC",
+          "standard": "2024–25 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I–II EOC; separate Dallas no-high-grade population",
+          "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+          "dataset_id": "tx-dallas-2025",
+          "family": "STAAR + Alternate 2",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "dallas",
+              "name": "Dallas ISD",
+              "url": "./?state=TX&region=dallas&level=ES",
+              "model_scope": "Dallas ISD independent 2024–25 published-rate grade-school district models: exact operational CCD LEA 4816230 / native TX-057905 / TAPR district 057905 attachments. All 189 native enrolled positive grades 3–8/no-high-grade profiles remain searchable; 188 schools enter each separately fitted Math, ELA and Combined model using original whole-percent All Students Meets or Above displays and precise same-year individual economic-status enrollment ratios. The blank Alternative profile remains unmodeled. High, mixed, primary-only and nonoperational records remain outside this distinct point-only population. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide."
+            }
+          ]
+        },
+        {
           "id": "tx-houston-2025:2025:STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages:ES",
           "state": "TX",
           "name": "STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages",

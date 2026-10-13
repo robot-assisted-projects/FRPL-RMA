@@ -142,6 +142,8 @@ def scope(row):
         return 'existing_montgomery'
     if row['LEAID'] == '3702970':
         return 'existing_charlotte'
+    if row['LEAID'] == '4816230':
+        return 'existing_dallas'
     if row['LEAID'] == '3200060':
         return 'existing_clark_county'
     if row['LEAID'] == '1709930':
@@ -324,6 +326,8 @@ def render(payload):
                 status = 'Existing Montgomery County comparison; native regular grade-school scope only'
             elif row['scope'] == 'existing_charlotte':
                 status = 'Existing Charlotte-Mecklenburg comparison; native regular grade-school scope only'
+            elif row['scope'] == 'existing_dallas':
+                status = 'Existing Dallas ISD comparison; native published-rate grade-school scope only'
             elif row['scope'] == 'existing_clark_county':
                 status = 'Existing Clark County comparison; native grade-school scope only'
             elif row['scope'] == 'existing_hawaii_statewide':
@@ -337,7 +341,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        'CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County and Charlotte-Mecklenburg have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide '
+        'CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg and Dallas ISD have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide '
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -549,6 +553,22 @@ def render(payload):
         'provider roles remain outside its release. Planning membership never approves a '
         'model. The root [fixed 66-district TODO](../TODO-breakout_districts.md) retains completed '
         'districts even when they leave this discovery shortlist.', ''])
+    lines.extend([
+        'The [Dallas ISD source, numerical and integration audits](dallas-district.md) retain '
+        'exact Texas LEA `4816230` / `TX-057905` / TAPR `057905`, all 249 original CCD entries '
+        'and 239 operational native campuses. The separate Texas → Dallas ISD comparison '
+        'retains all 189 grade-school profiles and independent 188-school Math, ELA and '
+        'Combined fits, with all 564 deletions verified. Original enrolled-grades 3–8 '
+        'Including EOC whole-percent Meets-or-above rates and precise individual fall '
+        'economic ratios enter the models. Blank alternative outcomes stay missing, '
+        'positive ninth-grade enrollment overrides middle reference labels, and influential '
+        'and 100%-income members remain included. Unbounded linear predictions are preserved. '
+        'Counts, variance and intervals remain null, with N/M score-status scope and the '
+        'ten-scored floor uncertified. Historical approvals remain false; the separate '
+        'normalized grade-school contract supplies readiness. Full original evidence is '
+        'stored once and referenced with enforced immutable pins. High/mixed/primary, '
+        'admissions, provider and geometry scope remains unaudited. The fixed 66-district '
+        'TODO retains its finished row; discovery membership never approves a model.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '
