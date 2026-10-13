@@ -22,6 +22,7 @@
 - `scripts/state_snapshot.py`: canonical import/export helper for audited single-year adapters; native sources must be validated by the adapter first.
 - `scripts/state_registry.py`, [expansion ledger](docs/state-expansion.md): all 50 states, source discovery and concrete blockers. Discovery never grants modeling approval.
 - `scripts/plan_district_comparisons.py`, [district queue](docs/district-comparisons.md): district size/cohort screening for work after the statewide basics; planning counts never approve a district model.
+- [TODO-breakout_districts.md](TODO-breakout_districts.md): primary district progress tracker, with recorded starts, concise latest updates, next steps/blockers and verified master-delivery finish dates. Preserve hand edits and update the affected row and notes after each work unit.
 - `data/source/`: reproducible extracts; `data/*.json` and `data/illinois/`: website output.
 - `data/raw/` and `data/build/`: ignored downloads and local database; do not commit them.
 - [README.md](README.md): statistical specification, coverage limitations, rebuild instructions.
@@ -84,6 +85,8 @@ Omitting `--illinois` rebuilds a Chicago-only database. The catalog exporter rej
 
 ## Expansion and delivery
 
+- Use the user's `fine-fiddle` account for GitHub.com operations. Select its connected account and verify the identity before CLI or SSH operations. The district TODO replaces the earlier bulk issue/sub-issue workflow; use the local tracker for district bookkeeping. All second-tier district work remains paused until further discussion.
+- Record an actual district start when work begins; keep unknown historical dates blank or clearly qualify recovered session timestamps. A ready comparison on `expansion/all-states` is still awaiting master delivery. The user authorizes delivery to `master` after each district's approved scope is complete, tested and independently reviewed; set the tracker finish datetime only after verifying the remote commit, and record deployment evidence separately.
 - Before adding a state/year, audit income definitions, assessment standards, tested grades, valid denominators, suppression, stable IDs, and the intended regression population.
 - State proficiency thresholds are often incompatible. Studentization does not make them a common scale; keep state models separate rather than pooling them into a national ranking.
 - Treat test or definition changes as explicit model metadata. Do not silently connect incompatible histories or invent missing data to complete coverage.
