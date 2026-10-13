@@ -7,7 +7,7 @@ Last tracker update: **2026-10-13 14:02:33 America/Chicago**. GitHub account: **
 | District | State | District ID (NCES / native) | Started working at | Most recent update | Finished on |
 | --- | --- | --- | --- | --- | --- |
 | [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
-| DALLAS ISD | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Auditing original source/cohort; counts uncertified | — |
+| [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Verifying district numerical models | — |
 | Prince George's County Public Schools | MD | 2400510 / MD-16 | — | Not yet started | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
 | Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
@@ -94,11 +94,12 @@ Add notes for a district when work starts or a material blocker appears: latest 
 - Limitation: valid-score counts, the ten-valid-scored floor and sampling intervals remain uncertified/unavailable. Preserve the historical audit's false approvals. Document any point-rate release explicitly; never invent counts.
 - Finish: verified master delivery **2026-10-13 14:02:33**, commit `cfdd0e5`, through fine-fiddle. [Delivery record](docs/publication-log.md#2026-10-13--charlotte-mecklenburg). Pages deployment and public readback verified **2026-10-13 14:04:52**, with all tested data and browser behavior intact.
 
-## Next source audit: Dallas ISD
+## Next work: Dallas ISD
 
 - District: **4816230 / TX-057905**, 2024–25. Source/cohort work started **2026-10-13 13:57:10** after a read-only source inventory found exact operational CCD/TAPR identities and individually reconciled economic counts.
-- Preliminary source inventory: 249 directory records, 239 operational native campuses, 189 grade / 37 high / seven mixed / six primary configurations. Published whole-percent grade-school outcomes suggest 188 Math / ELA / Combined members; the blank disciplinary-alternative outcomes stay unavailable. These are preflight counts, not source or model approval.
-- Next: independently audit original records, enrolled-grade/Including EOC proficiency scope, individual economic income, whole-percent precision, status and suppression; reproduce the source-only artifact twice. No fits or imports yet.
+- Verified source inventory: 249 directory records, 239 operational native campuses, 189 grade / 37 high / seven mixed / six primary configurations. Published whole-percent grade-school outcomes suggest 188 Math / ELA / Combined members; the blank disciplinary-alternative outcomes stay unavailable. The source-only artifact has false approvals; these counts do not approve a model.
+- Source gate complete **2026-10-13 14:26:17**: [full original-source audit](docs/dallas-district.md), 2,904 records /112,006 cells, nineteen tests, two final original builds and both independent reviews pass (133,744 strict comparisons; 94 additional corruption rejections). Native whole-percent outcomes differ from unverified count arithmetic at186 Math/184 ELA campuses.
+- Next: verify separate full and all564 deleted-school district fits using original published rates and precise individual economic ratios; then canonical/static/browser preservation and reviewed master delivery. Source/code/test/policy pins are mandatory. Complete raw evidence remains stored once in the committed source audit and linked by verified references in later phases.
 - Limitation: native scored-count/status scope and the ten-valid-scored floor remain uncertified. A separately audited point-only release would keep every verified count, variance and interval null, without substituting enrollment or count arithmetic for published rates.
 
 ## Blockers for listed districts
@@ -129,3 +130,5 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 14:02:33:** Charlotte passed all integration/browser gates and reached master at `cfdd0e5`; recorded its finish date. Dallas original-source/cohort audit is active. The original 66-district table retains the finished row.
 
 - **2026-10-13 14:04:52:** Verified successful Charlotte Pages deployment and the live comparison, including source masks, fixed cohorts, first search and mobile layout. Dallas source-only audit continues.
+
+- **2026-10-13 14:26:17:** Dallas original-source/cohort gate passes both independent reviews, nineteen tests and repaired-code original replay. Began separate numerical validation; approvals/count floor remain false/uncertified and finish date remains blank.
