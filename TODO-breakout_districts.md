@@ -1,12 +1,12 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 12:53:03 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 13:28:45 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json).
 
 | District | State | District ID (NCES / native) | Started working at | Most recent update | Finished on |
 | --- | --- | --- | --- | --- | --- |
-| [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Source audit complete; numerical verification next | — |
+| [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Verifying district numerical models | — |
 | DALLAS ISD | TX | 4816230 / TX-057905 | — | Not yet started; scored-count scope unresolved | — |
 | Prince George's County Public Schools | MD | 2400510 / MD-16 | — | Not yet started | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
@@ -88,6 +88,7 @@ Add notes for a district when work starts or a material blocker appears: latest 
 ## Next work: Charlotte-Mecklenburg
 
 - District: **3702970 / NC-600**. Recorded source-session start: **2026-10-10 05:06:51†**. Latest source milestone: **2026-10-10 07:13:50**. [Committed source audit](docs/charlotte-district.md), `fd62bf7`.
+- Numerical work resumed: **2026-10-13 13:28:45** after the completed-state/district catch-up reached master. Current step: independent full-fit and every-member deleted-fit validation.
 - Done: exact 186-school operational roster, same-year April individual EDS and original regular GS proficiency scope. Prospective usable cohorts: 145 Math / 146 ELA / 145 Combined. Suppressed Math, primary/high/mixed schools and fall-versus-April denominator differences remain explicit.
 - Next: independently verify full and every-member deleted district fits; then create the separately validated normalized release, repeat canonical import/export preservation and verify the real HTTP interface. Source-only work has not released a district comparison.
 - Limitation: valid-score counts, the ten-valid-scored floor and sampling intervals remain uncertified/unavailable. Preserve the historical audit's false approvals. Document any point-rate release explicitly; never invent counts.
@@ -102,9 +103,12 @@ Add notes for a district when work starts or a material blocker appears: latest 
 
 ## Delivery log
 
+The separately authorized catch-up of 39 ready states / 60 comparison regions, including twelve earlier district breakouts, reached master on **2026-10-13 13:28:45**, commit `4991c42`. [Delivery evidence](docs/publication-log.md). Those prior comparisons are not added to this fixed 66-district queue.
+
 For each listed district delivered to master, record the actual datetime, remote commit, approved scope, validation summary and any deployment verification. Preserve unresolved high/mixed, count, admissions, provider and geometry limitations. Keep the district's completed row in this table.
 
 ## Tracker change log
 
 - **2026-10-13 12:43:38:** Created the local tracker and switched GitHub operations to fine-fiddle.
 - **2026-10-13 12:53:03:** Corrected the tracker to exactly the agreed 66 first-tier large districts. Preserved every retained row's existing status and dates, removed the broader discovery/paused/existing-comparison entries and constrained future work to this list. No school data or model outputs changed.
+- **2026-10-13 13:28:45:** Verified catch-up delivery to master after 657 Python/20 JavaScript tests and independent reviews; resumed Charlotte numerical work. The fixed 66 queue and other districts' statuses/dates remain unchanged.
