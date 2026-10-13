@@ -44,6 +44,8 @@ Texas → Dallas ISD has a separate [2024–25 grade-school comparison](docs/dal
 
 The root [district TODO](TODO-breakout_districts.md) is the primary progress tracker for **only the agreed 66 first-tier large breakout districts**: recorded starts, concise latest updates, next steps/blockers and verified master-delivery finish dates. Its fixed list uses the original `tier=main` and `scope=new_district_candidate` selection; completed rows remain as the discovery shortlist shrinks. The broader discovery ledger does not add tasks. Other district work remains outside the current scope. The earlier [district issue index](docs/district-issues.md) is historical. GitHub operations use `fine-fiddle`; each listed district reaches completion after its approved audits, canonical/browser integration and validation pass and its tested change reaches the user-authorized `master` target.
 
+Prince George's County's separate [2024–25 source/cohort audit](docs/prince-georges-district.md) verifies 159 exact native/CCD grade-school profiles and prospective 146 Math /159 ELA /146 Combined records. Thirteen Math masks, six charters, the malformed Ellen Ochoa NCES and all outside identities remain explicit. Individual Early Attendance income and regular MCAP All Grades standards, accelerated courses and waiver scope are independently verified. Both historical approvals stay false; eighteen tests, repeated original builds and two source reviews pass. Numerical validation and separate canonical/browser/master gates follow; no comparison is released by this source-only unit.
+
 ## Preview
 
 ```sh

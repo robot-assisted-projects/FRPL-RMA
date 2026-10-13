@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 15:24:56 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 15:48:40 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -8,7 +8,7 @@ Last tracker update: **2026-10-13 15:24:56 America/Chicago**. GitHub account: **
 | --- | --- | --- | --- | --- | --- |
 | [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
 | [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Merged; counts/intervals unavailable | 2026-10-13 15:17:13 |
-| Prince George's County Public Schools | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Auditing sources; identity mismatch | — |
+| [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Verifying models; identity/count holds | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
 | Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
@@ -108,7 +108,7 @@ Add notes for a district when work starts or a material blocker appears: latest 
 
 - District: **2400510 / MD-16 / MSDE 16**, 2024–25. Source/cohort audit started **2026-10-13 15:18:59** after Dallas's tested master delivery.
 - Read-only inventory: all eleven original source pins pass; eight original tables retain 5,404 records /89,640 typed cells. Prospective exact native/CCD grade-school profiles: 159; usable Math/ELA/Combined: 146/159/146, with thirteen Math masks and all six charter profiles retained. These planning counts never approve a model.
-- Next: complete original-source/identity/grade/income/proficiency replay, two original rebuilds and independent source reviews. Preserve exact native Early Attendance individual income, regular MCAP All Grades Levels 3–4, accelerated courses and the applicable waiver; no statewide fit is reused.
+- Source gate complete **2026-10-13 15:48:40**: eighteen tests, two byte-identical original builds and both independent reviews pass (166,361 typed checks; 124 corruption rejections). Separate numerical validation is next. Preserve exact native Early Attendance individual income, regular MCAP All Grades Levels 3–4, accelerated courses and the applicable waiver; no statewide fit is reused.
 - Identity hold: Ellen Ochoa's native directory NCES is malformed. No original provides an authoritative correction; preserve it and all unmatched/high/mixed/primary/closed/unknown records explicitly. Names or inferred code conversions cannot establish a join.
 - Limitation: administrative tested counts, scored floor and sampling intervals remain uncertified. Source and modeling approval stay false; numerical and canonical/browser gates follow separately. Finish date is blank.
 
@@ -150,3 +150,5 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 15:18:59:** Began Prince George's original-source/cohort audit after exact-ID preflight. Remaining new districts: 64. Only the fixed 66 queue is active; all other rows retain their status and dates.
 
 - **2026-10-13 15:23:17:** Verified successful Dallas Pages deployment and the live comparison, including all original source masks, fixed models, unbounded ELA expectation, first off-page search and true mobile layout. Prince George's source-only audit continues.
+
+- **2026-10-13 15:48:40:** Prince George's source gate passes both independent reviews; began separate numerical validation. Source approvals and count/identity holds remain unchanged, finish date blank. Duval has only a read-only inventory; no fourth district source audit is started.
