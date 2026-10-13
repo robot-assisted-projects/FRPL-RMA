@@ -1,12 +1,12 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 13:57:10 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 14:02:33 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
 | District | State | District ID (NCES / native) | Started working at | Most recent update | Finished on |
 | --- | --- | --- | --- | --- | --- |
-| [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Verifying browser/canonical integration | — |
+| [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
 | DALLAS ISD | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Auditing original source/cohort; counts uncertified | — |
 | Prince George's County Public Schools | MD | 2400510 / MD-16 | — | Not yet started | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
@@ -85,14 +85,14 @@ GitHub operations use **fine-fiddle**. District bookkeeping stays here; the earl
 
 Add notes for a district when work starts or a material blocker appears: latest work datetime, evidence/audit links, validation, next step, blocker and eventual delivery commit. Unstarted districts need no empty boilerplate. Follow [AGENTS.md](AGENTS.md) and [README.md](README.md) for statistical and verification rules.
 
-## Next work: Charlotte-Mecklenburg
+## Completed: Charlotte-Mecklenburg
 
 - District: **3702970 / NC-600**. Recorded source-session start: **2026-10-10 05:06:51†**. Latest source milestone: **2026-10-10 07:13:50**. [Committed source audit](docs/charlotte-district.md), `fd62bf7`.
-- Numerical work resumed: **2026-10-13 13:28:45** after the completed-state/district catch-up reached master. Both independent numerical reviews pass: 436 full/deleted results, exact original inputs and 115 additional corruption rejections. Current step: canonical/static/browser integration.
-- Done: exact 186-school operational roster, same-year April individual EDS and original regular GS proficiency scope. Prospective usable cohorts: 145 Math / 146 ELA / 145 Combined. Suppressed Math, primary/high/mixed schools and fall-versus-April denominator differences remain explicit.
-- Next: create the separately validated normalized release, repeat canonical import/export preservation and verify the real HTTP interface. The source/numerical milestones have not released a district comparison.
+- Numerical work resumed: **2026-10-13 13:28:45** after the completed-state/district catch-up reached master. Both independent numerical reviews pass: 436 full/deleted results, exact original inputs and 115 additional corruption rejections. Canonical/static/browser integration and both independent reviews now pass.
+- Done: exact 186-school operational roster, same-year April individual EDS and original regular GS proficiency scope. Verified usable cohorts: 145 Math / 146 ELA / 145 Combined. Suppressed Math, primary/high/mixed schools and fall-versus-April denominator differences remain explicit.
+- Integration: separate normalized release and all canonical/current/history results verified; two actual imports and all shared exports repeat exactly, preserving prior comparisons. All 82 distinct targeted Python/20 JavaScript tests, both independent integration reviews and HTTP desktop/390-pixel checks pass.
 - Limitation: valid-score counts, the ten-valid-scored floor and sampling intervals remain uncertified/unavailable. Preserve the historical audit's false approvals. Document any point-rate release explicitly; never invent counts.
-- Finish: complete those gates, deliver the tested district scope to `master` through fine-fiddle and record the remote commit/time here. No finished date yet.
+- Finish: verified master delivery **2026-10-13 14:02:33**, commit `cfdd0e5`, through fine-fiddle. [Delivery record](docs/publication-log.md#2026-10-13--charlotte-mecklenburg). Pages deployment and public readback verified **2026-10-13 14:04:52**, with all tested data and browser behavior intact.
 
 ## Next source audit: Dallas ISD
 
@@ -112,6 +112,8 @@ Add notes for a district when work starts or a material blocker appears: latest 
 
 The separately authorized catch-up of 39 ready states / 60 comparison regions, including twelve earlier district breakouts, reached master on **2026-10-13 13:28:45**, commit `4991c42`. [Delivery evidence](docs/publication-log.md). Those prior comparisons are not added to this fixed 66-district queue.
 
+Charlotte-Mecklenburg reached master on **2026-10-13 14:02:33**, commit `cfdd0e5`: separately audited 2024–25 grade-school scope, 146 profiles and 145/146/145 point-only subject models. Testing and independent reviews passed. [Delivery evidence](docs/publication-log.md#2026-10-13--charlotte-mecklenburg).
+
 For each listed district delivered to master, record the actual datetime, remote commit, approved scope, validation summary and any deployment verification. Preserve unresolved high/mixed, count, admissions, provider and geometry limitations. Keep the district's completed row in this table.
 
 ## Tracker change log
@@ -123,3 +125,7 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 13:48:03:** Charlotte numerical verification passes both independent reviews and twelve focused tests. Began separate canonical/browser integration; no district finish date yet. All 66 identities and other statuses remain unchanged.
 
 - **2026-10-13 13:57:10:** Began Dallas original-source/cohort audit after its point-only feasibility inventory. Charlotte integration remains under final browser review. Only the two listed districts are active; all other rows retain their status and dates.
+
+- **2026-10-13 14:02:33:** Charlotte passed all integration/browser gates and reached master at `cfdd0e5`; recorded its finish date. Dallas original-source/cohort audit is active. The original 66-district table retains the finished row.
+
+- **2026-10-13 14:04:52:** Verified successful Charlotte Pages deployment and the live comparison, including source masks, fixed cohorts, first search and mobile layout. Dallas source-only audit continues.
