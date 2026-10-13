@@ -27,3 +27,30 @@ Administrative tested counts and the ten-valid-scored floor remain uncertified. 
 Ordinary replay is offline and opens only committed evidence. Explicit reconstruction verifies every whole original pin and rereads the archives, workbooks, CSVs, HTML and primary PDF. Two actual source reconstructions reproduce **4,845,702 bytes**, SHA-256 **`f097fb88001cb3749fc5ebc31a5786421fa3aebad207d61172ad3baed8a6d33a`**. All eighteen focused source tests, offline replay and compilation pass. The complete canonical database, every prior row in nine tables, all 245 served assets and 289 prior source/code/test files remain unchanged.
 
 Both independent source reviews pass: fresh original reconstruction verifies 166,361 typed original/derived comparisons, 38 corruption rejections and 22 controls. Complementary review independently verifies all eleven primary source pins, 53 primary/population/helper controls and 86 further corruption attacks, including repinned raw/schema cases. All **124 additional corruption rejections** pass, with no remaining source-review finding. Ellen's native and CCD records remain separate and unjoined; the 45 native outside profiles, six unmatched native records, three unmatched CCD records and two closed CCD records are distinct evidence views, never one forced combined count. No numerical fit, normalized release, catalog or browser change is created at this milestone. The original [66-district TODO](../TODO-breakout_districts.md) retains the started date and blank district finish date. Numerical full/deleted fits, a separately validated point-rate contract, repeated canonical/static preservation and HTTP/browser checks must all pass before master delivery. Counts and all outside populations remain explicit holds.
+
+## Independent numerical audit
+
+The compact [prince-georges-model-audit.json](../data/source/prince-georges-model-audit.json), rebuilt by [audit_prince_georges_models.py](../scripts/audit_prince_georges_models.py), independently verifies three unweighted 2024–25 district models. The full original source is stored once; every numerical replay, including cached expected validation, requires current complete source/code/test/policy/raw/schema/definition evidence. Exact identities, original table/worksheet/row/field pointers, x/y, all full/deleted fits and exclusions remain auditable without duplicating the raw tables.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Usable schools | 146 | 159 | 146 |
+| Intercept | 48.347324 | 91.020755 | 69.671338 |
+| Disadvantage slope | -0.556076 | -0.983258 | -0.765498 |
+| R² | 0.366295 | 0.687735 | 0.589896 |
+| Maximum leverage | 0.080488 | 0.078252 | 0.080488 |
+| Maximum Cook distance | 0.681454 | 0.482766 | 0.518447 |
+
+All **451 explicit deleted-school fits** have rank-two designs and positive finite scales, with no hard holds. Full residual degrees of freedom are 144/157/144 for Math/ELA/Combined; deleted degrees of freedom are 143/156/143. Externally studentized residuals use the scale estimated from other members.
+
+Combined fits the equal mean of the original paired subject rates over 146 schools. Its coefficients differ from averaging the complete 146-school Math and 159-school ELA fits. The paired 146-school ELA linear identity is independently checked, but Combined still has its own scale, deletion fits and studentized scores. Thirteen Math masks remain ELA-only; all six charters remain included. Glenarden Woods' Math t about 7.09 /Combined t about 5.94 and Imagine Andrews' ELA Cook distance about 0.483 are retained. Influence diagnostics describe sensitivity and never remove eligible schools or infer admissions, causal effectiveness or school quality. Observed-income predictions happen to lie in 0–100; the linear model is not clamped or enrollment-adjusted.
+
+Fifteen numerical tests pass. Two actual fresh builds reproduce **1,249,923 bytes**, SHA-256 **`8594f53d2722b913bf1907a0c0d8c53c21405c64b3d108a7b722706281b8f661`**; offline check, compilation and diff checks pass. Both independent reviews verify **174,478 original input/reference/model comparisons**, every NumPy full/deleted fit and 24 selected 50-digit Decimal deletions. All **199 additional corruption/freshness rejections** pass, with maximum scalar difference `3.64e-12`. Complete canonical bytes, prior rows in all nine tables and all 245 served assets remain unchanged.
+
+```sh
+.venv/bin/python scripts/audit_prince_georges_models.py
+.venv/bin/python scripts/audit_prince_georges_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_prince_georges_models.py' -v
+```
+
+Status is `numerically_verified_pending_integration`, scope `numerical_audit_only`, and both historical approvals remain false. Valid-score counts, the scored floor, sampling variances and intervals stay unavailable/uncertified modelwide. Malformed/unmatched identities, broader individual-income population, unspecified Early Attendance date, waiver, DLM separation and all outside records remain unchanged. Separately validated normalized scope, actual repeated canonical imports/exports, preservation and HTTP/browser review must pass before master delivery.
