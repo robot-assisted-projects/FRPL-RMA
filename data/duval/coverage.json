@@ -1,0 +1,1896 @@
+{
+  "year": 2025,
+  "schools": 150,
+  "cohorts": {
+    "grade": {
+      "directory": 150,
+      "eligible": {
+        "math": 146,
+        "reading": 146,
+        "combined": 146
+      }
+    }
+  },
+  "exclusions": {
+    "Native SchoolGrades achievement component not reported": 8,
+    "Math: Native SchoolGrades achievement component not reported; ELA: Native SchoolGrades achievement component not reported": 4
+  },
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/duval-district-audit.json",
+      "sha256": "7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 2495,
+      "complete_original_cell_count": 59985,
+      "note": "Complete original records, headers, notes, definitions, membership and outside identities stay in the immutable linked source artifact; every numerical replay requires current available unchanged source/code/tests/policy and semantic validation."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/duval-model-audit.json",
+      "sha256": "e49355188aef25eb9f5e73b5831ffab8ff27e1935ae8422cea8dbb02deff409d",
+      "bytes": 1324364
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_duval.py",
+        "sha256": "e0b11390ad286c01180ed0cabf687fab27a11bb2af999b404061a6518e20e131"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_duval_audit.py",
+        "sha256": "f0a21cc96ce75b7a8cd3a88e1bed7ccdf28281f3ade41d8ce842fa6bb84750f9"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_duval_models.py",
+        "sha256": "91faf57180f0229001aafbc7b4c7fcab9695c85f3b7a6af96c138b8e3e7d38ac"
+      },
+      "tests": {
+        "path": "tests/test_duval_models.py",
+        "sha256": "36dff5fb5e3b47a357d19f2487988a39e15acd3e7ed50cdcc700ded65e936f60"
+      }
+    },
+    "immutable_raw_input_fingerprint": "ceaf17b071040a97a3abd3f362c2d10da0851708d34478fdf7eec1ceeb96aae6",
+    "immutable_schema_fingerprint": "7105f0bf21f244c9d3001c9837ac974aebbb7aee34f50e1aff396c97d8506452",
+    "immutable_definition_fingerprint": "f1f61cc6deac6465144878b5f8c05d40e4b66f2534afc721ad30523f15a027ac",
+    "immutable_identity_fingerprint": "3292c0c40e23c113fde254756661833b773276765ce2659b334ca706f6067945",
+    "immutable_source_policy_fingerprint": "49b0c7217edff435c99cf57fd6e35885e246e9ed8b8a67d35ddfb35966d26967",
+    "immutable_numerical_policy_fingerprint": "728cecb20667beb7ea536e9ffbd1dc5dbb48f32711d8c7ea0574be4ccbe525e3",
+    "immutable_numerical_runtime_fingerprint": "911d7f18c380b3763e03768ecce566a4c79d78bd4bf3d3fe21d5052acef4622e",
+    "normalized_metadata_fingerprint": "cb7ba65d1b9a0c3e0adcc81be1f93334b43b5c467d156e831abed64a262decc8",
+    "operational_roster": {
+      "source_rows": {
+        "directory": 211,
+        "lea_directory": 1,
+        "membership": 1688,
+        "lea_membership": 16,
+        "native_grades": 201,
+        "native_income": 201,
+        "native_assessment": 177
+      },
+      "original_records": 2495,
+      "original_typed_cells": 59985,
+      "ccd_directory": 211,
+      "operational_roster": 203,
+      "nonoperational_directory": 8,
+      "status": {
+        "Closed": 8,
+        "New": 1,
+        "Open": 201,
+        "Reopened": 1
+      },
+      "operational_offered_scope": {
+        "ES": 155,
+        "HS": 24,
+        "mixed": 24
+      },
+      "native_fall_profiles": 201,
+      "native_income_rows": 201,
+      "native_assessment_rows": 177,
+      "exact_operational_fall_matches": 200,
+      "operational_without_native_fall_ids": [
+        "16-1981",
+        "16-7001",
+        "16-7004"
+      ],
+      "outside_native_profile_ids": [
+        "16-0734"
+      ],
+      "native_income_without_fall_ids": [],
+      "native_assessment_without_operational_directory": [],
+      "provider_assessment_rows": 0,
+      "collocated_assessment_rows": 0,
+      "prospective_source_profiles": 150,
+      "prospective_usable": {
+        "math": 146,
+        "reading": 146,
+        "combined": 146
+      },
+      "prospective_usable_income": 150,
+      "income_exclusions": {},
+      "offered_enrolled_disagreement_profiles": 22,
+      "protected_native_grade_profiles": 20,
+      "protected_native_grade_cells": 65,
+      "campus_charter_disagreements": 0,
+      "district_ccd_enrollment": 130054,
+      "operational_ccd_enrollment_sum": 129932,
+      "district_minus_operational_enrollment": 122,
+      "planning_potential_cohorts": {
+        "ES": 151,
+        "HS": 24
+      },
+      "prospective_not_in_planningES": [],
+      "planningES_outside_prospective": [
+        "120048000704"
+      ],
+      "verified_valid_score_counts": 0,
+      "ten_valid_scored_floor_certified": false,
+      "model_sampling_intervals_available": false,
+      "independent_numerical_diagnostics_required": true,
+      "canonical_integration_pending": true,
+      "source_and_model_approvals": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "16-1851",
+        "native_school_id": "FL-16-1851",
+        "ncessch": "120048000425",
+        "name": "AMIKIDS JACKSONVILLE",
+        "source_roster_link_index": 0,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-0141",
+        "native_school_id": "FL-16-0141",
+        "ncessch": "120048000635",
+        "name": "GRAND PARK CAREER CENTER",
+        "source_roster_link_index": 3,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0331",
+        "native_school_id": "FL-16-0331",
+        "ncessch": "120048000648",
+        "name": "RIVERSIDE HIGH SCHOOL",
+        "source_roster_link_index": 12,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0351",
+        "native_school_id": "FL-16-0351",
+        "ncessch": "120048000649",
+        "name": "ANDREW JACKSON HIGH SCHOOL",
+        "source_roster_link_index": 13,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0381",
+        "native_school_id": "FL-16-0381",
+        "ncessch": "120048000651",
+        "name": "BALDWIN MIDDLE-SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 14,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0751",
+        "native_school_id": "FL-16-0751",
+        "ncessch": "120048000671",
+        "name": "PAXON SCHOOL/ADVANCED STUDIES",
+        "source_roster_link_index": 29,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0861",
+        "native_school_id": "FL-16-0861",
+        "ncessch": "120048000681",
+        "name": "TERRY PARKER HIGH SCHOOL",
+        "source_roster_link_index": 39,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0901",
+        "native_school_id": "FL-16-0901",
+        "ncessch": "120048000685",
+        "name": "ENGLEWOOD HIGH SCHOOL",
+        "source_roster_link_index": 43,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0961",
+        "native_school_id": "FL-16-0961",
+        "ncessch": "120048000691",
+        "name": "JEAN RIBAULT HIGH SCHOOL",
+        "source_roster_link_index": 48,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1491",
+        "native_school_id": "FL-16-1491",
+        "ncessch": "120048000704",
+        "name": "SMART POPE LIVINGSTON ELEMENTARY",
+        "source_roster_link_index": 58,
+        "exclusion": "Onlyzero/unavailable native enrolled grades3\u20138; tested-grade scope unverified"
+      },
+      {
+        "school_id": "16-1531",
+        "native_school_id": "FL-16-1531",
+        "ncessch": "120048000706",
+        "name": "STANTON COLLEGE PREPARATORY",
+        "source_roster_link_index": 60,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1651",
+        "native_school_id": "FL-16-1651",
+        "ncessch": "120048000714",
+        "name": "WILLIAM M. RAINES HIGH SCHOOL",
+        "source_roster_link_index": 66,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1701",
+        "native_school_id": "FL-16-1701",
+        "ncessch": "120048000718",
+        "name": "PALM AVENUE EXCEP. STUDENT CENTER",
+        "source_roster_link_index": 68,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1811",
+        "native_school_id": "FL-16-1811",
+        "ncessch": "120048000720",
+        "name": "HOSPITAL AND HOMEBOUND",
+        "source_roster_link_index": 69,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1821",
+        "native_school_id": "FL-16-1821",
+        "ncessch": "120048000721",
+        "name": "YOUTH DEVELOPMENT CENTER",
+        "source_roster_link_index": 70,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2141",
+        "native_school_id": "FL-16-2141",
+        "ncessch": "120048000740",
+        "name": "HYDE GROVE ELEMENTARY SCHOOL",
+        "source_roster_link_index": 81,
+        "exclusion": "No offered grade3\u20138 in primary-only configuration"
+      },
+      {
+        "school_id": "16-2161",
+        "native_school_id": "FL-16-2161",
+        "ncessch": "120048000742",
+        "name": "CHARGER ACADEMY",
+        "source_roster_link_index": 82,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-2231",
+        "native_school_id": "FL-16-2231",
+        "ncessch": "120048000748",
+        "name": "DUNCAN U. FLETCHER HIGH SCHOOL",
+        "source_roster_link_index": 87,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2241",
+        "native_school_id": "FL-16-2241",
+        "ncessch": "120048000749",
+        "name": "SAMUEL W. WOLFSON HIGH SCHOOL",
+        "source_roster_link_index": 88,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2281",
+        "native_school_id": "FL-16-2281",
+        "ncessch": "120048000752",
+        "name": "MERRILL ROAD ELEMENTARY SCHOOL",
+        "source_roster_link_index": 91,
+        "exclusion": "No offered grade3\u20138 in primary-only configuration"
+      },
+      {
+        "school_id": "16-2371",
+        "native_school_id": "FL-16-2371",
+        "ncessch": "120048000759",
+        "name": "SANDALWOOD HIGH SCHOOL",
+        "source_roster_link_index": 98,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2411",
+        "native_school_id": "FL-16-2411",
+        "ncessch": "120048000762",
+        "name": "WESTSIDE HIGH SCHOOL",
+        "source_roster_link_index": 101,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2481",
+        "native_school_id": "FL-16-2481",
+        "ncessch": "120048000767",
+        "name": "EDWARD H. WHITE HIGH SCHOOL",
+        "source_roster_link_index": 106,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2501",
+        "native_school_id": "FL-16-2501",
+        "ncessch": "120048000768",
+        "name": "PINE ESTATES ELEMENTARY SCHOOL",
+        "source_roster_link_index": 107,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-2521",
+        "native_school_id": "FL-16-2521",
+        "ncessch": "120048000769",
+        "name": "ALDEN ROAD EXCEP. STUDENT CENTER",
+        "source_roster_link_index": 108,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2801",
+        "native_school_id": "FL-16-2801",
+        "ncessch": "120048000772",
+        "name": "FRANK H. PETERSON ACADEMIES",
+        "source_roster_link_index": 110,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2851",
+        "native_school_id": "FL-16-2851",
+        "ncessch": "120048000773",
+        "name": "A. PHILIP RANDOLPH ACADEMIES",
+        "source_roster_link_index": 111,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1761",
+        "native_school_id": "FL-16-1761",
+        "ncessch": "120048001571",
+        "name": "PRETRIAL DETENTION FACILITY",
+        "source_roster_link_index": 112,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1981",
+        "native_school_id": "FL-16-1981",
+        "ncessch": "120048002161",
+        "name": "TEEN PARENT SERVICE CENTER",
+        "source_roster_link_index": 114,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "16-0321",
+        "native_school_id": "FL-16-0321",
+        "ncessch": "120048002162",
+        "name": "MARINE SCIENCE EDUCATION CENTER",
+        "source_roster_link_index": 115,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1073",
+        "native_school_id": "FL-16-1073",
+        "ncessch": "120048002469",
+        "name": "DOUGLAS ANDERSON SCHOOL OF THE ARTS",
+        "source_roster_link_index": 117,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2601",
+        "native_school_id": "FL-16-2601",
+        "ncessch": "120048002744",
+        "name": "MANDARIN HIGH SCHOOL",
+        "source_roster_link_index": 125,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-2651",
+        "native_school_id": "FL-16-2651",
+        "ncessch": "120048002745",
+        "name": "FIRST COAST HIGH SCHOOL",
+        "source_roster_link_index": 126,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1451",
+        "native_school_id": "FL-16-1451",
+        "ncessch": "120048002816",
+        "name": "DARNELL COOKMAN MIDDLE/HIGH SCHOOL",
+        "source_roster_link_index": 127,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1641",
+        "native_school_id": "FL-16-1641",
+        "ncessch": "120048003053",
+        "name": "MT. HERMAN ESE CENTER",
+        "source_roster_link_index": 130,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0391",
+        "native_school_id": "FL-16-0391",
+        "ncessch": "120048003167",
+        "name": "GATEWAY COMMUNITY SERVICES",
+        "source_roster_link_index": 131,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0811",
+        "native_school_id": "FL-16-0811",
+        "ncessch": "120048003169",
+        "name": "PACE CENTER FOR GIRLS-JAX",
+        "source_roster_link_index": 132,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0411",
+        "native_school_id": "FL-16-0411",
+        "ncessch": "120048003352",
+        "name": "DUVAL ACADEMY",
+        "source_roster_link_index": 135,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-0431",
+        "native_school_id": "FL-16-0431",
+        "ncessch": "120048003354",
+        "name": "IMPACT HALFWAY HOUSE",
+        "source_roster_link_index": 136,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-0491",
+        "native_school_id": "FL-16-0491",
+        "ncessch": "120048003356",
+        "name": "DUVAL REGIONAL JUVENILE DETENTION CENTER",
+        "source_roster_link_index": 137,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1201",
+        "native_school_id": "FL-16-1201",
+        "ncessch": "120048007418",
+        "name": "RIVER CITY SCIENCE ACADEMY",
+        "source_roster_link_index": 154,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0261",
+        "native_school_id": "FL-16-0261",
+        "ncessch": "120048007446",
+        "name": "ESE PRE KINDERGARTEN DISABILITIES CENTER",
+        "source_roster_link_index": 155,
+        "exclusion": "No offered grade3\u20138 in primary-only configuration"
+      },
+      {
+        "school_id": "16-2681",
+        "native_school_id": "FL-16-2681",
+        "ncessch": "120048007629",
+        "name": "ATLANTIC COAST HIGH SCHOOL",
+        "source_roster_link_index": 159,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-7001",
+        "native_school_id": "FL-16-7001",
+        "ncessch": "120048007693",
+        "name": "DUVAL VIRTUAL INSTRUCTION PROGRAM",
+        "source_roster_link_index": 161,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "16-0471",
+        "native_school_id": "FL-16-0471",
+        "ncessch": "120048007825",
+        "name": "LONE STAR HIGH SCHOOL",
+        "source_roster_link_index": 162,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-7004",
+        "native_school_id": "FL-16-7004",
+        "ncessch": "120048007860",
+        "name": "DUVAL VIRTUAL ACADEMY FRANCHISE",
+        "source_roster_link_index": 164,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "16-7023",
+        "native_school_id": "FL-16-7023",
+        "ncessch": "120048008007",
+        "name": "DUVAL VIRTUAL INSTRUCTION ACADEMY",
+        "source_roster_link_index": 170,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-1311",
+        "native_school_id": "FL-16-1311",
+        "ncessch": "120048008016",
+        "name": "DUVAL CHARTER HIGH SCHOOL AT BAYMEADOWS",
+        "source_roster_link_index": 172,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0531",
+        "native_school_id": "FL-16-0531",
+        "ncessch": "120048008096",
+        "name": "DUVAL MYCROSCHOOL OF INTEGRATED ACADEMICS AND TECHNOLOGIES",
+        "source_roster_link_index": 173,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5371",
+        "native_school_id": "FL-16-5371",
+        "ncessch": "120048008228",
+        "name": "FLORIDA CYBER CHARTER ACADEMY",
+        "source_roster_link_index": 174,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5381",
+        "native_school_id": "FL-16-5381",
+        "ncessch": "120048008243",
+        "name": "SAN JOSE PREP",
+        "source_roster_link_index": 175,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5421",
+        "native_school_id": "FL-16-5421",
+        "ncessch": "120048008264",
+        "name": "BISCAYNE HIGH SCHOOL",
+        "source_roster_link_index": 178,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0291",
+        "native_school_id": "FL-16-0291",
+        "ncessch": "120048008523",
+        "name": "THE BRIDGE TO SUCCESS ACADEMY AT W JACKSONVILLE",
+        "source_roster_link_index": 186,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5731",
+        "native_school_id": "FL-16-5731",
+        "ncessch": "120048008773",
+        "name": "GLOBAL LEADERSHIP ACADEMY HIGH SCHOOL",
+        "source_roster_link_index": 193,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5831",
+        "native_school_id": "FL-16-5831",
+        "ncessch": "120048008789",
+        "name": "JACKSONVILLE CLASSICAL ACADEMY",
+        "source_roster_link_index": 195,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5801",
+        "native_school_id": "FL-16-5801",
+        "ncessch": "120048008874",
+        "name": "CORNERSTONE CLASSICAL ACADEMY",
+        "source_roster_link_index": 196,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-0521",
+        "native_school_id": "FL-16-0521",
+        "ncessch": "120048009001",
+        "name": "HORIZON INSTITUTE",
+        "source_roster_link_index": 199,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-5861",
+        "native_school_id": "FL-16-5861",
+        "ncessch": "120048009003",
+        "name": "SAN JOSE EARLY COLLEGE AT CECIL",
+        "source_roster_link_index": 200,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5881",
+        "native_school_id": "FL-16-5881",
+        "ncessch": "120048009004",
+        "name": "SAN JOSE CYBER",
+        "source_roster_link_index": 201,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "16-5901",
+        "native_school_id": "FL-16-5901",
+        "ncessch": "120048009005",
+        "name": "KIPP JACKSONVILLE K-12",
+        "source_roster_link_index": 202,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "16-5671",
+        "native_school_id": "FL-16-5671",
+        "ncessch": "120048010753",
+        "name": "GREAT HEARTS JACKSONVILLE",
+        "source_roster_link_index": 209,
+        "exclusion": "CCD status nonoperational"
+      }
+    ],
+    "retained_outside_source_profiles": [
+      {
+        "school_id": "16-0734",
+        "ncessch": null,
+        "grade_source_row": 1320,
+        "exclusion": "Native district school without exact same-year CCD operational directory identity"
+      }
+    ],
+    "nonoperational_ccd_references": [
+      {
+        "source_row": 20924,
+        "ncessch": "120048000425",
+        "native_school_id": "FL-16-1851",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21006,
+        "ncessch": "120048000742",
+        "native_school_id": "FL-16-2161",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21031,
+        "ncessch": "120048000768",
+        "native_school_id": "FL-16-2501",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21059,
+        "ncessch": "120048003352",
+        "native_school_id": "FL-16-0411",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21060,
+        "ncessch": "120048003354",
+        "native_school_id": "FL-16-0431",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21123,
+        "ncessch": "120048009001",
+        "native_school_id": "FL-16-0521",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21125,
+        "ncessch": "120048009004",
+        "native_school_id": "FL-16-5881",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21133,
+        "ncessch": "120048010753",
+        "native_school_id": "FL-16-5671",
+        "status": "Closed"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 150,
+        "usable_schools": 146,
+        "excluded_configuration_profiles": 4,
+        "excluded_configuration_records": [
+          {
+            "school_id": "16-0061",
+            "native_school_id": "FL-16-0061",
+            "ncessch": "120048000629",
+            "name": "MATTIE V RUTHERFORD ALT ED CENTER",
+            "reason": "math: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 1,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 20925,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1280,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1282,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0171",
+            "native_school_id": "FL-16-0171",
+            "ncessch": "120048010750",
+            "name": "THE BRIDGE TO SUCCESS ACADEMY MIDDLE SCHOOL",
+            "reason": "math: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 207,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21131,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1284,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1286,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0271",
+            "native_school_id": "FL-16-0271",
+            "ncessch": "120048008447",
+            "name": "GRASP ACADEMY",
+            "reason": "math: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 183,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21107,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1291,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1293,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0281",
+            "native_school_id": "FL-16-0281",
+            "ncessch": "120048008567",
+            "name": "OAK HILL ACADEMY",
+            "reason": "math: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 189,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21113,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1292,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1294,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original campus published rate missing or masked": 4
+        },
+        "charter": {
+          "No": 116,
+          "Yes": 30
+        },
+        "school_types": {
+          "Regular School": 146
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/duval-district-audit.json",
+        "source_evidence_sha256": "7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 150,
+        "usable_schools": 146,
+        "excluded_configuration_profiles": 4,
+        "excluded_configuration_records": [
+          {
+            "school_id": "16-0061",
+            "native_school_id": "FL-16-0061",
+            "ncessch": "120048000629",
+            "name": "MATTIE V RUTHERFORD ALT ED CENTER",
+            "reason": "reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 1,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 20925,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1280,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1282,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0171",
+            "native_school_id": "FL-16-0171",
+            "ncessch": "120048010750",
+            "name": "THE BRIDGE TO SUCCESS ACADEMY MIDDLE SCHOOL",
+            "reason": "reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 207,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21131,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1284,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1286,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0271",
+            "native_school_id": "FL-16-0271",
+            "ncessch": "120048008447",
+            "name": "GRASP ACADEMY",
+            "reason": "reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 183,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21107,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1291,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1293,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0281",
+            "native_school_id": "FL-16-0281",
+            "ncessch": "120048008567",
+            "name": "OAK HILL ACADEMY",
+            "reason": "reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 189,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21113,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1292,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1294,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "reading: original campus published rate missing or masked": 4
+        },
+        "charter": {
+          "No": 116,
+          "Yes": 30
+        },
+        "school_types": {
+          "Regular School": 146
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/duval-district-audit.json",
+        "source_evidence_sha256": "7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 150,
+        "usable_schools": 146,
+        "excluded_configuration_profiles": 4,
+        "excluded_configuration_records": [
+          {
+            "school_id": "16-0061",
+            "native_school_id": "FL-16-0061",
+            "ncessch": "120048000629",
+            "name": "MATTIE V RUTHERFORD ALT ED CENTER",
+            "reason": "math: original campus published rate missing or masked; reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 1,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 20925,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1280,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1282,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0171",
+            "native_school_id": "FL-16-0171",
+            "ncessch": "120048010750",
+            "name": "THE BRIDGE TO SUCCESS ACADEMY MIDDLE SCHOOL",
+            "reason": "math: original campus published rate missing or masked; reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 207,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21131,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1284,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1286,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0271",
+            "native_school_id": "FL-16-0271",
+            "ncessch": "120048008447",
+            "name": "GRASP ACADEMY",
+            "reason": "math: original campus published rate missing or masked; reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 183,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21107,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1291,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1293,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          },
+          {
+            "school_id": "16-0281",
+            "native_school_id": "FL-16-0281",
+            "ncessch": "120048008567",
+            "name": "OAK HILL ACADEMY",
+            "reason": "math: original campus published rate missing or masked; reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 189,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 21113,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 1292,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 1294,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original campus published rate missing or masked; reading: original campus published rate missing or masked": 4
+        },
+        "charter": {
+          "No": 116,
+          "Yes": 30
+        },
+        "school_types": {
+          "Regular School": 146
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/duval-district-audit.json",
+        "source_evidence_sha256": "7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "FL",
+      "name": "FAST/BEST/FAA School Grades achievement",
+      "original_numerical_name": "2024\u201325 Florida School Grades published accountable achievement",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive/protected Fall grades 3\u20138; native FAST/BEST/Access EOC/FAA accountable scope",
+      "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+      "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx"
+    },
+    "historical_state_extract": {
+      "path": "data/source/florida.json",
+      "sha256": "523afad888444e875fc8d06486b20240896341d55b14d9484e8b935888f66daf"
+    },
+    "count_definition_status": {
+      "status": "unverified_schoolgrades_valid_score_denominators",
+      "raw_fields": [
+        "Percent Tested",
+        "At least ten eligible component rule"
+      ],
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Native enrollment, percent tested and eligible component rules are source evidence; no exact valid-score denominator or ten-valid-scored floor is certified. Income and enrollment never substitute or select model membership."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separately validated exact 2024\u201325 grade-school point-only contract is approved. Historical source and numerical audits retain false approvals. Compact links require all current immutable artifacts/code/tests/policies and semantic replay. High, mixed, primary, closed, unmatched scopes and valid-score/count-floor holds remain unreleased."
+    }
+  }
+}

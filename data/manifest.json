@@ -542,6 +542,125 @@
       "sha256": "11e79d74cac96af228be063a9756c59aabc877cfa99217fe0b7ddc9352b9f5e1"
     },
     {
+      "id": "fl-duval-2025:assessment",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/fl_assessment_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx",
+      "sha256": "52d3d3d7c2187eb9cbe22477bd088c0c13570f6f2b9f45f74a4b9f771be70a5b"
+    },
+    {
+      "id": "fl-duval-2025:ccd_lea_directory",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "fl-duval-2025:ccd_lea_membership",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "fl-duval-2025:ccd_school_directory",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "fl-duval-2025:ccd_school_membership",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "fl-duval-2025:extract",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/source/duval.json",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx",
+      "sha256": "651aaf54cb08a179fbd9891b2cf96b8934df37093fa1854fcc4cb9678c8afa56"
+    },
+    {
+      "id": "fl-duval-2025:grade-guide",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/fl_guide_2025.pdf",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGradesCalcGuide25.pdf",
+      "sha256": "7dd60cd7c45d03f6324d16d9dcdeb244a5da79f5bccb25859badb32cc2932309"
+    },
+    {
+      "id": "fl-duval-2025:grades",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/fl_grades_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/7584/2425MembBySchoolByGrade.xlsx",
+      "sha256": "930a81159fac3db4b38c6428aebc2e5000e9199ce88bb80ecc7431838ae3c93a"
+    },
+    {
+      "id": "fl-duval-2025:historical_florida_extract",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/source/florida.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/florida.json",
+      "sha256": "523afad888444e875fc8d06486b20240896341d55b14d9484e8b935888f66daf"
+    },
+    {
+      "id": "fl-duval-2025:income",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/fl_income_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/7584/2425LunchStatusFS2-3.xlsx",
+      "sha256": "48cd9428ea32decf723cc03c2ee7d25528ed8df3db36b20d97e948805344086d"
+    },
+    {
+      "id": "fl-duval-2025:lunch-guide",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/raw/fl_lunch_definition_2025.pdf",
+      "url": "https://cdn.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf",
+      "sha256": "1c8617d492e845e8bdf584c4780de6ac1cf7e7d35e7f2faaa96cec30cf322216"
+    },
+    {
+      "id": "fl-duval-2025:numerical_audit",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/source/duval-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/duval-model-audit.json",
+      "sha256": "e49355188aef25eb9f5e73b5831ffab8ff27e1935ae8422cea8dbb02deff409d"
+    },
+    {
+      "id": "fl-duval-2025:numerical_audit_code",
+      "dataset_id": "fl-duval-2025",
+      "path": "scripts/audit_duval_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_duval_models.py",
+      "sha256": "91faf57180f0229001aafbc7b4c7fcab9695c85f3b7a6af96c138b8e3e7d38ac"
+    },
+    {
+      "id": "fl-duval-2025:numerical_audit_tests",
+      "dataset_id": "fl-duval-2025",
+      "path": "tests/test_duval_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_duval_models.py",
+      "sha256": "36dff5fb5e3b47a357d19f2487988a39e15acd3e7ed50cdcc700ded65e936f60"
+    },
+    {
+      "id": "fl-duval-2025:roster_audit",
+      "dataset_id": "fl-duval-2025",
+      "path": "data/source/duval-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/duval-district-audit.json",
+      "sha256": "7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b"
+    },
+    {
+      "id": "fl-duval-2025:source_audit_code",
+      "dataset_id": "fl-duval-2025",
+      "path": "scripts/audit_duval.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_duval.py",
+      "sha256": "e0b11390ad286c01180ed0cabf687fab27a11bb2af999b404061a6518e20e131"
+    },
+    {
+      "id": "fl-duval-2025:source_audit_tests",
+      "dataset_id": "fl-duval-2025",
+      "path": "tests/test_duval_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_duval_audit.py",
+      "sha256": "f0a21cc96ce75b7a8cd3a88e1bed7ccdf28281f3ade41d8ce842fa6bb84750f9"
+    },
+    {
       "id": "fl-hillsborough-2025:assessment",
       "dataset_id": "fl-hillsborough-2025",
       "path": "data/raw/fl_assessment_2025.xlsx",
@@ -18508,6 +18627,16 @@
       "source_url": "https://www.fldoe.org/file/18534/SchoolGradesCalcGuide25.pdf"
     },
     {
+      "id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "state": "FL",
+      "name": "FAST/BEST/FAA School Grades achievement",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive/protected Fall grades 3\u20138; native FAST/BEST/Access EOC/FAA accountable scope",
+      "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+      "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx"
+    },
+    {
       "id": "fl-hillsborough-2025:2025:Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools:ES",
       "state": "FL",
       "name": "Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools",
@@ -19538,6 +19667,12 @@
       "name": "Individual reported FRPL/direct-certification eligibility",
       "definition": "Florida 2024\u201325 Final Survey 3 (February) raw individual Lunch Status counts: D/F free eligibility + 3/E reduced eligibility + C/R CEP direct certification, divided by same-survey enrolled students (PK\u201312). Never uses the USDA 1.6-adjusted federal funding numerator or published school-grade economic percentage. CEP N means not individually identified eligible and is excluded from the numerator. Provision 2 code 4 reports all enrolled students, so schools with nonzero or masked code 4 have unavailable income. At CEP schools this proxy counts direct certification/household extension rather than a complete income survey of all families; undercount and reporting coverage are unknown. No other-year backfill.",
       "source_url": "https://www.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf"
+    },
+    {
+      "id": "fl-duval-2025:income",
+      "name": "Individual free/reduced-price eligibility and direct certification",
+      "definition": "2024\u201325 Final Survey 3 February PK\u201312 school individual eligibility: original free lunch D/F plus reduced-price 3/E plus direct-certification C/R counts divided by that school\u2019s own reported denominator. Provision 2 code 4 must be explicitly zero. District option 6/9 conversions to C/D are already required by the original data element. Federal funding multiplier columns, School Grades economic percentages, universal meal availability, enrollment substitutions and another-year income are not used. CEP individual identification coverage remains unknown; this is an economic disadvantage proxy.",
+      "source_url": "https://cdn.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf"
     },
     {
       "id": "fl-hillsborough-2025:income",
@@ -20704,6 +20839,30 @@
       "subject": "reading",
       "method_version": "ols-studentized-v1",
       "input_sha256": "5f2fceeb31ec4cb98c6047b85678684648d6da6cff7cdf9c548d9874b7fcc336"
+    },
+    {
+      "id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES:combined:ols-v1:28521eb7cb42",
+      "dataset_id": "fl-duval-2025",
+      "definition_id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "28521eb7cb42833f618c4079be0f4be34920355d1fa3a26b303274a336032214"
+    },
+    {
+      "id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES:math:ols-v1:28521eb7cb42",
+      "dataset_id": "fl-duval-2025",
+      "definition_id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "28521eb7cb42833f618c4079be0f4be34920355d1fa3a26b303274a336032214"
+    },
+    {
+      "id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES:reading:ols-v1:28521eb7cb42",
+      "dataset_id": "fl-duval-2025",
+      "definition_id": "fl-duval-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "28521eb7cb42833f618c4079be0f4be34920355d1fa3a26b303274a336032214"
     },
     {
       "id": "fl-hillsborough-2025:2025:Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools:ES:combined:ols-v1:894a1d6f47e2",
@@ -23269,6 +23428,23 @@
           "map_source": "School coordinates and district boundaries are unavailable in the audited Broward sources.",
           "statewide": false,
           "audit": "data/broward/coverage.json"
+        },
+        {
+          "id": "duval",
+          "name": "Duval",
+          "dataset": "fl-duval-2025",
+          "status": "ready",
+          "geography": "duval",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/duval/schools.json",
+          "boundaries": null,
+          "comparison": "Duval \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Duval independent 2024\u201325 grade-school district models use exact NCES LEA 1200480 / FL-16 / FDOE 16 identities. All 150 audited pure lower profiles with positive or protected Fall grades 3\u20138 and explicit-zero grades 9\u201312 remain searchable. Original whole-percent School Grades Math and ELA achievement supports 146 schools in each separate Math, ELA and independently fitted Combined model; four profiles retain missing achievement. Same-year individual February lunch-status counts use their own school denominator. Published accountable FAST PM3, BEST/Access EOC and eligible FAA achievement retains full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate. High, mixed, primary, closed and unmatched scopes remain outside this point-only release. Valid-score denominators and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Duval source release.",
+          "statewide": false,
+          "audit": "data/duval/coverage.json"
         },
         {
           "id": "florida",

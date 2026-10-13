@@ -80,3 +80,19 @@ Sixteen focused numerical tests, two actual byte-identical CLI builds, offline c
 ```
 
 Status is `numerically_verified_pending_integration`, scope `numerical_audit_only`; both historical approvals remain false. Separately validated normalized/canonical/static scope, actual repeated imports preserving previous data, independent integration reviews and HTTP/browser/master gates remain required. Integration begins in isolation; the main database and main district exports are held until root authorizes imports after those isolated gates.
+
+## Canonical and browser integration
+
+The separately validated [normalized release](../data/source/duval.json), rebuilt by [prepare_duval.py](../scripts/prepare_duval.py), supplies exact dataset `fl-duval-2025` /region `duval` readiness. Both historical source/numerical artifacts retain false approvals. The adapter binds all six immutable audit/code/test files, complete current raw/policy/runtime/definition evidence and normalized fingerprints before canonical access. All nine ownership tables are checked before import/deletion; identical Maryland/Delaware/Florida native school IDs keep composite dataset ownership.
+
+The release retains 150 searchable profiles, 150 same-year individual incomes, 300 native subject observations, 17 provenance records and three independent 146-school models. All 438 canonical/current/history results match original-source numerical verification. Four unavailable native achievement rows (`16-0061`, `16-0271`, `16-0281`, `16-0171`) stay searchable without results/history points. All thirty eligible charters, influential Seasides and Tiger's 100% eligibility remain. Counts, variance and every interval endpoint stay null modelwide; ten-score component eligibility does not certify a valid-score denominator or floor.
+
+Fourteen adapter tests, two actual normalized builds and two actual isolated imports pass. Both independent integration reviews pass, including 167,169 original/canonical/current/history checks, 156 linked-evidence freshness guards, 107 normalized/all-nine ownership corruption rejections and 109 complementary adapter-policy rejections. Two authorized actual main imports produce identical target rows and four exports, preserving every prior row in all nine tables, all 249 previous served files and all 312 preceding scientific files before shared regeneration.
+
+Repeated catalog/assessment-guide/planning exports add only Duval, retaining 63 preceding regions, 80 guide definitions/provider bindings and geometry. The catalog now contains 39 ready states /64 regions and the guide 81 definitions; eleven source holds remain. Planning marks only exact `1200480` as existing Duval; the original 66-district TODO keeps its completed row. All 88 distinct targeted Python tests (11 source, 16 numerical, 14 adapter and 47 other shared regressions), twenty JavaScript tests and syntax/diff checks pass. HTTP/browser verification and tested master delivery follow separately; finish remains blank until the remote commit is verified.
+
+```sh
+.venv/bin/python scripts/prepare_duval.py --extract-only
+.venv/bin/python scripts/prepare_duval.py
+.venv/bin/python -m unittest discover -s tests -p 'test_duval.py' -v
+```

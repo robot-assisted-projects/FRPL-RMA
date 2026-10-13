@@ -122,6 +122,8 @@ def scope(row):
         return 'existing_los_angeles'
     if row['LEAID'] == '1200390':
         return 'existing_miami_dade'
+    if row['LEAID'] == '1200480':
+        return 'existing_duval'
     if row['LEAID'] == '1200180':
         return 'existing_broward'
     if row['LEAID'] == '1200870':
@@ -308,6 +310,8 @@ def render(payload):
                 status = 'Existing Los Angeles Unified comparison; pure cohorts'
             elif row['scope'] == 'existing_miami_dade':
                 status = 'Existing Miami-Dade comparison; pure grade schools only'
+            elif row['scope'] == 'existing_duval':
+                status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
             elif row['scope'] == 'existing_broward':
                 status = 'Existing Broward comparison; pure grade schools only'
             elif row['scope'] == 'existing_hillsborough':
@@ -345,7 +349,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD and Prince George's County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD and Prince George's County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -588,6 +592,24 @@ def render(payload):
         'admissions, provider and geometry remain unaudited. Planning populations differ '
         'from audited model populations and never approve a model. The fixed 66-district '
         'TODO retains every completed row.', ''])
+    lines.extend([
+        'The [Duval source, numerical and integration audits](duval-district.md) retain '
+        'exact Florida LEA `1200480` / `FL-16` / native `16`, all 211 CCD directory '
+        'and 203 operational identities. The separate School Grades grade-school comparison '
+        'keeps 150 exact tested-grade profiles and three independent 146-school fits, '
+        'with all 438 deletions verified. Four absent achievement rows remain searchable '
+        'without results; all thirty eligible charters, influential Seaside campuses and '
+        'Tiger Academy’s 100% individual eligibility remain. Precise February FS3 individual '
+        'D/F + 3/E + C/R ratios exclude funding multipliers and require Code 4 zero. '
+        'Original whole-percent FAST/B.E.S.T./Access EOC/eligible FAA achievement retains '
+        'full-year and home-zoned scope; Datafolio and percent-tested participation stay '
+        'separate. Zero-tested Smart Pope, protected grades and the unjoined John Love '
+        'identity/enrollment gap remain explicit. Counts, variance and intervals stay null '
+        'modelwide, with valid-score scope and the ten-score floor uncertified. Historical '
+        'approvals stay false; readiness belongs only to the separate validated normalized '
+        'population. High/mixed/primary, admissions, provider and geometry remain unaudited. '
+        'Discovery’s 151 potential grade schools never select the 150 source profiles or '
+        '146 model members. The fixed66 TODO retains completed districts.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

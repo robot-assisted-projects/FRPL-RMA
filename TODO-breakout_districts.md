@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 17:35:34 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 17:58:46 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -10,7 +10,7 @@ Last tracker update: **2026-10-13 17:35:34 America/Chicago**. GitHub account: **
 | [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Merged; counts/intervals unavailable | 2026-10-13 15:17:13 |
 | [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Merged; counts/intervals unavailable | 2026-10-13 16:55:35 |
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Verifying browser/canonical integration | — |
-| Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
+| Philadelphia City SD | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Verifying original income and PSSA population | — |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
 | POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
 | Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | — | Not yet started | — |
@@ -121,7 +121,7 @@ Add notes for a district when work starts or a material blocker appears: latest 
 - Identity/enrollment gap: CCD district enrollment 130,054 differs from 203 operational-school totals 129,932 by 122. Native-only `16-0734` John Love Early Learning Center reports fall PK 122 and February 132 without a CCD identity. Matching 122 does not prove the cause or authorize a join. Smart Pope `16-1491` has zero native grades 3–8 and stays outside the tested-grade population.
 - Source gate complete **2026-10-13 17:18:53**: eleven source tests, eleven state/planning regressions, two byte-identical actual original builds and both independent reviews pass (84,785 original checks; 212 corruption rejections). All prior canonical rows and 249 served files remain unchanged. Historical approvals/count floor remain false/uncertified.
 - Numerical gate complete **2026-10-13 17:35:34**: sixteen tests, two identical actual builds and both independent reviews pass, all 438 deletion fits with positive finite scale and no hard holds; 254,529 comparisons /305 corruption/freshness rejections. All thirty charters and Tiger’s 100% eligibility remain; Combined has its own scale/studentization.
-- Next: isolated normalized/canonical/static validation and ownership guards, then authorized repeated main imports, browser and master delivery. Historical approvals and counts/intervals remain false/unavailable. Finish date is blank.
+- Canonical/static integration: fourteen adapter tests, both reviews, two isolated imports and two actual main imports pass; all prior rows in nine tables and 249 served assets are preserved. All 438 results match original-source fits. Shared exports repeat exactly: 39 states /64 regions /81 definitions, with all previous populations/provider bindings/geometry retained. All 88 distinct Python/20 JavaScript tests pass. Browser and master delivery are next; historical approvals and counts/intervals remain false/unavailable. Finish date is blank.
 
 ## Blockers for listed districts
 
@@ -175,3 +175,11 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 17:18:53:** Duval source gate passes both reviews, 22 focused tests and original replay. Began separate numerical verification; historical approvals/count and identity holds stay unchanged, finish date blank. Philadelphia has only a read-only existing-record preflight; source work remains unstarted.
 
 - **2026-10-13 17:35:34:** Duval numerical gate passes both reviews and sixteen tests; isolated normalized/canonical/browser integration begins. Historical approvals, count/floor and source-identity holds stay unchanged; finish date blank.
+
+- **2026-10-13 17:58:46:** Duval repeated canonical/static integration and all targeted tests pass; browser/master gates are pending. Philadelphia actual original-source/cohort audit began **2026-10-13 17:57:35**, using exact `4218990 / PA-126515001` identity. Its preflight counts remain provisional, no fits/imports or release approvals; all other fixed66 rows retain their status/dates.
+
+## Next work: Philadelphia
+
+- Exact **4218990 / PA-126515001 / AUN 126515001**, 2024–25. Original-source/cohort work started **2026-10-13 17:57:35** while Duval final browser delivery is reviewed.
+- Next: rebuild original Pennsylvania workbook/PDF evidence, verify authoritative school-ID normalization, same-year October individual-income numerator/denominator and regular PSSA All Students Total proficiency/valid-score scope. Keystone/PASA and separate charter LEAs remain outside the proposed population.
+- Existing-record preflight suggests 162 pure grade-school profiles; it does not approve counts, models or a browser comparison. Both source/model approvals remain false. No numerical or canonical work is authorized by the preflight; finish is blank.
