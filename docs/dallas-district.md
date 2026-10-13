@@ -62,3 +62,35 @@ Explicit original reconstruction verifies every whole-file pin and reopens the o
 Two actual original-source builds reproduce **4,856,854 bytes**, SHA-256 **`f2a0fd319e2a5a77a1454117cbd359f399962234115d9bf611bca68fa49a6b6c`**, including both repeats after the strict planning-reference repair. All **19 focused tests**, offline replay and compilation pass. Independent original reconstruction verifies 133,744 strict comparisons, all source pins and native eligibility, with 56 additional corruption rejections and fifteen valid edge controls. Complementary review passes nineteen primary-definition controls and 38 corruption cases, including deliberately repinned raw/source/policy attacks and the repaired planning-reference types. Both independent source reviews pass with **94 additional corruption rejections** total and no remaining findings.
 
 Numerical full/deleted fits, a separately validated normalized contract, canonical/static preservation and repeatability, HTTP/browser review and tested master delivery remain required. This source-only milestone stays on `expansion/all-states`; its row remains unfinished in the fixed [66-district TODO](../TODO-breakout_districts.md).
+
+## Independent numerical audit
+
+The compact [dallas-model-audit.json](../data/source/dallas-model-audit.json) and [audit_dallas_models.py](../scripts/audit_dallas_models.py) verify three separate unweighted 2024–25 grade-school district fits. The complete original source remains stored once in the immutable source audit. Every numerical replay, including cached-expected validation, requires its whole-file/source-code/test/policy/raw/schema/definition pins and semantic replay. Exact x/y, NCES/native identities, original table/row/field pointers, full/deleted fits and exclusions remain in the numerical artifact. Missing or changed linked evidence fails validation; compact storage does not remove auditability.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Usable schools | 188 | 188 | 188 |
+| Intercept | 88.706339 | 109.499801 | 99.103070 |
+| Income slope | -0.490590 | -0.639339 | -0.564965 |
+| R² | 0.344390 | 0.486553 | 0.458078 |
+| Maximum leverage | 0.132941 | 0.132941 | 0.132941 |
+| Maximum Cook distance | 0.122600 | 0.125462 | 0.061975 |
+| Largest deleted prediction change across observed income range, percentage points | 2.011634 | 1.972519 | 1.193460 |
+
+All 188 eligible members per subject and **564 explicitly deleted-school fits** have rank-two designs and positive finite residual scale. Full residual degrees of freedom are 186; deleted training populations are 187 with 185 residual degrees of freedom. Studentization uses the scale estimated from the other members, not one shared overall standard deviation.
+
+Combined fits the equal mean of original whole-percent subject rates and has its own residual scale, deletions and externally studentized values. Because Math/ELA populations and predictors are identical here, its coefficients mathematically equal the averaged subject coefficients. Its studentized scores and scales cannot be obtained by averaging the subject scores/scales.
+
+The two 100%-income campuses and influential Pleasant Grove campus **`481623013856`** remain included. Fit flags are descriptive and never exclusions or admissions classifications. Linear OLS is unbounded: the ELA prediction at the minimum observed income is **103.388028%**, retained without clamping. This is a fitted linear expectation, not a bounded probability or a causal school-effectiveness estimate. Deletion sensitivity applies only across observed incomes. Enrollment adjustment, shrinkage and cross-state ranking are not provided.
+
+Counts, sampling variances and every interval endpoint remain null modelwide. The scored floor remains uncertified, and both historical audit approvals remain false. Native status/suppression, whole-percent precision, individual income and all outside populations stay linked to full source evidence. Status is `numerically_verified_pending_integration`, scope `numerical_audit_only`; there is no canonical or browser release at this gate.
+
+```sh
+.venv/bin/python scripts/audit_dallas_models.py
+.venv/bin/python scripts/audit_dallas_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_dallas_models.py' -v
+```
+
+All **14 numerical tests** pass. Two actual fresh CLI builds reproduce **1,144,532 bytes**, SHA-256 **`d9cc5234421fe0113a95534fcc631daf226a9d6235e29685415d9cf37d9ccaa8`**; offline check and compilation pass. Both independent reviews verify original x/y and source pointers, centered NumPy full/all-deletion fits and complementary 50-digit Decimal full/14 selected deletions. They pass **32,608 exact input/reference/numerical checks** and **131 additional corruption/freshness probes**, with maximum scalar difference `3.64e-12`. Canonical data and all 241 served assets remain unchanged.
+
+A separately validated normalized grade-school contract, actual repeated canonical imports/exports, preservation, independent integration and HTTP/browser review remain required before master delivery.

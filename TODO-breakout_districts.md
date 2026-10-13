@@ -1,13 +1,13 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 14:02:33 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 14:48:45 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
 | District | State | District ID (NCES / native) | Started working at | Most recent update | Finished on |
 | --- | --- | --- | --- | --- | --- |
 | [Charlotte-Mecklenburg Schools](docs/charlotte-district.md) | NC | 3702970 / NC-600 | 2026-10-10 05:06:51† | Merged; counts/intervals unavailable | 2026-10-13 14:02:33 |
-| [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Verifying district numerical models | — |
+| [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Verifying browser/canonical integration | — |
 | Prince George's County Public Schools | MD | 2400510 / MD-16 | — | Not yet started | — |
 | DUVAL | FL | 1200480 / FL-16 | — | Not yet started | — |
 | Philadelphia City SD | PA | 4218990 / PA-126515001 | — | Not yet started | — |
@@ -99,7 +99,8 @@ Add notes for a district when work starts or a material blocker appears: latest 
 - District: **4816230 / TX-057905**, 2024–25. Source/cohort work started **2026-10-13 13:57:10** after a read-only source inventory found exact operational CCD/TAPR identities and individually reconciled economic counts.
 - Verified source inventory: 249 directory records, 239 operational native campuses, 189 grade / 37 high / seven mixed / six primary configurations. Published whole-percent grade-school outcomes suggest 188 Math / ELA / Combined members; the blank disciplinary-alternative outcomes stay unavailable. The source-only artifact has false approvals; these counts do not approve a model.
 - Source gate complete **2026-10-13 14:26:17**: [full original-source audit](docs/dallas-district.md), 2,904 records /112,006 cells, nineteen tests, two final original builds and both independent reviews pass (133,744 strict comparisons; 94 additional corruption rejections). Native whole-percent outcomes differ from unverified count arithmetic at186 Math/184 ELA campuses.
-- Next: verify separate full and all564 deleted-school district fits using original published rates and precise individual economic ratios; then canonical/static/browser preservation and reviewed master delivery. Source/code/test/policy pins are mandatory. Complete raw evidence remains stored once in the committed source audit and linked by verified references in later phases.
+- Numerical gate complete **2026-10-13 14:48:45**: all188 Math/ELA/Combined members and564 explicit deletions verified; fourteen tests, two fresh CLI builds and both reviews pass (32,608 exact checks;131 additional corruption/freshness rejections). Unbounded ELA expectations and influential/100%-income members remain unchanged.
+- Next: separately validated normalized release, repeat canonical/static preservation and HTTP/browser review, then tested master delivery. Every compact replay/import must verify the complete linked source/code/test/policy evidence. No finished date yet.
 - Limitation: native scored-count/status scope and the ten-valid-scored floor remain uncertified. A separately audited point-only release would keep every verified count, variance and interval null, without substituting enrollment or count arithmetic for published rates.
 
 ## Blockers for listed districts
@@ -132,3 +133,5 @@ For each listed district delivered to master, record the actual datetime, remote
 - **2026-10-13 14:04:52:** Verified successful Charlotte Pages deployment and the live comparison, including source masks, fixed cohorts, first search and mobile layout. Dallas source-only audit continues.
 
 - **2026-10-13 14:26:17:** Dallas original-source/cohort gate passes both independent reviews, nineteen tests and repaired-code original replay. Began separate numerical validation; approvals/count floor remain false/uncertified and finish date remains blank.
+
+- **2026-10-13 14:48:45:** Dallas numerical gate passes both independent reviews and fourteen tests; canonical/browser implementation begins. Historical approvals and unknown counts remain unchanged, finish date blank.
