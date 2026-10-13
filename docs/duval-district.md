@@ -96,3 +96,5 @@ Repeated catalog/assessment-guide/planning exports add only Duval, retaining 63 
 .venv/bin/python scripts/prepare_duval.py
 .venv/bin/python -m unittest discover -s tests -p 'test_duval.py' -v
 ```
+
+Duval local HTTP/browser verification passes **28 assertions**, completed **2026-10-13 18:06:09 America/Chicago**: first off-page search, keyboard selection, pagination, four missing outcomes/history gaps, fixed models, influential/100%-income cases, sharing/empty/invalid URLs, seven separate Florida guide links and true 390-pixel layout. Eight actual HTTP assets and nineteen release/shared Git blobs match tested candidate `d0590d6`; no overflow or console findings. Reviewed master delivery and public readback follow separately.
