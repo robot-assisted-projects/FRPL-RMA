@@ -23,6 +23,7 @@
 - `scripts/state_registry.py`, [expansion ledger](docs/state-expansion.md): all 50 states, source discovery and concrete blockers. Discovery never grants modeling approval.
 - `scripts/plan_district_comparisons.py`, [district queue](docs/district-comparisons.md): district size/cohort screening for work after the statewide basics; planning counts never approve a district model.
 - [TODO-breakout_districts.md](TODO-breakout_districts.md): primary district progress tracker, with recorded starts, concise latest updates, next steps/blockers and verified master-delivery finish dates. Preserve hand edits and update the affected row and notes after each work unit.
+- Current work is limited to the 66 first-tier districts in that TODO, selected by `tier=main` and `scope=new_district_candidate`. Keep completed rows in the same list. Broader discovery records, smaller districts and existing comparisons are not additional work; statewide/assessment research is allowed only to resolve a listed district's dependency.
 - `data/source/`: reproducible extracts; `data/*.json` and `data/illinois/`: website output.
 - `data/raw/` and `data/build/`: ignored downloads and local database; do not commit them.
 - [README.md](README.md): statistical specification, coverage limitations, rebuild instructions.

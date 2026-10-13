@@ -6,6 +6,8 @@ Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 66 fir
 
 The root [district TODO](../TODO-breakout_districts.md) records current starts, latest updates, next steps/blockers and verified master-delivery finish dates. It replaces the bulk district issue/attachment workflow and retains all 66 first-tier candidates. The [first-tier issue index](district-issues.md) remains historical evidence. Each completed district must pass its audit, integration and test/browser gates before the user-authorized delivery to `master` through `fine-fiddle`. All 172 second-tier candidates remain paused until further discussion.
 
+**Current work is restricted to the 66 first-tier ordinary district candidates in the TODO.** This broader discovery ledger retains historical/existing, second-tier and special-agency records as evidence; they are not additional tasks. Preserve the fixed TODO membership as listed districts are completed.
+
 ## Selection and implementation gates
 
 - First tier: at least 50,000 students and 30 potential pure grade schools or 30 potential pure high schools. Second tier: 20,000–49,999 students with the same cohort floor.

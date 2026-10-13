@@ -1,5 +1,7 @@
 # GitHub issue work
 
+**Current district work is restricted to the 66 first-tier large breakout districts in [the root TODO](../TODO-breakout_districts.md).** The broader historical records below do not add work. Source or assessment research is allowed only for a listed district's dependency; unrelated statewide/guide and smaller-district work is outside this task.
+
 Work continues on `expansion/all-states` in [robot-assisted-projects/FRPL-RMA](https://github.com/robot-assisted-projects/FRPL-RMA). The branch is separate from the GitHub Pages publishing branch, `master`. The user's 2026-10-13 instruction makes the root [district TODO](../TODO-breakout_districts.md) the primary district work record and returns GitHub.com operations to `fine-fiddle`. The 66 remaining first-tier districts retain their independent audit/integration gates; all second-tier district work remains paused until further discussion. The earlier child-issue/attachment workflow is historical and superseded. The user authorizes delivery to `master` after each complete, tested and independently reviewed district; source-only and numerical-only milestones remain incomplete. The saved follow-up instructions now use the TODO and `fine-fiddle`, with their existing paused state preserved.
 
 ## Historical 2026-10-10 issue setup

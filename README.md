@@ -40,7 +40,7 @@ Charlotte-Mecklenburg Schools, North Carolina, has a separate [original-source/c
 
 A build-free static website: HTML5, CSS, vanilla JavaScript and vendored D3 7.9.0. Python + Polars prepare the committed JSON. No server API, npm, tracking, map service or runtime CDN is required.
 
-The root [district TODO](TODO-breakout_districts.md) is the primary progress tracker: all large-district planning records, recorded starts, concise latest updates, next steps/blockers and verified master-delivery finish dates. It preserves the 66 remaining first-tier districts and keeps all second-tier work paused. The earlier [district issue index](docs/district-issues.md) is historical. GitHub operations now use `fine-fiddle`; each district reaches completion after its approved audits, canonical/browser integration and validation pass and its tested change reaches the user-authorized `master` target.
+The root [district TODO](TODO-breakout_districts.md) is the primary progress tracker for **only the agreed 66 first-tier large breakout districts**: recorded starts, concise latest updates, next steps/blockers and verified master-delivery finish dates. Its fixed list uses `tier=main` and `scope=new_district_candidate`; the broader discovery ledger does not add tasks. Other district work remains outside the current scope. The earlier [district issue index](docs/district-issues.md) is historical. GitHub operations use `fine-fiddle`; each listed district reaches completion after its approved audits, canonical/browser integration and validation pass and its tested change reaches the user-authorized `master` target.
 
 ## Preview
 
