@@ -74,3 +74,5 @@ Repeated shared exports are byte-identical. Only one district region and assessm
 .venv/bin/python scripts/prepare_prince_georges.py
 .venv/bin/python -m unittest discover -s tests -p 'test_prince_georges.py' -v
 ```
+
+All **93 distinct targeted Python tests** pass: 18 source, 15 numerical, 13 adapter/integration and 47 Maryland/shared regressions. All twenty JavaScript guide/URL tests and syntax/diff checks pass. HTTP/browser verification passes **26 assertions**, covering first post-reload off-page search, keyboard selection, 75→150→159 pagination, all thirteen Math/Combined masks with ELA retained, fixed models, influential cases, chart/table/history gaps, sharing, explicit empty selection and invalid IDs. Maryland's three separate guide populations, primary waiver/DLM sources and unknown provider roles remain explicit. True 390-pixel layout has no page overflow; keyboard access can scroll the history table. Browser warnings/errors are empty. Eight actual HTTP assets and nineteen release/shared Git blobs match tested source commit `46a12b9`. Master and public delivery are recorded separately in the [publication log](publication-log.md).
