@@ -37,3 +37,32 @@ For the original Pennsylvania sources and statewide scope, see the [state data g
 .venv/bin/python scripts/audit_philadelphia.py
 .venv/bin/python -m unittest discover -s tests -p 'test_philadelphia_audit.py' -v
 ```
+
+## Independent numerical audit
+
+The compact [numerical artifact](../data/source/philadelphia-model-audit.json), rebuilt by [audit_philadelphia_models.py](../scripts/audit_philadelphia_models.py), keeps the full original tables stored once in the historical source artifact. Every API, including cached/expected replay, verifies complete current linked source/code/test/policy/raw/schema/definition evidence, literal/runtime policy, original count/rate types and exact native/NCES pointers. Both historical source/numerical approvals remain false; status is `numerically_verified_pending_integration`, scope `numerical_audit_only`.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Eligible schools | 162 | 162 | 162 |
+| Intercept | 105.741459 | 116.609942 | 111.175701 |
+| Disadvantage slope | -1.044102 | -1.078268 | -1.061185 |
+| R² | 0.757766 | 0.815153 | 0.810356 |
+| Maximum leverage | 0.123438 | 0.123438 | 0.123438 |
+| Maximum Cook distance | 0.169347 | 0.242654 | 0.233249 |
+
+All **486 explicit deleted-school fits** have rank-two designs and positive finite scales, with no hard holds. Full/deleted residual degrees of freedom are 160/159. The same 162 income values make Combined coefficients equal subject means by OLS linearity, while Combined retains its own original paired outcomes, scales, deletion fits, studentized residuals and intervals. Coefficients do not supply Combined's other statistics.
+
+All 324 subject denominators are original certified Number Scored values, minimum42≥native11. Each subject's smoothed binomial variance follows the repository's Jeffreys formula. Combined uses `(sqrt(v_math)+sqrt(v_ELA))²/4`, the maximum positive covariance bound. Each conditional interval propagates **every model member's** variance through `(I−H)`, holding the observed deleted regression scale fixed for `t ± 1.96 SE`. Combined's displayed count is the smaller native subject count, not a paired or deduplicated denominator; both original counts supply the variance calculation. These approximate conditional intervals hold income/design and deleted scale fixed, assume independent school rate errors and do not add source-rounding or income uncertainty. Enrollment never substitutes for scored counts or weights the fit.
+
+Meredith William M `126515001-000003649` retains ELA expectation **100.319561%**; influential Greenfield Albert M `126515001-000005186` retains **100.043559%**. The linear model is unbounded. Jenks Abram's authoritative native `000007227` maps to NCES **`421899003644`**, with differing suffixes preserved; its Combined t is about **4.456091**, interval **[3.322565, 5.589617]**. Influence and residual size do not remove eligible members or establish admissions, causal effectiveness or quality. All 59 outside CCD records and separate native-only building9999 remain linked.
+
+Numerical gate verified **2026-10-13 18:51:54 America/Chicago**. Thirteen numerical tests, two actual fresh byte-identical CLI builds, offline check and compilation pass. The **1,707,603-byte** artifact has SHA-256 **`9ede3ce013d27e1947e698d9e8d1793cbec977f5e6f82822ccf197c1d8d5949d`**. Both reviews pass **191,643 original/pointer/numerical checks**, all 486 independent NumPy deletions and fifteen selected 50-digit Decimal deletion/interval cases, with **248 corruption/freshness rejections**; maximum difference `5.46e-12`. Whole canonical bytes, all nine prior tables, 253 served files and 318 prior scientific files remain unchanged.
+
+```sh
+.venv/bin/python scripts/audit_philadelphia_models.py
+.venv/bin/python scripts/audit_philadelphia_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_philadelphia_models.py' -v
+```
+
+Next: separately validated normalized/canonical/static integration, initially isolated. Main imports remain held until adapter tests, both integration reviews and all nine ownership guards pass; repeated main imports, browser verification and tested master delivery follow. No source/numerical artifact supplies browser readiness.
