@@ -51,3 +51,32 @@ The ten-eligible achievement component rule does **not** establish ten valid sco
 Two actual original builds reproduce **2,450,652 bytes**, SHA-256 **`7af9098534c3b502f5acdedf52cd0b7dfd1c25c7ec183055018892418ff2e54b`**. All eleven focused source tests, offline replay and compilation pass. Eleven Florida/district-planning regression tests pass separately. The complete canonical database, all prior rows in nine tables, 249 served assets and preceding scientific files remain unchanged. Historical source/model approvals stay false.
 
 The independent original-source review passes **84,785 strict raw/cohort/reference comparisons** and **100 corruption rejections**, with no findings. Complementary primary/method review passes 89 controls and 112 further corruption rejections, including deliberately repinned raw/schema attacks and fifteen independently reread primary PDF pages. Both reviews pass with **212 total additional corruption rejections** and no findings. Source gate verified **2026-10-13 17:18:53 America/Chicago**; separate numerical full/deleted verification is authorized next. Later compact artifacts must verify the complete linked source/code/test/policy/raw/schema/definition evidence on every replay, including cached paths, without duplicating these raw tables. Canonical/static repeatability, independent integration review, HTTP/browser checks and user-authorized master delivery remain separate required gates. The [fixed 66-district TODO](../TODO-breakout_districts.md) retains a blank finish date until verified master delivery.
+
+## Independent numerical audit
+
+The compact [duval-model-audit.json](../data/source/duval-model-audit.json), rebuilt by [audit_duval_models.py](../scripts/audit_duval_models.py), independently verifies three unweighted 2024–25 district models. Full raw records stay in the immutable source audit, stored once. Exact native/NCES identities, original table/worksheet/row/column/field pointers and original x/y remain linked. Every numerical replay, including cached expected validation, verifies complete current source/code/test/policy/raw/schema/definition evidence and typed runtime labels/MIN_SCHOOLS/SUBJECTS against immutable contracts; repinning public fingerprint variables does not bypass that validation.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Usable schools | 146 | 146 | 146 |
+| Intercept | 87.331036 | 83.441617 | 85.386327 |
+| Disadvantage slope | -0.542791 | -0.612440 | -0.577615 |
+| R² | 0.485470 | 0.604029 | 0.575685 |
+| Maximum leverage | 0.047789 | 0.047789 | 0.047789 |
+| Maximum Cook distance | 0.212625 | 0.117987 | 0.168446 |
+
+All **438 explicit deleted-school fits** have rank-two designs and positive finite scales, with no hard holds. Full/deleted residual degrees of freedom are 144/143 in each model. Minimum deleted scales are about 11.5102 Math /10.2024 ELA /10.2009 Combined. Externally studentized residuals use other members' scale, without enrollment weighting or shrinkage.
+
+Every model has the same 146 members and income vector, so OLS linearity makes Combined's coefficients equal the mean of subject coefficients. Combined still fits the original equally weighted paired subject rates independently and has its own scale, deletion fits and studentized values; subject t scores or scales cannot be averaged. All thirty charters remain included. Tiger Academy `16-1211` retains its original 190/190 individual eligibility, or 100%. Influential Seaside Community Charter `16-5401` and Seaside Charter K–8 `16-5631` remain; diagnostics never remove otherwise eligible schools or infer admissions, causal effectiveness or quality.
+
+Observed-income predictions happen to lie in 0–100; the linear model is unbounded and never clamped. All 150 source profiles, four missing native outcomes, 61 directory exclusions, protected-grade records and the unjoined John Love/enrollment-difference evidence remain linked. Counts, scored floor, variances and intervals stay uncertified/unavailable throughout every model. Authored labels use School Grades and explicitly distinguish Datafolio from percent-tested participation; immutable original source strings remain unchanged.
+
+Sixteen focused numerical tests, two actual byte-identical CLI builds, offline check and compilation pass. Both independent numerical reviews pass **254,529 original input/pointer/model comparisons**, all 438 NumPy deletion fits, three full 50-digit Decimal fits and eleven selected Decimal deletions. All **305 additional numerical/freshness/repinned corruption rejections** pass; maximum numerical difference is `5.46e-12`. Complete canonical bytes, all prior rows in nine tables and all 249 served assets remain unchanged.
+
+```sh
+.venv/bin/python scripts/audit_duval_models.py
+.venv/bin/python scripts/audit_duval_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_duval_models.py' -v
+```
+
+Status is `numerically_verified_pending_integration`, scope `numerical_audit_only`; both historical approvals remain false. Separately validated normalized/canonical/static scope, actual repeated imports preserving previous data, independent integration reviews and HTTP/browser/master gates remain required. Integration begins in isolation; the main database and main district exports are held until root authorizes imports after those isolated gates.
