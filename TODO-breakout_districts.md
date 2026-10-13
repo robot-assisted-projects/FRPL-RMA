@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 18:12:33 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 18:33:36 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -10,7 +10,7 @@ Last tracker update: **2026-10-13 18:12:33 America/Chicago**. GitHub account: **
 | [DALLAS ISD](docs/dallas-district.md) | TX | 4816230 / TX-057905 | 2026-10-13 13:57:10 | Merged; counts/intervals unavailable | 2026-10-13 15:17:13 |
 | [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Merged; counts/intervals unavailable | 2026-10-13 16:55:35 |
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
-| Philadelphia City SD | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Verifying original income and PSSA population | — |
+| [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Verifying district models and sampling intervals | — |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
 | POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
 | Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | — | Not yet started | — |
@@ -182,10 +182,13 @@ For each listed district delivered to master, record the actual datetime, remote
 
 - Exact **4218990 / PA-126515001 / AUN 126515001**, 2024–25. Original-source/cohort work started **2026-10-13 17:57:35** while Duval final browser delivery is reviewed.
 - Next: rebuild original Pennsylvania workbook/PDF evidence, verify authoritative school-ID normalization, same-year October individual-income numerator/denominator and regular PSSA All Students Total proficiency/valid-score scope. Keystone/PASA and separate charter LEAs remain outside the proposed population.
-- Existing-record preflight suggests 162 pure grade-school profiles; it does not approve counts, models or a browser comparison. Both source/model approvals remain false. No numerical or canonical work is authorized by the preflight; finish is blank.
+- Source gate complete **2026-10-13 18:33:36**: [source evidence](docs/philadelphia-district.md), 21 focused tests, two final original builds and both reviews pass. All 162 profiles and 324 valid-score denominators (minimum42) are verified, with all source gaps retained. Whole canonical data and prior exports are unchanged.
+- Next: independently verify full/deleted models and conditional intervals; then separately validate canonical/static/browser integration and tested master delivery. Both historical approvals stay false; finish is blank.
 
 Duval local HTTP/browser verification passes **28 assertions**, completed **2026-10-13 18:06:09 America/Chicago**: first off-page search, keyboard selection, pagination, four missing outcomes/history gaps, fixed models, influential/100%-income cases, sharing/empty/invalid URLs, seven separate Florida guide links and true 390-pixel layout. Eight actual HTTP assets and nineteen release/shared Git blobs match tested candidate `d0590d6`; no overflow or console findings. Master delivery verified **2026-10-13 18:07:51**, commit `e19d061`, through fine-fiddle; Pages deployment and public readback pass **2026-10-13 18:12:33**.
 
 - **2026-10-13 18:07:51:** Duval passed all source/numerical/canonical/browser release gates and reached master at `e19d061`; its completed row stays in the fixed66 table. Philadelphia original-source auditing continues. Remaining new districts: 62. Pages deployment and public readback pass **2026-10-13 18:12:33**.
 
 - **2026-10-13 18:12:33:** Duval Pages deployment and fifteen public-browser assertions pass; all eight assets match tested candidate `d0590d6`. Philadelphia original-source auditing remains active. Fixed66 identities and completed rows stay intact.
+
+- **2026-10-13 18:33:36:** Philadelphia source gate passes ten source/eleven state-planning tests, two final original builds and both reviews. Retained-row validation gap repaired before freeze; 162 profiles and 324 valid-score denominators verified. Separate numerical full/deleted and interval verification begins; historical approvals stay false and finish remains blank.
