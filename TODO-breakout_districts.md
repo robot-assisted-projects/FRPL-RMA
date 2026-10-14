@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 04:23:54 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 05:11:25 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -16,9 +16,9 @@ Last tracker update: **2026-10-14 04:23:54 America/Chicago**. GitHub account: **
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
-| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying private integration; counts/intervals unresolved | — |
-| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Preparing private integration; counts/status held | — |
-| KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying original source/cohort; counts held | — |
+| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Final review; counts/intervals unavailable | — |
+| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying private repeat; counts/status held | — |
+| KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying numerical models; counts/status held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | — | Not yet started | — |
 | DeKalb County | GA | 1301740 / GA-644 | — | Not yet started | — |
@@ -320,7 +320,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 
 - Exact **1201080 / FL-36 / FDOE36**,2024–25. Source/cohort work started **2026-10-14 02:31:47**; [independent source gate](docs/lee-district.md) passed **03:35:18**.
 - Done:78 source-certified prospective schools per subject, eleven charters and Island’s real0% own February eligibility ratio retained; four missing native identities, primary9123,25 protected-grade profiles/70 cells and16 offered/enrolled disagreements stay explicit.1449 needed rows34610cells, complete13198school/227LEA omissions,14 tests/two identical builds and230571 independent comparisons/51 rejections/nine controls pass. All historical assets/data preserved through documented Cobb addition.
-- Next: separate unweighted full/deleted Math, ELA and paired Combined verification. Source3 stays immutable with false approvals. Counts/status/floor/variances/intervals remain uncertified; no canonical/browser release. Finish stays blank.
+- Done: numerical234 deletions, final12 adapter checks and independently reviewed private/main import pairs. Shared exports repeat and93 Python/20 JavaScript checks pass. Next: local website/final shared review, tested master push and public verification. Source/model6 stays immutable/false; counts/floor/intervals remain unavailable. Finish stays blank.
 
 - **2026-10-14 03:55:19**: Northside independent source gate passes03:51:14:107 profiles /104 per subject; all131 records,15 sources,1543 needed rows /59450 cells plus complete omissions,14 tests/two identical builds,327295 comparisons/88 rejections/13 controls. Three masked alternatives, Homebound missing native ID and72 unassigned membership differences remain. Northside requires312 numerical deletions; its numerical work begins with104 members per fit, counts/status/floor/CIs held and no release. Lee producer numerical18 tests and identical actual CLI pair pass, retaining all234 deletions; independent numerical review is pending. Ten of fixed66 finished /56 remain.
 
@@ -332,3 +332,11 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - Next: reconstruct exact operational CCD/TAPR joins, native enrolled lower grades, own individual October economic numerator/denominator and published Meets-or-above outcomes with all held/outside records retained. Existing N/M count/status/floor/CIs stay held; no repeated failed source investigation without new evidence. No fits/imports/release approval.
 
 - **2026-10-14 04:23:54**: Northside numerical gate passes04:18:51:104/104/104 and312 explicit deletions,18 final tests/two identical builds,159003 independent original/NumPy comparisons,208 rejection/seven controls/60-digit checks. Helotes influence/masks/missing133/deltas remain; source/model6 false/immutable/counts-status-floor-CIs held. Private normalization is next. Lee final-frozen-trio first private import passes its independent closed checkpoint, preserving old nine tables/277 assets; repeat and full canonical/guard review follow. Katy source65 profiles/64 prospective subjects retain one masked alternative and two native gaps, final source checks pending. Ten finished /56 remain.
+
+- **2026-10-14 04:43:29**: Lee final-trio private pair and detailed independent original/normalized/canonical/current/history comparison pass:87279 checks, including32989 normalized fields and234 accepted NumPy results; source19/profile78/income78/outcome156/model3/result234 are exact. Allold9/277assets/378science/MAIN7b266 remain. Current/standalone-empty/prewrite/namespace guard review is closing; no actual main/static import. Northside isolated adapter16 targeted methods are being tested, with107 profiles104subject models/3 masks retained. Katy immutable source3/two identical original builds/14 tests are undergoing independent original review. Ten finished /56 remain.
+
+- **2026-10-14 04:49:21**: Lee isolated gate passes final12 tests, two actual normalized CLI outputs and final-frozen-trio full-MAIN-copy private pair with independent first checkpoint.87279 original/normalized/canonical/current/history checks and307 necessary rejections/five controls pass, preserving11charters/Island0%/Athenian/ownFeb/native outcomes/alloldrowsassets. Exactly one actual MAIN import is authorized04:48:07; repeat/shared/browser/master stay gated. Northside normalized final16 tests continue under strengthened fresh numerical validation; Katy independent original196798 checks pass with required guard review pending. Ten finished /56 remain.
+
+- **2026-10-14 05:07:38**: Lee’s two actual main imports repeat all target tables/four exports exactly and pass independent review; all prior rows/assets/science preserved. Shared builds repeat:39 ready states /71 comparisons /88 definitions, preserving old70/87/provider bindings/geometry.93 targeted Python/20 JavaScript checks pass; final shared/browser/master/public checks follow, finish blank. Northside final16 adapter tests/two normalized builds pass; its first private full-current-copy import is authorized, then independent checkpoint before repeat. Katy source gate passes196798 independent comparisons/89 rejections/13 controls and14 tests/two identical builds; separate64-member numerical verification begins. Ten fixed66 finished /56 remain.
+
+- **2026-10-14 05:10:53**: Lee passes17 actual local browser assertions, including first off-page Varsity search/keyboard,75→78 pagination, retained Athenian/Island0% history, fixed78 subject models, native share/empty/invalid links, separate nine Florida definitions and390px rendered widths/clean console. Final independent shared/prose review and exact HTTP/Git binding precede master delivery; finish remains blank. Northside first private import passes independent checkpoint and one private repeat is authorized; Katy numerical work continues.

@@ -1,6 +1,6 @@
 # Lee County district comparison
 
-Exact2024–25 identity: NCES LEA `1201080`, CCD native `FL-36`, FDOE district `36`. Started **2026-10-14 02:31:47 America/Chicago**, within the original [66-district queue](../TODO-breakout_districts.md). Independent original-source review passed **2026-10-14 03:35:18**; separate numerical verification passed **03:58:17**. Isolated normalized integration is underway. Both historical approvals stay false. No canonical or browser comparison is released by this audit.
+Exact2024–25 identity: NCES LEA `1201080`, CCD native `FL-36`, FDOE district `36`. Started **2026-10-14 02:31:47 America/Chicago**, within the original [66-district queue](../TODO-breakout_districts.md). Independent original-source review passed **2026-10-14 03:35:18**; separate numerical verification passed **03:58:17**. The separately validated78-school point-rate comparison passes private and canonical repeatability review. Historical source/numerical approvals stay false; website and master delivery checks are recorded below.
 
 ## Original sources and population
 
@@ -42,3 +42,22 @@ Island’s real0% own February income and all eleven charters remain. Athenian (
 Eighteen final targeted tests pass in60.086s. Two actual final code/test/artifact-bound numerical CLI builds are identical, with offline replay and compilation passing. An overbroad draft count replacement changed a synthetic intercept fixture from110 to78; the fixture was restored to110, with no scientific change and the failed log retained. Independent review verifies49401 strict original-input/identity/table/worksheet/row/field and full/deleted/diagnostic comparisons, all234 NumPy deletions and full/twelve selected60-digit fits (maximum difference3.64e−12).194 necessary source/current/runtime/cache/public-alias/numeric/degeneracy rejections and four controls pass, including fresh-authority behavior.
 
 Historical source/numerical six remain immutable with false approvals. The whole main database and all prior nine-table rows,277 served assets and375 scientific files are preserved; no canonical/static integration occurs at this numerical gate. Next: separately validated normalized contract, final-frozen-trio private import pair with independent first checkpoint, then separately authorized main/shared/browser and tested master/public verification. Finish remains blank.
+
+## Normalized integration and delivery checks
+
+The separately audited [normalized extract](../data/source/lee.json), [adapter](../scripts/prepare_lee.py) and [tests](../tests/test_lee.py) retain78 profiles,78 own February income observations,156 subject outcomes, three models and234 results. Nineteen provenance sources bind the native cohort and definitions. Only this exact normalized grade-school contract grants readiness; the historical source/numerical six remain immutable and false. All eleven charters, Island’s0% income and influential Athenian remain. Unknown valid-score counts, scored floor, sampling variances and intervals stay unavailable throughout each model. Admissions, provider roles, locations and boundaries remain unaudited.
+
+Twelve final adapter tests pass in331.460s. The final code/test/extract trio was frozen before two actual identical normalized builds and two full-current-database-copy private imports. The first import was independently checked before the repeat. Independent review verifies87279 original/normalized/canonical/current/history fields, including32989 normalized fields and all234 results against NumPy.307 necessary semantic/current/runtime/cache/standalone-empty/prewrite rejection cases and five controls pass. A draft inherited observation-count fixture was corrected before the final freeze; scientific payloads did not change.
+
+Two actual main imports pass independent review and repeat all nine target tables and four exports exactly. All prior nine-table contents,277 served assets,378 scientific files, frozen historical artifacts and separately scoped ongoing audit files remain preserved. Counts/floor/interval limitations remain. Two actual shared builds repeat exactly, adding only Lee:39 ready states /71 comparisons /88 assessment definitions. All70 prior regions,87 definitions, provider bindings and geometry remain unchanged. Planning changes only1201080 to existing_lee; raw102506 enrollment,119 operational records and78/21 potential lower/high counts remain discovery evidence.
+
+All93 targeted Python checks (14 source,18 numerical,12 adapter,49 shared) and20 JavaScript checks pass. Seventeen local browser assertions pass: first off-page search, keyboard selection,75→78 pagination, fixed subject populations, influence/history, real zero income, unavailable counts/intervals, native shared/empty/invalid links, separate Florida definitions and actual390px rendered widths/clean console. Test expectations were corrected to rendered uppercase model text, original Athenian ELA−3.24 and Island83%, with a debounce wait; no product/scientific change. Frontend assets remain unchanged; no new screenshot inspection is claimed. Final independent shared/documentation review and tested master/public delivery remain pending. The fixed66 tracker keeps the actual start and a blank finish until the tested master reference is verified.
+
+Rebuild from already pinned local originals, preserving other comparisons:
+
+```sh
+.venv/bin/python scripts/prepare_lee.py
+.venv/bin/python scripts/export_catalog.py
+.venv/bin/python scripts/export_assessment_guide.py
+.venv/bin/python scripts/plan_district_comparisons.py
+```

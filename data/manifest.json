@@ -738,6 +738,139 @@
       "sha256": "33a01a1cc919e7357319b9deba0f17dd2b891a6af8b0456253cd4588da659a40"
     },
     {
+      "id": "fl-lee-2025:assessment",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/fl_assessment_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx",
+      "sha256": "52d3d3d7c2187eb9cbe22477bd088c0c13570f6f2b9f45f74a4b9f771be70a5b"
+    },
+    {
+      "id": "fl-lee-2025:ccd_lea_directory",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "fl-lee-2025:ccd_lea_membership",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "fl-lee-2025:ccd_school_directory",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "fl-lee-2025:ccd_school_membership",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "fl-lee-2025:district-code",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/build/lee-source-implementation/originals/fl-district-code-2025.pdf",
+      "url": "https://www.fldoe.org/core/fileparse.php/20744/urlt/2425-115225.pdf",
+      "sha256": "c85f7c809e901a723908e7e74597f8004e4b3da69806bc6d0e819ad188707e40"
+    },
+    {
+      "id": "fl-lee-2025:extract",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/source/lee.json",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx",
+      "sha256": "907d87ce528589cfa2ae43c5203631773180e50e997cab50f03918ab678b26a6"
+    },
+    {
+      "id": "fl-lee-2025:grade-guide",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/fl_guide_2025.pdf",
+      "url": "https://cdn.fldoe.org/file/18534/SchoolGradesCalcGuide25.pdf",
+      "sha256": "7dd60cd7c45d03f6324d16d9dcdeb244a5da79f5bccb25859badb32cc2932309"
+    },
+    {
+      "id": "fl-lee-2025:grades",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/fl_grades_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/7584/2425MembBySchoolByGrade.xlsx",
+      "sha256": "930a81159fac3db4b38c6428aebc2e5000e9199ce88bb80ecc7431838ae3c93a"
+    },
+    {
+      "id": "fl-lee-2025:historical_florida_extract",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/source/florida.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/florida.json",
+      "sha256": "523afad888444e875fc8d06486b20240896341d55b14d9484e8b935888f66daf"
+    },
+    {
+      "id": "fl-lee-2025:income",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/fl_income_2025.xlsx",
+      "url": "https://cdn.fldoe.org/file/7584/2425LunchStatusFS2-3.xlsx",
+      "sha256": "48cd9428ea32decf723cc03c2ee7d25528ed8df3db36b20d97e948805344086d"
+    },
+    {
+      "id": "fl-lee-2025:lunch-guide",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/raw/fl_lunch_definition_2025.pdf",
+      "url": "https://cdn.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf",
+      "sha256": "1c8617d492e845e8bdf584c4780de6ac1cf7e7d35e7f2faaa96cec30cf322216"
+    },
+    {
+      "id": "fl-lee-2025:numerical_audit",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/source/lee-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/lee-model-audit.json",
+      "sha256": "03ef7f3252ba51705f08afd5a801ea9eed1fc30ba660957bbcd0a73e54045703"
+    },
+    {
+      "id": "fl-lee-2025:numerical_audit_code",
+      "dataset_id": "fl-lee-2025",
+      "path": "scripts/audit_lee_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_lee_models.py",
+      "sha256": "855d06d816a3e69a440e8c53d9b66166745fb8a59935dfb2d596b2cfd2da99c7"
+    },
+    {
+      "id": "fl-lee-2025:numerical_audit_tests",
+      "dataset_id": "fl-lee-2025",
+      "path": "tests/test_lee_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_lee_models.py",
+      "sha256": "6030f81399e04adbc1f9581fdb384c5b790967965c015630f7a64471dda2bff2"
+    },
+    {
+      "id": "fl-lee-2025:roster_audit",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/source/lee-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/lee-district-audit.json",
+      "sha256": "2cc80d2dd92e5c365f8fbadc978c17260e71cab7d01f23074a731d97c9521029"
+    },
+    {
+      "id": "fl-lee-2025:school-code",
+      "dataset_id": "fl-lee-2025",
+      "path": "data/build/lee-source-implementation/originals/fl-school-code-2025.pdf",
+      "url": "https://www.fldoe.org/core/fileparse.php/20744/urlt/2425-172825.pdf",
+      "sha256": "d0c1ab18838e4a6078458fd31face66bbec19e11b4dca9108ae8618707779ebe"
+    },
+    {
+      "id": "fl-lee-2025:source_audit_code",
+      "dataset_id": "fl-lee-2025",
+      "path": "scripts/audit_lee.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_lee.py",
+      "sha256": "eef12fe55bd2f93a7fcf9e2ca7e11e29d9e395147e288005059f88f4383fb552"
+    },
+    {
+      "id": "fl-lee-2025:source_audit_tests",
+      "dataset_id": "fl-lee-2025",
+      "path": "tests/test_lee_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_lee_audit.py",
+      "sha256": "abcaf6e628d53a8925e40b12c978794283ded126e9e876003ec2616e2cacb44c"
+    },
+    {
       "id": "fl-miami-dade-2025:assessment",
       "dataset_id": "fl-miami-dade-2025",
       "path": "data/raw/fl_assessment_2025.xlsx",
@@ -19459,6 +19592,16 @@
       "source_url": "https://www.fldoe.org/file/18534/SchoolGradesCalcGuide25.pdf"
     },
     {
+      "id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "state": "FL",
+      "name": "FAST/BEST/FAA School Grades achievement",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive/protected Fall grades 3\u20138; native FAST/BEST/Access EOC/FAA accountable scope",
+      "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+      "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx"
+    },
+    {
       "id": "fl-miami-dade-2025:2025:Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools:ES",
       "state": "FL",
       "name": "Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools",
@@ -20551,6 +20694,12 @@
       "name": "Individual reported FRPL/direct-certification eligibility",
       "definition": "Florida 2024\u201325 Final Survey 3 (February) raw individual Lunch Status counts: D/F free eligibility + 3/E reduced eligibility + C/R CEP direct certification, divided by same-survey enrolled students (PK\u201312). Never uses the USDA 1.6-adjusted federal funding numerator or published school-grade economic percentage. CEP N means not individually identified eligible and is excluded from the numerator. Provision 2 code 4 reports all enrolled students, so schools with nonzero or masked code 4 have unavailable income. At CEP schools this proxy counts direct certification/household extension rather than a complete income survey of all families; undercount and reporting coverage are unknown. No other-year backfill.",
       "source_url": "https://www.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf"
+    },
+    {
+      "id": "fl-lee-2025:income",
+      "name": "Individual free/reduced-price eligibility and direct certification",
+      "definition": "2024\u201325 Final Survey 3 February PK\u201312 school individual eligibility: original free lunch D/F plus reduced-price 3/E plus direct-certification C/R counts divided by that school\u2019s own reported denominator. Provision 2 code 4 must be explicitly zero. District option 6/9 conversions to C/D are already required by the original data element. Federal funding multiplier columns, School Grades economic percentages, universal meal availability, enrollment substitutions and another-year income are not used. CEP individual identification coverage remains unknown; this is an economic disadvantage proxy.",
+      "source_url": "https://cdn.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf"
     },
     {
       "id": "fl-miami-dade-2025:income",
@@ -21795,6 +21944,30 @@
       "subject": "reading",
       "method_version": "ols-studentized-v1",
       "input_sha256": "894a1d6f47e251a599c075393acd369a07c4aeeb64a024c7c2fa7b7d40f2d78d"
+    },
+    {
+      "id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES:combined:ols-v1:d28bb3994094",
+      "dataset_id": "fl-lee-2025",
+      "definition_id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "d28bb39940946b0519e9cf0d34b8cf10913107927e8974cdc2a200c7074e08e1"
+    },
+    {
+      "id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES:math:ols-v1:d28bb3994094",
+      "dataset_id": "fl-lee-2025",
+      "definition_id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "d28bb39940946b0519e9cf0d34b8cf10913107927e8974cdc2a200c7074e08e1"
+    },
+    {
+      "id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES:reading:ols-v1:d28bb3994094",
+      "dataset_id": "fl-lee-2025",
+      "definition_id": "fl-lee-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "d28bb39940946b0519e9cf0d34b8cf10913107927e8974cdc2a200c7074e08e1"
     },
     {
       "id": "fl-miami-dade-2025:2025:Florida School Grades FAST + FAA + Math EOC \u00b7 grade schools:ES:combined:ols-v1:8e957e1903c0",
@@ -24530,6 +24703,23 @@
           "map_source": "School coordinates and district boundaries are unavailable in the audited Hillsborough sources.",
           "statewide": false,
           "audit": "data/hillsborough/coverage.json"
+        },
+        {
+          "id": "lee",
+          "name": "Lee County",
+          "dataset": "fl-lee-2025",
+          "status": "ready",
+          "geography": "lee",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/lee/schools.json",
+          "boundaries": null,
+          "comparison": "Lee County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Lee County independent 2024\u201325 grade-school district models use exact NCES LEA 1201080 / FL-36 / FDOE 36 identities. All 78 audited pure lower profiles with positive or protected Fall grades 3\u20138 and explicit-zero grades 9\u201312 remain searchable. Original whole-percent School Grades Math and ELA achievement supports 78 schools in each separate Math, ELA and independently fitted Combined model. Same-year individual February lunch-status counts use their own school denominator. Published accountable FAST PM3, BEST/Access EOC and eligible FAA achievement retains full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate. High, mixed, primary, closed and unmatched scopes remain outside this point-only release. Valid-score denominators and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Lee County source release.",
+          "statewide": false,
+          "audit": "data/lee/coverage.json"
         },
         {
           "id": "miami-dade",

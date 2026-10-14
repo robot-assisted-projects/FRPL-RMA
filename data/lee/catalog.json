@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "FL",
+    "name": "Florida"
+  },
+  "prepare_script": "scripts/prepare_lee.py",
+  "regions": [
+    {
+      "id": "lee",
+      "name": "Lee County",
+      "dataset": "fl-lee-2025",
+      "status": "ready",
+      "geography": "lee",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/lee/schools.json",
+      "boundaries": null,
+      "comparison": "Lee County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Lee County independent 2024\u201325 grade-school district models use exact NCES LEA 1201080 / FL-36 / FDOE 36 identities. All 78 audited pure lower profiles with positive or protected Fall grades 3\u20138 and explicit-zero grades 9\u201312 remain searchable. Original whole-percent School Grades Math and ELA achievement supports 78 schools in each separate Math, ELA and independently fitted Combined model. Same-year individual February lunch-status counts use their own school denominator. Published accountable FAST PM3, BEST/Access EOC and eligible FAA achievement retains full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate. High, mixed, primary, closed and unmatched scopes remain outside this point-only release. Valid-score denominators and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Lee County source release.",
+      "statewide": false,
+      "audit": "data/lee/coverage.json"
+    }
+  ]
+}

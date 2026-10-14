@@ -1,0 +1,648 @@
+{
+  "year": 2025,
+  "schools": 78,
+  "cohorts": {
+    "grade": {
+      "directory": 78,
+      "eligible": {
+        "math": 78,
+        "reading": 78,
+        "combined": 78
+      }
+    }
+  },
+  "exclusions": {},
+  "source_audit": {
+    "complete_source_reference": {
+      "approved_for_modeling": false,
+      "approved_for_source": false,
+      "complete_original_cell_count": 34610,
+      "complete_original_record_count": 1449,
+      "note": "Complete original records, headers, notes, definitions, membership and outside identities stay in the immutable linked source artifact; every numerical replay requires current available unchanged source/code/tests/policy and semantic validation.",
+      "path": "data/source/lee-district-audit.json",
+      "sha256": "2cc80d2dd92e5c365f8fbadc978c17260e71cab7d01f23074a731d97c9521029",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending"
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/lee-model-audit.json",
+      "sha256": "03ef7f3252ba51705f08afd5a801ea9eed1fc30ba660957bbcd0a73e54045703",
+      "bytes": 722801
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_lee.py",
+        "sha256": "eef12fe55bd2f93a7fcf9e2ca7e11e29d9e395147e288005059f88f4383fb552"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_lee_audit.py",
+        "sha256": "abcaf6e628d53a8925e40b12c978794283ded126e9e876003ec2616e2cacb44c"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_lee_models.py",
+        "sha256": "855d06d816a3e69a440e8c53d9b66166745fb8a59935dfb2d596b2cfd2da99c7"
+      },
+      "tests": {
+        "path": "tests/test_lee_models.py",
+        "sha256": "6030f81399e04adbc1f9581fdb384c5b790967965c015630f7a64471dda2bff2"
+      }
+    },
+    "immutable_raw_input_fingerprint": "2355a0fcae20dcd27b5c60c2469ef390c4129bbda872527366b0de66c2e35299",
+    "immutable_schema_fingerprint": "3c3d1e2a94a7b45975a61276e27bfc5806931bec97aa3a22410eed34e27c3e4d",
+    "immutable_definition_fingerprint": "e0728b5b883a46e74b5cd3d652a59f0def259bdc356f74a7ae2bba2396b793cf",
+    "immutable_identity_fingerprint": "032472bb83e34a5fa7307b3df6f35b95fc6162c5f2f3b5c5e5c6ede2123b26de",
+    "immutable_source_policy_fingerprint": "df44f3c3f7e1e60874763e20cbe3961fd70a8f44d378a63848625d5ee8dce7c3",
+    "immutable_numerical_policy_fingerprint": "dc905cc7323365f541ac0c7f40b02e0f4921437a17b7a5b721f4b3b580401ff5",
+    "immutable_numerical_runtime_fingerprint": "ab5a89b235346e3a242f7b09c7951f233e00f54cf09ad4e609b5bf075c5d3f4d",
+    "normalized_metadata_fingerprint": "7b0c741afe5ea1ac1ceca09ac07968a58c7a0d3554bb37f3d645bfc99e7e8a46",
+    "operational_roster": {
+      "campus_charter_disagreements": 0,
+      "canonical_integration_pending": true,
+      "ccd_directory": 122,
+      "collocated_assessment_rows": 0,
+      "complete_omitted_original_inventories": {
+        "directory": {
+          "complete_inventory_path": "raw_inputs.directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 122,
+          "retained_rows": 122
+        },
+        "lea_directory": {
+          "complete_inventory_path": "raw_inputs.lea_directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 1,
+          "retained_rows": 1
+        },
+        "lea_membership": {
+          "complete_inventory_path": "raw_inputs.lea_membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 211,
+            "Derived - Education Unit Total minus Adult Education Count": 1,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 15
+          },
+          "omitted_raw_ordinal_sha256": "10713506235355cf3242fecab2699d957a832ac3c0f86dc2838107b0113fe3a4",
+          "omitted_rows": 227,
+          "omitted_typed_cells": 3405,
+          "original_district_rows": 243,
+          "retained_rows": 16
+        },
+        "membership": {
+          "complete_inventory_path": "raw_inputs.membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 11294,
+            "Derived - Education Unit Total minus Adult Education Count": 119,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 1785
+          },
+          "omitted_raw_ordinal_sha256": "c6e5ff1f897f88f0dd2b094a48f72e130d5e4d6d4230ae88045f507120c88d80",
+          "omitted_rows": 13198,
+          "omitted_typed_cells": 237564,
+          "original_district_rows": 14181,
+          "retained_rows": 983
+        }
+      },
+      "district_ccd_enrollment": 102506,
+      "district_minus_operational_enrollment": 0,
+      "exact_operational_fall_matches": 115,
+      "income_exclusions": {},
+      "independent_numerical_diagnostics_required": true,
+      "model_sampling_intervals_available": false,
+      "native_assessment_rows": 97,
+      "native_assessment_without_operational_directory": [],
+      "native_fall_profiles": 115,
+      "native_income_rows": 115,
+      "native_income_without_fall_ids": [],
+      "nonoperational_directory": 3,
+      "offered_enrolled_disagreement_profiles": 16,
+      "operational_ccd_enrollment_sum": 102506,
+      "operational_offered_scope": {
+        "ES": 80,
+        "HS": 23,
+        "mixed": 16
+      },
+      "operational_roster": 119,
+      "operational_without_native_fall_ids": [
+        "36-0581",
+        "36-0541",
+        "36-7001",
+        "36-7023"
+      ],
+      "original_records": 1449,
+      "original_typed_cells": 34610,
+      "outside_native_profile_ids": [],
+      "planningES_outside_prospective": [],
+      "planning_potential_cohorts": {
+        "ES": 78,
+        "HS": 21
+      },
+      "prospective_not_in_planningES": [],
+      "prospective_source_profiles": 78,
+      "prospective_usable": {
+        "combined": 78,
+        "math": 78,
+        "reading": 78
+      },
+      "prospective_usable_income": 78,
+      "protected_native_grade_cells": 70,
+      "protected_native_grade_profiles": 25,
+      "provider_assessment_rows": 0,
+      "source_and_model_approvals": false,
+      "source_rows": {
+        "directory": 122,
+        "lea_directory": 1,
+        "lea_membership": 16,
+        "membership": 983,
+        "native_assessment": 97,
+        "native_grades": 115,
+        "native_income": 115
+      },
+      "status": {
+        "Closed": 3,
+        "Open": 119
+      },
+      "ten_valid_scored_floor_certified": false,
+      "verified_valid_score_counts": 0
+    },
+    "retained_scope_exclusions": [
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "FORT MYERS HIGH SCHOOL",
+        "native_school_id": "FL-36-0221",
+        "ncessch": "120108001133",
+        "school_id": "36-0221",
+        "source_roster_link_index": 12
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "NORTH FORT MYERS HIGH SCHOOL",
+        "native_school_id": "FL-36-0311",
+        "ncessch": "120108001139",
+        "school_id": "36-0311",
+        "source_roster_link_index": 16
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "CYPRESS LAKE HIGH SCHOOL",
+        "native_school_id": "FL-36-0531",
+        "ncessch": "120108001150",
+        "school_id": "36-0531",
+        "source_roster_link_index": 26
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "RIVERDALE HIGH SCHOOL",
+        "native_school_id": "FL-36-0591",
+        "ncessch": "120108001157",
+        "school_id": "36-0591",
+        "source_roster_link_index": 30
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "COUNTY WIDE EXCEPTIONAL CHILD PROGRAMS",
+        "native_school_id": "FL-36-9450",
+        "ncessch": "120108001161",
+        "school_id": "36-9450",
+        "source_roster_link_index": 33
+      },
+      {
+        "exclusion": "No same-year Fall Survey2 native profile",
+        "name": "CAPE CORAL TECHNICAL COLLEGE",
+        "native_school_id": "FL-36-0581",
+        "ncessch": "120108001751",
+        "school_id": "36-0581",
+        "source_roster_link_index": 34
+      },
+      {
+        "exclusion": "No offered grade3\u20138 in primary-only configuration",
+        "name": "EARLY CHILDHOOD LEARNING SERVICES",
+        "native_school_id": "FL-36-9123",
+        "ncessch": "120108001818",
+        "school_id": "36-9123",
+        "source_roster_link_index": 37
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "CAPE CORAL HIGH SCHOOL",
+        "native_school_id": "FL-36-0621",
+        "ncessch": "120108002075",
+        "school_id": "36-0621",
+        "source_roster_link_index": 38
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "YOUNG PARENT EDUCATION PROGRAM",
+        "native_school_id": "FL-36-0152",
+        "ncessch": "120108002200",
+        "school_id": "36-0152",
+        "source_roster_link_index": 41
+      },
+      {
+        "exclusion": "No same-year Fall Survey2 native profile",
+        "name": "FORT MYERS TECHNICAL COLLEGE",
+        "native_school_id": "FL-36-0541",
+        "ncessch": "120108002201",
+        "school_id": "36-0541",
+        "source_roster_link_index": 42
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "SOUTHWEST FLORIDA JUVENILE DETENTION CENTER",
+        "native_school_id": "FL-36-0661",
+        "ncessch": "120108002334",
+        "school_id": "36-0661",
+        "source_roster_link_index": 45
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "ROYAL PALM EXCEPTIONAL SCHOOL CENTER",
+        "native_school_id": "FL-36-0651",
+        "ncessch": "120108002338",
+        "school_id": "36-0651",
+        "source_roster_link_index": 48
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "LEHIGH SENIOR HIGH SCHOOL",
+        "native_school_id": "FL-36-0241",
+        "ncessch": "120108002398",
+        "school_id": "36-0241",
+        "source_roster_link_index": 49
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "BUCKINGHAM EXCEPTIONAL STUDENT CENTER",
+        "native_school_id": "FL-36-0701",
+        "ncessch": "120108002471",
+        "school_id": "36-0701",
+        "source_roster_link_index": 51
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "MARINER HIGH SCHOOL",
+        "native_school_id": "FL-36-0721",
+        "ncessch": "120108002565",
+        "school_id": "36-0721",
+        "source_roster_link_index": 53
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "ESTERO HIGH SCHOOL",
+        "native_school_id": "FL-36-0731",
+        "ncessch": "120108002566",
+        "school_id": "36-0731",
+        "source_roster_link_index": 54
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "SUCCESS ACADEMY",
+        "native_school_id": "FL-36-0552",
+        "ncessch": "120108003077",
+        "school_id": "36-0552",
+        "source_roster_link_index": 60
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "LEE COUNTY JAIL",
+        "native_school_id": "FL-36-0667",
+        "ncessch": "120108003724",
+        "school_id": "36-0667",
+        "source_roster_link_index": 63
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "SOUTH FORT MYERS HIGH SCHOOL",
+        "native_school_id": "FL-36-0511",
+        "ncessch": "120108003952",
+        "school_id": "36-0511",
+        "source_roster_link_index": 70
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "IDA S. BAKER HIGH SCHOOL",
+        "native_school_id": "FL-36-0861",
+        "ncessch": "120108003965",
+        "school_id": "36-0861",
+        "source_roster_link_index": 74
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "EAST LEE COUNTY HIGH SCHOOL",
+        "native_school_id": "FL-36-0745",
+        "ncessch": "120108003966",
+        "school_id": "36-0745",
+        "source_roster_link_index": 75
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "GATEWAY CHARTER SCHOOL",
+        "native_school_id": "FL-36-4103",
+        "ncessch": "120108004109",
+        "school_id": "36-4103",
+        "source_roster_link_index": 80
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "DUNBAR HIGH SCHOOL",
+        "native_school_id": "FL-36-0831",
+        "ncessch": "120108004368",
+        "school_id": "36-0831",
+        "source_roster_link_index": 81
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "CITY OF PALMS CHARTER HIGH SCHOOL",
+        "native_school_id": "FL-36-4212",
+        "ncessch": "120108004933",
+        "school_id": "36-4212",
+        "source_roster_link_index": 87
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "PACE SCHOOL FOR GIRLS",
+        "native_school_id": "FL-36-0653",
+        "ncessch": "120108005778",
+        "school_id": "36-0653",
+        "source_roster_link_index": 89
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "SW FL ADDICTION SERVICES-THE VINCE SMITH CENTER",
+        "native_school_id": "FL-36-0682",
+        "ncessch": "120108006891",
+        "school_id": "36-0682",
+        "source_roster_link_index": 90
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "ISLAND COAST HIGH SCHOOL",
+        "native_school_id": "FL-36-0491",
+        "ncessch": "120108007353",
+        "school_id": "36-0491",
+        "source_roster_link_index": 93
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "OASIS CHARTER HIGH SCHOOL",
+        "native_school_id": "FL-36-4181",
+        "ncessch": "120108007441",
+        "school_id": "36-4181",
+        "source_roster_link_index": 95
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "NORTH NICHOLAS HIGH SCHOOL",
+        "native_school_id": "FL-36-4242",
+        "ncessch": "120108007461",
+        "school_id": "36-4242",
+        "source_roster_link_index": 96
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "CORONADO HIGH SCHOOL",
+        "native_school_id": "FL-36-4251",
+        "ncessch": "120108007465",
+        "school_id": "36-4251",
+        "source_roster_link_index": 97
+      },
+      {
+        "exclusion": "No same-year Fall Survey2 native profile",
+        "name": "LEE VIRTUAL INSTRUCTION PROGRAM",
+        "native_school_id": "FL-36-7001",
+        "ncessch": "120108007705",
+        "school_id": "36-7001",
+        "source_roster_link_index": 100
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "LEE COUNTY VIRTUAL FRANCHISE",
+        "native_school_id": "FL-36-7004",
+        "ncessch": "120108007800",
+        "school_id": "36-7004",
+        "source_roster_link_index": 102
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "FLORIDA SOUTHWESTERN COLLEGIATE HIGH SCHOOL",
+        "native_school_id": "FL-36-4155",
+        "ncessch": "120108007882",
+        "school_id": "36-4155",
+        "source_roster_link_index": 103
+      },
+      {
+        "exclusion": "No same-year Fall Survey2 native profile",
+        "name": "LEE COUNTY VIRTUAL INSTRUCTION PROGRAM (DISTRICT PROVIDED)",
+        "native_school_id": "FL-36-7023",
+        "ncessch": "120108008048",
+        "school_id": "36-7023",
+        "source_roster_link_index": 104
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "DONNA J. BEASLEY TECHNICAL ACADEMY",
+        "native_school_id": "FL-36-4302",
+        "ncessch": "120108008229",
+        "school_id": "36-4302",
+        "source_roster_link_index": 108
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "PALM ACRES CHARTER HIGH SCHOOL",
+        "native_school_id": "FL-36-4223",
+        "ncessch": "120108008375",
+        "school_id": "36-4223",
+        "source_roster_link_index": 109
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "ISLAND PARK HIGH SCHOOL",
+        "native_school_id": "FL-36-4274",
+        "ncessch": "120108008392",
+        "school_id": "36-4274",
+        "source_roster_link_index": 110
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "NORTHERN PALMS CHARTER HIGH SCHOOL",
+        "native_school_id": "FL-36-4303",
+        "ncessch": "120108008490",
+        "school_id": "36-4303",
+        "source_roster_link_index": 111
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "BONITA SPRINGS HIGH SCHOOL",
+        "native_school_id": "FL-36-0841",
+        "ncessch": "120108008599",
+        "school_id": "36-0841",
+        "source_roster_link_index": 113
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "GATEWAY HIGH SCHOOL",
+        "native_school_id": "FL-36-0842",
+        "ncessch": "120108008840",
+        "school_id": "36-0842",
+        "source_roster_link_index": 115
+      },
+      {
+        "exclusion": "CCD offered configuration is not verified pure lower grades",
+        "name": "LEE COUNTY ACCELERATION ACADEMIES",
+        "native_school_id": "FL-36-0547",
+        "ncessch": "120108009019",
+        "school_id": "36-0547",
+        "source_roster_link_index": 116
+      },
+      {
+        "exclusion": "CCD status nonoperational",
+        "name": "FORT MYERS ACADEMY",
+        "native_school_id": "FL-36-0782",
+        "ncessch": "120108010676",
+        "school_id": "36-0782",
+        "source_roster_link_index": 119
+      },
+      {
+        "exclusion": "CCD status nonoperational",
+        "name": "OPTIMA CLASSICAL ACADEMY AT GLADIOLUS",
+        "native_school_id": "FL-36-4012",
+        "ncessch": "120108010779",
+        "school_id": "36-4012",
+        "source_roster_link_index": 120
+      },
+      {
+        "exclusion": "CCD status nonoperational",
+        "name": "OPTIMA CLASSICAL ACADEMY AT ESTERO",
+        "native_school_id": "FL-36-4021",
+        "ncessch": "120108010780",
+        "school_id": "36-4021",
+        "source_roster_link_index": 121
+      }
+    ],
+    "retained_outside_source_profiles": [],
+    "nonoperational_ccd_references": [
+      {
+        "source_row": 21921,
+        "ncessch": "120108010676",
+        "native_school_id": "FL-36-0782",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21922,
+        "ncessch": "120108010779",
+        "native_school_id": "FL-36-4012",
+        "status": "Closed"
+      },
+      {
+        "source_row": 21923,
+        "ncessch": "120108010780",
+        "native_school_id": "FL-36-4021",
+        "status": "Closed"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "charter": {
+          "No": 67,
+          "Yes": 11
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "grade_school_configuration_profiles": 78,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 78
+        },
+        "source_evidence_path": "data/source/lee-district-audit.json",
+        "source_evidence_sha256": "2cc80d2dd92e5c365f8fbadc978c17260e71cab7d01f23074a731d97c9521029",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 78
+      },
+      "reading": {
+        "charter": {
+          "No": 67,
+          "Yes": 11
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "grade_school_configuration_profiles": 78,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 78
+        },
+        "source_evidence_path": "data/source/lee-district-audit.json",
+        "source_evidence_sha256": "2cc80d2dd92e5c365f8fbadc978c17260e71cab7d01f23074a731d97c9521029",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 78
+      },
+      "combined": {
+        "charter": {
+          "No": 67,
+          "Yes": 11
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "grade_school_configuration_profiles": 78,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 78
+        },
+        "source_evidence_path": "data/source/lee-district-audit.json",
+        "source_evidence_sha256": "2cc80d2dd92e5c365f8fbadc978c17260e71cab7d01f23074a731d97c9521029",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 78
+      }
+    },
+    "native_assessment_definition": {
+      "state": "FL",
+      "name": "FAST/BEST/FAA School Grades achievement",
+      "original_numerical_name": "2024\u201325 FAST/BEST/FAA School Grades published accountable achievement",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive/protected Fall grades 3\u20138; native FAST/BEST/Access EOC/FAA accountable scope",
+      "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+      "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx"
+    },
+    "historical_state_extract": {
+      "path": "data/source/florida.json",
+      "sha256": "523afad888444e875fc8d06486b20240896341d55b14d9484e8b935888f66daf"
+    },
+    "count_definition_status": {
+      "raw_fields": [
+        "Percent Tested",
+        "At least ten eligible component rule"
+      ],
+      "reason": "Native enrollment, percent tested and eligible component rules are source evidence; no exact valid-score denominator or ten-valid-scored floor is certified. Income and enrollment never substitute or select model membership.",
+      "sampling_intervals_available": false,
+      "sampling_variances": null,
+      "status": "unverified_schoolgrades_valid_score_denominators",
+      "ten_valid_scored_floor_certified": false,
+      "valid_score_counts": null
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separately validated exact 2024\u201325 grade-school point-only contract is approved. Historical source and numerical audits retain false approvals. Compact links require all current immutable artifacts/code/tests/policies and semantic replay. High, mixed, primary, closed, unmatched scopes and valid-score/count-floor holds remain unreleased."
+    }
+  }
+}
