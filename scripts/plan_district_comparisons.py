@@ -140,6 +140,8 @@ def scope(row):
         return 'existing_cypress_fairbanks'
     if row['LEAID'] == '4833120':
         return 'existing_northside'
+    if row['LEAID'] == '4825170':
+        return 'existing_katy'
     if row['LEAID'] == '1200180':
         return 'existing_broward'
     if row['LEAID'] == '1200870':
@@ -340,6 +342,8 @@ def render(payload):
                 status = 'Existing Memphis-Shelby comparison; regular TNReady grade schools with four attribution holds'
             elif row['scope'] == 'existing_philadelphia':
                 status = 'Existing Philadelphia comparison; regular PSSA pure grade-school scope only'
+            elif row['scope'] == 'existing_katy':
+                status = 'Existing Katy ISD comparison; published TAPR no-high-grade population with one masked alternative'
             elif row['scope'] == 'existing_northside':
                 status = 'Existing Northside ISD comparison; published TAPR no-high-grade population with three masked alternatives'
             elif row['scope'] == 'existing_cypress_fairbanks':
@@ -381,7 +385,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby, Baltimore County, Cobb County, Lee County and Northside ISD have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby, Baltimore County, Cobb County, Lee County, Northside ISD and Katy ISD have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -764,6 +768,21 @@ def render(payload):
         'variances and intervals remain uncertified/unavailable. High/mixed/primary, '
         'programs, admissions, provider roles and geometry remain outside or unaudited. '
         'Discovery counts never approve a model; fixed66 retains completed rows.', ''])
+    lines.extend([
+        'The [Katy ISD source, numerical and integration audits](katy-district.md) '
+        'retain exact LEA `4825170` / `TX-101914` / TAPR `101914`,65 lower profiles '
+        'and separate64-school Math, ELA and paired Combined models with all192 '
+        'deletion fits. Original enrolled-grades3–8 Including EOC Meets-or-above '
+        'whole-percent rates use own October individual economic count / CPNTALLC '
+        'enrollment; CPETALLC membership remains separate. Harris alternative stays '
+        'searchable with masked outcomes/history gaps; Miller004 and Tyke135 lack '
+        'native records and stay outside. Ursula Stephens influence, income extremes '
+        'and unassigned enrollment/membership differences remain. Historical approvals '
+        'stay false; readiness belongs only to the separately validated normalized '
+        'scope. N/M count status, valid-score counts, floor, variances and intervals '
+        'remain uncertified/unavailable. High/mixed/Future, admissions, programs, '
+        'provider roles and geometry remain outside or unaudited. Discovery counts '
+        'never approve models; fixed66 retains completed rows.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

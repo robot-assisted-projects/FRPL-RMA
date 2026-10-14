@@ -2527,6 +2527,31 @@
           ]
         },
         {
+          "id": "tx-katy-2025:2025:STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages:ES",
+          "state": "TX",
+          "name": "STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Enrolled grades 3–8, including applicable Algebra I and English I–II EOC",
+          "standard": "2024–25 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I–II EOC; separate Katy no-high-grade population",
+          "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+          "dataset_id": "tx-katy-2025",
+          "family": "STAAR + Alternate 2",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "katy",
+              "name": "Katy ISD",
+              "url": "./?state=TX&region=katy&level=ES",
+              "model_scope": "Katy ISD independent 2024–25 original published-rate grade-school models use exact CCD LEA 4825170 / TX-101914 / TAPR 101914. All 65 positive native enrolled grades 3–8 and explicit-zero grades 9–12 profiles remain searchable. Harris 101914033 retains both original subject masks, leaving 64 observations in each separate Math, ELA and own Combined model. Own CPNTALLC enrollment supplies the individual income denominator; CPETALLC membership remains separate. Miller 101914004 and Project Tyke 101914135 lack native records and stay outside. Valid-score counts, the ten-valid-scored floor, variances and sampling intervals remain unavailable; high, mixed, Future and unmatched populations stay separate."
+            }
+          ]
+        },
+        {
           "id": "tx-northside-2025:2025:STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages:ES",
           "state": "TX",
           "name": "STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages",

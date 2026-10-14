@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "TX",
+    "name": "Texas"
+  },
+  "prepare_script": "scripts/prepare_katy.py",
+  "regions": [
+    {
+      "id": "katy",
+      "name": "Katy ISD",
+      "dataset": "tx-katy-2025",
+      "status": "ready",
+      "geography": "katy",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/katy/schools.json",
+      "boundaries": null,
+      "comparison": "Katy ISD \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Katy ISD independent 2024\u201325 original published-rate grade-school models use exact CCD LEA 4825170 / TX-101914 / TAPR 101914. All 65 positive native enrolled grades 3\u20138 and explicit-zero grades 9\u201312 profiles remain searchable. Harris 101914033 retains both original subject masks, leaving 64 observations in each separate Math, ELA and own Combined model. Own CPNTALLC enrollment supplies the individual income denominator; CPETALLC membership remains separate. Miller 101914004 and Project Tyke 101914135 lack native records and stay outside. Valid-score counts, the ten-valid-scored floor, variances and sampling intervals remain unavailable; high, mixed, Future and unmatched populations stay separate.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Katy ISD source release.",
+      "statewide": false,
+      "audit": "data/katy/coverage.json"
+    }
+  ]
+}

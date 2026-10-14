@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 05:53:21 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 06:36:12 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -18,11 +18,11 @@ Last tracker update: **2026-10-14 05:53:21 America/Chicago**. GitHub account: **
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Merged; counts/intervals unavailable | 2026-10-14 05:15:03 |
 | [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Merged; counts/status held | 2026-10-14 05:42:30 |
-| [KATY ISD](docs/katy-district.md) | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Preparing private integration; counts/status held | — |
+| [KATY ISD](docs/katy-district.md) | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Final review; counts/status held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
-| San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying original source/cohort | — |
-| DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Verifying original source/cohort | — |
-| School District No. 1 in the county of Denver and State of C | CO | 0803360 / CO-0880 | — | Not yet started | — |
+| San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying models and sampling intervals | — |
+| DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Independent numerical review next | — |
+| School District No. 1 in the county of Denver and State of C | CO | 0803360 / CO-0880 | 2026-10-14 06:34:12 | Verifying original source/cohort | — |
 | Prince William County Public Schools | VA | 5103130 / VA-075 | — | Not yet started | — |
 | PINELLAS | FL | 1201560 / FL-52 | — | Not yet started | — |
 | Fulton County | GA | 1302280 / GA-660 | — | Not yet started | — |
@@ -358,3 +358,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 05:46:39**: Northside exacttested81c12ab successful Pages38551399591/public verification passes12 actual browser assertions and nine independently matched HTTP/Git assets. Twelve fixed66 finished /54 remain; masks, own income/membership differences and N/M/count/floor/interval/attribution limits remain unchanged.
 
 - **2026-10-14 05:47:49**: Katy independent numerical gate passes64/64/64 and192 explicit deletions:18 final tests/two identical actual builds,105127 independent original/pointer/NumPy comparisons,208 necessary rejections/seven controls and60-digit checks. Ursula influence, Harris mask, unmatched/Future/high/mixed records and own October enrollment denominator remain; source/model6 immutable/false and counts/N/M/floor/intervals unavailable. Final normalized testing/private-copy integration is next, with independent first checkpoint before repeat; no actual main/static release. San Diego and DeKalb source audits continue; no outside-fixed66 work.
+
+- **2026-10-14 06:36:12**: Katy final16 adapter checks/private/main pairs and independent158159 comparisons/307 required rejections/five controls pass, with65 profiles /64 per subject /192 results and all prior data preserved. Two shared builds repeat39 states /73 comparisons /90 definitions, retaining old72/89/provider/geometry.97 targeted Python/20 JavaScript checks and17 local browser assertions pass. Final independent shared/prose review/HTTP-Git/master/public follow; finish blank. Twelve fixed66 finished /54 remain.
+
+- **2026-10-14 06:34:12**: Started exact Denver `0803360 / CO-0880` original-source/cohort audit, within fixed66. DeKalb original source gate passes96744 derived checks/103 rejections/six controls and15 tests/identical source builds; its103-member/309-deletion numerical producer18 tests/identical builds now await independent review. San Diego original source gate passes606677 checks/54 rejections/12 controls and14 tests/identical builds;143 profiles/141 members retain missing-grade/source holds, with verified scored denominators allowing all-member sampling intervals in numerical verification. No new actual main/static release beyond Katy’s separately reviewed work.

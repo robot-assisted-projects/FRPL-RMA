@@ -1,0 +1,1460 @@
+{
+  "year": 2025,
+  "schools": 65,
+  "cohorts": {
+    "grade": {
+      "directory": 65,
+      "eligible": {
+        "math": 64,
+        "reading": 64,
+        "combined": 64
+      }
+    }
+  },
+  "exclusions": {
+    "Native TAPR published subject percentage missing or masked; suppression preserved": 2,
+    "Math: Native TAPR published subject percentage missing or masked; suppression preserved; ELA: Native TAPR published subject percentage missing or masked; suppression preserved": 1
+  },
+  "source_audit": {
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_katy.py",
+        "sha256": "c9e8f12f39646031a27de94a210ba68cea38ed026c4849b0799309029e5a3c75"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_katy_audit.py",
+        "sha256": "0c83d5f48e098b76197b62c3ccdbd273aa41636a4ed9a583daeb4f24b9601444"
+      }
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/katy-model-audit.json",
+      "sha256": "10674cb62b50ab32642e4bdecc4208b581aa09216eaa1c38e4b12ff9fb917a0d"
+    },
+    "complete_source_reference": {
+      "approved_for_modeling": false,
+      "approved_for_source": false,
+      "complete_omitted_inventories": {
+        "assessment": {
+          "complete_inventory_path": "raw_inputs.assessment.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        },
+        "directory": {
+          "complete_inventory_path": "raw_inputs.directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 81,
+          "retained_rows": 81
+        },
+        "lea_directory": {
+          "complete_inventory_path": "raw_inputs.lea_directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 1,
+          "retained_rows": 1
+        },
+        "lea_membership": {
+          "complete_inventory_path": "raw_inputs.lea_membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 211,
+            "Derived - Education Unit Total minus Adult Education Count": 1,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 15
+          },
+          "omitted_raw_ordinal_sha256": "422ef3a9e46ad5166a4933acaf523e24894fe5544943b0aa916ac22eb5af30c9",
+          "omitted_rows": 227,
+          "omitted_typed_cells": 3405,
+          "original_district_rows": 243,
+          "retained_rows": 16
+        },
+        "membership": {
+          "complete_inventory_path": "raw_inputs.membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 6499,
+            "Derived - Education Unit Total minus Adult Education Count": 79,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 1185
+          },
+          "omitted_raw_ordinal_sha256": "3e30c5b0a2d67e6caf4955cf738ab3bf4983b212579a59494977ef505a2fc10d",
+          "omitted_rows": 7763,
+          "omitted_typed_cells": 139734,
+          "original_district_rows": 8349,
+          "retained_rows": 586
+        },
+        "ref": {
+          "complete_inventory_path": "raw_inputs.ref.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        },
+        "stud": {
+          "complete_inventory_path": "raw_inputs.stud.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        }
+      },
+      "complete_original_cell_count": 178885,
+      "complete_original_record_count": 8905,
+      "note": "All needed original records, headers, definitions and raw values remain in the immutable linked source; complete omitted ordinal inventories and raw digests remain bound to the unchanged whole originals. Every numerical replay verifies current complete evidence; compact references never permit missing or changed evidence.",
+      "path": "data/source/katy-district-audit.json",
+      "retained_original_cell_count": 35746,
+      "retained_original_record_count": 915,
+      "sha256": "3a3c22a2e9c18e06930b5650792d35b3d24df35bf1a6b822b714351c1fcf882f",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending"
+    },
+    "count_definition_status": {
+      "raw_fields": {
+        "math": [
+          "CDA38AM0E025D",
+          "CDA38AM0E225N"
+        ],
+        "reading": [
+          "CDA38AR0E025D",
+          "CDA38AR0E225N"
+        ]
+      },
+      "reason": "Exact native reported-performance N/NAAR and M/medical status mapping remains held; native counts/enrollment never screen this published-rate audit or certify the ten-scored floor.",
+      "sampling_intervals_available": false,
+      "sampling_variances": null,
+      "status": "unverified_exact_2025_N_M_performance_scope",
+      "ten_valid_scored_floor_certified": false,
+      "valid_score_counts": null
+    },
+    "enrollment_reconciliation": {
+      "ccd_lea_reported": 96111,
+      "ccd_operational_school_sum": 96111,
+      "definition_note": "TAPR enrolled and CCD reported membership are independent administrative concepts; equality here does not make either a tested denominator.",
+      "matched_school_enrollment_differences": [],
+      "native_campus_sum": 96098,
+      "native_economic_disadvantage_sum": 41024,
+      "native_enrollment_membership_differences": [
+        {
+          "enrollment": 631,
+          "membership": 627,
+          "native_school_id": "101914106"
+        },
+        {
+          "enrollment": 699,
+          "membership": 694,
+          "native_school_id": "101914102"
+        },
+        {
+          "enrollment": 970,
+          "membership": 969,
+          "native_school_id": "101914103"
+        },
+        {
+          "enrollment": 804,
+          "membership": 784,
+          "native_school_id": "101914105"
+        },
+        {
+          "enrollment": 945,
+          "membership": 940,
+          "native_school_id": "101914114"
+        },
+        {
+          "enrollment": 495,
+          "membership": 493,
+          "native_school_id": "101914107"
+        },
+        {
+          "enrollment": 3384,
+          "membership": 3383,
+          "native_school_id": "101914002"
+        },
+        {
+          "enrollment": 836,
+          "membership": 835,
+          "native_school_id": "101914109"
+        },
+        {
+          "enrollment": 816,
+          "membership": 812,
+          "native_school_id": "101914111"
+        },
+        {
+          "enrollment": 3036,
+          "membership": 3033,
+          "native_school_id": "101914005"
+        },
+        {
+          "enrollment": 1265,
+          "membership": 1259,
+          "native_school_id": "101914112"
+        },
+        {
+          "enrollment": 640,
+          "membership": 628,
+          "native_school_id": "101914113"
+        },
+        {
+          "enrollment": 1239,
+          "membership": 1238,
+          "native_school_id": "101914046"
+        },
+        {
+          "enrollment": 515,
+          "membership": 513,
+          "native_school_id": "101914115"
+        },
+        {
+          "enrollment": 864,
+          "membership": 863,
+          "native_school_id": "101914116"
+        },
+        {
+          "enrollment": 968,
+          "membership": 966,
+          "native_school_id": "101914117"
+        },
+        {
+          "enrollment": 1172,
+          "membership": 1170,
+          "native_school_id": "101914121"
+        },
+        {
+          "enrollment": 868,
+          "membership": 867,
+          "native_school_id": "101914118"
+        },
+        {
+          "enrollment": 804,
+          "membership": 801,
+          "native_school_id": "101914119"
+        },
+        {
+          "enrollment": 1205,
+          "membership": 1204,
+          "native_school_id": "101914049"
+        },
+        {
+          "enrollment": 968,
+          "membership": 967,
+          "native_school_id": "101914122"
+        },
+        {
+          "enrollment": 2944,
+          "membership": 2942,
+          "native_school_id": "101914009"
+        },
+        {
+          "enrollment": 868,
+          "membership": 838,
+          "native_school_id": "101914124"
+        },
+        {
+          "enrollment": 703,
+          "membership": 701,
+          "native_school_id": "101914125"
+        },
+        {
+          "enrollment": 1115,
+          "membership": 1105,
+          "native_school_id": "101914126"
+        },
+        {
+          "enrollment": 782,
+          "membership": 762,
+          "native_school_id": "101914127"
+        },
+        {
+          "enrollment": 578,
+          "membership": 577,
+          "native_school_id": "101914128"
+        },
+        {
+          "enrollment": 1301,
+          "membership": 1298,
+          "native_school_id": "101914129"
+        },
+        {
+          "enrollment": 3155,
+          "membership": 3154,
+          "native_school_id": "101914012"
+        },
+        {
+          "enrollment": 969,
+          "membership": 967,
+          "native_school_id": "101914130"
+        },
+        {
+          "enrollment": 835,
+          "membership": 832,
+          "native_school_id": "101914132"
+        },
+        {
+          "enrollment": 1058,
+          "membership": 1056,
+          "native_school_id": "101914133"
+        },
+        {
+          "enrollment": 1054,
+          "membership": 1053,
+          "native_school_id": "101914134"
+        },
+        {
+          "enrollment": 1571,
+          "membership": 1570,
+          "native_school_id": "101914053"
+        },
+        {
+          "enrollment": 995,
+          "membership": 993,
+          "native_school_id": "101914139"
+        },
+        {
+          "enrollment": 922,
+          "membership": 921,
+          "native_school_id": "101914138"
+        },
+        {
+          "enrollment": 3447,
+          "membership": 3446,
+          "native_school_id": "101914013"
+        },
+        {
+          "enrollment": 964,
+          "membership": 962,
+          "native_school_id": "101914141"
+        },
+        {
+          "enrollment": 1103,
+          "membership": 1102,
+          "native_school_id": "101914055"
+        },
+        {
+          "enrollment": 1462,
+          "membership": 1461,
+          "native_school_id": "101914054"
+        },
+        {
+          "enrollment": 1194,
+          "membership": 1193,
+          "native_school_id": "101914142"
+        },
+        {
+          "enrollment": 1173,
+          "membership": 1172,
+          "native_school_id": "101914143"
+        },
+        {
+          "enrollment": 3330,
+          "membership": 3328,
+          "native_school_id": "101914014"
+        },
+        {
+          "enrollment": 1051,
+          "membership": 1048,
+          "native_school_id": "101914144"
+        },
+        {
+          "enrollment": 1039,
+          "membership": 1038,
+          "native_school_id": "101914145"
+        },
+        {
+          "enrollment": 1508,
+          "membership": 1507,
+          "native_school_id": "101914146"
+        },
+        {
+          "enrollment": 1186,
+          "membership": 1184,
+          "native_school_id": "101914147"
+        },
+        {
+          "enrollment": 1263,
+          "membership": 1259,
+          "native_school_id": "101914148"
+        }
+      ],
+      "native_peims_membership_sum": 95919
+    },
+    "historical_state_consistency": {
+      "district_modeling_approval": false,
+      "district_source_approval": false,
+      "matched_native_profiles": 77,
+      "original_csv_cells_and_rows_verified": true,
+      "selected_outcome_basis": "Original published whole-percent R cells only; state count-ratio arithmetic and model fits are not reused.",
+      "statewide_ratio_precision_is_not_selected": true
+    },
+    "immutable_definition_fingerprint": "41c83100bb0930615830e19b012bf223610e82375602b586dd1d485980605fdc",
+    "immutable_numerical_policy_fingerprint": "50cdc35d5869c06f8582923e3e252958e9b5b681733a248255d717465b0a533a",
+    "immutable_numerical_runtime_fingerprint": "a4e6e4e8b5720c36dff10786d03b0c9cb96236127756b3de12137b240a91acf9",
+    "immutable_raw_input_fingerprint": "608d0451819c7938658f8eead8bc8684d5c0b3f77c838bc9c63a044960148b7d",
+    "immutable_schema_fingerprint": "ae2b97bd762a4771639c9c5b5b45aa2c11c39578450e9d153919f064dfd28441",
+    "immutable_secondary_texas_fingerprint": "bb8a0882cc64fd569168bed05853cd9070d4ec4e0940fa27a2c6a029e1d78aac",
+    "immutable_source_identity_fingerprint": "e1aad88a42c240ad7e651b33290ef648979c2726b87b0b18136b04bbef2b3087",
+    "immutable_source_policy_fingerprint": "c2ef8b9598d2e6eebf7ecb905346a356e684de3064827dbc12e73e562a7dbbdb",
+    "immutable_source_runtime_fingerprint": "c85b0fc675b821fd2e44ffeef5360676957340d5e99a4d5f9d381298c15b2832",
+    "native_assessment_definition": {
+      "grades": "Enrolled grades 3\u20138, including applicable Algebra I and English I\u2013II EOC",
+      "level": "ES",
+      "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
+      "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+      "standard": "2024\u201325 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I\u2013II EOC; separate Katy no-high-grade population",
+      "state": "TX",
+      "year": 2025
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_katy_models.py",
+        "sha256": "ecc68a7dfc95988e5ec1b3c65ecc50dbf3b4943b9e45a6ac41c9bb79359bd667"
+      },
+      "tests": {
+        "path": "tests/test_katy_models.py",
+        "sha256": "773dc1f46945b2f8604e675c4426f0f40c0ca9c67e92593884a51e9945844df5"
+      }
+    },
+    "operational_roster": {
+      "canonical_import_performed": false,
+      "ccd_absent_from_native": [
+        "482517008625",
+        "482517008629",
+        "482517023019",
+        "482517023020"
+      ],
+      "ccd_charter": {
+        "No": 81
+      },
+      "ccd_school_types": {
+        "Alternative School": 4,
+        "Regular School": 76,
+        "Special Education School": 1
+      },
+      "complete_omitted_original_inventories": {
+        "assessment": {
+          "complete_inventory_path": "raw_inputs.assessment.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        },
+        "directory": {
+          "complete_inventory_path": "raw_inputs.directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 81,
+          "retained_rows": 81
+        },
+        "lea_directory": {
+          "complete_inventory_path": "raw_inputs.lea_directory.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 1,
+          "retained_rows": 1
+        },
+        "lea_membership": {
+          "complete_inventory_path": "raw_inputs.lea_membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 211,
+            "Derived - Education Unit Total minus Adult Education Count": 1,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 15
+          },
+          "omitted_raw_ordinal_sha256": "422ef3a9e46ad5166a4933acaf523e24894fe5544943b0aa916ac22eb5af30c9",
+          "omitted_rows": 227,
+          "omitted_typed_cells": 3405,
+          "original_district_rows": 243,
+          "retained_rows": 16
+        },
+        "membership": {
+          "complete_inventory_path": "raw_inputs.membership.complete_district_inventory",
+          "omitted_populations": {
+            "Category Set A - By Race/Ethnicity; Sex; Grade": 6499,
+            "Derived - Education Unit Total minus Adult Education Count": 79,
+            "Derived - Subtotal by Race/Ethnicity and Sex minus Adult Education Count": 1185
+          },
+          "omitted_raw_ordinal_sha256": "3e30c5b0a2d67e6caf4955cf738ab3bf4983b212579a59494977ef505a2fc10d",
+          "omitted_rows": 7763,
+          "omitted_typed_cells": 139734,
+          "original_district_rows": 8349,
+          "retained_rows": 586
+        },
+        "ref": {
+          "complete_inventory_path": "raw_inputs.ref.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        },
+        "stud": {
+          "complete_inventory_path": "raw_inputs.stud.complete_district_inventory",
+          "omitted_populations": {},
+          "omitted_raw_ordinal_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+          "omitted_rows": 0,
+          "omitted_typed_cells": 0,
+          "original_district_rows": 77,
+          "retained_rows": 77
+        }
+      },
+      "directory_records": 81,
+      "grade_school_published_rates_differing_from_unverified_count_ratios": {
+        "math": 64,
+        "reading": 64
+      },
+      "model_results": 0,
+      "native_absent_from_ccd": [],
+      "native_campuses": 77,
+      "native_reference_high_grade_contradictions": [],
+      "native_scope_counts": {
+        "grade-school": 65,
+        "high": 11,
+        "mixed": 1
+      },
+      "native_usable_income": 77,
+      "nonoperational_identities": [
+        {
+          "native_school_id": "101914149",
+          "school_id": "482517023019",
+          "status": "Future"
+        },
+        {
+          "native_school_id": "101914150",
+          "school_id": "482517023020",
+          "status": "Future"
+        }
+      ],
+      "operational_native_gaps": [
+        {
+          "native_school_id": "101914004",
+          "school_id": "482517008625"
+        },
+        {
+          "native_school_id": "101914135",
+          "school_id": "482517008629"
+        }
+      ],
+      "operational_schools": 79,
+      "original_records": 915,
+      "original_typed_cells": 35746,
+      "positive_enrolled_grades_not_offered": [],
+      "prospective_subject_members": {
+        "combined": 64,
+        "math": 64,
+        "reading": 64
+      },
+      "reported_reconciled_performance_arithmetic_rows": {
+        "math": 64,
+        "reading": 64
+      },
+      "sampling_intervals_available": false,
+      "served_comparison_created": false,
+      "source_rows": {
+        "assessment": 77,
+        "directory": 81,
+        "lea_directory": 1,
+        "lea_membership": 16,
+        "membership": 586,
+        "ref": 77,
+        "stud": 77
+      },
+      "ten_valid_scored_floor_certified": false,
+      "valid_score_verification_hold": "Current2025 primary documentation must map N/NAAR and M/medical exemption score statuses to these exact native enrolled-grade3\u20138 TAPR #Tests fields.",
+      "verified_valid_score_counts": 0
+    },
+    "release_basis": {
+      "all_models_point_only": true,
+      "district_modeling_approved": true,
+      "exact_source_roster_replayed": true,
+      "historical_audits_approved_for_modeling": false,
+      "historical_audits_approved_for_source": false,
+      "minimum_subject_schools": 30,
+      "normalized_source_approved": true,
+      "note": "Only this separate exact same-year enrolled-grade point-only contract is approved. Complete original source and numerical audits remain immutable with false historical approvals; compact references require both artifacts and code/test/policy pins on every replay. Count, high/mixed/primary and nonoperational holds remain.",
+      "numerical_audit_without_holds": true,
+      "numerical_success_resolves_count_hold": false,
+      "ten_valid_scored_floor_certified": false,
+      "verified_valid_score_denominators_available": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "KATY H S",
+        "native_school_id": "101914001",
+        "native_scope": "high",
+        "school_id": "482517002809",
+        "source_roster_link_index": 3
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: mixed",
+        "name": "OPPORT AWARENESS CTR",
+        "native_school_id": "101914003",
+        "native_scope": "mixed",
+        "school_id": "482517005516",
+        "source_roster_link_index": 11
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "TAYLOR H S",
+        "native_school_id": "101914002",
+        "native_scope": "high",
+        "school_id": "482517005518",
+        "source_roster_link_index": 13
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "MAYDE CREEK H S",
+        "native_school_id": "101914005",
+        "native_scope": "high",
+        "school_id": "482517006001",
+        "source_roster_link_index": 19
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "CINCO RANCH H S",
+        "native_school_id": "101914007",
+        "native_scope": "high",
+        "school_id": "482517008271",
+        "source_roster_link_index": 26
+      },
+      {
+        "exclusion": "Native same-year TAPR campus absent",
+        "name": "ARTHUR MILLER CAREER CENTER",
+        "native_school_id": "101914004",
+        "native_scope": null,
+        "school_id": "482517008625",
+        "source_roster_link_index": 27
+      },
+      {
+        "exclusion": "Native same-year TAPR campus absent",
+        "name": "PROJECT TYKE",
+        "native_school_id": "101914135",
+        "native_scope": null,
+        "school_id": "482517008629",
+        "source_roster_link_index": 31
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "MORTON RANCH H S",
+        "native_school_id": "101914009",
+        "native_scope": "high",
+        "school_id": "482517010759",
+        "source_roster_link_index": 38
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "SEVEN LAKES H S",
+        "native_school_id": "101914010",
+        "native_scope": "high",
+        "school_id": "482517010760",
+        "source_roster_link_index": 39
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "FORT BEND CO ALTER",
+        "native_school_id": "101914034",
+        "native_scope": "high",
+        "school_id": "482517010762",
+        "source_roster_link_index": 40
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "TOMPKINS H S",
+        "native_school_id": "101914012",
+        "native_scope": "high",
+        "school_id": "482517011271",
+        "source_roster_link_index": 49
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "PAETOW H S",
+        "native_school_id": "101914013",
+        "native_scope": "high",
+        "school_id": "482517012984",
+        "source_roster_link_index": 61
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "JORDAN H S",
+        "native_school_id": "101914014",
+        "native_scope": "high",
+        "school_id": "482517013663",
+        "source_roster_link_index": 69
+      },
+      {
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "name": "FREEMAN H S",
+        "native_school_id": "101914015",
+        "native_scope": "high",
+        "school_id": "482517014023",
+        "source_roster_link_index": 73
+      },
+      {
+        "exclusion": "Native same-year TAPR campus absent",
+        "name": "NEW EL #47",
+        "native_school_id": "101914149",
+        "native_scope": null,
+        "school_id": "482517023019",
+        "source_roster_link_index": 79
+      },
+      {
+        "exclusion": "Native same-year TAPR campus absent",
+        "name": "NEW EL #48",
+        "native_school_id": "101914150",
+        "native_scope": null,
+        "school_id": "482517023020",
+        "source_roster_link_index": 80
+      }
+    ],
+    "subject_coverage": {
+      "combined": {
+        "charter": {
+          "No": 64
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "name": "HARRIS CO SCH FOR ACCELERATED LRN",
+            "native_school_id": "101914033",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "reason": "math: original published whole-percent rate missing or masked; reading: original published whole-percent rate missing or masked",
+            "school_id": "482517008823",
+            "source_refs": {
+              "directory": {
+                "columns": [
+                  1,
+                  10,
+                  9,
+                  11,
+                  12,
+                  32
+                ],
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS"
+                ],
+                "header_source_row": 1,
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_id": "directory",
+                "source_row": 87410,
+                "table": "directory"
+              },
+              "directory_source_row": 87410,
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "native_source_rows": {
+                "assessment": 4716,
+                "ref": 4716,
+                "stud": 4716
+              },
+              "native_tables": {
+                "assessment": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    5,
+                    6,
+                    55,
+                    80,
+                    81,
+                    130
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CDA38AM0E025D",
+                    "CDA38AM0E225N",
+                    "CDA38AM0E225R",
+                    "CDA38AR0E025D",
+                    "CDA38AR0E225N",
+                    "CDA38AR0E225R"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "assessment",
+                  "source_row": 4716,
+                  "table": "assessment"
+                },
+                "ref": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    2,
+                    5,
+                    6
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "GRDTYPE",
+                    "GRDSPAN"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus Type (E - Elementary, M - Middle, S - High, B - Elementary/Secondary)",
+                    "Grade Span (Total Enrollment)"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "ref",
+                  "source_row": 4716,
+                  "table": "ref"
+                },
+                "stud": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    32,
+                    67,
+                    69,
+                    68,
+                    33,
+                    35,
+                    41,
+                    43,
+                    45,
+                    47,
+                    49,
+                    51,
+                    53,
+                    55,
+                    57,
+                    59,
+                    61,
+                    63,
+                    65
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CPNTALLC",
+                    "CPNTECOC",
+                    "CPNTNEDC",
+                    "CPNTECOP",
+                    "CPNTGEEC",
+                    "CPNTGPKC",
+                    "CPNTGKNC",
+                    "CPNTG01C",
+                    "CPNTG02C",
+                    "CPNTG03C",
+                    "CPNTG04C",
+                    "CPNTG05C",
+                    "CPNTG06C",
+                    "CPNTG07C",
+                    "CPNTG08C",
+                    "CPNTG09C",
+                    "CPNTG10C",
+                    "CPNTG11C",
+                    "CPNTG12C"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus 2025 Student Enrollment: All Students Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Count",
+                    "Campus 2025 Student Enrollment: Non-Educationally Disadv Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Percent",
+                    "Campus 2025 Student Enrollment: Early Childhood Education Count",
+                    "Campus 2025 Student Enrollment: Pre-Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Grade 1 Count",
+                    "Campus 2025 Student Enrollment: Grade 2 Count",
+                    "Campus 2025 Student Enrollment: Grade 3 Count",
+                    "Campus 2025 Student Enrollment: Grade 4 Count",
+                    "Campus 2025 Student Enrollment: Grade 5 Count",
+                    "Campus 2025 Student Enrollment: Grade 6 Count",
+                    "Campus 2025 Student Enrollment: Grade 7 Count",
+                    "Campus 2025 Student Enrollment: Grade 8 Count",
+                    "Campus 2025 Student Enrollment: Grade 9 Count",
+                    "Campus 2025 Student Enrollment: Grade 10 Count",
+                    "Campus 2025 Student Enrollment: Grade 11 Count",
+                    "Campus 2025 Student Enrollment: Grade 12 Count"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "stud",
+                  "source_row": 4716,
+                  "table": "stud"
+                }
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              },
+              "roster_link_index": 32,
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original published whole-percent rate missing or masked; reading: original published whole-percent rate missing or masked": 1
+        },
+        "grade_school_configuration_profiles": 65,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 64
+        },
+        "source_evidence_path": "data/source/katy-district-audit.json",
+        "source_evidence_sha256": "3a3c22a2e9c18e06930b5650792d35b3d24df35bf1a6b822b714351c1fcf882f",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 64
+      },
+      "math": {
+        "charter": {
+          "No": 64
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "name": "HARRIS CO SCH FOR ACCELERATED LRN",
+            "native_school_id": "101914033",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "reason": "math: original published whole-percent rate missing or masked",
+            "school_id": "482517008823",
+            "source_refs": {
+              "directory": {
+                "columns": [
+                  1,
+                  10,
+                  9,
+                  11,
+                  12,
+                  32
+                ],
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS"
+                ],
+                "header_source_row": 1,
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_id": "directory",
+                "source_row": 87410,
+                "table": "directory"
+              },
+              "directory_source_row": 87410,
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "native_source_rows": {
+                "assessment": 4716,
+                "ref": 4716,
+                "stud": 4716
+              },
+              "native_tables": {
+                "assessment": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    5,
+                    6,
+                    55,
+                    80,
+                    81,
+                    130
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CDA38AM0E025D",
+                    "CDA38AM0E225N",
+                    "CDA38AM0E225R",
+                    "CDA38AR0E025D",
+                    "CDA38AR0E225N",
+                    "CDA38AR0E225R"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "assessment",
+                  "source_row": 4716,
+                  "table": "assessment"
+                },
+                "ref": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    2,
+                    5,
+                    6
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "GRDTYPE",
+                    "GRDSPAN"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus Type (E - Elementary, M - Middle, S - High, B - Elementary/Secondary)",
+                    "Grade Span (Total Enrollment)"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "ref",
+                  "source_row": 4716,
+                  "table": "ref"
+                },
+                "stud": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    32,
+                    67,
+                    69,
+                    68,
+                    33,
+                    35,
+                    41,
+                    43,
+                    45,
+                    47,
+                    49,
+                    51,
+                    53,
+                    55,
+                    57,
+                    59,
+                    61,
+                    63,
+                    65
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CPNTALLC",
+                    "CPNTECOC",
+                    "CPNTNEDC",
+                    "CPNTECOP",
+                    "CPNTGEEC",
+                    "CPNTGPKC",
+                    "CPNTGKNC",
+                    "CPNTG01C",
+                    "CPNTG02C",
+                    "CPNTG03C",
+                    "CPNTG04C",
+                    "CPNTG05C",
+                    "CPNTG06C",
+                    "CPNTG07C",
+                    "CPNTG08C",
+                    "CPNTG09C",
+                    "CPNTG10C",
+                    "CPNTG11C",
+                    "CPNTG12C"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus 2025 Student Enrollment: All Students Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Count",
+                    "Campus 2025 Student Enrollment: Non-Educationally Disadv Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Percent",
+                    "Campus 2025 Student Enrollment: Early Childhood Education Count",
+                    "Campus 2025 Student Enrollment: Pre-Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Grade 1 Count",
+                    "Campus 2025 Student Enrollment: Grade 2 Count",
+                    "Campus 2025 Student Enrollment: Grade 3 Count",
+                    "Campus 2025 Student Enrollment: Grade 4 Count",
+                    "Campus 2025 Student Enrollment: Grade 5 Count",
+                    "Campus 2025 Student Enrollment: Grade 6 Count",
+                    "Campus 2025 Student Enrollment: Grade 7 Count",
+                    "Campus 2025 Student Enrollment: Grade 8 Count",
+                    "Campus 2025 Student Enrollment: Grade 9 Count",
+                    "Campus 2025 Student Enrollment: Grade 10 Count",
+                    "Campus 2025 Student Enrollment: Grade 11 Count",
+                    "Campus 2025 Student Enrollment: Grade 12 Count"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "stud",
+                  "source_row": 4716,
+                  "table": "stud"
+                }
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              },
+              "roster_link_index": 32,
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original published whole-percent rate missing or masked": 1
+        },
+        "grade_school_configuration_profiles": 65,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 64
+        },
+        "source_evidence_path": "data/source/katy-district-audit.json",
+        "source_evidence_sha256": "3a3c22a2e9c18e06930b5650792d35b3d24df35bf1a6b822b714351c1fcf882f",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 64
+      },
+      "reading": {
+        "charter": {
+          "No": 64
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "name": "HARRIS CO SCH FOR ACCELERATED LRN",
+            "native_school_id": "101914033",
+            "raw_published_rates": {
+              "math": "",
+              "reading": ""
+            },
+            "reason": "reading: original published whole-percent rate missing or masked",
+            "school_id": "482517008823",
+            "source_refs": {
+              "directory": {
+                "columns": [
+                  1,
+                  10,
+                  9,
+                  11,
+                  12,
+                  32
+                ],
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS"
+                ],
+                "header_source_row": 1,
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_id": "directory",
+                "source_row": 87410,
+                "table": "directory"
+              },
+              "directory_source_row": 87410,
+              "enrolled_grade_fields": [
+                "CPNTGEEC",
+                "CPNTGPKC",
+                "CPNTGKNC",
+                "CPNTG01C",
+                "CPNTG02C",
+                "CPNTG03C",
+                "CPNTG04C",
+                "CPNTG05C",
+                "CPNTG06C",
+                "CPNTG07C",
+                "CPNTG08C",
+                "CPNTG09C",
+                "CPNTG10C",
+                "CPNTG11C",
+                "CPNTG12C"
+              ],
+              "income_fields": [
+                "CPNTALLC",
+                "CPNTECOC",
+                "CPNTNEDC",
+                "CPNTECOP"
+              ],
+              "native_source_rows": {
+                "assessment": 4716,
+                "ref": 4716,
+                "stud": 4716
+              },
+              "native_tables": {
+                "assessment": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    5,
+                    6,
+                    55,
+                    80,
+                    81,
+                    130
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CDA38AM0E025D",
+                    "CDA38AM0E225N",
+                    "CDA38AM0E225R",
+                    "CDA38AR0E025D",
+                    "CDA38AR0E225N",
+                    "CDA38AR0E225R"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Math Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # of Tests",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, # At Meets GL Standard or Above",
+                    "STAAR Performance, Reading Including EOC (Grade 3-8), SY 2024-25, All Students, % At Meets GL Standard or Above"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "assessment",
+                  "source_row": 4716,
+                  "table": "assessment"
+                },
+                "ref": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    2,
+                    5,
+                    6
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "GRDTYPE",
+                    "GRDSPAN"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus Type (E - Elementary, M - Middle, S - High, B - Elementary/Secondary)",
+                    "Grade Span (Total Enrollment)"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "ref",
+                  "source_row": 4716,
+                  "table": "ref"
+                },
+                "stud": {
+                  "codes_source_row": 2,
+                  "columns": [
+                    1,
+                    3,
+                    32,
+                    67,
+                    69,
+                    68,
+                    33,
+                    35,
+                    41,
+                    43,
+                    45,
+                    47,
+                    49,
+                    51,
+                    53,
+                    55,
+                    57,
+                    59,
+                    61,
+                    63,
+                    65
+                  ],
+                  "fields": [
+                    "CAMPUS",
+                    "DISTRICT",
+                    "CPNTALLC",
+                    "CPNTECOC",
+                    "CPNTNEDC",
+                    "CPNTECOP",
+                    "CPNTGEEC",
+                    "CPNTGPKC",
+                    "CPNTGKNC",
+                    "CPNTG01C",
+                    "CPNTG02C",
+                    "CPNTG03C",
+                    "CPNTG04C",
+                    "CPNTG05C",
+                    "CPNTG06C",
+                    "CPNTG07C",
+                    "CPNTG08C",
+                    "CPNTG09C",
+                    "CPNTG10C",
+                    "CPNTG11C",
+                    "CPNTG12C"
+                  ],
+                  "labels": [
+                    "9 Digit Campus Number",
+                    "6 Digit County District Number",
+                    "Campus 2025 Student Enrollment: All Students Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Count",
+                    "Campus 2025 Student Enrollment: Non-Educationally Disadv Count",
+                    "Campus 2025 Student Enrollment: Economically Disadvantaged Percent",
+                    "Campus 2025 Student Enrollment: Early Childhood Education Count",
+                    "Campus 2025 Student Enrollment: Pre-Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Kindergarten Count",
+                    "Campus 2025 Student Enrollment: Grade 1 Count",
+                    "Campus 2025 Student Enrollment: Grade 2 Count",
+                    "Campus 2025 Student Enrollment: Grade 3 Count",
+                    "Campus 2025 Student Enrollment: Grade 4 Count",
+                    "Campus 2025 Student Enrollment: Grade 5 Count",
+                    "Campus 2025 Student Enrollment: Grade 6 Count",
+                    "Campus 2025 Student Enrollment: Grade 7 Count",
+                    "Campus 2025 Student Enrollment: Grade 8 Count",
+                    "Campus 2025 Student Enrollment: Grade 9 Count",
+                    "Campus 2025 Student Enrollment: Grade 10 Count",
+                    "Campus 2025 Student Enrollment: Grade 11 Count",
+                    "Campus 2025 Student Enrollment: Grade 12 Count"
+                  ],
+                  "labels_source_row": 1,
+                  "member": null,
+                  "source_id": "stud",
+                  "source_row": 4716,
+                  "table": "stud"
+                }
+              },
+              "outcome_fields": {
+                "math": "CDA38AM0E225R",
+                "reading": "CDA38AR0E225R"
+              },
+              "roster_link_index": 32,
+              "subject_fields": {
+                "math": [
+                  "CDA38AM0E025D",
+                  "CDA38AM0E225N",
+                  "CDA38AM0E225R"
+                ],
+                "reading": [
+                  "CDA38AR0E025D",
+                  "CDA38AR0E225N",
+                  "CDA38AR0E225R"
+                ]
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "reading: original published whole-percent rate missing or masked": 1
+        },
+        "grade_school_configuration_profiles": 65,
+        "model_sampling_intervals_available": false,
+        "school_types": {
+          "Regular School": 64
+        },
+        "source_evidence_path": "data/source/katy-district-audit.json",
+        "source_evidence_sha256": "3a3c22a2e9c18e06930b5650792d35b3d24df35bf1a6b822b714351c1fcf882f",
+        "ten_valid_scored_floor_certified": false,
+        "usable_schools": 64
+      }
+    }
+  }
+}
