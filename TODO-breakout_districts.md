@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 05:35:23 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 05:48:49 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -17,8 +17,8 @@ Last tracker update: **2026-10-14 05:35:23 America/Chicago**. GitHub account: **
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Merged; counts/intervals unavailable | 2026-10-14 05:15:03 |
-| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Final review; counts/status held | — |
-| KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying numerical models; counts/status held | — |
+| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Merged; counts/status held | 2026-10-14 05:42:30 |
+| KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Preparing private integration; counts/status held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying original source/cohort | — |
 | DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Verifying original source/cohort | — |
@@ -352,3 +352,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 05:32:13**: Northside final integration and both actual main imports pass independent review:107 profiles /104 per subject /312 results /22 sources; target nine tables/four exports repeat exactly, preserving every prior row/Lee/assets/science.16 final adapter checks,210754 original/normalized/canonical/history comparisons and307 meaningful rejections/five controls pass. Shared exports/browser/final review/master/public follow; finish remains blank. Three masked alternatives, Homebound native gap, individual enrollment denominator, membership differences and N/M/count/floor/interval holds remain. Eleven fixed66 finished /55 remain. Katy independent numerical review and San Diego/DeKalb source work continue.
 
 - **2026-10-14 05:35:23**: Northside repeated shared exports pass39 states /72 comparisons /89 definitions, preserving allprior71/88/provider bindings/geometry and changing only4833120 planning scope. All97 targeted Python/20 JavaScript checks and17 local browser assertions pass: first off-page Nichols search/keyboard,75→107 pagination, masked history gaps, retained Helotes/income, fixed104 subjects, NCES share/empty/invalid links and390px rendered widths/clean console. Final independent shared/prose review/HTTP-Git binding precede tested master delivery; finish blank. Eleven fixed66 finished /55 remain.
+
+- **2026-10-14 05:42:30**: Northside tested commit `81c12ab90bcc447f3be28815bb8546cc1c58df16` is verified on master and expansion/all-states through fine-fiddle. Final independent source/numerical/private/main/shared review,97 targeted Python/20 JavaScript checks,17 local browser assertions and nine exact local HTTP/17 changed Git bindings pass. Twelve original66 finished /54 remain. Pages38551399591/public verification follow; all three masks, Homebound gap, enrollment/membership differences and N/M/count/floor/interval limits remain. Katy numerical review and San Diego/DeKalb source work continue.
+
+- **2026-10-14 05:46:39**: Northside exacttested81c12ab successful Pages38551399591/public verification passes12 actual browser assertions and nine independently matched HTTP/Git assets. Twelve fixed66 finished /54 remain; masks, own income/membership differences and N/M/count/floor/interval/attribution limits remain unchanged.
+
+- **2026-10-14 05:47:49**: Katy independent numerical gate passes64/64/64 and192 explicit deletions:18 final tests/two identical actual builds,105127 independent original/pointer/NumPy comparisons,208 necessary rejections/seven controls and60-digit checks. Ursula influence, Harris mask, unmatched/Future/high/mixed records and own October enrollment denominator remain; source/model6 immutable/false and counts/N/M/floor/intervals unavailable. Final normalized testing/private-copy integration is next, with independent first checkpoint before repeat; no actual main/static release. San Diego and DeKalb source audits continue; no outside-fixed66 work.
