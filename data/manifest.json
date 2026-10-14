@@ -1123,6 +1123,160 @@
       "sha256": "1c8617d492e845e8bdf584c4780de6ac1cf7e7d35e7f2faaa96cec30cf322216"
     },
     {
+      "id": "ga-cobb-2025:ccd_directory_2025",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_directory_layout",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/SY_2024-25_SCH_Directory_Companion_2026-005d.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Directory_Companion_2026-005d.xlsx",
+      "sha256": "aa3be279c7a175be76ce43e451fb8ba513481e7a80f009abf7de3ad4cf33f8cf"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_lea_directory",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_lea_membership",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_lunch_2025",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd_sch_033_2425_l_2a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_033_2425_l_2a_073025.zip",
+      "sha256": "97bda749e778ee74cb731d181bbcdaf0f9c6cd6edf94cb31518a5bbeab411dd6"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_lunch_layout",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/SY_2024-25_SCH_Lunch_Companion_2026-005d_2a.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Lunch_Companion_2026-005d_2a.xlsx",
+      "sha256": "6596d9e9a3c471ddd83b63d19a46514193220b7f3d66b91ddb0ad5e42d252008"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_membership_2025",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_membership_layout",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/SY_2024-25_SCH_Membership_Companion_2026-005d.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Membership_Companion_2026-005d.xlsx",
+      "sha256": "cc3afc95a5226da12aec2f77b264477adfe9d85bb250e71c4dab534b5a591fd1"
+    },
+    {
+      "id": "ga-cobb-2025:ccd_state_notes_2025",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "sha256": "6476b6b28b700389e261b87377d9cd249935503d53b5919fe1b7ef8b1052d1a7"
+    },
+    {
+      "id": "ga-cobb-2025:edc_2025",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/edc-2025/ga.csv",
+      "url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025",
+      "sha256": "38e3c39bdebd361d55055478e2f657a9e8c70d60781b9e60f47407c955f8cc6d"
+    },
+    {
+      "id": "ga-cobb-2025:edc_codebook_v3_1",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/EDC_codebook_v3.1.xlsx",
+      "url": "https://www.eddatacenter.org/data_codebooks/EDC_codebook_v3.1.xlsx",
+      "sha256": "cfaf3eeb482b416106e4a7b775c9554768fbf4900b0518c861979d646b6b2574"
+    },
+    {
+      "id": "ga-cobb-2025:edc_technical_v3_1",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/EDC_technical_documentation_v3.1.pdf",
+      "url": "https://www.eddatacenter.org/data_documentation/EDC_technical_documentation_v3.1.pdf",
+      "sha256": "749c52497e37cfd73c0e29afadea3d90d6b50950844f070247594f44254a7968"
+    },
+    {
+      "id": "ga-cobb-2025:extract",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/source/cobb.json",
+      "url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025",
+      "sha256": "52563bc93d28d4faba880f8926717b933a9854d0d50737266f1eaf998866b753"
+    },
+    {
+      "id": "ga-cobb-2025:ga_all_students_crosscheck",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/edc-2025/ga-all-students.json",
+      "url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025",
+      "sha256": "afd8186f90f8814139ac0172b1fb064aa3abedbdbcb9920ed138d1d421da165a"
+    },
+    {
+      "id": "ga-cobb-2025:historical_georgia_extract",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/source/ccd-state-snapshots.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/ccd-state-snapshots.json",
+      "sha256": "3b6e55bba0055c582eb14a461697c64131a36e4cd555bca94965e5f77cac91fc"
+    },
+    {
+      "id": "ga-cobb-2025:nces_lunch_definitions",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/raw/ccd-lunch-definition.html",
+      "url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data",
+      "sha256": "03f24547726ebf7529d946cee85f84e3de3ac3962b5dbc8b96e0a4db3744247d"
+    },
+    {
+      "id": "ga-cobb-2025:numerical_audit",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/source/cobb-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/cobb-model-audit.json",
+      "sha256": "ed7bb059531f0d91ddeb959a0b1e54823d50d8aeb3582ed9a7e481f9e2e03bc6"
+    },
+    {
+      "id": "ga-cobb-2025:numerical_audit_code",
+      "dataset_id": "ga-cobb-2025",
+      "path": "scripts/audit_cobb_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_cobb_models.py",
+      "sha256": "43f8e35e91b0224b799db1e828ae08aa42563fad3e9ddce4d89d2d4a1ebe9427"
+    },
+    {
+      "id": "ga-cobb-2025:numerical_audit_tests",
+      "dataset_id": "ga-cobb-2025",
+      "path": "tests/test_cobb_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_cobb_models.py",
+      "sha256": "9313aef79bf223198d1b35b2481fd397f87e91d0c4896db4130c2bc81ad23230"
+    },
+    {
+      "id": "ga-cobb-2025:roster_audit",
+      "dataset_id": "ga-cobb-2025",
+      "path": "data/source/cobb-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/cobb-district-audit.json",
+      "sha256": "979eb0b49e2a34362ffe7fa06103a76344a9378712b1569d1861dac67d7a2cde"
+    },
+    {
+      "id": "ga-cobb-2025:source_audit_code",
+      "dataset_id": "ga-cobb-2025",
+      "path": "scripts/audit_cobb.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_cobb.py",
+      "sha256": "f545a276b1240b46a21375f3fd3ba699a9b25afa19ec67da926cf965e0aa1eb1"
+    },
+    {
+      "id": "ga-cobb-2025:source_audit_tests",
+      "dataset_id": "ga-cobb-2025",
+      "path": "tests/test_cobb_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_cobb_audit.py",
+      "sha256": "90b7bdcfd21118fc1dee18fd74f4f76dbe640db03e2ae447249b2b8f9ff32930"
+    },
+    {
       "id": "ga-edc-ccd-dc:ccd_directory_2025",
       "dataset_id": "ga-edc-ccd-dc",
       "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
@@ -19355,6 +19509,16 @@
       "source_url": "https://www.fldoe.org/file/18534/SchoolGradesCalcGuide25.pdf"
     },
     {
+      "id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES",
+      "state": "GA",
+      "name": "Georgia Milestones EOG regular All Students G38 proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Operational pure lower offered and reconciled enrolled profiles with positive reported grades 3\u20138; native regular EOG All Students G38",
+      "standard": "Original EDC v3.1 regular Georgia Milestones EOG All Students aggregate grades 3\u20138, Levels 3\u20134. Accelerated EOG/EOC population treatment, original source business rules and valid-score counts remain uncertified.",
+      "source_url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025"
+    },
+    {
       "id": "ga-edc-ccd-dc:2025:Georgia Milestones EOG grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC:ES",
       "state": "GA",
       "name": "Georgia Milestones EOG grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC",
@@ -20417,6 +20581,12 @@
       "name": "Individual reported FRPL/direct-certification eligibility",
       "definition": "Florida 2024\u201325 Final Survey 3 (February) raw individual Lunch Status counts: D/F free eligibility + 3/E reduced eligibility + C/R CEP direct certification, divided by same-survey enrolled students (PK\u201312). Never uses the USDA 1.6-adjusted federal funding numerator or published school-grade economic percentage. CEP N means not individually identified eligible and is excluded from the numerator. Provision 2 code 4 reports all enrolled students, so schools with nonzero or masked code 4 have unavailable income. At CEP schools this proxy counts direct certification/household extension rather than a complete income survey of all families; undercount and reporting coverage are unknown. No other-year backfill.",
       "source_url": "https://www.fldoe.org/core/fileparse.php/20744/urlt/2425-146025.pdf"
+    },
+    {
+      "id": "ga-cobb-2025:income",
+      "name": "Reported individual direct certification / school membership",
+      "definition": "2024\u201325 reported CCD Final 2a individual Direct Certification Education Unit Total divided by that school\u2019s own reported same-year Membership Education Unit Total, including pre-K where enrolled. Original Georgia notes say Medicaid income was added to SNAP/TANF certification starting in 2024 and foster records were received. Membership covers state-funded programs and includes prekindergarten pupils in outside programs. This benefit and status measure is an economic disadvantage proxy, not full household-income FRPL or universal/CEP meal receipt. Both counts require Reported flags; masks, missing or derived counts, other-year income and tested subgroup denominators never substitute. Reporting coverage and completeness are unknown.",
+      "source_url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data"
     },
     {
       "id": "ga-edc-ccd-dc:income",
@@ -21745,6 +21915,30 @@
       "subject": "reading",
       "method_version": "ols-studentized-v1",
       "input_sha256": "c26ddf8bb700a9d1600f76b9a4f44375bab61b8efffcce0177e3eac4a525826f"
+    },
+    {
+      "id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES:combined:ols-v1:8af659a45f66",
+      "dataset_id": "ga-cobb-2025",
+      "definition_id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "8af659a45f66d863fbf1b050acf863021e6564a364c86920a7fe2cbabdcec792"
+    },
+    {
+      "id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES:math:ols-v1:8af659a45f66",
+      "dataset_id": "ga-cobb-2025",
+      "definition_id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "8af659a45f66d863fbf1b050acf863021e6564a364c86920a7fe2cbabdcec792"
+    },
+    {
+      "id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES:reading:ols-v1:8af659a45f66",
+      "dataset_id": "ga-cobb-2025",
+      "definition_id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "8af659a45f66d863fbf1b050acf863021e6564a364c86920a7fe2cbabdcec792"
     },
     {
       "id": "ga-edc-ccd-dc:2025:Georgia Milestones EOG grades 3\u20138 \u00b7 grade schools \u00b7 CCD DC:ES:combined:ols-v1:d4467ac2d934",
@@ -24411,6 +24605,23 @@
       "id": "GA",
       "name": "Georgia",
       "regions": [
+        {
+          "id": "cobb",
+          "name": "Cobb County",
+          "dataset": "ga-cobb-2025",
+          "status": "ready",
+          "geography": "cobb",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/cobb/schools.json",
+          "boundaries": null,
+          "comparison": "Cobb County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Cobb County independent 2024\u201325 grade-school models use exact NCES LEA 1301290 / native GA-633 identities. All 90 operational pure lower offered and reconciled enrolled grade profiles remain searchable, with separate fixed 90-school Math, ELA and Combined models. Outcomes use original regular Georgia Milestones EOG All Students G38 Levels 3\u20134 published rates; income uses each school\u2019s own reported individual direct certification divided by reported same-year membership. Primary-only, high and mixed configurations remain outside. Income extremes and influence remain included. Georgia Medicaid/foster certification and outside-program prekindergarten membership are broader population limits. Accelerated EOG/EOC coverage, nonlisted attribution completeness, valid-score counts and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Cobb County source release.",
+          "statewide": false,
+          "audit": "data/cobb/coverage.json"
+        },
         {
           "id": "georgia",
           "name": "Statewide",

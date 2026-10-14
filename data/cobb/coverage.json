@@ -1,0 +1,432 @@
+{
+  "year": 2025,
+  "schools": 90,
+  "cohorts": {
+    "grade": {
+      "directory": 90,
+      "eligible": {
+        "math": 90,
+        "reading": 90,
+        "combined": 90
+      }
+    }
+  },
+  "exclusions": {},
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/cobb-district-audit.json",
+      "sha256": "979eb0b49e2a34362ffe7fa06103a76344a9378712b1569d1861dac67d7a2cde",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "retained_original_record_count": 2260,
+      "retained_original_cell_count": 68573,
+      "complete_original_record_count": 25662,
+      "complete_original_cell_count": 865003,
+      "omitted_original_records": 23402,
+      "note": "Complete needed original records, schemas, primary definitions and exact omitted-population/identity/row inventories stay in the immutable linked source. Every numerical replay requires the current unchanged complete source/code/tests and literal policy/runtime semantic validation."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/cobb-model-audit.json",
+      "sha256": "ed7bb059531f0d91ddeb959a0b1e54823d50d8aeb3582ed9a7e481f9e2e03bc6",
+      "bytes": 1176631
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_cobb.py",
+        "sha256": "f545a276b1240b46a21375f3fd3ba699a9b25afa19ec67da926cf965e0aa1eb1"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_cobb_audit.py",
+        "sha256": "90b7bdcfd21118fc1dee18fd74f4f76dbe640db03e2ae447249b2b8f9ff32930"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_cobb_models.py",
+        "sha256": "43f8e35e91b0224b799db1e828ae08aa42563fad3e9ddce4d89d2d4a1ebe9427"
+      },
+      "tests": {
+        "path": "tests/test_cobb_models.py",
+        "sha256": "9313aef79bf223198d1b35b2481fd397f87e91d0c4896db4130c2bc81ad23230"
+      }
+    },
+    "immutable_raw_input_fingerprint": "897c2c980a031f4f56e576760d8d42da568d133cdd68c293adb92068e85b6095",
+    "immutable_schema_fingerprint": "e17bb75e7e35a0e09cfba5ba5ed2d44d318fbd79544f2450c852a35305dd2384",
+    "immutable_definition_fingerprint": "0a3b0b7c7318ff0753626aa50d2971b8bdbfdff66395feeace75c53f731ed1b8",
+    "immutable_identity_fingerprint": "2959a5cb97315bffc80f4960b220d5384fdc22a73a5a71ef09a1af8bab40d2a5",
+    "immutable_source_policy_fingerprint": "e6d705f3db9cbba7b9fd37c1cb555edc13911f05b04f90fb2c024ba334a408ca",
+    "immutable_source_runtime_fingerprint": "cfa96ba5bf716278657cca08affd12e2ef85f110f846c11f044b598fceccb22a",
+    "immutable_numerical_policy_fingerprint": "6b25f52709fdd3a73f77bee7f0078ca4049e6049787dca7f689baea107a1575b",
+    "immutable_numerical_runtime_fingerprint": "1c4a0addaa0a0bb5adb51a0a3f8c35d56aee661c1a56422e0f222a399a434ca3",
+    "normalized_metadata_fingerprint": "7fa34ec31ebec043798a4d4cf952f77cbd2ad66975c2173e9fd69ea6ea13d8d6",
+    "operational_roster": {
+      "source_rows": {
+        "directory": 110,
+        "lea_directory": 1,
+        "membership": 832,
+        "lea_membership": 16,
+        "lunch": 550,
+        "assessment": 751
+      },
+      "original_records": 2260,
+      "original_typed_cells": 68573,
+      "complete_original_source_rows": {
+        "directory": 110,
+        "lea_directory": 1,
+        "membership": 11882,
+        "lea_membership": 243,
+        "lunch": 550,
+        "assessment": 12876
+      },
+      "complete_original_records": 25662,
+      "complete_original_typed_cells": 865003,
+      "omitted_original_records": 23402,
+      "directory_records": 110,
+      "operational_roster": 110,
+      "status": {
+        "Open": 110
+      },
+      "operational_offered_scope": {
+        "ES": 92,
+        "HS": 16,
+        "mixed": 2
+      },
+      "operational_CCD_school_types": {
+        "Regular School": 110
+      },
+      "operational_CCD_charters": {
+        "No": 109,
+        "Yes": 1
+      },
+      "original_native_assessment_names": [
+        "Georgia Milestones EOG"
+      ],
+      "original_native_assessment_types": [
+        "Regular"
+      ],
+      "original_native_grade_codes": [
+        "G03",
+        "G04",
+        "G05",
+        "G06",
+        "G07",
+        "G08",
+        "G38"
+      ],
+      "EOG_accelerated_EOC_population_certified": false,
+      "prospective_grade_profiles": 90,
+      "prospective_raw_published_rates": {
+        "math": 90,
+        "reading": 90,
+        "combined": 90
+      },
+      "prospective_usable": {
+        "math": 90,
+        "reading": 90,
+        "combined": 90
+      },
+      "prospective_charters": 0,
+      "usable_charters": {
+        "math": 0,
+        "reading": 0,
+        "combined": 0
+      },
+      "primary_only_ids": [
+        "130129000552",
+        "130129003528"
+      ],
+      "native_only_ids": [],
+      "native_school_ids": 92,
+      "membership_school_totals": 110,
+      "direct_certification_school_totals": 110,
+      "missing_operational_membership_ids": [],
+      "missing_operational_direct_certification_ids": [],
+      "district_reported_enrollment": 105738,
+      "reported_operational_enrollment_sum": 105738,
+      "missing_operational_enrollment_count": 0,
+      "district_minus_reported_operational_enrollment": 0,
+      "secondary_original_profile_matches": 90,
+      "explicit_Cobb_named_primary_notes": 0,
+      "verified_valid_score_counts": 0,
+      "ten_valid_scored_floor_certified": false,
+      "model_sampling_intervals_available": false,
+      "canonical_integration_pending": true,
+      "model_results": 0
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "130129000513",
+        "native_school_id": "GA-633-0175",
+        "ncessch": "130129000513",
+        "name": "Walton High School",
+        "source_roster_link_index": 9,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000521",
+        "native_school_id": "GA-633-2066",
+        "ncessch": "130129000521",
+        "name": "Osborne High School",
+        "source_roster_link_index": 14,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000525",
+        "native_school_id": "GA-633-2056",
+        "ncessch": "130129000525",
+        "name": "North Cobb High School",
+        "source_roster_link_index": 16,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000529",
+        "native_school_id": "GA-633-1069",
+        "ncessch": "130129000529",
+        "name": "Wheeler High School",
+        "source_roster_link_index": 20,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000533",
+        "native_school_id": "GA-633-1064",
+        "ncessch": "130129000533",
+        "name": "McEachern High School",
+        "source_roster_link_index": 23,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000537",
+        "native_school_id": "GA-633-1054",
+        "ncessch": "130129000537",
+        "name": "Campbell High School",
+        "source_roster_link_index": 27,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000545",
+        "native_school_id": "GA-633-0373",
+        "ncessch": "130129000545",
+        "name": "Sprayberry High School",
+        "source_roster_link_index": 34,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000552",
+        "native_school_id": "GA-633-0404",
+        "ncessch": "130129000552",
+        "name": "Kennesaw Elementary School",
+        "source_roster_link_index": 38,
+        "exclusion": "Primary-only: no offered/enrolled tested grades 3\u20138"
+      },
+      {
+        "school_id": "130129000559",
+        "native_school_id": "GA-633-4066",
+        "ncessch": "130129000559",
+        "name": "Pebblebrook High School",
+        "source_roster_link_index": 45,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129000574",
+        "native_school_id": "GA-633-3056",
+        "ncessch": "130129000574",
+        "name": "South Cobb High School",
+        "source_roster_link_index": 55,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129001881",
+        "native_school_id": "GA-633-0381",
+        "ncessch": "130129001881",
+        "name": "Lassiter High School",
+        "source_roster_link_index": 60,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129001994",
+        "native_school_id": "GA-633-0188",
+        "ncessch": "130129001994",
+        "name": "Pope High School",
+        "source_roster_link_index": 67,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129002153",
+        "native_school_id": "GA-633-0192",
+        "ncessch": "130129002153",
+        "name": "Harrison High School",
+        "source_roster_link_index": 82,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129002365",
+        "native_school_id": "GA-633-0101",
+        "ncessch": "130129002365",
+        "name": "Kennesaw Mountain High School",
+        "source_roster_link_index": 89,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129002526",
+        "native_school_id": "GA-633-0103",
+        "ncessch": "130129002526",
+        "name": "Kell High School",
+        "source_roster_link_index": 92,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129003528",
+        "native_school_id": "GA-633-0107",
+        "ncessch": "130129003528",
+        "name": "McCall Primary School",
+        "source_roster_link_index": 96,
+        "exclusion": "Primary-only: no offered/enrolled tested grades 3\u20138"
+      },
+      {
+        "school_id": "130129003649",
+        "native_school_id": "GA-633-0707",
+        "ncessch": "130129003649",
+        "name": "Hillgrove High School",
+        "source_roster_link_index": 102,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129003679",
+        "native_school_id": "GA-633-0807",
+        "ncessch": "130129003679",
+        "name": "Devereux Ackerman Academy",
+        "source_roster_link_index": 103,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129003781",
+        "native_school_id": "GA-633-0209",
+        "ncessch": "130129003781",
+        "name": "Allatoona High School",
+        "source_roster_link_index": 105,
+        "exclusion": "Outside complete pure lower grade offerings"
+      },
+      {
+        "school_id": "130129004303",
+        "native_school_id": "GA-633-0808",
+        "ncessch": "130129004303",
+        "name": "Cobb Horizon High School",
+        "source_roster_link_index": 108,
+        "exclusion": "Outside complete pure lower grade offerings"
+      }
+    ],
+    "retained_outside_source_profiles": [],
+    "attribution_coverage": {
+      "exact_named_primary_notes": [],
+      "nonlisted_attribution_coverage_certified": false,
+      "EOG_accelerated_EOC_population_certified": false,
+      "basis": "No Cobb-specific attribution warning is inferred from unrelated districts; absence of a named note does not certify completeness or accelerated EOG/EOC population coverage."
+    },
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 90,
+        "usable_schools": 90,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 90
+        },
+        "school_types": {
+          "Regular School": 90
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cobb-district-audit.json",
+        "source_evidence_sha256": "979eb0b49e2a34362ffe7fa06103a76344a9378712b1569d1861dac67d7a2cde"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 90,
+        "usable_schools": 90,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 90
+        },
+        "school_types": {
+          "Regular School": 90
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cobb-district-audit.json",
+        "source_evidence_sha256": "979eb0b49e2a34362ffe7fa06103a76344a9378712b1569d1861dac67d7a2cde"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 90,
+        "usable_schools": 90,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 90
+        },
+        "school_types": {
+          "Regular School": 90
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cobb-district-audit.json",
+        "source_evidence_sha256": "979eb0b49e2a34362ffe7fa06103a76344a9378712b1569d1861dac67d7a2cde"
+      }
+    },
+    "nonoperational_ccd_references": [],
+    "native_assessment_definition": {
+      "state": "GA",
+      "name": "Georgia Milestones EOG regular All Students G38 proficiency",
+      "original_numerical_name": "2024\u201325 Georgia Milestones EOG regular All Students G38 published proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Operational pure lower offered and reconciled enrolled profiles with positive reported grades 3\u20138; native regular EOG All Students G38",
+      "standard": "Original EDC v3.1 regular Georgia Milestones EOG All Students aggregate grades 3\u20138, Levels 3\u20134. Accelerated EOG/EOC population treatment, original source business rules and valid-score counts remain uncertified.",
+      "source_url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025"
+    },
+    "historical_state_extract": {
+      "path": "data/source/ccd-state-snapshots.json",
+      "sha256": "3b6e55bba0055c582eb14a461697c64131a36e4cd555bca94965e5f77cac91fc",
+      "GA_snapshot_sha256": "46d47899274835d484be76ac9b13515afb96474c54b5a676c4c43539df289a67"
+    },
+    "count_definition_status": {
+      "status": "unverified_edc_georgia_eog_valid_score_denominators",
+      "raw_fields": [
+        "StudentGroup_TotalTested",
+        "StudentSubGroup_TotalTested",
+        "ProficientOrAbove_count",
+        "Lev1_count",
+        "Lev2_count",
+        "Lev3_count",
+        "Lev4_count"
+      ],
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Original EDC tested/level counts may be constructed and remain uncertified valid-score denominators. Own CCD membership/direct certification never substitutes, filters models or certifies a scored-count floor."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_hard_holds": true,
+      "source_attribution_limits_retained": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separately validated exact 90-profile, 90 Math, 90 ELA and 90 Combined point-only contract is approved. Historical six audits/code/tests remain unchanged with false approvals. Primary/high/mixed scopes, Georgia income definitions, nonlisted attribution and accelerated EOG/EOC coverage, valid-score counts and floor limits remain explicit."
+    }
+  }
+}

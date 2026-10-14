@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "GA",
+    "name": "Georgia"
+  },
+  "prepare_script": "scripts/prepare_cobb.py",
+  "regions": [
+    {
+      "id": "cobb",
+      "name": "Cobb County",
+      "dataset": "ga-cobb-2025",
+      "status": "ready",
+      "geography": "cobb",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/cobb/schools.json",
+      "boundaries": null,
+      "comparison": "Cobb County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Cobb County independent 2024\u201325 grade-school models use exact NCES LEA 1301290 / native GA-633 identities. All 90 operational pure lower offered and reconciled enrolled grade profiles remain searchable, with separate fixed 90-school Math, ELA and Combined models. Outcomes use original regular Georgia Milestones EOG All Students G38 Levels 3\u20134 published rates; income uses each school\u2019s own reported individual direct certification divided by reported same-year membership. Primary-only, high and mixed configurations remain outside. Income extremes and influence remain included. Georgia Medicaid/foster certification and outside-program prekindergarten membership are broader population limits. Accelerated EOG/EOC coverage, nonlisted attribution completeness, valid-score counts and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Cobb County source release.",
+      "statewide": false,
+      "audit": "data/cobb/coverage.json"
+    }
+  ]
+}

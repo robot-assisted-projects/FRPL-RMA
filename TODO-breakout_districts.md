@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 02:31:47 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 03:14:21 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -15,9 +15,9 @@ Last tracker update: **2026-10-14 02:31:47 America/Chicago**. GitHub account: **
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
-| [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Isolated integration; counts/intervals unavailable | — |
+| [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying browser/release; counts/intervals unavailable | — |
 | LEE | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying original source/cohort | — |
-| NORTHSIDE ISD | TX | 4833120 / TX-015915 | — | Not yet started; scored-count scope unresolved | — |
+| NORTHSIDE ISD | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying published-rate cohort; counts unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | — | Not yet started | — |
@@ -289,3 +289,18 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 02:26:17:** Baltimore County successful Pages/public readback passes12 browser assertions and nine exact independent HTTP/Git asset bindings. Nine fixed66 districts finished;57 remain. Source masks/membership limits and unavailable counts/floor/intervals remain. Cobb isolated integration continues.
 
 - **2026-10-14 02:31:47**: Started exact Lee County `1201080 / FL-36 / FDOE36` original-source/cohort audit, next unstarted fixed66 member. Verify authoritative native IDs, offered/enrolled lower scope, individual same-year eligibility, native whole School Grades populations, masks/source notes and outside-program/virtual identities. No fits, imports or browser release approval. Cobb isolated import testing continues.
+
+- **2026-10-14 02:46:59**: Cobb final first full-MAIN-copy private import passes121,480 independent original/canonical/current/history comparisons;90 profiles /180 outcomes /270 results preserve all old nine-table rows/273 assets.12 distinct adapter checks and285 current/semantic/prewrite rejections/7 controls pass. A standalone helper now verifies fresh complete inputs before any SQL, including an empty namespace. Final repeat is pending; no actual main import or release.
+
+- **2026-10-14 02:46:59**: Lee provisional source replay retains78 pure lower profiles with78 Math/ELA/Combined inputs,11 eligible charters and own individual February eligibility, including genuine0%.119 operational directory records from122 total;80 offered lower/23 high/16 mixed. Four missing native Fall identities, primary36-9123, protected grade counts and16 grade discrepancies remain explicit. District/operational-school membership102,506 reconciles; no provider-specific/collocated grade rows found. Source tests/independent review remain pending; no modeling approval.
+
+- **2026-10-14 03:06:40**: Cobb’s final private repeat and first actual main import pass independent review; all270 results match the original-source oracle, with prior nine-table contents/273 assets/366 scientific files preserved. Exactly one second import is authorized; shared exports, browser and master delivery remain pending. Lee’s original-source artifact has passed14 targeted tests and two identical original builds; independent source review is pending. Historical approvals, counts/floor/intervals/EOC limits remain unchanged.
+
+- **2026-10-14 03:09:18**: Cobb’s two actual main imports pass independent review, preserving all prior rows/assets/science. Two actual shared exports repeat exactly:39 states /70 regions /87 guide definitions, retaining old69/86/provider bindings/geometry. Planning changes only1301290 to existing_cobb; enrollment105738 and90/16 potential counts stay unchanged. Final shared tests, independent review/browser and master/public delivery follow; finish is blank. Lee independent original-source review begins.
+
+- **2026-10-14 03:12:53**: Cobb passes all91 targeted Python/20 JavaScript checks and17 local browser assertions, including first off-page search/keyboard,75→90 pagination, retained influence/history, fixed90 subject models, safe NCES shared/empty/invalid links, guide separation and390px rendered layout/clean console. Final shared/prose review and exact HTTP/Git binding precede master delivery; finish stays blank. Lee original-source independent review continues.
+
+## In progress: Northside ISD
+
+- Exact **4833120 / TX-015915**,2024–25. Actual source/cohort audit started **2026-10-14 03:14:21 America/Chicago**, within the fixed66 queue.
+- Next: independently reconstruct exact operational CCD/TAPR identities, offered/enrolled lower grades, own same-year economic numerator/denominator and native published whole-percent outcomes, with all excluded/held records retained. Existing scored-count/status and floor scope remains unresolved; do not retry the failed count investigation without new evidence or infer counts from enrollment. Source-only approvals stay false; no model/import/browser release.

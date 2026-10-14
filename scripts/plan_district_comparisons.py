@@ -126,6 +126,8 @@ def scope(row):
         return 'existing_duval'
     if row['LEAID'] == '1201590':
         return 'existing_polk'
+    if row['LEAID'] == '1301290':
+        return 'existing_cobb'
     if row['LEAID'] == '2400120':
         return 'existing_baltimore_county'
     if row['LEAID'] == '4700148':
@@ -324,6 +326,8 @@ def render(payload):
                 status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
             elif row['scope'] == 'existing_polk':
                 status = 'Existing Polk comparison; native School Grades pure grade-school scope only'
+            elif row['scope'] == 'existing_cobb':
+                status = 'Existing Cobb County comparison; native regular Georgia Milestones EOG grade schools only'
             elif row['scope'] == 'existing_baltimore_county':
                 status = 'Existing Baltimore County comparison; regular MCAP grade schools with eleven Math masks'
             elif row['scope'] == 'existing_memphis':
@@ -369,7 +373,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby and Baltimore County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby, Baltimore County and Cobb County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -712,6 +716,18 @@ def render(payload):
         'normalized scope. Counts, scored floor, variances and intervals remain unavailable. '
         'Admissions, provider roles and geometry remain unaudited; high/mixed/primary populations '
         'stay outside. Discovery counts never approve models; fixed66 retains completed rows.', ''])
+    lines.extend([
+        'The [Cobb County source, numerical and integration audits](cobb-district.md) '
+        'retain exact LEA `1301290` / `GA-633`, 90 grade-school profiles and separate '
+        '90-school Math, ELA and paired Combined models with all270 deletion fits. '
+        'Regular Georgia Milestones EOG All Students G38 Levels3–4 published rates '
+        'use each school’s own same-year individual direct certification / membership. '
+        'Primary, high and mixed configurations stay outside; influential schools remain. '
+        'Historical approvals remain false; readiness belongs only to the separately '
+        'validated normalized scope. Accelerated EOG/EOC coverage, valid-score counts '
+        'and scored floor remain uncertified; variances and intervals are unavailable. '
+        'Admissions, provider roles and geometry remain unaudited. Discovery counts '
+        'never approve a model; the fixed66 TODO retains completed rows.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

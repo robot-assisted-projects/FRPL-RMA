@@ -812,6 +812,31 @@
       "blocker_summary": null,
       "assessments": [
         {
+          "id": "ga-cobb-2025:2025:Georgia Milestones EOG regular All Students G38 proficiency:ES",
+          "state": "GA",
+          "name": "Georgia Milestones EOG regular All Students G38 proficiency",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Operational pure lower offered and reconciled enrolled profiles with positive reported grades 3–8; native regular EOG All Students G38",
+          "standard": "Original EDC v3.1 regular Georgia Milestones EOG All Students aggregate grades 3–8, Levels 3–4. Accelerated EOG/EOC population treatment, original source business rules and valid-score counts remain uncertified.",
+          "source_url": "https://www.eddatacenter.org/api/data/3.1?state=GA&year=2025",
+          "dataset_id": "ga-cobb-2025",
+          "family": "Georgia Milestones EOG regular All Students G38 proficiency",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "cobb",
+              "name": "Cobb County",
+              "url": "./?state=GA&region=cobb&level=ES",
+              "model_scope": "Cobb County independent 2024–25 grade-school models use exact NCES LEA 1301290 / native GA-633 identities. All 90 operational pure lower offered and reconciled enrolled grade profiles remain searchable, with separate fixed 90-school Math, ELA and Combined models. Outcomes use original regular Georgia Milestones EOG All Students G38 Levels 3–4 published rates; income uses each school’s own reported individual direct certification divided by reported same-year membership. Primary-only, high and mixed configurations remain outside. Income extremes and influence remain included. Georgia Medicaid/foster certification and outside-program prekindergarten membership are broader population limits. Accelerated EOG/EOC coverage, nonlisted attribution completeness, valid-score counts and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable."
+            }
+          ]
+        },
+        {
           "id": "ga-edc-ccd-dc:2025:Georgia Milestones EOG grades 3–8 · grade schools · CCD DC:ES",
           "state": "GA",
           "name": "Georgia Milestones EOG grades 3–8 · grade schools · CCD DC",
