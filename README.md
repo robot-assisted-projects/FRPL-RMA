@@ -54,6 +54,8 @@ Texas → Cypress-Fairbanks has a separate [2024–25 grade-school comparison](d
 
 Florida → Polk has a separate 2024–25 pure grade-school comparison with all110 searchable profiles and independently checked109-school Math/ELA/Combined models. The [district guide](docs/polk-district.md#canonical-and-browser-integration) records all327 deleted fits, repeated imports, preservation and browser checks. Compass's missing achievement, protected grades, provider attribution, influential Montessori members and5,068-pupil enrollment discrepancy remain explicit. Income is precise individual February eligibility; outcomes are original whole-percent School Grades rates. Counts, scored floor and sampling intervals remain unavailable; admissions, provider roles and geometry remain unaudited.
 
+Memphis-Shelby County’s [original-source and numerical audits](docs/memphis-district.md) retains exact `4700148 / TN-00792` identity, all154 pure grade-school profiles and independently verified142 Math /147 ELA /142 Combined models after four school-specific enrollment/service attribution holds. Income is individual same-year direct certification; achievement is original regular TNReady All Students native G38 totals. Nonlisted attribution coverage and valid-score counts/floor/intervals remain uncertified. Historical approvals stay false; isolated canonical/browser integration precedes a released comparison.
+
 ## Preview
 
 ```sh
