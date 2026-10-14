@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 02:05:33 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 02:26:17 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -14,8 +14,8 @@ Last tracker update: **2026-10-14 02:05:33 America/Chicago**. GitHub account: **
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
-| [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Ready for tested release; 11 Math masks retained | — |
-| Cobb County | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying separate models | — |
+| [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
+| Cobb County | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Isolated integration; counts/intervals unavailable | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | — | Not yet started; scored-count scope unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
@@ -281,3 +281,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 02:01:53:** Cobb source gate passes14 focused tests, two identical actual original builds and917,416 independent comparisons/66 meaningful rejections/13 controls.90 source profiles supply90 prospective Math/ELA/Combined members; original grade/primary/charter/income/assessment limits remain. Source approvals stay false; separate numerical-only verification is authorized. No canonical/browser approval and finish remains blank.
 
 - **2026-10-14 02:05:33:** Baltimore County independent shared review and17 local browser assertions pass, retaining all eleven Math/Combined masks with available ELA, alternative histories, unchanged fixedmodels/influence, native-ID shares and390px rendered widths. All96 targeted Python/20 JavaScript tests already pass; HTTP/Git and master/public verification follow. Counts/floor/intervals remain unavailable; finish blank. Cobb separate numerical review continues.
+
+- **2026-10-14 02:19:44**: Baltimore County tested release `7e7e84014cbdd61e26bf734b753f482ddf062f7d` is verified on master and expansion/all-states through fine-fiddle. Independent scientific/import/shared review,96 targeted Python/20 JavaScript checks,17 local plus three independent browser checks and nine HTTP/23 changed Git-blob bindings pass. Nine fixed66 districts are finished;57 remain. Eleven Math masks and unavailable counts/floor/intervals remain. Pages/public verification follows; Cobb numerical review continues.
+
+- **2026-10-14 02:23:33:** Cobb numerical gate passes16 distinct tests, two final identical actual CLI builds,104,670 independent original/math/pointer/diagnostic comparisons, all270 deletion fits, high-precision checks and132 rejection/3 controls.90/90/90 populations and unavailable counts/floor/intervals/EOC coverage remain. Isolated normalization/private import review is authorized; no actual main import or public release and finish is blank.
+
+- **2026-10-14 02:26:17:** Baltimore County successful Pages/public readback passes12 browser assertions and nine exact independent HTTP/Git asset bindings. Nine fixed66 districts finished;57 remain. Source masks/membership limits and unavailable counts/floor/intervals remain. Cobb isolated integration continues.
