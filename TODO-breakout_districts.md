@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 03:37:58 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 04:01:13 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -16,8 +16,8 @@ Last tracker update: **2026-10-14 03:37:58 America/Chicago**. GitHub account: **
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
-| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying independent district fits; counts unresolved | — |
-| NORTHSIDE ISD | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying published-rate cohort; counts unresolved | — |
+| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying private integration; counts/intervals unresolved | — |
+| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying independent fits; counts/status held | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | — | Not yet started | — |
@@ -321,3 +321,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - Exact **1201080 / FL-36 / FDOE36**,2024–25. Source/cohort work started **2026-10-14 02:31:47**; [independent source gate](docs/lee-district.md) passed **03:35:18**.
 - Done:78 source-certified prospective schools per subject, eleven charters and Island’s real0% own February eligibility ratio retained; four missing native identities, primary9123,25 protected-grade profiles/70 cells and16 offered/enrolled disagreements stay explicit.1449 needed rows34610cells, complete13198school/227LEA omissions,14 tests/two identical builds and230571 independent comparisons/51 rejections/nine controls pass. All historical assets/data preserved through documented Cobb addition.
 - Next: separate unweighted full/deleted Math, ELA and paired Combined verification. Source3 stays immutable with false approvals. Counts/status/floor/variances/intervals remain uncertified; no canonical/browser release. Finish stays blank.
+
+- **2026-10-14 03:55:19**: Northside independent source gate passes03:51:14:107 profiles /104 per subject; all131 records,15 sources,1543 needed rows /59450 cells plus complete omissions,14 tests/two identical builds,327295 comparisons/88 rejections/13 controls. Three masked alternatives, Homebound missing native ID and72 unassigned membership differences remain. Northside requires312 numerical deletions; its numerical work begins with104 members per fit, counts/status/floor/CIs held and no release. Lee producer numerical18 tests and identical actual CLI pair pass, retaining all234 deletions; independent numerical review is pending. Ten of fixed66 finished /56 remain.
+
+- **2026-10-14 04:01:13**: Lee numerical gate passes03:58:17:78/78/78 members and234 explicit deletions,18 final tests/two identical builds,49401 independent original/NumPy comparisons and194 rejection/four controls/60-digit checks. Island0%/eleven charters/Athenian influence remain; source/model6 immutablefalse/counts-floor-CIs unknown. Isolated normalization/private import review starts; no actual main/shared release. Northside independently audited source107/104 populations move into separate numerical verification; two denominator words in its guide were corrected to own CPNTALLC enrollment, without source/data changes. Ten finished /56 remain.
