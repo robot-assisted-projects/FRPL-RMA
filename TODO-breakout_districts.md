@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 07:17:35 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 10:50:52 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -374,3 +374,5 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 07:12:29**: Denver independent original-source gate passes502282 original/derived checks,71 required rejections/four controls and16 tests/two identical original builds.138 lower profiles/131 Math134ELA131paired/35charters retain four income masks, three Math masks and Gilliam native gap; valid scored counts52/22 minimum support separately reviewed intervals. Numerical396-deletion verification follows San Diego normalization. San Diego repaired18 tests/identical builds retain all141 inputs/423 results/intervals, with independent repair confirmation pending; DeKalb numerical guard repair and Prince William original review continue. Thirteen original66 finished /53 remain.
 
 - **2026-10-14 07:17:35**: San Diego repaired numerical gate passes independent122630 original/model/interval checks/all423 deletions/12 selected60-digit cases/155 necessary rejections/three controls,18 final tests/identical builds. Only runtime metadata changed; all141 inputs/results/intervals and historicalsource3 remain exact. Normalized testing is now authorized; private/currentMain/static delivery remains gated. Denver source gate is independently accepted, with numerical work following San Diego normalization; DeKalb guard repair/PWindependent source review continue. Thirteen original66 finished /53 remain.
+
+- **2026-10-14 10:50:52**: A working-only saved milestone formatting check exposed two Denver whitespace lines and one San Diego extra final newline; root corrected them before any master delivery. San Diego AST/runtime/tests/artifact and two actual rebuild outputs remain exact. Denver changes only runtime-binding metadata;16 focused tests and two actual original rebuilds/offline/compile pass, pending narrow independent metadata signoff. No scientific values/readiness/finish dates changed.

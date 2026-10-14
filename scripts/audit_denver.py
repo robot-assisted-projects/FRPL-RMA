@@ -36,7 +36,7 @@ ORIGINAL_SCHEMA_SHA = '77200056341d9256899b4620b4e9152a0b931e202b8a28d445b9f88ef
 DEFINITION_INPUT_SHA = '8e63b07071cff4673ee7b7a417024a5be38624c5cbd96b2cb0805be7c5f35531'
 ORIGINAL_IDENTITY_SHA = '6e508f2847ca4bb6bc5d6c2717fb6afbc0db6ee2913db66513358edf4f8780d6'
 POLICY_SHA = 'd44463e38170adbe8fcf6ce3d80785aaf5373c4779a41fe49556f9a19999858d'
-RUNTIME_CONTRACT_SHA = 'c94fb37055b7e03032ff117c0f961c16f04ad1edb3f29d4c1eca5b734e9598f3'
+RUNTIME_CONTRACT_SHA = 'd81f12038df90328b90b0af355341716435af45f0eb5be2cec89230e026b31e5'
 
 def fingerprint(v):return hashlib.sha256(json.dumps(v,sort_keys=True,separators=(',',':'),ensure_ascii=False,allow_nan=False).encode()).hexdigest()
 def source_sha(p):
@@ -66,7 +66,7 @@ def require_live_semantics():
   if not isinstance(actual,types.FunctionType)or code_contract(actual.__code__)!=code_contract(reference[name]):raise ValueError('Current source semantic helper changed: '+name)
 def runtime_contract():return dict(lea=LEA,native_lea=NATIVE_LEA,native_district=NATIVE_DISTRICT,year=YEAR,academic_year=ACADEMIC_YEAR,operational=sorted(OPERATIONAL),offered_grades=OFFER_GRADES,enrolled_grades=GRADES,tested_grades=TESTED_GRADES,high_grades=HIGH_GRADES,subjects=SUBJECTS,tables=TABLES,minimum_valid=MIN_VALID,sources=SOURCES,metadata=ORIGINAL_METADATA,inventories=ORIGINAL_INVENTORIES,raw=RAW_INPUT_SHA,schema=ORIGINAL_SCHEMA_SHA,definitions=DEFINITION_INPUT_SHA,identity=ORIGINAL_IDENTITY_SHA,policy=POLICY,semantic_sources=semantic_sources())
 def require_runtime_contract():
- if (POLICY_SHA!='d44463e38170adbe8fcf6ce3d80785aaf5373c4779a41fe49556f9a19999858d'or RUNTIME_CONTRACT_SHA!='c94fb37055b7e03032ff117c0f961c16f04ad1edb3f29d4c1eca5b734e9598f3'or fingerprint(POLICY)!='d44463e38170adbe8fcf6ce3d80785aaf5373c4779a41fe49556f9a19999858d'or fingerprint(runtime_contract())!='c94fb37055b7e03032ff117c0f961c16f04ad1edb3f29d4c1eca5b734e9598f3'):raise ValueError('Immutable Denver source policy/identity/schema/semantic runtime changed')
+ if (POLICY_SHA!='d44463e38170adbe8fcf6ce3d80785aaf5373c4779a41fe49556f9a19999858d'or RUNTIME_CONTRACT_SHA!='d81f12038df90328b90b0af355341716435af45f0eb5be2cec89230e026b31e5'or fingerprint(POLICY)!='d44463e38170adbe8fcf6ce3d80785aaf5373c4779a41fe49556f9a19999858d'or fingerprint(runtime_contract())!='d81f12038df90328b90b0af355341716435af45f0eb5be2cec89230e026b31e5'):raise ValueError('Immutable Denver source policy/identity/schema/semantic runtime changed')
  require_live_semantics()
 def require_current_originals():
  require_runtime_contract()
@@ -228,7 +228,7 @@ def extract_raw_inputs():
    if keep:selected.append(e)
    else:omitted.append(dict(source_row=e['source_row'],identity={k:r[k]for k in['SCHOOL_YEAR','LEAID','ST_LEAID']+(['NCESSCH','ST_SCHID']if table=='membership'else[])},population={k:r[k]for k in['GRADE','RACE_ETHNICITY','SEX','TOTAL_INDICATOR','DMS_FLAG']},raw_sha256=fingerprint(r)))
   tables[table]=dict(source_id=key,member=member,header=reader.fieldnames,records=selected,complete_target_records=len(rows),complete_target_cells=sum(len(e['raw'])for e in rows),complete_target_sha256=fingerprint(rows),omitted=omitted,retained_records=len(selected))
- 
+
  urls={
   'grades':('grades2025.xlsx','7efacffc-8335-4735-9b12-fee840351810',3,None),
   'income':('frl2025.xlsx','edf7f72b-6728-4b48-a3aa-ae75ab2ad968',3,None),
@@ -260,7 +260,7 @@ def extract_raw_inputs():
  actual={t:{e['source_row']:e['raw']for e in tables[t]['records']}for t in ['cmas','sat']}
  for e in snapshot['assessments']:assert e['raw']==actual['cmas'if e['level']=='ES'else'sat'][e['source_row']]
  obj=dict(tables=tables,definitions=definitions,secondary=dict(source_id='co_secondary',snapshot=snapshot,snapshot_sha256=fingerprint(snapshot),only_original_fields_no_source_model_authority=True))
- 
+
  if sources!=SOURCES:raise ValueError("Complete current original pin manifest changed")
  return obj
 

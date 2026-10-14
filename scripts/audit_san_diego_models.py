@@ -542,4 +542,3 @@ if __name__ == '__main__':
     parser.add_argument('--output', type=Path, default=OUTPUT)
     args = parser.parse_args()
     print(json.dumps(prepare(args.output, args.check), sort_keys=True))
-
