@@ -204,3 +204,5 @@ The snapshot and history dates in this section describe the Illinois/Chicago rel
 - assets/d3.v7.min.js: vendored D3; license in assets/D3-LICENSE.
 
 The repository's existing license applies to original code; public-source data and D3 retain their respective terms.
+
+Baltimore County is undergoing isolated integration after independent original-source and numerical review for exact2024–25 `2400120 / MD-03`. Its137 lower profiles supply126 Math /137 ELA /126 paired Combined point-only members; eleven Math masks, adjusted-offer charter exclusion and two ELA-only alternatives remain explicit. The [district audit guide](docs/baltimore-county-district.md) records original provenance, the repaired fresh-evidence validator and389 deletion fits. Historical approvals remain false; no released browser comparison or canonical readiness is supplied by these audit milestones.

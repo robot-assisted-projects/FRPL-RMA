@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 01:10:08 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 01:13:52 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -14,8 +14,8 @@ Last tracker update: **2026-10-14 01:10:08 America/Chicago**. GitHub account: **
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
-| Baltimore County Public Schools | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Isolated integration; 11 Math masks retained | — |
-| Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
+| [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Isolated integration; 11 Math masks retained | — |
+| Cobb County | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying original source/cohort | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | — | Not yet started; scored-count scope unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
@@ -267,3 +267,5 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 01:07:10**: Memphis tested release `55ef01120872e58156d31ad46da5b2eed5554e66` is verified on master and expansion/all-states through fine-fiddle. All scientific/import/shared gates, independent review,88 targeted Python/20 JavaScript checks,17 local browser assertions and nine HTTP/23 changed Git-blob bindings pass. Eight fixed66 districts are finished;58 remain. Four attribution holds and unavailable counts/floor/intervals remain. Pages/public readback follows separately.
 
 - **2026-10-14 01:10:08:** Memphis Pages/public verification passes:12 public browser assertions and nine exact independent HTTP/Git asset bindings after successful Pagesrun38520339618. Eight fixed66 districts finished;58 remain. Four attribution holds and unavailable counts/floor/intervals remain. Baltimore County isolated integration continues.
+
+- **2026-10-14 01:13:52**: Started exact Cobb County `1301290 / GA-633` original-source/cohort audit, next unstarted member of the fixed66. Reopen native Georgia/CCD inputs; directory identity, grade eligibility, same-year income, outcome populations and source notes require independent review. No fits/imports/static release approval. Baltimore County isolated integration continues.
