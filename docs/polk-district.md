@@ -64,3 +64,21 @@ Sixteen numerical tests, two actual byte-identical CLI builds, offline replay an
 ```
 
 Status remains `numerically_verified_pending_integration`, scope `numerical_audit_only`, with both historical source/modeling approvals false. Isolated normalized/canonical/static validation and independent review follow; actual main imports, browser checks and tested master delivery remain held until those separate gates pass.
+
+## Canonical and browser integration
+
+The separately validated [normalized release](../data/source/polk.json), rebuilt by [prepare_polk.py](../scripts/prepare_polk.py), supplies dataset `fl-polk-2025` /region `polk` readiness. All six historical source/numerical files retain false approvals. Complete current evidence, literal runtime contracts, normalized fingerprints and all nine ownership tables are validated before canonical writes. Legal statewide/district identity overlap is preserved.
+
+The release retains all110 exact native `53-####` profiles and authoritative NCES crosswalks,110 same-year individual February economic observations,220 native subject observations,17 provenance records and three independent109-school models. All327 canonical/current/history results match original-source verification. Compass remains searchable and inspectable with unavailable achievement; all twenty profile charters, nineteen rated charters, protected grades, influential Montessori members, six missing native identities, the provider-specific exclusion and5,068-pupil reporting difference remain explicit. No count floor, valid-score counts, variance or sampling intervals are certified. Admissions, provider roles and geometry remain unaudited.
+
+Fourteen adapter tests, two identical actual normalized CLI builds and two private full-database-copy imports pass. Independent review verifies122,741 original/canonical/current/history comparisons and305 rejection cases before writes. Two separately authorized actual main imports preserve all preceding rows in nine tables and261 previous served files; target rows and four export bytes repeat exactly. The six historical audit files remain immutable.
+
+Two identical catalog/guide/planning rebuilds add only exact Polk1201590, preserving66 previous regions,83 definitions/provider bindings and geometry. Catalog:39 states /67 regions; guide84 definitions, eleven source holds unchanged. All90 distinct targeted Python tests (13 source,16 numerical,14 adapter and47 shared regressions),20 JavaScript tests, syntax and diff checks pass. Independent final preservation review has no findings.
+
+Fifteen local HTTP/browser assertions pass **2026-10-13 23:23:17 America/Chicago**: fresh first off-page Winston search and keyboard selection, pagination, all109 fixed points, Compass's missing results, each influential Cypress Junction subject/history result, highest-leverage Lakeland Montessori School House, unavailable intervals, restored shares, empty/invalid selections, eight Florida guide links and390-pixel layout. No application or required-data failures were found. Tested master delivery and public-site readback are recorded separately; finish remains blank until remote verification.
+
+```sh
+.venv/bin/python scripts/prepare_polk.py --extract-only
+.venv/bin/python scripts/prepare_polk.py
+.venv/bin/python -m unittest discover -s tests -p 'test_polk.py' -v
+```

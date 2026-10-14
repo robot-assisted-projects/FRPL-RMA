@@ -1,0 +1,1034 @@
+{
+  "year": 2025,
+  "schools": 110,
+  "cohorts": {
+    "grade": {
+      "directory": 110,
+      "eligible": {
+        "math": 109,
+        "reading": 109,
+        "combined": 109
+      }
+    }
+  },
+  "exclusions": {
+    "Native SchoolGrades achievement component not reported": 2,
+    "Math: Native SchoolGrades achievement component not reported; ELA: Native SchoolGrades achievement component not reported": 1
+  },
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/polk-district-audit.json",
+      "sha256": "afc70dddd319061851a02303bc74b0b56959cb65cb553736f885b455236efd98",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 2026,
+      "complete_original_cell_count": 48356,
+      "note": "Complete original records, headers, notes, definitions, membership and outside identities stay in the immutable linked source artifact; every numerical replay requires current available unchanged source/code/tests/policy and semantic validation."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/polk-model-audit.json",
+      "sha256": "c551d758bc13c2b38a0f63e3fd977c90a36364853a2ec91afad07f48c5635f1d",
+      "bytes": 994619
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_polk.py",
+        "sha256": "2bfacecfa16e6054172d7235c25d0f1ffc9ef7b94629146b729d57bb6e177f81"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_polk_audit.py",
+        "sha256": "d295a52e2484c595fbcb34756e0a3ab00e7a32ee196290c5f626a41eb68c4bdd"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_polk_models.py",
+        "sha256": "d62a1a1f7bdec792079ab026a712d2fd4d0fe930c057dba3cd9e71d3eb5600ed"
+      },
+      "tests": {
+        "path": "tests/test_polk_models.py",
+        "sha256": "ad0ee8179cb054afea8112b959dd6d5b598972446612e86e7821d0b9a3233bdc"
+      }
+    },
+    "immutable_raw_input_fingerprint": "74e051ebb20f99a440578a7ad81a4ff5c587f5393a4c78c738b55381af7eb6a1",
+    "immutable_schema_fingerprint": "7105f0bf21f244c9d3001c9837ac974aebbb7aee34f50e1aff396c97d8506452",
+    "immutable_definition_fingerprint": "f1f61cc6deac6465144878b5f8c05d40e4b66f2534afc721ad30523f15a027ac",
+    "immutable_identity_fingerprint": "98e7c70cd87b491576ca33a37142ca0154beeddeda4007c26e317566a47b3af6",
+    "immutable_source_policy_fingerprint": "6b1e09dc01b0fbe91f1cc7831fe5e8c0aece527c6583bb06406fce9ec2d532b6",
+    "immutable_numerical_policy_fingerprint": "ab1f9fc9b028d33bbe084815c4443afd3aff9be3a5074eda43071d7c63afac91",
+    "immutable_numerical_runtime_fingerprint": "5f0014191431cb97b17beed18678c83e631992e8ad6e7a9b6179179abe414c5e",
+    "normalized_metadata_fingerprint": "23cefaf609ef4d5bb9a8b7bf7d942a68100610456c731b24e60178b74800dd48",
+    "operational_roster": {
+      "source_rows": {
+        "directory": 170,
+        "lea_directory": 1,
+        "membership": 1386,
+        "lea_membership": 16,
+        "native_grades": 159,
+        "native_income": 159,
+        "native_assessment": 135
+      },
+      "original_records": 2026,
+      "original_typed_cells": 48356,
+      "ccd_directory": 170,
+      "operational_roster": 165,
+      "nonoperational_directory": 5,
+      "status": {
+        "Closed": 4,
+        "Future": 1,
+        "Open": 163,
+        "Reopened": 2
+      },
+      "operational_offered_scope": {
+        "ES": 117,
+        "HS": 16,
+        "mixed": 32
+      },
+      "native_fall_profiles": 159,
+      "native_income_rows": 159,
+      "native_assessment_rows": 135,
+      "exact_operational_fall_matches": 159,
+      "operational_without_native_fall_ids": [
+        "53-7004",
+        "53-9251",
+        "53-9252",
+        "53-0991",
+        "53-1201",
+        "53-2012"
+      ],
+      "outside_native_profile_ids": [],
+      "native_income_without_fall_ids": [],
+      "native_assessment_without_operational_directory": [],
+      "provider_assessment_rows": 1,
+      "collocated_assessment_rows": 0,
+      "prospective_source_profiles": 110,
+      "prospective_usable": {
+        "math": 109,
+        "reading": 109,
+        "combined": 109
+      },
+      "prospective_usable_income": 110,
+      "income_exclusions": {},
+      "offered_enrolled_disagreement_profiles": 26,
+      "protected_native_grade_profiles": 23,
+      "protected_native_grade_cells": 79,
+      "campus_charter_disagreements": 0,
+      "district_ccd_enrollment": 111372,
+      "operational_ccd_enrollment_sum": 116440,
+      "district_minus_operational_enrollment": -5068,
+      "planning_potential_cohorts": {
+        "ES": 110,
+        "HS": 16
+      },
+      "prospective_not_in_planningES": [],
+      "planningES_outside_prospective": [],
+      "verified_valid_score_counts": 0,
+      "ten_valid_scored_floor_certified": false,
+      "model_sampling_intervals_available": false,
+      "independent_numerical_diagnostics_required": true,
+      "canonical_integration_pending": true,
+      "source_and_model_approvals": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "53-0031",
+        "native_school_id": "FL-53-0031",
+        "ncessch": "120159001703",
+        "name": "LAKELAND SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 1,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0481",
+        "native_school_id": "FL-53-0481",
+        "ncessch": "120159001726",
+        "name": "WINTER HAVEN SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 19,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0661",
+        "native_school_id": "FL-53-0661",
+        "ncessch": "120159001736",
+        "name": "KAREN M. SIEGEL ACADEMY",
+        "source_roster_link_index": 29,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0791",
+        "native_school_id": "FL-53-0791",
+        "ncessch": "120159001743",
+        "name": "FORT MEADE MIDDLE/SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 33,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0811",
+        "native_school_id": "FL-53-0811",
+        "ncessch": "120159001745",
+        "name": "AUBURNDALE SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 34,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0901",
+        "native_school_id": "FL-53-0901",
+        "ncessch": "120159001753",
+        "name": "BARTOW SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 39,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0962",
+        "native_school_id": "FL-53-0962",
+        "ncessch": "120159001757",
+        "name": "JEAN O'DELL LEARNING CENTER",
+        "source_roster_link_index": 43,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1131",
+        "native_school_id": "FL-53-1131",
+        "ncessch": "120159001762",
+        "name": "MULBERRY SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 46,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1181",
+        "native_school_id": "FL-53-1181",
+        "ncessch": "120159001766",
+        "name": "KATHLEEN SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 49,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1341",
+        "native_school_id": "FL-53-1341",
+        "ncessch": "120159001773",
+        "name": "MCLAUGHLIN ACADEMY OF EXCELLENCE",
+        "source_roster_link_index": 55,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1381",
+        "native_school_id": "FL-53-1381",
+        "ncessch": "120159001777",
+        "name": "ROOSEVELT ACADEMY",
+        "source_roster_link_index": 59,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1491",
+        "native_school_id": "FL-53-1491",
+        "ncessch": "120159001781",
+        "name": "GAUSE ACADEMY OF LEADERSHIP",
+        "source_roster_link_index": 63,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1671",
+        "native_school_id": "FL-53-1671",
+        "ncessch": "120159001785",
+        "name": "MCKEEL ACADEMY OF TECHNOLOGY",
+        "source_roster_link_index": 66,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1721",
+        "native_school_id": "FL-53-1721",
+        "ncessch": "120159001790",
+        "name": "LAKE WALES SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 70,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1791",
+        "native_school_id": "FL-53-1791",
+        "ncessch": "120159001795",
+        "name": "HAINES CITY SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 75,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1801",
+        "native_school_id": "FL-53-1801",
+        "ncessch": "120159001796",
+        "name": "FROSTPROOF MIDDLE/SENIOR HIGH",
+        "source_roster_link_index": 76,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1931",
+        "native_school_id": "FL-53-1931",
+        "ncessch": "120159001985",
+        "name": "GEORGE W. JENKINS SENIOR HIGH",
+        "source_roster_link_index": 78,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-2001",
+        "native_school_id": "FL-53-2001",
+        "ncessch": "120159001989",
+        "name": "BILL DUNCAN OPPORTUNITY CENTER",
+        "source_roster_link_index": 79,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0092",
+        "native_school_id": "FL-53-0092",
+        "ncessch": "120159002402",
+        "name": "DORIS A. SANDERS LEARNING CENTER",
+        "source_roster_link_index": 81,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1762",
+        "native_school_id": "FL-53-1762",
+        "ncessch": "120159002405",
+        "name": "LAKE GIBSON SENIOR HIGH SCHOOL",
+        "source_roster_link_index": 83,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-9205",
+        "native_school_id": "FL-53-9205",
+        "ncessch": "120159002947",
+        "name": "RIDGE TEEN PARENT PROGRAM",
+        "source_roster_link_index": 90,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-9207",
+        "native_school_id": "FL-53-9207",
+        "ncessch": "120159002949",
+        "name": "POLK HALFWAY HOUSE",
+        "source_roster_link_index": 91,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "53-1991",
+        "native_school_id": "FL-53-1991",
+        "ncessch": "120159003016",
+        "name": "LAKE REGION HIGH SCHOOL",
+        "source_roster_link_index": 93,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0421",
+        "native_school_id": "FL-53-0421",
+        "ncessch": "120159003256",
+        "name": "DON E WOODS OPPORTUNITY CENTER",
+        "source_roster_link_index": 95,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8031",
+        "native_school_id": "FL-53-8031",
+        "ncessch": "120159003259",
+        "name": "ACHIEVEMENT ACADEMY",
+        "source_roster_link_index": 96,
+        "exclusion": "No offered grade3\u20138 in primary-only configuration"
+      },
+      {
+        "school_id": "53-9225",
+        "native_school_id": "FL-53-9225",
+        "ncessch": "120159003789",
+        "name": "PACE CENTER FOR GIRLS",
+        "source_roster_link_index": 100,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-9228",
+        "native_school_id": "FL-53-9228",
+        "ncessch": "120159003929",
+        "name": "POLK COUNTY SHERIFF'S CENTRAL CENTER",
+        "source_roster_link_index": 105,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0937",
+        "native_school_id": "FL-53-0937",
+        "ncessch": "120159004179",
+        "name": "RIDGE COMMUNITY HIGH SCHOOL",
+        "source_roster_link_index": 108,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-7004",
+        "native_school_id": "FL-53-7004",
+        "ncessch": "120159004180",
+        "name": "POLK VIRTUAL FRANCHISE",
+        "source_roster_link_index": 109,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-9003",
+        "native_school_id": "FL-53-9003",
+        "ncessch": "120159004185",
+        "name": "HOSPITAL HOMEBOUND",
+        "source_roster_link_index": 110,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8131",
+        "native_school_id": "FL-53-8131",
+        "ncessch": "120159004186",
+        "name": "POLK STATE COLLEGE COLLEGIATE HIGH SCHOOL",
+        "source_roster_link_index": 111,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8142",
+        "native_school_id": "FL-53-8142",
+        "ncessch": "120159004188",
+        "name": "BERKLEY ACCELERATED",
+        "source_roster_link_index": 112,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0441",
+        "native_school_id": "FL-53-0441",
+        "ncessch": "120159004437",
+        "name": "RIDGEVIEW GLOBAL STUDIES ACADEMY",
+        "source_roster_link_index": 115,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8133",
+        "native_school_id": "FL-53-8133",
+        "ncessch": "120159005349",
+        "name": "CHAIN OF LAKES COLLEGIATE HIGH",
+        "source_roster_link_index": 124,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8143",
+        "native_school_id": "FL-53-8143",
+        "ncessch": "120159005350",
+        "name": "VICTORY RIDGE ACADEMY",
+        "source_roster_link_index": 125,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1051",
+        "native_school_id": "FL-53-1051",
+        "ncessch": "120159007310",
+        "name": "TENOROC HIGH SCHOOL",
+        "source_roster_link_index": 131,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-9251",
+        "native_school_id": "FL-53-9251",
+        "ncessch": "120159007586",
+        "name": "HAINES CITY HEADSTART CENTER",
+        "source_roster_link_index": 133,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-9252",
+        "native_school_id": "FL-53-9252",
+        "ncessch": "120159007600",
+        "name": "WINTER HAVEN HEAD START",
+        "source_roster_link_index": 134,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-7001",
+        "native_school_id": "FL-53-7001",
+        "ncessch": "120159007686",
+        "name": "POLK VIRTUAL INSTRUCTION PROGRAM",
+        "source_roster_link_index": 135,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8140",
+        "native_school_id": "FL-53-8140",
+        "ncessch": "120159007728",
+        "name": "LAKELAND MONTESSORI MIDDLE SCHOOL",
+        "source_roster_link_index": 136,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "53-9002",
+        "native_school_id": "FL-53-9002",
+        "ncessch": "120159007835",
+        "name": "TRANSITION SCHOOL",
+        "source_roster_link_index": 137,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8004",
+        "native_school_id": "FL-53-8004",
+        "ncessch": "120159007899",
+        "name": "NEW BEGINNINGS HIGH SCHOOL",
+        "source_roster_link_index": 138,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8002",
+        "native_school_id": "FL-53-8002",
+        "ncessch": "120159007906",
+        "name": "POLK PRE-COLLEGIATE ACADEMY",
+        "source_roster_link_index": 139,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "53-0916",
+        "native_school_id": "FL-53-0916",
+        "ncessch": "120159007992",
+        "name": "FRESH START COMMUNITY SCHOOL",
+        "source_roster_link_index": 140,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-9236",
+        "native_school_id": "FL-53-9236",
+        "ncessch": "120159007994",
+        "name": "POLK COUNTY SHERIFFS REGIONAL DETENTION CENTER",
+        "source_roster_link_index": 141,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8003",
+        "native_school_id": "FL-53-8003",
+        "ncessch": "120159008246",
+        "name": "POLK STATE LAKELAND GATEWAY TO COLLEGE COLLEGIATE HIGH SCHO",
+        "source_roster_link_index": 143,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-7023",
+        "native_school_id": "FL-53-7023",
+        "ncessch": "120159008317",
+        "name": "POLK FULL TIME ESCHOOL",
+        "source_roster_link_index": 144,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0921",
+        "native_school_id": "FL-53-0921",
+        "ncessch": "120159008455",
+        "name": "REAL ACADEMY (REACHING EVERY ADOLESCENT LEARNER)",
+        "source_roster_link_index": 146,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0917",
+        "native_school_id": "FL-53-0917",
+        "ncessch": "120159008461",
+        "name": "POLK GRAD ACADEMY",
+        "source_roster_link_index": 147,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8181",
+        "native_school_id": "FL-53-8181",
+        "ncessch": "120159008515",
+        "name": "DISCOVERY HIGH SCHOOL",
+        "source_roster_link_index": 148,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-2002",
+        "native_school_id": "FL-53-2002",
+        "ncessch": "120159008685",
+        "name": "DAVENPORT HIGH SCHOOL",
+        "source_roster_link_index": 152,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1661",
+        "native_school_id": "FL-53-1661",
+        "ncessch": "120159008701",
+        "name": "RIDGE TECHNICAL ACADEMY",
+        "source_roster_link_index": 154,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-0991",
+        "native_school_id": "FL-53-0991",
+        "ncessch": "120159008708",
+        "name": "GIBBONS STREET PK CENTER",
+        "source_roster_link_index": 155,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-1561",
+        "native_school_id": "FL-53-1561",
+        "ncessch": "120159008733",
+        "name": "MAYNARD A TRAVISS TECHNICAL ACADEMY",
+        "source_roster_link_index": 156,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-8008",
+        "native_school_id": "FL-53-8008",
+        "ncessch": "120159008736",
+        "name": "LANGUAGE & LITERACY ACADEMY FOR LEARNING",
+        "source_roster_link_index": 157,
+        "exclusion": "CCD offered configuration is not verified pure lower grades"
+      },
+      {
+        "school_id": "53-1201",
+        "native_school_id": "FL-53-1201",
+        "ncessch": "120159010699",
+        "name": "ELEMENTARY - N LAKELAND",
+        "source_roster_link_index": 164,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-2012",
+        "native_school_id": "FL-53-2012",
+        "ncessch": "120159010700",
+        "name": "SCENIC TERRACE K-8",
+        "source_roster_link_index": 165,
+        "exclusion": "No same-year Fall Survey2 native profile"
+      },
+      {
+        "school_id": "53-9263",
+        "native_school_id": "FL-53-9263",
+        "ncessch": "120159010702",
+        "name": "ECKERD CONNECTS STRIVE ACADEMY",
+        "source_roster_link_index": 166,
+        "exclusion": "CCD status nonoperational"
+      },
+      {
+        "school_id": "53-8012",
+        "native_school_id": "FL-53-8012",
+        "ncessch": "120159010808",
+        "name": "RCMA MULBERRY COMMUNITY ACADEMY",
+        "source_roster_link_index": 167,
+        "exclusion": "No offered grade3\u20138 in primary-only configuration"
+      },
+      {
+        "school_id": "53-0877",
+        "native_school_id": "FL-53-0877",
+        "ncessch": "120159010931",
+        "name": "NAVIGATOR ACADEMY OF LEADERSHIP HIGH SCHOOL",
+        "source_roster_link_index": 169,
+        "exclusion": "CCD status nonoperational"
+      }
+    ],
+    "retained_outside_source_profiles": [],
+    "nonoperational_ccd_references": [
+      {
+        "source_row": 23284,
+        "ncessch": "120159002949",
+        "native_school_id": "FL-53-9207",
+        "status": "Closed"
+      },
+      {
+        "source_row": 23329,
+        "ncessch": "120159007728",
+        "native_school_id": "FL-53-8140",
+        "status": "Closed"
+      },
+      {
+        "source_row": 23332,
+        "ncessch": "120159007906",
+        "native_school_id": "FL-53-8002",
+        "status": "Closed"
+      },
+      {
+        "source_row": 23359,
+        "ncessch": "120159010702",
+        "native_school_id": "FL-53-9263",
+        "status": "Closed"
+      },
+      {
+        "source_row": 23362,
+        "ncessch": "120159010931",
+        "native_school_id": "FL-53-0877",
+        "status": "Future"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 110,
+        "usable_schools": 109,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "53-0932",
+            "native_school_id": "FL-53-0932",
+            "ncessch": "120159003925",
+            "name": "COMPASS MIDDLE CHARTER SCHOOL",
+            "reason": "math: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 102,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 23295,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 3433,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 3431,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original campus published rate missing or masked": 1
+        },
+        "charter": {
+          "No": 90,
+          "Yes": 19
+        },
+        "school_types": {
+          "Regular School": 109
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/polk-district-audit.json",
+        "source_evidence_sha256": "afc70dddd319061851a02303bc74b0b56959cb65cb553736f885b455236efd98"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 110,
+        "usable_schools": 109,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "53-0932",
+            "native_school_id": "FL-53-0932",
+            "ncessch": "120159003925",
+            "name": "COMPASS MIDDLE CHARTER SCHOOL",
+            "reason": "reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 102,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 23295,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 3433,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 3431,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "reading: original campus published rate missing or masked": 1
+        },
+        "charter": {
+          "No": 90,
+          "Yes": 19
+        },
+        "school_types": {
+          "Regular School": 109
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/polk-district-audit.json",
+        "source_evidence_sha256": "afc70dddd319061851a02303bc74b0b56959cb65cb553736f885b455236efd98"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 110,
+        "usable_schools": 109,
+        "excluded_configuration_profiles": 1,
+        "excluded_configuration_records": [
+          {
+            "school_id": "53-0932",
+            "native_school_id": "FL-53-0932",
+            "ncessch": "120159003925",
+            "name": "COMPASS MIDDLE CHARTER SCHOOL",
+            "reason": "math: original campus published rate missing or masked; reading: original campus published rate missing or masked",
+            "raw_published_rates": {
+              "math": null,
+              "reading": null
+            },
+            "source_refs": {
+              "roster_link_index": 102,
+              "directory": {
+                "table": "directory",
+                "source_id": "ccd_school_directory",
+                "member": "ccd_sch_029_2425_w_1a_073025.csv",
+                "source_row": 23295,
+                "fields": [
+                  "SCHOOL_YEAR",
+                  "LEAID",
+                  "ST_LEAID",
+                  "ST_SCHID",
+                  "NCESSCH",
+                  "UPDATED_STATUS",
+                  "G_3_OFFERED",
+                  "G_9_OFFERED"
+                ]
+              },
+              "native_enrollment": {
+                "table": "native_grades",
+                "source_id": "grades",
+                "worksheet": "School",
+                "source_row": 3433,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "fields": [
+                  "PK",
+                  "KG",
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ]
+              },
+              "income": {
+                "table": "native_income",
+                "source_id": "income",
+                "worksheet": "2425 FS3_Schl",
+                "source_row": 3431,
+                "columns": [
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "fields": [
+                  "# of Students\n(Denominator)",
+                  "# of Free Lunch Students (Codes D&F)",
+                  "# of Reduced-Price Lunch Students (Codes 3&E)",
+                  "# of Provision 2 Students (Code 4)",
+                  "# of Direct Certification CEP Students (Codes C&R)"
+                ]
+              },
+              "outcomes": {
+                "math": null,
+                "reading": null
+              }
+            }
+          }
+        ],
+        "exclusions": {
+          "math: original campus published rate missing or masked; reading: original campus published rate missing or masked": 1
+        },
+        "charter": {
+          "No": 90,
+          "Yes": 19
+        },
+        "school_types": {
+          "Regular School": 109
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/polk-district-audit.json",
+        "source_evidence_sha256": "afc70dddd319061851a02303bc74b0b56959cb65cb553736f885b455236efd98"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "FL",
+      "name": "FAST/BEST/FAA School Grades achievement",
+      "original_numerical_name": "2024\u201325 FAST/BEST/FAA School Grades published accountable achievement",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive/protected Fall grades 3\u20138; native FAST/BEST/Access EOC/FAA accountable scope",
+      "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+      "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx"
+    },
+    "historical_state_extract": {
+      "path": "data/source/florida.json",
+      "sha256": "523afad888444e875fc8d06486b20240896341d55b14d9484e8b935888f66daf"
+    },
+    "count_definition_status": {
+      "status": "unverified_schoolgrades_valid_score_denominators",
+      "raw_fields": [
+        "Percent Tested",
+        "At least ten eligible component rule"
+      ],
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Native enrollment, percent tested and eligible component rules are source evidence; no exact valid-score denominator or ten-valid-scored floor is certified. Income and enrollment never substitute or select model membership."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separately validated exact 2024\u201325 grade-school point-only contract is approved. Historical source and numerical audits retain false approvals. Compact links require all current immutable artifacts/code/tests/policies and semantic replay. High, mixed, primary, closed, unmatched scopes and valid-score/count-floor holds remain unreleased."
+    }
+  }
+}

@@ -752,6 +752,31 @@
           ]
         },
         {
+          "id": "fl-polk-2025:2025:FAST/BEST/FAA School Grades achievement:ES",
+          "state": "FL",
+          "name": "FAST/BEST/FAA School Grades achievement",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Pure lower profiles with positive/protected Fall grades 3–8; native FAST/BEST/Access EOC/FAA accountable scope",
+          "standard": "Original Level 3 or above FAST/BEST/Access/eligible FAA achievement with full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate.",
+          "source_url": "https://cdn.fldoe.org/file/18534/SchoolGrades25.xlsx",
+          "dataset_id": "fl-polk-2025",
+          "family": "FAST/BEST/FAA School Grades achievement",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "polk",
+              "name": "Polk",
+              "url": "./?state=FL&region=polk&level=ES",
+              "model_scope": "Polk independent 2024–25 grade-school district models use exact NCES LEA 1201590 / FL-53 / FDOE 53 identities. All 110 audited pure lower profiles with positive or protected Fall grades 3–8 and explicit-zero grades 9–12 remain searchable. Original whole-percent School Grades Math and ELA achievement supports 109 schools in each separate Math, ELA and independently fitted Combined model; Compass Middle Charter School retains missing achievement. Same-year individual February lunch-status counts use their own school denominator. Published accountable FAST PM3, BEST/Access EOC and eligible FAA achievement retains full-year, home-zoned, ELL and exemption rules; Datafolio and percent-tested participation remain separate. High, mixed, primary, closed and unmatched scopes remain outside this point-only release. Valid-score denominators and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide."
+            }
+          ]
+        },
+        {
           "id": "fl-schoolgrades-2025:2025:Florida School Grades FAST + FAA + Math EOC · grade schools:ES",
           "state": "FL",
           "name": "Florida School Grades FAST + FAA + Math EOC · grade schools",

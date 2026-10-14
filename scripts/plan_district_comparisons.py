@@ -124,6 +124,8 @@ def scope(row):
         return 'existing_miami_dade'
     if row['LEAID'] == '1200480':
         return 'existing_duval'
+    if row['LEAID'] == '1201590':
+        return 'existing_polk'
     if row['LEAID'] == '4218990':
         return 'existing_philadelphia'
     if row['LEAID'] == '4816110':
@@ -357,7 +359,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia and Cypress-Fairbanks have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks and Polk have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -654,6 +656,21 @@ def render(payload):
         'High/primary/unmatched populations, admissions, provider and geometry remain '
         'outside or unaudited. Planning never grants model approval; fixed66 retains '
         'completed rows.', ''])
+    lines.extend([
+        'The [Polk source, numerical and integration audits](polk-district.md) '
+        'retain exact LEA `1201590` / `FL-53` / FDOE `53`, 110 pure grade-school '
+        'profiles and separate 109-school Math, ELA and Combined models. All 327 '
+        'deletion fits use original whole School Grades achievement and precise '
+        'individual February eligibility, with funding multipliers excluded. '
+        'Compass Middle Charter retains unavailable achievement. All twenty '
+        'profile charters and nineteen rated charters, protected grades, influential '
+        'Montessori campuses and exact unjoined identities remain. The provider-specific '
+        'virtual row is not assigned campus income, and the 5,068-pupil school/district '
+        'enrollment difference stays unassigned. Historical approvals remain false; '
+        'only the separately validated normalized population supplies readiness. '
+        'Counts, scored floor and intervals remain uncertified/unavailable. High/mixed/primary, '
+        'admissions, provider roles and geometry remain outside or unaudited. Planning '
+        'counts never approve a model; the fixed 66-district TODO retains its row.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '
