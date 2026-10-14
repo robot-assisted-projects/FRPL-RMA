@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 00:47:23 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 01:10:08 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -13,7 +13,7 @@ Last tracker update: **2026-10-14 00:47:23 America/Chicago**. GitHub account: **
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
-| [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Ready for tested release; 4 attribution holds retained | — |
+| [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Isolated integration; 11 Math masks retained | — |
 | Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
@@ -228,7 +228,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 
 - **2026-10-13 22:10:39:** Independent review found a replay guard gap allowing coherently altered raw/identity/primary evidence after reassigned public fingerprints. The saved original facts remain correct and unapproved. Bind all four source fingerprints to the immutable runtime contract, add focused regressions and rerun affected review cases before the source gate. No district model or master delivery has occurred.
 
-## In progress: Memphis-Shelby County
+## Completed: Memphis-Shelby County
 
 - **2026-10-13 22:18:51:** Started the separate source/cohort audit for exact `4700148 / TN-00792`, 2024–25, in parallel with Polk’s later gates. Reopen original CCD identities/membership/individual direct certification and documented original TNReady grade totals. Statewide data is a cross-check; district fits need separate approval. Unknown valid-score denominators/count floor/intervals remain held. No unlisted or second-tier districts enter the queue; finish remains blank.
 
@@ -263,3 +263,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 01:02:20:** Baltimore County numerical gate passes19 distinct tests, two identical final CLI outputs,64,709 independent comparisons, all389 deletion fits and85 corruption/6 positive controls. Fresh original-evidence rebuilding rejects the former cached-reference forgery.126/137/126 populations and unavailable counts/floor/intervals remain. Isolated normalization follows; no main import or release.
 
 - **2026-10-14 01:03:43:** Memphis local browser passes17 assertions including all four held schools, five ELA-only profiles, exact Caldwell identity, retained Maxine Smith influence, share/reload/empty/invalid selections, pagination and390px visual inspection. Scientific/shared review and88 targeted Python/20 JavaScript tests already pass. Master/public verification follows; finish remains blank.
+
+- **2026-10-14 01:07:10**: Memphis tested release `55ef01120872e58156d31ad46da5b2eed5554e66` is verified on master and expansion/all-states through fine-fiddle. All scientific/import/shared gates, independent review,88 targeted Python/20 JavaScript checks,17 local browser assertions and nine HTTP/23 changed Git-blob bindings pass. Eight fixed66 districts are finished;58 remain. Four attribution holds and unavailable counts/floor/intervals remain. Pages/public readback follows separately.
+
+- **2026-10-14 01:10:08:** Memphis Pages/public verification passes:12 public browser assertions and nine exact independent HTTP/Git asset bindings after successful Pagesrun38520339618. Eight fixed66 districts finished;58 remain. Four attribution holds and unavailable counts/floor/intervals remain. Baltimore County isolated integration continues.

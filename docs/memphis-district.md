@@ -1,6 +1,6 @@
 # Memphis-Shelby County district comparison
 
-Exact 2024–25 identity: NCES LEA `4700148`, CCD native `TN-00792`, original EDC district `792`. Started **2026-10-13 22:18:51 America/Chicago**. Work belongs to the original [66-district queue](../TODO-breakout_districts.md). Source, numerical, repeated canonical and shared-export gates passed independent review. Local browser verification passed; exact HTTP/Git binding and tested master/public delivery remain pending. Historical approvals remain false; readiness belongs to the separately validated normalized scope below.
+Exact 2024–25 identity: NCES LEA `4700148`, CCD native `TN-00792`, original EDC district `792`. Started **2026-10-13 22:18:51 America/Chicago**. Work belongs to the original [66-district queue](../TODO-breakout_districts.md). Source, numerical, repeated canonical and shared-export gates passed independent review. Local browser and exact HTTP/Git bindings passed; tested release is verified on master. Pages/public readback passed **2026-10-14 01:10:08**. Historical approvals remain false; readiness belongs to the separately validated normalized scope below.
 
 ## Original sources and population
 
@@ -82,3 +82,9 @@ Canonical/shared gate recorded **2026-10-14 00:47:23 America/Chicago**. Local HT
 .venv/bin/python scripts/prepare_memphis.py
 .venv/bin/python -m unittest discover -s tests -p 'test_memphis.py' -v
 ```
+
+## Tested master delivery
+
+Tested commit `55ef01120872e58156d31ad46da5b2eed5554e66` is verified on remote master and expansion/all-states **2026-10-14 01:07:10 America/Chicago**, using fine-fiddle. All88 targeted Python/20 JavaScript tests,17 local browser assertions, nine exact HTTP/Git asset bindings and all23 changed release-file Git bindings pass independent review. The TODO now records actual completion: eight of the original66 districts finished,58 remaining. Four school attribution holds and all unavailable counts/floor/intervals remain. A push does not confirm deployment; Pages/public verification follows separately.
+
+Pages run [38520339618](https://github.com/robot-assisted-projects/FRPL-RMA/actions/runs/38520339618) completed successfully for the tested release. Public readback passed **2026-10-14 01:10:08 America/Chicago**:12 browser assertions and nine independently fetched HTTP assets exactly match tested Git blobs. Public proof SHA `caab4440e9d7c2a24c69260dcfef597548b75dd38dac2391efa0de1edd4abf0d`. The deployed154 profiles,142/147/142 models, four attribution holds and unavailable sampling intervals agree with local verification.

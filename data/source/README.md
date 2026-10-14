@@ -188,3 +188,5 @@ Models include every eligible school in each annual assessment source, including
 `../chicago-areas.geojson`: https://data.cityofchicago.org/resource/igwz-8jzy.geojson
 
 Official community area polygons. No street basemap or third-party tile requests.
+
+Memphis tested release `55ef01120872e58156d31ad46da5b2eed5554e66` reached master2026-10-14 01:07:10 America/Chicago; successful Pages and independent public byte/browser readback confirmed2026-10-14 01:10:08. Its four named attribution holds and unavailable counts/floor/intervals remain. See the [district delivery record](../../docs/memphis-district.md#tested-master-delivery).
