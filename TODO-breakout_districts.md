@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 06:55:00 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 07:17:35 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -20,9 +20,9 @@ Last tracker update: **2026-10-14 06:55:00 America/Chicago**. GitHub account: **
 | [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Merged; counts/status held | 2026-10-14 05:42:30 |
 | [KATY ISD](docs/katy-district.md) | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Merged; counts/status held | 2026-10-14 06:43:06 |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
-| San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying models and sampling intervals | — |
-| DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Independent numerical review next | — |
-| School District No. 1 in the county of Denver and State of C | CO | 0803360 / CO-0880 | 2026-10-14 06:34:12 | Verifying original source/cohort | — |
+| [San Diego Unified](docs/san-diego-district.md) | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Integrating verified models and intervals | — |
+| DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Fixing audit provenance guard | — |
+| [School District No. 1 in the county of Denver and State of C](docs/denver-district.md) | CO | 0803360 / CO-0880 | 2026-10-14 06:34:12 | Source reviewed; numerical work next | — |
 | Prince William County Public Schools | VA | 5103130 / VA-075 | 2026-10-14 06:40:47 | Verifying original source/cohort | — |
 | PINELLAS | FL | 1201560 / FL-52 | — | Not yet started | — |
 | Fulton County | GA | 1302280 / GA-660 | — | Not yet started | — |
@@ -368,3 +368,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 06:40:47**: Started exact Prince William `5103130 / VA-075` original-source/cohort audit, within fixed66. Reopen authoritative Virginia/CCD IDs, native regular/alternate/EOC population, individual sameyear income/denominator, valid scores, masks/omissions and source definitions. No fits/imports/release. Denver source audit and independent San Diego/DeKalb numerical reviews continue; no outside-fixed66 work.
 
 - **2026-10-14 06:55:00**: Katy exact tested0098f797 Pages38558489572 succeeds/all three jobs;12 public browser assertions and nine independent exact HTTP/Git matches pass. Thirteen original66 finished /53 remain. San Diego141-member/423-deletion interval review and DeKalb103-member/309-deletion review continue; Denver and Prince William remain source-only. All original holds remain.
+
+- **2026-10-14 07:00:49**: San Diego independent original/model/count/deletion/interval comparisons agree, but independent review finds a runtime provenance-reference guard gap. The numerical gate stays held for a narrow guard repair/final tests/refreeze and independent confirmation; no normalized or public release. Denver source producer closes16 tests/identical original builds for independent review. Thirteen original66 finished /53 remain.
+
+- **2026-10-14 07:12:29**: Denver independent original-source gate passes502282 original/derived checks,71 required rejections/four controls and16 tests/two identical original builds.138 lower profiles/131 Math134ELA131paired/35charters retain four income masks, three Math masks and Gilliam native gap; valid scored counts52/22 minimum support separately reviewed intervals. Numerical396-deletion verification follows San Diego normalization. San Diego repaired18 tests/identical builds retain all141 inputs/423 results/intervals, with independent repair confirmation pending; DeKalb numerical guard repair and Prince William original review continue. Thirteen original66 finished /53 remain.
+
+- **2026-10-14 07:17:35**: San Diego repaired numerical gate passes independent122630 original/model/interval checks/all423 deletions/12 selected60-digit cases/155 necessary rejections/three controls,18 final tests/identical builds. Only runtime metadata changed; all141 inputs/results/intervals and historicalsource3 remain exact. Normalized testing is now authorized; private/currentMain/static delivery remains gated. Denver source gate is independently accepted, with numerical work following San Diego normalization; DeKalb guard repair/PWindependent source review continue. Thirteen original66 finished /53 remain.
