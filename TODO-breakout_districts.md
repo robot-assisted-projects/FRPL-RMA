@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 05:18:53 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 05:35:23 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -17,7 +17,7 @@ Last tracker update: **2026-10-14 05:18:53 America/Chicago**. GitHub account: **
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Merged; counts/intervals unavailable | 2026-10-14 05:15:03 |
-| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying private repeat; counts/status held | — |
+| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Final review; counts/status held | — |
 | KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying numerical models; counts/status held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying original source/cohort | — |
@@ -348,3 +348,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 05:18:11**: Lee successful exacttested609cbb0 Pages38548182759/public verification passes12 browser assertions and nine independent exact HTTP/Git assets. Eleven fixed66 finished /55 remain; source/count/floor/interval and attribution limits remain unchanged. Northside final canonical/guards review and Katy independent numerical review are next.
 
 - **2026-10-14 05:18:06**: Started exact DeKalb County `1301740 / GA-644` original-source/cohort audit, within the fixed66. Reopen authoritative Georgia/CCD IDs, enrolled/offer scope, individual same-year direct certification, native whole-school outcomes and held/outside/program-attribution evidence. No fits/imports/release approval.
+
+- **2026-10-14 05:32:13**: Northside final integration and both actual main imports pass independent review:107 profiles /104 per subject /312 results /22 sources; target nine tables/four exports repeat exactly, preserving every prior row/Lee/assets/science.16 final adapter checks,210754 original/normalized/canonical/history comparisons and307 meaningful rejections/five controls pass. Shared exports/browser/final review/master/public follow; finish remains blank. Three masked alternatives, Homebound native gap, individual enrollment denominator, membership differences and N/M/count/floor/interval holds remain. Eleven fixed66 finished /55 remain. Katy independent numerical review and San Diego/DeKalb source work continue.
+
+- **2026-10-14 05:35:23**: Northside repeated shared exports pass39 states /72 comparisons /89 definitions, preserving allprior71/88/provider bindings/geometry and changing only4833120 planning scope. All97 targeted Python/20 JavaScript checks and17 local browser assertions pass: first off-page Nichols search/keyboard,75→107 pagination, masked history gaps, retained Helotes/income, fixed104 subjects, NCES share/empty/invalid links and390px rendered widths/clean console. Final independent shared/prose review/HTTP-Git binding precede tested master delivery; finish blank. Eleven fixed66 finished /55 remain.

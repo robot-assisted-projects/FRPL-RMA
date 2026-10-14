@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "TX",
+    "name": "Texas"
+  },
+  "prepare_script": "scripts/prepare_northside.py",
+  "regions": [
+    {
+      "id": "northside",
+      "name": "Northside ISD",
+      "dataset": "tx-northside-2025",
+      "status": "ready",
+      "geography": "northside",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/northside/schools.json",
+      "boundaries": null,
+      "comparison": "Northside ISD \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Northside ISD independent2024\u201325 original published-rate grade-school models use exact CCD LEA4833120/TX-015915/TAPR015915. All107 positive native enrolled grades3\u20138/explicit-zero grades9\u201312 profiles remain searchable; three alternative-campus Math/ELA masks leave104 observations in each separate Math, ELA and own Combined model. Native CPNTALLC enrollment is the own individual-income denominator; CPETALLC membership remains separate. HOMEBOUND015915133 lacks native rows and remains outside with linked CCD evidence. Counts/N-M status/ten-valid-scored floor remain uncertified, sampling intervals unavailable modelwide; high/mixed/primary/inactive populations stay separate.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Northside ISD source release.",
+      "statewide": false,
+      "audit": "data/northside/coverage.json"
+    }
+  ]
+}

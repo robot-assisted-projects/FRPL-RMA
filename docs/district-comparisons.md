@@ -2,7 +2,7 @@
 
 Implement these after the statewide basics. A district comparison would fit its own same-year, assessment, level and subject models, as CPS does. A filter using statewide predictions remains a district view of the statewide model; it is not a district comparison.
 
-Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 55 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
+Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 54 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
 
 ## Selection and implementation gates
 
@@ -17,7 +17,6 @@ Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 55 fir
 
 | District | State | NCES LEA | Students | Potential ES / HS | State source status |
 | --- | --- | --- | ---: | ---: | --- |
-| NORTHSIDE ISD | TX | 4833120 | 100,208 | 107 / 16 | Available; district audit pending |
 | KATY ISD | TX | 4825170 | 96,111 | 65 / 11 | Available; district audit pending |
 | Jefferson County | KY | 2102990 | 95,180 | 114 / 2 | State source hold |
 | San Diego Unified | CA | 0634320 | 95,175 | 143 / 23 | Available; district audit pending |
@@ -252,7 +251,7 @@ Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 55 fir
 
 ## Existing comparisons and components
 
-CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby, Baltimore County, Cobb County and Lee County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
+CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby, Baltimore County, Cobb County, Lee County and Northside ISD have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
 
 ## Existing scope · size references
 
@@ -283,6 +282,7 @@ CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough
 | Baltimore County Public Schools | MD | 2400120 | 110,024 | 139 / 30 | Existing Baltimore County comparison; regular MCAP grade schools with eleven Math masks |
 | Cobb County | GA | 1301290 | 105,738 | 90 / 16 | Existing Cobb County comparison; native regular Georgia Milestones EOG grade schools only |
 | LEE | FL | 1201080 | 102,506 | 78 / 21 | Existing Lee County comparison; native School Grades pure grade-school scope only |
+| NORTHSIDE ISD | TX | 4833120 | 100,208 | 107 / 16 | Existing Northside ISD comparison; published TAPR no-high-grade population with three masked alternatives |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #31 | NY | 3600103 | 60,164 | 35 / 3 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT # 2 | NY | 3600077 | 55,345 | 34 / 50 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #24 | NY | 3600098 | 50,026 | 17 / 10 | NYC component; cohort floor review |
@@ -356,6 +356,8 @@ The [Baltimore County source, numerical and integration audits](baltimore-county
 The [Cobb County source, numerical and integration audits](cobb-district.md) retain exact LEA `1301290` / `GA-633`, 90 grade-school profiles and separate 90-school Math, ELA and paired Combined models with all270 deletion fits. Regular Georgia Milestones EOG All Students G38 Levels3–4 published rates use each school’s own same-year individual direct certification / membership. Primary, high and mixed configurations stay outside; influential schools remain. Historical approvals remain false; readiness belongs only to the separately validated normalized scope. Accelerated EOG/EOC coverage, valid-score counts and scored floor remain uncertified; variances and intervals are unavailable. Admissions, provider roles and geometry remain unaudited. Discovery counts never approve a model; the fixed66 TODO retains completed rows.
 
 The [Lee County source, numerical and integration audits](lee-district.md) retain exact LEA `1201080` / `FL-36` / FDOE `36`, 78 grade-school profiles and separate 78-school Math, ELA and paired Combined models with all234 deletion fits. Native whole-school Florida School Grades published rates use each school’s own February individual eligibility / enrolled population. Island’s real0% income, eleven charters and influential Athenian remain. Protected grades and unmatched/primary/high/mixed/virtual configurations stay explicit; no grade averaging or other-year income backfill is used. Historical approvals remain false; readiness belongs only to the separately validated normalized scope. Valid-score counts, scored floor, variances and intervals remain unavailable. Admissions, provider roles and geometry remain unaudited; discovery counts never approve a model and fixed66 retains completed rows.
+
+The [Northside ISD source, numerical and integration audits](northside-district.md) retain exact LEA `4833120` / `TX-015915` / TAPR `015915`, 107 lower profiles and separate104-school Math, ELA and paired Combined models with all312 deletion fits. Original enrolled-grades3–8 Including EOC Meets-or-above whole-percent rates use each school’s own October individual economic count / CPNTALLC enrollment; CPETALLC membership remains separate. Three masked alternatives stay searchable with unavailable metrics/history; Homebound133 has no native record and stays outside. Helotes influence, income extremes and72 unassigned enrollment/membership differences remain. Historical approvals remain false; readiness belongs only to the separately validated normalized scope. Current N/M scored-count status, valid-score counts, floor, variances and intervals remain uncertified/unavailable. High/mixed/primary, programs, admissions, provider roles and geometry remain outside or unaudited. Discovery counts never approve a model; fixed66 retains completed rows.
 
 
 ## Provenance and rebuild

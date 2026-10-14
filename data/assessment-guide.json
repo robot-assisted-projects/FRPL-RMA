@@ -2527,6 +2527,31 @@
           ]
         },
         {
+          "id": "tx-northside-2025:2025:STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages:ES",
+          "state": "TX",
+          "name": "STAAR enrolled grades 3–8 Including EOC · TAPR published Meets or Above percentages",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Enrolled grades 3–8, including applicable Algebra I and English I–II EOC",
+          "standard": "2024–25 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I–II EOC; separate Northside no-high-grade population",
+          "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+          "dataset_id": "tx-northside-2025",
+          "family": "STAAR + Alternate 2",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "northside",
+              "name": "Northside ISD",
+              "url": "./?state=TX&region=northside&level=ES",
+              "model_scope": "Northside ISD independent2024–25 original published-rate grade-school models use exact CCD LEA4833120/TX-015915/TAPR015915. All107 positive native enrolled grades3–8/explicit-zero grades9–12 profiles remain searchable; three alternative-campus Math/ELA masks leave104 observations in each separate Math, ELA and own Combined model. Native CPNTALLC enrollment is the own individual-income denominator; CPETALLC membership remains separate. HOMEBOUND015915133 lacks native rows and remains outside with linked CCD evidence. Counts/N-M status/ten-valid-scored floor remain uncertified, sampling intervals unavailable modelwide; high/mixed/primary/inactive populations stay separate."
+            }
+          ]
+        },
+        {
           "id": "tx-tapr-2025:2025:STAAR + Alternate 2 grades 3–8 including EOC · grade schools:ES",
           "state": "TX",
           "name": "STAAR + Alternate 2 grades 3–8 including EOC · grade schools",
