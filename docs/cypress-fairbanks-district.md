@@ -68,3 +68,7 @@ Repeated catalog/guide/planning exports add only Cypress-Fairbanks, retaining65 
 .venv/bin/python scripts/prepare_cypress_fairbanks.py
 .venv/bin/python -m unittest discover -s tests -p 'test_cypress_fairbanks.py' -v
 ```
+
+Cypress-Fairbanks tested master delivery verified **2026-10-13 20:41:07 America/Chicago**, commit `6eb89b3ac06b76dc7b6cc120e06dece5da62fe1b` through fine-fiddle. Local HTTP/browser checks and eight asset/nineteen Git-blob bindings pass. All count/floor/interval limits remain; fixed66 keeps its completed row. Pages deployment and public readback pass **2026-10-13 20:48:28 America/Chicago**.
+
+Public-site verification passes **15 assertions** at **2026-10-13 20:48:28 America/Chicago**, after the [successful Cypress-Fairbanks Pages run](https://github.com/robot-assisted-projects/FRPL-RMA/actions/runs/38497048036). All eight public HTTP200 assets match tested release `6eb89b3`;78 fixed-model profiles, all234 point results, influential Hairgrove, first off-page Yeager search, unavailable counts/intervals, four Texas guide links and narrow-screen keyboard/table behavior pass. No application, script or required-data failures were found.
