@@ -1,6 +1,6 @@
 # Northside ISD district comparison
 
-Exact2024–25 identity: NCES LEA `4833120`, CCD native `TX-015915`, TAPR district `015915`. Started **2026-10-14 03:14:21 America/Chicago**, within the original [66-district queue](../TODO-breakout_districts.md). Independent original-source review passed **2026-10-14 03:51:14**. Separate numerical verification is underway. Both source/modeling approvals remain false; this milestone does not release a canonical/browser comparison.
+Exact2024–25 identity: NCES LEA `4833120`, CCD native `TX-015915`, TAPR district `015915`. Started **2026-10-14 03:14:21 America/Chicago**, within the original [66-district queue](../TODO-breakout_districts.md). Independent original-source review passed **2026-10-14 03:51:14**; separate numerical verification passed **04:18:51**. Normalized integration is next. Both source/modeling approvals remain false; this milestone does not release a canonical/browser comparison.
 
 ## Original evidence and population
 
@@ -28,4 +28,23 @@ Fourteen final targeted tests pass in8.480s; two actual final code/test/extract-
 
 A separate brief primary-definition review checks six whole primary files,18 exact PDF pages and3410 HTML lines/3428 comparisons, agreeing with individual October income/published-R scope and the unresolved count hold. Producer correction affected only an ignored preservation harness’s Lee metadata path; source code/tests/data were unchanged.
 
-The entire main database and all nine earlier tables,277 served assets,372 scientific files and70 regions/87 guide definitions/provider bindings/geometry/planning are preserved. No source-review fit, import, served comparison, browser change or Git mutation occurred. Source-only approvals remain false. Next: independent full/deleted numerical models, then separately audited normalization, repeatability, browser and tested master/public delivery. Finish stays blank.
+The entire main database and all nine earlier tables,277 served assets,372 scientific files and70 regions/87 guide definitions/provider bindings/geometry/planning are preserved. No source-review fit, import, served comparison, browser change or Git mutation occurred. Source-only approvals remain false. Subsequent numerical verification is recorded below; separate normalization, repeatability, browser and tested master/public delivery remain gated. Finish stays blank.
+
+## Independent numerical verification
+
+The separate [numerical audit](../data/source/northside-model-audit.json), rebuilt by [audit_northside_models.py](../scripts/audit_northside_models.py), verifies unweighted104-member Math/ELA/own paired Combined models and all312 explicit deleted-school fits. Full/deleted designs have rank two, positive scales and residual degrees of freedom102/101. The107 source profiles retain three alternatives with masked rates; neither suppression nor a raw count screen selects invented results.
+
+| Fit | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Schools | 104 | 104 | 104 |
+| Intercept | 68.130703 | 80.117550 | 74.124127 |
+| Disadvantage slope | -0.463215 | -0.501261 | -0.482238 |
+| Residual scale | 8.708070 | 6.143146 | 6.832160 |
+
+HELOTES EL (NCES `483312003700`) has the highest Cook influence in all three models and remains included. Original income spread7.23684–94.38776% remains; natural predictions lie within0–100, while a synthetic control preserves unbounded values. Combined uses its own response, fit and scale; its t values differ from averaged subject t values. No influence exclusions, weighting, clipping or shrinkage is introduced. Source masks, HOMEBOUND’s missing native identity,72 unassigned enrollment/membership differences and count/status/floor/variance/interval/program/geometry holds remain.
+
+Eighteen final tests pass in72.777s, with no production or test repairs. Two actual final code/test/artifact-bound numerical CLI outputs are identical; offline replay and compilation pass. Independent review verifies159003 original compact input/reference/full+all312 NumPy result/diagnostic comparisons (maximum difference1.82e−12), three full/twelve selected60-digit fits (maximum9.09e−13),208 necessary rejection cases and seven controls. Fresh original/current/runtime checks across six APIs and numeric/refit/public-expected-authority attacks fail closed. The accepted source327295/88 suites were reused rather than repeated.
+
+Three reviewer fixtures were corrected transparently: a local decimal.py name shadowed the standard library before any calculation, old Cypress influence/gap IDs were replaced with original Northside IDs, and numerical holds correctly omit results rather than include an empty list. Only the affected hold tail was repeated after82 passing preceding guards; failed logs remain. A producer ignored proof-summary field inherited a Florida-only key; its diagnostic lookup was corrected without changing source/code/test/data.
+
+Source/numerical six remain immutable with false approvals. The whole main database and all old nine-table rows,277 served assets and378 scientific files/70 regions/87 guide definitions remain unchanged at this gate. Next: separately validated normalized contract and final-trio-bound private import pair, then authorized main/shared/browser and tested master/public delivery. Finish remains blank.

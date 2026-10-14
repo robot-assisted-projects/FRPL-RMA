@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 04:01:13 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 04:23:54 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -17,8 +17,8 @@ Last tracker update: **2026-10-14 04:01:13 America/Chicago**. GitHub account: **
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying private integration; counts/intervals unresolved | — |
-| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying independent fits; counts/status held | — |
-| KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
+| [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Preparing private integration; counts/status held | — |
+| KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying original source/cohort; counts held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | — | Not yet started | — |
 | DeKalb County | GA | 1301740 / GA-644 | — | Not yet started | — |
@@ -325,3 +325,10 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 03:55:19**: Northside independent source gate passes03:51:14:107 profiles /104 per subject; all131 records,15 sources,1543 needed rows /59450 cells plus complete omissions,14 tests/two identical builds,327295 comparisons/88 rejections/13 controls. Three masked alternatives, Homebound missing native ID and72 unassigned membership differences remain. Northside requires312 numerical deletions; its numerical work begins with104 members per fit, counts/status/floor/CIs held and no release. Lee producer numerical18 tests and identical actual CLI pair pass, retaining all234 deletions; independent numerical review is pending. Ten of fixed66 finished /56 remain.
 
 - **2026-10-14 04:01:13**: Lee numerical gate passes03:58:17:78/78/78 members and234 explicit deletions,18 final tests/two identical builds,49401 independent original/NumPy comparisons and194 rejection/four controls/60-digit checks. Island0%/eleven charters/Athenian influence remain; source/model6 immutablefalse/counts-floor-CIs unknown. Isolated normalization/private import review starts; no actual main/shared release. Northside independently audited source107/104 populations move into separate numerical verification; two denominator words in its guide were corrected to own CPNTALLC enrollment, without source/data changes. Ten finished /56 remain.
+
+## In progress: Katy ISD
+
+- Exact **4825170 / TX-101914 / TAPR101914**,2024–25. Actual original-source/cohort audit started **2026-10-14 04:09:20 America/Chicago**, within the fixed66. Planning96111 students/65 potential lower/11 high remains discovery only.
+- Next: reconstruct exact operational CCD/TAPR joins, native enrolled lower grades, own individual October economic numerator/denominator and published Meets-or-above outcomes with all held/outside records retained. Existing N/M count/status/floor/CIs stay held; no repeated failed source investigation without new evidence. No fits/imports/release approval.
+
+- **2026-10-14 04:23:54**: Northside numerical gate passes04:18:51:104/104/104 and312 explicit deletions,18 final tests/two identical builds,159003 independent original/NumPy comparisons,208 rejection/seven controls/60-digit checks. Helotes influence/masks/missing133/deltas remain; source/model6 false/immutable/counts-status-floor-CIs held. Private normalization is next. Lee final-frozen-trio first private import passes its independent closed checkpoint, preserving old nine tables/277 assets; repeat and full canonical/guard review follow. Katy source65 profiles/64 prospective subjects retain one masked alternative and two native gaps, final source checks pending. Ten finished /56 remain.
