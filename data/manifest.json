@@ -3713,6 +3713,153 @@
       "sha256": "03f24547726ebf7529d946cee85f84e3de3ac3962b5dbc8b96e0a4db3744247d"
     },
     {
+      "id": "tn-memphis-2025:ccd_directory_2025",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_directory_layout",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/SY_2024-25_SCH_Directory_Companion_2026-005d.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Directory_Companion_2026-005d.xlsx",
+      "sha256": "aa3be279c7a175be76ce43e451fb8ba513481e7a80f009abf7de3ad4cf33f8cf"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_lea_directory",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_lea_membership",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_lunch_2025",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd_sch_033_2425_l_2a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_033_2425_l_2a_073025.zip",
+      "sha256": "97bda749e778ee74cb731d181bbcdaf0f9c6cd6edf94cb31518a5bbeab411dd6"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_lunch_layout",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/SY_2024-25_SCH_Lunch_Companion_2026-005d_2a.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Lunch_Companion_2026-005d_2a.xlsx",
+      "sha256": "6596d9e9a3c471ddd83b63d19a46514193220b7f3d66b91ddb0ad5e42d252008"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_membership_2025",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_membership_layout",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/SY_2024-25_SCH_Membership_Companion_2026-005d.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_SCH_Membership_Companion_2026-005d.xlsx",
+      "sha256": "cc3afc95a5226da12aec2f77b264477adfe9d85bb250e71c4dab534b5a591fd1"
+    },
+    {
+      "id": "tn-memphis-2025:ccd_state_notes_2025",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "sha256": "6476b6b28b700389e261b87377d9cd249935503d53b5919fe1b7ef8b1052d1a7"
+    },
+    {
+      "id": "tn-memphis-2025:edc_2025",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/edc-2025/tn.csv",
+      "url": "https://www.eddatacenter.org/api/data/3.1?state=TN&year=2025",
+      "sha256": "a8d7a7d793f36ae42c79d70ee62e7dd5e9e8f8a6c591e3aa39a6c6ecb3c8b786"
+    },
+    {
+      "id": "tn-memphis-2025:edc_codebook_v3_1",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/EDC_codebook_v3.1.xlsx",
+      "url": "https://www.eddatacenter.org/data_codebooks/EDC_codebook_v3.1.xlsx",
+      "sha256": "cfaf3eeb482b416106e4a7b775c9554768fbf4900b0518c861979d646b6b2574"
+    },
+    {
+      "id": "tn-memphis-2025:edc_technical_v3_1",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/EDC_technical_documentation_v3.1.pdf",
+      "url": "https://www.eddatacenter.org/data_documentation/EDC_technical_documentation_v3.1.pdf",
+      "sha256": "749c52497e37cfd73c0e29afadea3d90d6b50950844f070247594f44254a7968"
+    },
+    {
+      "id": "tn-memphis-2025:extract",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/source/memphis.json",
+      "url": "https://www.eddatacenter.org/api/data/3.1?state=TN&year=2025",
+      "sha256": "39fc6eb5d108bfb8ac800a531613b9d9e831da6e0ac9ed4386ca97899137c9a9"
+    },
+    {
+      "id": "tn-memphis-2025:historical_tennessee_extract",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/source/ccd-state-snapshots.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/ccd-state-snapshots.json",
+      "sha256": "3b6e55bba0055c582eb14a461697c64131a36e4cd555bca94965e5f77cac91fc"
+    },
+    {
+      "id": "tn-memphis-2025:nces_lunch_definitions",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/raw/ccd-lunch-definition.html",
+      "url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data",
+      "sha256": "03f24547726ebf7529d946cee85f84e3de3ac3962b5dbc8b96e0a4db3744247d"
+    },
+    {
+      "id": "tn-memphis-2025:numerical_audit",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/source/memphis-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/memphis-model-audit.json",
+      "sha256": "7aaf909cc10c3703e18ff574b30c09d5327d4c3529358917981349adcd291561"
+    },
+    {
+      "id": "tn-memphis-2025:numerical_audit_code",
+      "dataset_id": "tn-memphis-2025",
+      "path": "scripts/audit_memphis_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_memphis_models.py",
+      "sha256": "4575a4fe1ea49f5b12a763d06009655b08de7142997870d79d3aaf52d4561d66"
+    },
+    {
+      "id": "tn-memphis-2025:numerical_audit_tests",
+      "dataset_id": "tn-memphis-2025",
+      "path": "tests/test_memphis_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_memphis_models.py",
+      "sha256": "eee04e242f5c80840bcd5be163d0a969c42b88c83b312d776c187c81c3152acb"
+    },
+    {
+      "id": "tn-memphis-2025:roster_audit",
+      "dataset_id": "tn-memphis-2025",
+      "path": "data/source/memphis-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/memphis-district-audit.json",
+      "sha256": "54eb758c049b2493fe206b34823047b601fdcdfd0785c0deeadff9bf691323dc"
+    },
+    {
+      "id": "tn-memphis-2025:source_audit_code",
+      "dataset_id": "tn-memphis-2025",
+      "path": "scripts/audit_memphis.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_memphis.py",
+      "sha256": "5b187fd605967445bc930edcc6c6b81a217acd598c6f94b2b75f3671fc0514f7"
+    },
+    {
+      "id": "tn-memphis-2025:source_audit_tests",
+      "dataset_id": "tn-memphis-2025",
+      "path": "tests/test_memphis_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_memphis_audit.py",
+      "sha256": "c4ef3545a16fab479d0db5bc64f60244afac92625f04615d7602d570de01f8e3"
+    },
+    {
       "id": "tx-cypress-fairbanks-2025:accountability-manual",
       "dataset_id": "tx-cypress-fairbanks-2025",
       "path": "data/raw/tx_accountability_manual_2025.pdf",
@@ -19672,6 +19819,16 @@
       "source_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html"
     },
     {
+      "id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES",
+      "state": "TN",
+      "name": "TNReady regular All Students G38 proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Operational pure lower offered and reconciled enrolled profiles with positive reported grades 3\u20138; native regular All Students G38",
+      "standard": "Original EDC v3.1 native aggregate grades 3\u20138, TNReady regular, Levels 3\u20134; original source business rules and unverified tested counts remain limits.",
+      "source_url": "https://www.eddatacenter.org/api/data/3.1?state=TN&year=2025"
+    },
+    {
       "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
       "state": "TX",
       "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
@@ -20405,6 +20562,12 @@
       "id": "tn-edc-ccd-dc:income",
       "name": "Direct certification",
       "definition": "Reported school-level CCD 2024\u201325 Direct Certification Education Unit Total divided by reported positive same-year CCD Membership Education Unit Total, including pre-K where enrolled. Direct certification identifies individual students categorically eligible through benefits and other qualifying statuses (for example SNAP, TANF, FDPIR, foster care, migrant, homeless and Head Start; Medicaid eligibility varies by state). It is a benefits-based economic proxy, not all students eligible through household income or all students receiving free meals at a CEP school. No CEP multiplier, universal-meal count, FRPL fallback, tested-subgroup ratio or prior-year income is used. CCD membership is the fall snapshot; counts use the same academic year and exact NCES ID. No school-allocation warning is published in the audited CCD 2a state notes.",
+      "source_url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data"
+    },
+    {
+      "id": "tn-memphis-2025:income",
+      "name": "Reported individual direct certification / school membership",
+      "definition": "2024\u201325 reported CCD Final 2a individual Direct Certification Education Unit Total divided by that school\u2019s own reported same-year Membership Education Unit Total, including pre-K where enrolled. This benefits/status measure is an economic disadvantage proxy, not full household-income FRPL, Tennessee economic disadvantage or universal/CEP meal receipt. Both counts require Reported flags; masks, missing or derived counts, other-year income and tested-subgroup denominators never substitute. Certification and Medicaid/reporting coverage vary and completeness is unknown. Four named shared-time schools retain their original raw ratios but usable income and proficiency are unavailable because enrolled-versus-served attribution is unresolved.",
       "source_url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data"
     },
     {
@@ -22858,6 +23021,30 @@
       "input_sha256": "85ed59c737cf794c8ddeb5fa12d866a4545ad72ea300d6ce873d0792075f162a"
     },
     {
+      "id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES:combined:ols-v1:55920a6b0377",
+      "dataset_id": "tn-memphis-2025",
+      "definition_id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "55920a6b0377397fa29ef44e8e5bc20b4629acf4457d7edd499a2865f0198d9e"
+    },
+    {
+      "id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES:math:ols-v1:55920a6b0377",
+      "dataset_id": "tn-memphis-2025",
+      "definition_id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "55920a6b0377397fa29ef44e8e5bc20b4629acf4457d7edd499a2865f0198d9e"
+    },
+    {
+      "id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES:reading:ols-v1:55920a6b0377",
+      "dataset_id": "tn-memphis-2025",
+      "definition_id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "55920a6b0377397fa29ef44e8e5bc20b4629acf4457d7edd499a2865f0198d9e"
+    },
+    {
       "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES:combined:ols-v1:70fba0c3539a",
       "dataset_id": "tx-cypress-fairbanks-2025",
       "definition_id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
@@ -24810,6 +24997,23 @@
       "id": "TN",
       "name": "Tennessee",
       "regions": [
+        {
+          "id": "memphis",
+          "name": "Memphis\u2013Shelby County",
+          "dataset": "tn-memphis-2025",
+          "status": "ready",
+          "geography": "memphis",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/memphis/schools.json",
+          "boundaries": null,
+          "comparison": "Memphis\u2013Shelby \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Memphis\u2013Shelby independent 2024\u201325 grade-school models use exact NCES LEA 4700148 / CCD TN-00792 / EDC 792 identities. All 154 audited operational pure lower offered and reconciled enrolled grade profiles remain searchable. Four specifically named shared-time schools retain unresolved enrolled-versus-served income/outcome attribution and have unavailable comparison metrics. Original TNReady regular All Students G38 Levels 3\u20134 published rates and own reported individual direct certification / same-year school membership support separate fixed 142 Math, 147 ELA and independently fitted 142 Combined models. Charters, income extremes and influence remain included. The school-specific note does not certify attribution coverage at nonlisted schools. Native-only, high, mixed, primary and other excluded configurations remain outside. Valid-score counts and the ten-valid-scored floor remain uncertified; all sampling intervals are unavailable.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Memphis\u2013Shelby source release.",
+          "statewide": false,
+          "audit": "data/memphis/coverage.json"
+        },
         {
           "id": "tennessee",
           "name": "Statewide",

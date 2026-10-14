@@ -1,6 +1,6 @@
 # Memphis-Shelby County district comparison
 
-Exact 2024–25 identity: NCES LEA `4700148`, CCD native `TN-00792`, original EDC district `792`. Started **2026-10-13 22:18:51 America/Chicago**. Work belongs to the original [66-district queue](../TODO-breakout_districts.md). Source review passed **2026-10-13 23:15:20**; numerical verification is underway. Historical approvals remain false and no canonical/browser release is approved yet.
+Exact 2024–25 identity: NCES LEA `4700148`, CCD native `TN-00792`, original EDC district `792`. Started **2026-10-13 22:18:51 America/Chicago**. Work belongs to the original [66-district queue](../TODO-breakout_districts.md). Source, numerical, repeated canonical and shared-export gates passed independent review. Local browser verification passed; exact HTTP/Git binding and tested master/public delivery remain pending. Historical approvals remain false; readiness belongs to the separately validated normalized scope below.
 
 ## Original sources and population
 
@@ -37,7 +37,7 @@ Thirteen focused tests, two identical actual original-source builds, offline rep
 .venv/bin/python -m unittest discover -s tests -p 'test_memphis_audit.py' -v
 ```
 
-Next: separate original-input numerical verification with431 explicit deletion fits. Combined must fit its own paired142-school population; coefficients cannot be obtained by averaging the full Math and147-school ELA fits. Canonical import, browser checks, independent integration review and tested master delivery follow only after the separate gates pass.
+At the source gate, separate original-input numerical verification with431 explicit deletion fits was next. Combined requires its own paired142-school population; coefficients cannot be obtained by averaging the full Math and147-school ELA fits. The completed numerical and canonical gates are recorded below; browser and tested master/public delivery follow separately.
 
 ## Independent numerical audit
 
@@ -61,4 +61,24 @@ Fifteen focused tests, two actual byte-identical CLI builds, offline replay and 
 .venv/bin/python -m unittest discover -s tests -p 'test_memphis_models.py' -v
 ```
 
-Historical status remains `numerically_verified_pending_integration`, scope `numerical_audit_only`, both approvals false. Isolated normalized/import testing and independent integration review follow; actual main imports and browser/master delivery remain held until those separate gates pass.
+Historical status remains `numerically_verified_pending_integration`, scope `numerical_audit_only`, both approvals false. At that numerical gate, isolated normalized/import testing and independent integration review were next. The completed canonical phase is recorded below; browser/master delivery remains pending.
+
+## Canonical and browser integration
+
+The separately validated [normalized release](../data/source/memphis.json), rebuilt by [prepare_memphis.py](../scripts/prepare_memphis.py), supplies exact `tn-memphis-2025` /region `memphis` readiness. All six historical source/numerical files remain immutable with false approvals. Every current/cached API validates complete current evidence, literal runtime contracts, normalized fingerprints and all nine ownership tables before canonical writes; legal statewide Tennessee identity overlap remains separate.
+
+All **154 canonical NCES-ID profiles** retain authoritative native crosswalks,154 economic observations,308 native subject observations,21 provenance records and three independent **142 Math /147 ELA /142 Combined** models with431 results. Four named shared-time profiles remain searchable with enrollment and raw original evidence, but usable income/outcomes and all comparison/history metrics are unavailable. Five ELA-only schools,40/41/40 eligible charters, influential Maxine Smith STEAM Academy, native-only Caldwell-Guthrie and the−1 reporting discrepancy remain explicit. Nonlisted attribution coverage is not certified. Counts, scored floor, variances and all sampling intervals remain unavailable; programs are Unclassified, admissions/provider roles and geometry unaudited.
+
+Eleven distinct integration checks pass. A seeded foreign-model fixture had a duplicate primary key; its intended ownership probe was repaired, retaining the other ten passing checks and rerunning the affected method successfully. Production code, inputs and numerical results were unchanged. Two final actual normalized CLI builds and two full-MAIN-copy private imports use the same frozen code/test/normalized trio. Independent review verifies205,591 original/canonical/current/history fields and192 rejection cases with five controls, including all nine ownership tables and current uncached/repinned evidence before writes.
+
+Two separately authorized actual main CLI imports repeat every target row and all four export bytes, preserving every prior row in nine tables and265 earlier served files before shared regeneration. Three source data files equal the final private bytes; the main catalog differs from private only in its two destination URLs, then repeats byte-for-byte. All nine Memphis scientific files remain frozen. All431 current and431 history results retain null counts and interval endpoints.
+
+Repeated catalog/guide/planning exports add only Memphis, preserving67 preceding regions,84 definitions/provider bindings and all geometry. The catalog has **39 states /68 regions**; guide85 definitions, with eleven source holds unchanged. Only planning row4700148 changes scope; all counts/identities/source pins remain. The existing Polk row's misleading audit-pending display label was also corrected; its records and science are unchanged. All **88 distinct targeted Python tests** (13 source,15 numerical,11 integration and49 shared regressions),20 JavaScript tests, syntax and diff checks pass. Final independent scientific/shared review has no unresolved findings.
+
+Canonical/shared gate recorded **2026-10-14 00:47:23 America/Chicago**. Local HTTP browser verification passed **2026-10-14 01:03:43** with17 assertions: initial off-page search and keyboard controls, pagination, all four attribution holds, five ELA-only schools, influential-school histories, exact Caldwell identities, shared/empty/invalid selections, fixed models, guide links and a visually inspected390px layout. No warning/error console logs. Exact HTTP/Git binding and master/public delivery remain; finish stays blank until remote verification.
+
+```sh
+.venv/bin/python scripts/prepare_memphis.py --extract-only
+.venv/bin/python scripts/prepare_memphis.py
+.venv/bin/python -m unittest discover -s tests -p 'test_memphis.py' -v
+```

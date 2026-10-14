@@ -126,6 +126,8 @@ def scope(row):
         return 'existing_duval'
     if row['LEAID'] == '1201590':
         return 'existing_polk'
+    if row['LEAID'] == '4700148':
+        return 'existing_memphis'
     if row['LEAID'] == '4218990':
         return 'existing_philadelphia'
     if row['LEAID'] == '4816110':
@@ -318,6 +320,10 @@ def render(payload):
                 status = 'Existing Miami-Dade comparison; pure grade schools only'
             elif row['scope'] == 'existing_duval':
                 status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
+            elif row['scope'] == 'existing_polk':
+                status = 'Existing Polk comparison; native School Grades pure grade-school scope only'
+            elif row['scope'] == 'existing_memphis':
+                status = 'Existing Memphis-Shelby comparison; regular TNReady grade schools with four attribution holds'
             elif row['scope'] == 'existing_philadelphia':
                 status = 'Existing Philadelphia comparison; regular PSSA pure grade-school scope only'
             elif row['scope'] == 'existing_cypress_fairbanks':
@@ -359,7 +365,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks and Polk have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk and Memphis-Shelby have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -671,6 +677,23 @@ def render(payload):
         'Counts, scored floor and intervals remain uncertified/unavailable. High/mixed/primary, '
         'admissions, provider roles and geometry remain outside or unaudited. Planning '
         'counts never approve a model; the fixed 66-district TODO retains its row.', ''])
+    lines.extend([
+        'The [Memphis-Shelby source, numerical and integration audits](memphis-district.md) '
+        'retain exact LEA `4700148` / `TN-00792` / EDC `792`, all 154 grade-school '
+        'profiles and separate 142 Math, 147 ELA and 142 paired Combined models. '
+        'All 431 deleted fits use original regular All Students TNReady G38 Levels 3–4 '
+        'proficiency and individual reported direct certification divided by own '
+        'same-year school membership. Four named shared-time schools remain visible '
+        'with unavailable usable income, comparison metrics and history; their original '
+        'records remain evidence. The note does not certify nonlisted attribution coverage. '
+        'Five ELA-only schools, all eligible charters, influence, native-only Caldwell-Guthrie '
+        'and the unassigned one-pupil enrollment discrepancy remain explicit. Combined '
+        'fits its own paired population; unequal full subject coefficients are not averaged. '
+        'Historical approvals remain false; only the separately validated normalized '
+        'population supplies readiness. Counts, scored floor and intervals remain '
+        'uncertified/unavailable. High/mixed/primary populations, admissions, provider roles '
+        'and geometry remain outside or unaudited. The fixed 66-district TODO retains '
+        'the completed row; planning never approves a model.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

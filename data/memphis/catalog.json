@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "TN",
+    "name": "Tennessee"
+  },
+  "prepare_script": "scripts/prepare_memphis.py",
+  "regions": [
+    {
+      "id": "memphis",
+      "name": "Memphis\u2013Shelby County",
+      "dataset": "tn-memphis-2025",
+      "status": "ready",
+      "geography": "memphis",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/memphis/schools.json",
+      "boundaries": null,
+      "comparison": "Memphis\u2013Shelby \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Memphis\u2013Shelby independent 2024\u201325 grade-school models use exact NCES LEA 4700148 / CCD TN-00792 / EDC 792 identities. All 154 audited operational pure lower offered and reconciled enrolled grade profiles remain searchable. Four specifically named shared-time schools retain unresolved enrolled-versus-served income/outcome attribution and have unavailable comparison metrics. Original TNReady regular All Students G38 Levels 3\u20134 published rates and own reported individual direct certification / same-year school membership support separate fixed 142 Math, 147 ELA and independently fitted 142 Combined models. Charters, income extremes and influence remain included. The school-specific note does not certify attribution coverage at nonlisted schools. Native-only, high, mixed, primary and other excluded configurations remain outside. Valid-score counts and the ten-valid-scored floor remain uncertified; all sampling intervals are unavailable.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Memphis\u2013Shelby source release.",
+      "statewide": false,
+      "audit": "data/memphis/coverage.json"
+    }
+  ]
+}

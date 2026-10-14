@@ -2340,6 +2340,31 @@
               "model_scope": "Tennessee public grade schools with exact native rates and reported same-year school DC and membership"
             }
           ]
+        },
+        {
+          "id": "tn-memphis-2025:2025:TNReady regular All Students G38 proficiency:ES",
+          "state": "TN",
+          "name": "TNReady regular All Students G38 proficiency",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Operational pure lower offered and reconciled enrolled profiles with positive reported grades 3–8; native regular All Students G38",
+          "standard": "Original EDC v3.1 native aggregate grades 3–8, TNReady regular, Levels 3–4; original source business rules and unverified tested counts remain limits.",
+          "source_url": "https://www.eddatacenter.org/api/data/3.1?state=TN&year=2025",
+          "dataset_id": "tn-memphis-2025",
+          "family": "TNReady regular All Students G38 proficiency",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "memphis",
+              "name": "Memphis–Shelby County",
+              "url": "./?state=TN&region=memphis&level=ES",
+              "model_scope": "Memphis–Shelby independent 2024–25 grade-school models use exact NCES LEA 4700148 / CCD TN-00792 / EDC 792 identities. All 154 audited operational pure lower offered and reconciled enrolled grade profiles remain searchable. Four specifically named shared-time schools retain unresolved enrolled-versus-served income/outcome attribution and have unavailable comparison metrics. Original TNReady regular All Students G38 Levels 3–4 published rates and own reported individual direct certification / same-year school membership support separate fixed 142 Math, 147 ELA and independently fitted 142 Combined models. Charters, income extremes and influence remain included. The school-specific note does not certify attribution coverage at nonlisted schools. Native-only, high, mixed, primary and other excluded configurations remain outside. Valid-score counts and the ten-valid-scored floor remain uncertified; all sampling intervals are unavailable."
+            }
+          ]
         }
       ]
     },

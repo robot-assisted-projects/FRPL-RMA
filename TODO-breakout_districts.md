@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 23:36:46 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 00:47:23 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -13,8 +13,8 @@ Last tracker update: **2026-10-13 23:36:46 America/Chicago**. GitHub account: **
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
-| [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Testing isolated import; 4 attribution holds retained | — |
-| Baltimore County Public Schools | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Auditing original same-year sources | — |
+| [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Ready for tested release; 4 attribution holds retained | — |
+| Baltimore County Public Schools | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Isolated integration; 11 Math masks retained | — |
 | Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | — | Not yet started; scored-count scope unresolved | — |
@@ -178,7 +178,7 @@ For each listed district delivered to master, record the actual datetime, remote
 
 - **2026-10-13 17:58:46:** Duval repeated canonical/static integration and all targeted tests pass; browser/master gates are pending. Philadelphia actual original-source/cohort audit began **2026-10-13 17:57:35**, using exact `4218990 / PA-126515001` identity. Its preflight counts remain provisional, no fits/imports or release approvals; all other fixed66 rows retain their status/dates.
 
-## Next work: Philadelphia
+## Completed: Philadelphia
 
 - Exact **4218990 / PA-126515001 / AUN 126515001**, 2024–25. Original-source/cohort work started **2026-10-13 17:57:35** while Duval final browser delivery is reviewed.
 - Next: rebuild original Pennsylvania workbook/PDF evidence, verify authoritative school-ID normalization, same-year October individual-income numerator/denominator and regular PSSA All Students Total proficiency/valid-score scope. Keystone/PASA and separate charter LEAs remain outside the proposed population.
@@ -198,7 +198,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 
 - **2026-10-13 19:22:58:** Philadelphia repeated canonical/static integration, both reviews and all 81 targeted Python/20 JavaScript tests pass. All 486 counted results and intervals match originals; previous nine-table rows and 253 served assets are preserved. Shared catalog now has 39 states /65 regions /82 guide definitions, retaining all eleven holds. Browser/master delivery is next; finish stays blank and the original fixed66 identities remain unchanged.
 
-## Next work: Cypress-Fairbanks
+## Completed: Cypress-Fairbanks
 
 - Original-source/cohort work started **2026-10-13 19:23:44 America/Chicago**, exact **4816110 / TX-101907 / TAPR101907**, 2024–25. Fresh original CCD/TAPR records and same-year individual economic counts are being verified.
 - The existing-record preflight suggests 78 pure tested-grade campuses; it does not approve a population or model. Two operational alternative-campus identities absent from that extract remain unjoined pending original-source verification.
@@ -220,7 +220,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 
 - **2026-10-13 20:48:28:** Cypress-Fairbanks Pages and 15 public-browser assertions pass. All eight public assets match tested master release `6eb89b3`;78 profiles/three fixed78-school models, unavailable counts/intervals and four independent Texas guide links remain intact. Six fixed66 districts are finished;60 remain, with Polk queued and unstarted.
 
-## In progress: Polk
+## Completed: Polk
 
 - **2026-10-13 21:56:38:** Started the original-source and cohort audit for exact `1201590 / FL-53 / FDOE 53`, 2024–25. Preserve all original CCD/native records, individual February income, original School Grades proficiency and documented exclusions. Existing Florida valid-score count/floor/interval limits remain. Source, numerical, canonical and browser gates plus independent review precede tested master delivery; finish remains blank.
 
@@ -251,3 +251,15 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 23:35:01:** Started exact Baltimore County `2400120 / MD-03` original-source/cohort audit, the next unstarted fixed66 district. Reopen original Maryland/CCD evidence; discovery counts, older fits and matching names never approve identity or membership. Existing valid-score count/floor/interval limits remain; no district fits/imports/shared writes or release approvals yet.
 
 - **2026-10-13 23:36:46:** Memphis numerical gate passes:15 focused tests, two identical actual builds and independent136,607 original/math/pointer checks, all431 deletions, high-precision cases and103 rejection controls. Separate142/147/142 fits retain all four attribution holds and unavailable counts/floor/intervals. Isolated import testing follows; finish remains blank. Baltimore County original-source auditing continues.
+
+- **2026-10-13 23:51:30:** Baltimore County provisional original-source inventory has137 independently selected lower-grade profiles with own same-year Early Attendance income;126 Math /137 ELA /126 paired published inputs, retaining11 Math masks and two alternatives. All178 native directory identities match operational CCD. Enrollment and Early Attendance differences stay unassigned; missing cells outside this cohort are not zero. Source tests and independent review are pending; no fits/imports/release approval.
+
+- **2026-10-14 00:19:55:** Baltimore County source gate passes14 focused tests, two identical actual original builds, all eleven original pins,165,999 independent comparisons and113 rejection/17 boundary controls.137 profiles yield126 Math /137 ELA /126 paired inputs;11 Math masks and two alternatives remain. Watershed charter03-0219 /240012001753 stays in original evidence but outside the cohort due adjusted offered flags. Proof wording was corrected transparently; scientific files were unchanged. Separate numerical verification follows with389 deletion fits. Counts/floor/intervals remain uncertified; no canonical/browser release and finish is blank.
+
+- **2026-10-14 00:33:06:** Baltimore numerical testing found a caller-supplied cached reference could self-authorize a changed prediction. The numerical-only validator is being tightened with a focused regression and immutable-cache check before final review. Original source files, inputs, coefficients and389 deletion fits are unchanged; no approval/import/release. Eleven Math masks and all count/floor/interval limits remain.
+
+- **2026-10-14 00:47:23:** Memphis two actual main imports and repeated catalog/guide/planning exports pass independent review. All old nine-table rows,67 regions,84 definitions/provider bindings and geometry remain; new catalog39 states /68 regions /85 definitions, eleven holds unchanged. All88 targeted Python/20 JavaScript tests pass.154 profiles, four held schools with unavailable metrics, five ELA-only profiles and431 independent point results remain. Browser/master/public checks follow; finish is blank. Polk queue display wording was corrected without changing its data. Baltimore numerical replay-guard repair remains pending.
+
+- **2026-10-14 01:02:20:** Baltimore County numerical gate passes19 distinct tests, two identical final CLI outputs,64,709 independent comparisons, all389 deletion fits and85 corruption/6 positive controls. Fresh original-evidence rebuilding rejects the former cached-reference forgery.126/137/126 populations and unavailable counts/floor/intervals remain. Isolated normalization follows; no main import or release.
+
+- **2026-10-14 01:03:43:** Memphis local browser passes17 assertions including all four held schools, five ELA-only profiles, exact Caldwell identity, retained Maxine Smith influence, share/reload/empty/invalid selections, pagination and390px visual inspection. Scientific/shared review and88 targeted Python/20 JavaScript tests already pass. Master/public verification follows; finish remains blank.
