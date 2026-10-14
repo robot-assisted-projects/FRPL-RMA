@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 20:48:28 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 22:19:55 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -12,8 +12,8 @@ Last tracker update: **2026-10-13 20:48:28 America/Chicago**. GitHub account: **
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
-| POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
-| Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | — | Not yet started | — |
+| [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Verifying district models | — |
+| Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Auditing source/cohort | — |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | — | Not yet started | — |
 | Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
@@ -219,3 +219,17 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 20:41:07:** Cypress-Fairbanks passed all source, numerical, repeated canonical/static, independent preservation and HTTP/browser gates; tested release `6eb89b3` is verified on master through fine-fiddle. Its completed row remains in fixed66; remaining new districts:60. Counts/floor/interval holds remain. Next queued district:Polk (`1201590 / FL-53`), not yet started. Pages/public readback pass **2026-10-13 20:48:28**.
 
 - **2026-10-13 20:48:28:** Cypress-Fairbanks Pages and 15 public-browser assertions pass. All eight public assets match tested master release `6eb89b3`;78 profiles/three fixed78-school models, unavailable counts/intervals and four independent Texas guide links remain intact. Six fixed66 districts are finished;60 remain, with Polk queued and unstarted.
+
+## In progress: Polk
+
+- **2026-10-13 21:56:38:** Started the original-source and cohort audit for exact `1201590 / FL-53 / FDOE 53`, 2024–25. Preserve all original CCD/native records, individual February income, original School Grades proficiency and documented exclusions. Existing Florida valid-score count/floor/interval limits remain. Source, numerical, canonical and browser gates plus independent review precede tested master delivery; finish remains blank.
+
+- **2026-10-13 22:01:44:** Independent original-source checks identify 110 pure lower profiles and 109 published Math/ELA pairs. Compass Middle Charter (`53-0932`) retains individual income but has no achievement row; all 20 prospective charters stay in scope. Six operational schools lack exact native fall/income records and stay unjoined. Counts, scored floor and intervals remain unverified. Source implementation and final independent signoff are pending; no model/import/delivery is approved yet.
+
+- **2026-10-13 22:10:39:** Independent review found a replay guard gap allowing coherently altered raw/identity/primary evidence after reassigned public fingerprints. The saved original facts remain correct and unapproved. Bind all four source fingerprints to the immutable runtime contract, add focused regressions and rerun affected review cases before the source gate. No district model or master delivery has occurred.
+
+## In progress: Memphis-Shelby County
+
+- **2026-10-13 22:18:51:** Started the separate source/cohort audit for exact `4700148 / TN-00792`, 2024–25, in parallel with Polk’s later gates. Reopen original CCD identities/membership/individual direct certification and documented original TNReady grade totals. Statewide data is a cross-check; district fits need separate approval. Unknown valid-score denominators/count floor/intervals remain held. No unlisted or second-tier districts enter the queue; finish remains blank.
+
+- **2026-10-13 22:19:55:** Polk source gate passes: thirteen focused tests, eleven shared regressions, two identical actual original builds and both independent reviews. The replay guard repair is verified; all prior canonical bytes, 261 served assets and 333 scientific files are preserved. Historical approvals/count/floor/interval holds remain. [Source definitions and exact exclusions](docs/polk-district.md); numerical verification is next and finish remains blank.

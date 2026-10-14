@@ -52,6 +52,8 @@ Pennsylvania → Philadelphia has a separate [2024–25 regular PSSA grade-schoo
 
 Texas → Cypress-Fairbanks has a separate [2024–25 grade-school comparison](docs/cypress-fairbanks-district.md#canonical-and-browser-integration), with 78 exact native/NCES profiles and independent78-school Math, ELA and Combined models. All234 deleted fits retain precise individual October economic ratios and original whole-percent published TAPR rates, with no count-ratio substitution, enrollment weighting, shrinkage or influence exclusion. Hairgrove remains influential in every subject. Both absent native alternative-campus identities and the269-pupil membership discrepancy stay explicit. Historical approvals remain false; readiness belongs only to the separately validated normalized population. Valid-score counts, scored floor, sampling variances and intervals remain uncertified/unavailable. High/primary/unmatched populations, admissions, provider and geometry remain outside or unaudited.
 
+Polk’s [2024–25 original-source/cohort audit](docs/polk-district.md) verifies exact `1201590 / FL-53 / FDOE 53` identities, 110 prospective grade-school profiles and 109 published Math/ELA pairs. Compass Middle Charter retains missing achievement; protected grades, the provider-specific virtual row and the 5,068-pupil district/school total difference remain explicit. Same-year individual February income stays separate from funding multipliers and native full-year outcomes. Source tests, repeated original reconstruction and both independent reviews pass; historical approvals remain false, with numerical/integration gates and count/floor/interval holds still pending.
+
 ## Preview
 
 ```sh
