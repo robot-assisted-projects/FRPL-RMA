@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 03:28:41 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 03:37:58 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -16,7 +16,7 @@ Last tracker update: **2026-10-14 03:28:41 America/Chicago**. GitHub account: **
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
-| LEE | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying original source/cohort | — |
+| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying independent district fits; counts unresolved | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying published-rate cohort; counts unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
@@ -315,3 +315,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - Done:90 exact source-certified lower profiles, separate90/90/90 models and270 explicit deletion fits. Both actual imports/shared exports repeat, preserving prior nine tables,69 regions/86 definitions/provider bindings/geometry. All91 targeted Python/20 JavaScript checks,17 local browser assertions and final independent review pass.
 - Finish: tested commit `7827d79e6729a211f85fdc001b6f0d553feda761` reached master **2026-10-14 03:23:01**, through fine-fiddle; nine localhost/Git and23 changed release-file Git bindings pass. Pages run38534615742 and public verification pass **03:27:43**, with12 browser assertions and nine independent exact asset matches. Ten finished /56 remaining; fixed66 identities/order stay intact.
 - Limitations: counts, scored floor, variances and intervals unavailable; accelerated EOG/EOC coverage and broader attribution/program/admission/geometry limits remain uncertified. Historical approvals stay false; readiness belongs only to the separately audited normalized scope.
+
+## In progress: Lee County
+
+- Exact **1201080 / FL-36 / FDOE36**,2024–25. Source/cohort work started **2026-10-14 02:31:47**; [independent source gate](docs/lee-district.md) passed **03:35:18**.
+- Done:78 source-certified prospective schools per subject, eleven charters and Island’s real0% own February eligibility ratio retained; four missing native identities, primary9123,25 protected-grade profiles/70 cells and16 offered/enrolled disagreements stay explicit.1449 needed rows34610cells, complete13198school/227LEA omissions,14 tests/two identical builds and230571 independent comparisons/51 rejections/nine controls pass. All historical assets/data preserved through documented Cobb addition.
+- Next: separate unweighted full/deleted Math, ELA and paired Combined verification. Source3 stays immutable with false approvals. Counts/status/floor/variances/intervals remain uncertified; no canonical/browser release. Finish stays blank.
