@@ -124,6 +124,8 @@ def scope(row):
         return 'existing_miami_dade'
     if row['LEAID'] == '1200480':
         return 'existing_duval'
+    if row['LEAID'] == '4218990':
+        return 'existing_philadelphia'
     if row['LEAID'] == '1200180':
         return 'existing_broward'
     if row['LEAID'] == '1200870':
@@ -312,6 +314,8 @@ def render(payload):
                 status = 'Existing Miami-Dade comparison; pure grade schools only'
             elif row['scope'] == 'existing_duval':
                 status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
+            elif row['scope'] == 'existing_philadelphia':
+                status = 'Existing Philadelphia comparison; regular PSSA pure grade-school scope only'
             elif row['scope'] == 'existing_broward':
                 status = 'Existing Broward comparison; pure grade schools only'
             elif row['scope'] == 'existing_hillsborough':
@@ -349,7 +353,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD and Prince George's County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County and Philadelphia have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -610,6 +614,25 @@ def render(payload):
         'population. High/mixed/primary, admissions, provider and geometry remain unaudited. '
         'Discovery’s 151 potential grade schools never select the 150 source profiles or '
         '146 model members. The fixed66 TODO retains completed districts.', ''])
+    lines.extend([
+        'The [Philadelphia source, numerical and integration audits](philadelphia-district.md) '
+        'retain exact LEA `4218990` / `PA-126515001` / AUN `126515001`, all 221 CCD '
+        'and 220 operational identities. The separate regular PSSA grade-school comparison '
+        'keeps 162 exact native/CCD profiles and three independent 162-school fits, with '
+        'all 486 deletions and conditional sampling intervals verified. Precise October '
+        'individual PIMS ratios use their own enrollment and preserve field88 versus CEP '
+        'food-field131. Original All Students / Total one-decimal proficiency and native '
+        'Number Scored values retain tested grades3–8 and accountable-source exclusions; '
+        'all 324 subject denominators are certified, minimum42 under the eleven-score '
+        'publication rule. Combined has its own fit and maximum positive-covariance '
+        'sampling variance; its smaller subject-count display is not a deduplicated total. '
+        'Source percentage rounding and income uncertainty are not included in the '
+        'conditional intervals. Native-only building9999, inactive Meehan, primary Barton, '
+        'masked Widener and all enrollment/income reporting gaps remain explicit and '
+        'unassigned. Separate charter LEAs, PASA and Keystone are outside this population. '
+        'Historical approvals stay false; readiness belongs only to the validated '
+        'normalized scope. High/mixed/primary, admissions, provider and geometry remain '
+        'unaudited. Planning never approves a model; fixed66 retains completed districts.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

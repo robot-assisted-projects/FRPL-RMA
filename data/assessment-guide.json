@@ -2153,6 +2153,31 @@
       "blocker_summary": null,
       "assessments": [
         {
+          "id": "pa-philadelphia-2025:2025:PSSA school totals · grades 3–8:ES",
+          "state": "PA",
+          "name": "PSSA school totals · grades 3–8",
+          "year": 2025,
+          "level": "ES",
+          "grades": "Pure lower profiles with positive October grades 3–8; original regular PSSA All Students / Total accountable scored scope",
+          "standard": "Original published Percent Proficient and above; scored accountable regular PSSA population, one-decimal rounding and fewer-than-11 suppression. Keystone and PASA remain separate.",
+          "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pssa-and-ayp-results/2025-pssa-school-level-data.xlsx",
+          "dataset_id": "pa-philadelphia-2025",
+          "family": "PSSA school totals",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "philadelphia",
+              "name": "Philadelphia",
+              "url": "./?state=PA&region=philadelphia&level=ES",
+              "model_scope": "Philadelphia independent 2024–25 grade-school district models use exact NCES LEA 4218990 / PA-126515001 / native AUN 126515001 identities. All 162 audited pure lower profiles with positive October grades 3–8 and explicit-zero grades 9–12 remain searchable and enter separate fixed Math, ELA and independently fitted Combined models. Original regular PSSA All Students / Total published proficiency and Number Scored are matched to each school’s own October individual PIMS low-income ratio. Conditional sampling intervals propagate every model member’s scored-count variance while holding deleted regression scale fixed. Combined uses the maximum positive Math/ELA covariance bound and displays the smaller subject count; this display is not a paired or deduplicated denominator. High, mixed, primary, inactive and unmatched records remain outside the release; Keystone and PASA remain separate."
+            }
+          ]
+        },
+        {
           "id": "pa-pssa:2025:PSSA grades 3–8 · grade schools:ES",
           "state": "PA",
           "name": "PSSA grades 3–8 · grade schools",

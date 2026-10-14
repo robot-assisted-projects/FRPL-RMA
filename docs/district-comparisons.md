@@ -2,7 +2,7 @@
 
 Implement these after the statewide basics. A district comparison would fit its own same-year, assessment, level and subject models, as CPS does. A filter using statewide predictions remains a district view of the statewide model; it is not a district comparison.
 
-Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 62 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
+Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 61 first-tier and 172 second-tier new district candidates. The screen evaluates the 50 states; it excludes DC and territories. Source size and grade configuration do not establish usable assessment or income coverage.
 
 ## Selection and implementation gates
 
@@ -17,7 +17,6 @@ Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 62 fir
 
 | District | State | NCES LEA | Students | Potential ES / HS | State source status |
 | --- | --- | --- | ---: | ---: | --- |
-| Philadelphia City SD | PA | 4218990 | 120,057 | 162 / 47 | Available; district audit pending |
 | CYPRESS-FAIRBANKS ISD | TX | 4816110 | 117,927 | 78 / 13 | Available; district audit pending |
 | POLK | FL | 1201590 | 111,372 | 110 / 16 | Available; district audit pending |
 | Memphis-Shelby County Schools | TN | 4700148 | 111,124 | 154 / 36 | Available; district audit pending |
@@ -259,7 +258,7 @@ Size screen: official 2024-2025 CCD LEA membership, retrieved 2026-10-09. 62 fir
 
 ## Existing comparisons and components
 
-CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD and Prince George's County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
+CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County and Philadelphia have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide comparison. The NYC geographic LEAs below are components of the existing NYC system; they would be optional subdistrict work, not additional whole-city systems. Do not add their counts to the Chancellor’s Office supervisory total or include District 75 or administrative charter category 84 as ordinary geographic districts.
 
 ## Existing scope · size references
 
@@ -283,6 +282,7 @@ CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough
 | DALLAS ISD | TX | 4816230 | 139,802 | 189 / 37 | Existing Dallas ISD comparison; native published-rate grade-school scope only |
 | Prince George's County Public Schools | MD | 2400510 | 132,123 | 160 / 23 | Existing Prince George's County comparison; native regular grade-school scope only |
 | DUVAL | FL | 1200480 | 130,054 | 151 / 24 | Existing Duval comparison; native School Grades pure grade-school scope only |
+| Philadelphia City SD | PA | 4218990 | 120,057 | 162 / 47 | Existing Philadelphia comparison; regular PSSA pure grade-school scope only |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #31 | NY | 3600103 | 60,164 | 35 / 3 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT # 2 | NY | 3600077 | 55,345 | 34 / 50 | Optional NYC subdistrict audit |
 | NEW YORK CITY GEOGRAPHIC DISTRICT #24 | NY | 3600098 | 50,026 | 17 / 10 | NYC component; cohort floor review |
@@ -342,6 +342,8 @@ The [Dallas ISD source, numerical and integration audits](dallas-district.md) re
 The [Prince George's County source, numerical and integration audits](prince-georges-district.md) retain exact Maryland LEA `2400510` / `MD-16` / MSDE `16`, all 201 CCD and 204 native directory records. The separate regular MCAP grade-school comparison retains 159 exact profiles and independent 146 Math / 159 ELA / 146 Combined fits, with all 451 deletions verified. Thirteen Math masks remain ELA-only and all six charters remain. Individual Early Attendance economic ratios use their own whole-school denominators; the as-of date remains unspecified. Regular All Grades Levels 3 and 4, accelerated courses and the applicable grade 6–7 waiver remain explicit. Malformed Ellen Ochoa NCES stays unjoined. Counts, variance and intervals remain null, with valid-score scope and the scored floor uncertified. Historical audits retain false approvals; only the separate validated normalized scope supplies readiness. High/mixed/primary, admissions, provider and geometry remain unaudited. Planning populations differ from audited model populations and never approve a model. The fixed 66-district TODO retains every completed row.
 
 The [Duval source, numerical and integration audits](duval-district.md) retain exact Florida LEA `1200480` / `FL-16` / native `16`, all 211 CCD directory and 203 operational identities. The separate School Grades grade-school comparison keeps 150 exact tested-grade profiles and three independent 146-school fits, with all 438 deletions verified. Four absent achievement rows remain searchable without results; all thirty eligible charters, influential Seaside campuses and Tiger Academy’s 100% individual eligibility remain. Precise February FS3 individual D/F + 3/E + C/R ratios exclude funding multipliers and require Code 4 zero. Original whole-percent FAST/B.E.S.T./Access EOC/eligible FAA achievement retains full-year and home-zoned scope; Datafolio and percent-tested participation stay separate. Zero-tested Smart Pope, protected grades and the unjoined John Love identity/enrollment gap remain explicit. Counts, variance and intervals stay null modelwide, with valid-score scope and the ten-score floor uncertified. Historical approvals stay false; readiness belongs only to the separate validated normalized population. High/mixed/primary, admissions, provider and geometry remain unaudited. Discovery’s 151 potential grade schools never select the 150 source profiles or 146 model members. The fixed66 TODO retains completed districts.
+
+The [Philadelphia source, numerical and integration audits](philadelphia-district.md) retain exact LEA `4218990` / `PA-126515001` / AUN `126515001`, all 221 CCD and 220 operational identities. The separate regular PSSA grade-school comparison keeps 162 exact native/CCD profiles and three independent 162-school fits, with all 486 deletions and conditional sampling intervals verified. Precise October individual PIMS ratios use their own enrollment and preserve field88 versus CEP food-field131. Original All Students / Total one-decimal proficiency and native Number Scored values retain tested grades3–8 and accountable-source exclusions; all 324 subject denominators are certified, minimum42 under the eleven-score publication rule. Combined has its own fit and maximum positive-covariance sampling variance; its smaller subject-count display is not a deduplicated total. Source percentage rounding and income uncertainty are not included in the conditional intervals. Native-only building9999, inactive Meehan, primary Barton, masked Widener and all enrollment/income reporting gaps remain explicit and unassigned. Separate charter LEAs, PASA and Keystone are outside this population. Historical approvals stay false; readiness belongs only to the validated normalized scope. High/mixed/primary, admissions, provider and geometry remain unaudited. Planning never approves a model; fixed66 retains completed districts.
 
 
 ## Provenance and rebuild

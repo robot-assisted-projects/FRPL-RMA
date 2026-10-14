@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 18:51:54 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 19:22:58 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -11,7 +11,7 @@ Last tracker update: **2026-10-13 18:51:54 America/Chicago**. GitHub account: **
 | [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Merged; counts/intervals unavailable | 2026-10-13 16:55:35 |
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Verifying browser/canonical integration | — |
-| CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | — | Not yet started; scored-count scope unresolved | — |
+| CYPRESS-FAIRBANKS ISD | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Verifying original income and campus population | — |
 | POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
 | Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | — | Not yet started | — |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | — | Not yet started | — |
@@ -195,3 +195,11 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 18:33:36:** Philadelphia source gate passes ten source/eleven state-planning tests, two final original builds and both reviews. Retained-row validation gap repaired before freeze; 162 profiles and 324 valid-score denominators verified. Separate numerical full/deleted and interval verification begins; historical approvals stay false and finish remains blank.
 
 - **2026-10-13 18:51:54:** Philadelphia numerical gate passes thirteen tests, two identical builds and both reviews, including all486 deletions/conditional intervals. Historical approvals and source gaps stay unchanged; isolated integration begins, main/browser release held and finish blank.
+
+- **2026-10-13 19:22:58:** Philadelphia repeated canonical/static integration, both reviews and all 81 targeted Python/20 JavaScript tests pass. All 486 counted results and intervals match originals; previous nine-table rows and 253 served assets are preserved. Shared catalog now has 39 states /65 regions /82 guide definitions, retaining all eleven holds. Browser/master delivery is next; finish stays blank and the original fixed66 identities remain unchanged.
+
+## Next work: Cypress-Fairbanks
+
+- Original-source/cohort work started **2026-10-13 19:23:44 America/Chicago**, exact **4816110 / TX-101907 / TAPR101907**, 2024–25. Fresh original CCD/TAPR records and same-year individual economic counts are being verified.
+- The existing-record preflight suggests 78 pure tested-grade campuses; it does not approve a population or model. Two operational alternative-campus identities absent from that extract remain unjoined pending original-source verification.
+- Native valid-score scope and the scored floor remain unresolved. Counts, variances and sampling intervals are uncertified; no models, normalized release or imports have begun. Finish remains blank.

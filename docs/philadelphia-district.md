@@ -66,3 +66,19 @@ Numerical gate verified **2026-10-13 18:51:54 America/Chicago**. Thirteen numeri
 ```
 
 Next: separately validated normalized/canonical/static integration, initially isolated. Main imports remain held until adapter tests, both integration reviews and all nine ownership guards pass; repeated main imports, browser verification and tested master delivery follow. No source/numerical artifact supplies browser readiness.
+
+## Canonical and browser integration
+
+The separately validated [normalized release](../data/source/philadelphia.json), rebuilt by [prepare_philadelphia.py](../scripts/prepare_philadelphia.py), supplies exact dataset `pa-philadelphia-2025` / region `philadelphia` readiness. Both historical source/numerical artifacts retain false approvals. Complete current source/code/test/policy/raw/schema/definition evidence and normalized fingerprints are required before database access, including cached APIs. All nine ownership tables preserve legal shared native identities between this district and Pennsylvania's separate statewide dataset.
+
+The release contains 162 searchable profiles, 162 same-year individual-income observations, 324 original valid-score subject observations, sixteen provenance records and three independent 162-school models. All 486 canonical/current/history results and conditional sampling intervals match the original-source numerical oracle. Both original subject counts feed Combined variance; the smaller displayed count does not claim paired or deduplicated pupils. The interval method propagates every member through (I−H), fixes the deleted residual scale and income/design, and uses maximum positive Math/ELA covariance. Original percentage rounding and income uncertainty are not included. Native masks, outside populations and reporting gaps remain explicit; no influence exclusion or prediction clipping occurs.
+
+Eleven adapter tests, two actual normalized builds and two full-database-copy private imports pass. Both independent integration reviews pass, including 226,363 original/normalized/canonical/current/history comparisons, 269 independent freshness/ownership rejection controls and 97 complementary policy rejections. Two authorized actual main imports repeat every target row and all four export bytes, preserving every preceding row in all nine tables, all 253 prior served files and all 321 preceding scientific files before shared regeneration.
+
+Repeated catalog/assessment-guide/planning exports add only Philadelphia, preserving 64 old regions, 81 guide definitions/provider bindings and geometry. The ready catalog now has 39 states /65 regions and the guide 82 definitions; eleven source holds remain. Planning changes only exact `4218990` to existing Philadelphia; the original 66-district TODO keeps completed rows. All 81 distinct targeted Python tests (ten source, thirteen numerical, eleven adapter and 47 shared regressions), twenty JavaScript tests and syntax/diff checks pass. HTTP/browser and master delivery are recorded separately; finish remains blank until the remote commit is verified. Provider, admissions and geometry remain unaudited.
+
+```sh
+.venv/bin/python scripts/prepare_philadelphia.py --extract-only
+.venv/bin/python scripts/prepare_philadelphia.py
+.venv/bin/python -m unittest discover -s tests -p 'test_philadelphia.py' -v
+```

@@ -1,0 +1,712 @@
+{
+  "year": 2025,
+  "schools": 162,
+  "cohorts": {
+    "grade": {
+      "directory": 162,
+      "eligible": {
+        "math": 162,
+        "reading": 162,
+        "combined": 162
+      }
+    }
+  },
+  "exclusions": {},
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/philadelphia-district-audit.json",
+      "sha256": "6f6f1a97304ecb286d4da37401b3281fc446dc55dcd9f46bd3561cf1b9213c56",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 22108,
+      "complete_original_cell_count": 622260,
+      "note": "Complete original records, headers, notes, definitions, membership and outside identities stay in the immutable linked source artifact; every numerical replay requires current available unchanged source/code/tests/policy and semantic validation."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/philadelphia-model-audit.json",
+      "sha256": "9ede3ce013d27e1947e698d9e8d1793cbec977f5e6f82822ccf197c1d8d5949d",
+      "bytes": 1707603
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_philadelphia.py",
+        "sha256": "ee72dea41077d4e90b25f6138eb1a7c1f44e3637a4338078d3e124df2df43905"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_philadelphia_audit.py",
+        "sha256": "abb5cfb2df9bbc118b30f38927dd9e99cf0f4785b8af98720cf0b31412f57243"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_philadelphia_models.py",
+        "sha256": "9c8136f7e297531ba92338b9cf84bb085ecbd9e0816c44fcce314fa9c18cf691"
+      },
+      "tests": {
+        "path": "tests/test_philadelphia_models.py",
+        "sha256": "a512a456018ba22c50b9ec51d06bc3fd2e01a45b80ba2e0e136c6ce89af2f54d"
+      }
+    },
+    "immutable_raw_input_fingerprint": "79a71288dadbad8aa8a6bf963a5e6cde0baf913afa5180e7913405ccdfca0af9",
+    "immutable_schema_fingerprint": "9c502fcf5f119c5f999810925d9d24ff1b2ec533f8dcdf9e1b1e1d066ce65e61",
+    "immutable_definition_fingerprint": "f0305f3ac6ae4165f769b68a232eefdfff3e95636e2e790d860885a4d0ae434a",
+    "immutable_identity_fingerprint": "82bf875205d35b593807f9bad7f6ce2b9cd6b3695ccefeb2c0f3f123db4b13d5",
+    "immutable_source_policy_fingerprint": "7b779ea04f44ac12d7819d033c9f80de7d3c537b3e41bf0329010010942214a5",
+    "immutable_numerical_policy_fingerprint": "4faea9722801e0eccc0b3b7b5ed887c6eca84a64e479789d6a0b1a2f1135b139",
+    "immutable_numerical_runtime_fingerprint": "b9800c5de81b7207d04c5627c848a75b546613eb47a9e5d4dc8f738baa6c6aa6",
+    "normalized_metadata_fingerprint": "3aacc9db4ab1c0f986f4f81c91506d9616022a181058a9f02e01eea39c8d8de6",
+    "operational_roster": {
+      "source_rows": {
+        "directory": 221,
+        "lea_directory": 1,
+        "membership": 2019,
+        "lea_membership": 16,
+        "native_grades": 221,
+        "native_lea_grades": 1,
+        "native_income": 220,
+        "native_lea_income": 1,
+        "native_assessment": 19408
+      },
+      "original_records": 22108,
+      "original_typed_cells": 622260,
+      "ccd_directory": 221,
+      "operational_roster": 220,
+      "status": {
+        "Open": 220,
+        "Inactive": 1
+      },
+      "operational_offered_scope": {
+        "ES": 163,
+        "mixed": 10,
+        "HS": 47
+      },
+      "native_grade_profiles": 221,
+      "native_income_rows": 220,
+      "native_total_rows": 340,
+      "prospective_source_profiles": 162,
+      "prospective_usable": {
+        "math": 162,
+        "reading": 162,
+        "combined": 162
+      },
+      "prospective_income_available": 162,
+      "native_school_income_missing_ids": [
+        "126515001-000009999"
+      ],
+      "native_grades_without_exact_ccd_ids": [
+        "126515001-000009999"
+      ],
+      "native_total_outside_pure_scope_ids": [
+        "126515001-000003728",
+        "126515001-000003808",
+        "126515001-000007023",
+        "126515001-000007229",
+        "126515001-000007664",
+        "126515001-000008293",
+        "126515001-000008298",
+        "126515001-000008330"
+      ],
+      "district_ccd_enrollment": 120057,
+      "operational_ccd_enrollment_sum": 116230,
+      "district_october_enrollment": 120148,
+      "native_school_enrollment_sum": 120148,
+      "district_individual_income_count": 90098,
+      "known_school_income_enrollment_sum": 116286,
+      "known_school_individual_income_count_sum": 88634,
+      "usable_regular_pssa_denominator_counts": 324,
+      "eligible_subject_sources_all_have_verified_valid_scores": true,
+      "variances_and_intervals_computed": false,
+      "independent_numerical_diagnostics_required": true,
+      "canonical_integration_pending": true,
+      "source_and_model_approvals": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "126515001-000007664",
+        "native_school_id": "PA-126515001-7664",
+        "ncessch": "421899000551",
+        "name": "Gamp",
+        "source_roster_link_index": 6,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007072",
+        "native_school_id": "PA-126515001-7072",
+        "ncessch": "421899000572",
+        "name": "Swenson Arts and Technology High School",
+        "source_roster_link_index": 7,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007780",
+        "native_school_id": "PA-126515001-7780",
+        "ncessch": "421899000765",
+        "name": "Robeson HS for Human Services",
+        "source_roster_link_index": 9,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007782",
+        "native_school_id": "PA-126515001-7782",
+        "ncessch": "421899000771",
+        "name": "Parkway Center City Middle College",
+        "source_roster_link_index": 10,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007808",
+        "native_school_id": "PA-126515001-7808",
+        "ncessch": "421899000821",
+        "name": "Parkway West",
+        "source_roster_link_index": 11,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007811",
+        "native_school_id": "PA-126515001-7811",
+        "ncessch": "421899000824",
+        "name": "Lankenau HS",
+        "source_roster_link_index": 12,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007813",
+        "native_school_id": "PA-126515001-7813",
+        "ncessch": "421899000826",
+        "name": "Randolph A. Philip Area Vocational-Technical High School",
+        "source_roster_link_index": 13,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007815",
+        "native_school_id": "PA-126515001-7815",
+        "ncessch": "421899000830",
+        "name": "Motivation HS",
+        "source_roster_link_index": 14,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007850",
+        "native_school_id": "PA-126515001-7850",
+        "ncessch": "421899000899",
+        "name": "Philadelphia Military Academy at Elverson",
+        "source_roster_link_index": 15,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007852",
+        "native_school_id": "PA-126515001-7852",
+        "ncessch": "421899000901",
+        "name": "Kensington Creative & Performing Arts HS",
+        "source_roster_link_index": 16,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007855",
+        "native_school_id": "PA-126515001-7855",
+        "ncessch": "421899000907",
+        "name": "Kensington Health Sciences",
+        "source_roster_link_index": 17,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007906",
+        "native_school_id": "PA-126515001-7906",
+        "ncessch": "421899000923",
+        "name": "Science Leadership Academy",
+        "source_roster_link_index": 18,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007904",
+        "native_school_id": "PA-126515001-7904",
+        "ncessch": "421899000962",
+        "name": "Academy at Palumbo",
+        "source_roster_link_index": 19,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007903",
+        "native_school_id": "PA-126515001-7903",
+        "ncessch": "421899000993",
+        "name": "School of the Future",
+        "source_roster_link_index": 20,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007905",
+        "native_school_id": "PA-126515001-7905",
+        "ncessch": "421899001010",
+        "name": "National Constitution Center HS",
+        "source_roster_link_index": 21,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007229",
+        "native_school_id": "PA-126515001-7229",
+        "ncessch": "421899003711",
+        "name": "Hill Freedman World Academy",
+        "source_roster_link_index": 69,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003728",
+        "native_school_id": "PA-126515001-3728",
+        "ncessch": "421899003728",
+        "name": "Widener Memorial Sch",
+        "source_roster_link_index": 82,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003732",
+        "native_school_id": "PA-126515001-3732",
+        "ncessch": "421899003732",
+        "name": "Barton Clara Sch",
+        "source_roster_link_index": 83,
+        "exclusion": "No offered PSSA tested grade in primary-only configuration"
+      },
+      {
+        "school_id": "126515001-000003808",
+        "native_school_id": "PA-126515001-3808",
+        "ncessch": "421899003808",
+        "name": "Masterman Julia R Sec Sch",
+        "source_roster_link_index": 123,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003816",
+        "native_school_id": "PA-126515001-3816",
+        "ncessch": "421899003816",
+        "name": "Fels Samuel HS",
+        "source_roster_link_index": 125,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003818",
+        "native_school_id": "PA-126515001-3818",
+        "ncessch": "421899003818",
+        "name": "Furness Horace HS",
+        "source_roster_link_index": 126,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007245",
+        "native_school_id": "PA-126515001-7245",
+        "ncessch": "421899003825",
+        "name": "Sayre William L MS",
+        "source_roster_link_index": 128,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007255",
+        "native_school_id": "PA-126515001-7255",
+        "ncessch": "421899003839",
+        "name": "Strawberry Mansion HS",
+        "source_roster_link_index": 131,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003841",
+        "native_school_id": "PA-126515001-3841",
+        "ncessch": "421899003841",
+        "name": "Dobbins Area Vocational-Technical High School",
+        "source_roster_link_index": 132,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003842",
+        "native_school_id": "PA-126515001-3842",
+        "ncessch": "421899003842",
+        "name": "Mastbaum Jules E Area Vocational-Technical School",
+        "source_roster_link_index": 133,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003843",
+        "native_school_id": "PA-126515001-3843",
+        "ncessch": "421899003843",
+        "name": "Girls HS",
+        "source_roster_link_index": 134,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003844",
+        "native_school_id": "PA-126515001-3844",
+        "ncessch": "421899003844",
+        "name": "Roxborough HS",
+        "source_roster_link_index": 135,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003845",
+        "native_school_id": "PA-126515001-3845",
+        "ncessch": "421899003845",
+        "name": "Lincoln HS",
+        "source_roster_link_index": 136,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003847",
+        "native_school_id": "PA-126515001-3847",
+        "ncessch": "421899003847",
+        "name": "Bartram John - Main",
+        "source_roster_link_index": 137,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003848",
+        "native_school_id": "PA-126515001-3848",
+        "ncessch": "421899003848",
+        "name": "Central HS",
+        "source_roster_link_index": 138,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003849",
+        "native_school_id": "PA-126515001-3849",
+        "ncessch": "421899003849",
+        "name": "Edison HS/Fareira Skills",
+        "source_roster_link_index": 139,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003850",
+        "native_school_id": "PA-126515001-3850",
+        "ncessch": "421899003850",
+        "name": "Frankford HS",
+        "source_roster_link_index": 140,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003851",
+        "native_school_id": "PA-126515001-3851",
+        "ncessch": "421899003851",
+        "name": "Franklin Benjamin HS",
+        "source_roster_link_index": 141,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003855",
+        "native_school_id": "PA-126515001-3855",
+        "ncessch": "421899003855",
+        "name": "Northeast HS",
+        "source_roster_link_index": 142,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003857",
+        "native_school_id": "PA-126515001-3857",
+        "ncessch": "421899003857",
+        "name": "Overbrook HS",
+        "source_roster_link_index": 143,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003859",
+        "native_school_id": "PA-126515001-3859",
+        "ncessch": "421899003859",
+        "name": "South Philadelphia HS",
+        "source_roster_link_index": 144,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003860",
+        "native_school_id": "PA-126515001-3860",
+        "ncessch": "421899003860",
+        "name": "West Philadelphia HS",
+        "source_roster_link_index": 145,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000003861",
+        "native_school_id": "PA-126515001-3861",
+        "ncessch": "421899003861",
+        "name": "Saul W B Agricultural School",
+        "source_roster_link_index": 146,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000006527",
+        "native_school_id": "PA-126515001-6527",
+        "ncessch": "421899006527",
+        "name": "Washington George HS",
+        "source_roster_link_index": 172,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000006548",
+        "native_school_id": "PA-126515001-6548",
+        "ncessch": "421899006548",
+        "name": "Parkway Northwest",
+        "source_roster_link_index": 181,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000006675",
+        "native_school_id": "PA-126515001-6675",
+        "ncessch": "421899006675",
+        "name": "King Martin Luther HS",
+        "source_roster_link_index": 182,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000006768",
+        "native_school_id": "PA-126515001-6768",
+        "ncessch": "421899006768",
+        "name": "Meehan Austin MS",
+        "source_roster_link_index": 185,
+        "exclusion": "Nonoperational original CCD status"
+      },
+      {
+        "school_id": "126515001-000006822",
+        "native_school_id": "PA-126515001-6822",
+        "ncessch": "421899006822",
+        "name": "Franklin LC",
+        "source_roster_link_index": 186,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008039",
+        "native_school_id": "PA-126515001-8039",
+        "ncessch": "421899006904",
+        "name": "Arts Academy at Benjamin Rush",
+        "source_roster_link_index": 190,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000006996",
+        "native_school_id": "PA-126515001-6996",
+        "ncessch": "421899006996",
+        "name": "Creative and Performing Arts",
+        "source_roster_link_index": 193,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007023",
+        "native_school_id": "PA-126515001-7023",
+        "ncessch": "421899007023",
+        "name": "HS of Engineering & Science",
+        "source_roster_link_index": 194,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000007070",
+        "native_school_id": "PA-126515001-7070",
+        "ncessch": "421899007225",
+        "name": "Bodine William W HS",
+        "source_roster_link_index": 197,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008293",
+        "native_school_id": "PA-126515001-8293",
+        "ncessch": "421899007502",
+        "name": "Penn Treaty Sch",
+        "source_roster_link_index": 201,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008298",
+        "native_school_id": "PA-126515001-8298",
+        "ncessch": "421899007506",
+        "name": "The SD of Philadelphia Virtual Academy",
+        "source_roster_link_index": 202,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008330",
+        "native_school_id": "PA-126515001-8330",
+        "ncessch": "421899007524",
+        "name": "The Science Leadership Academy at Beeber",
+        "source_roster_link_index": 205,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008331",
+        "native_school_id": "PA-126515001-8331",
+        "ncessch": "421899007525",
+        "name": "The Linc",
+        "source_roster_link_index": 206,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008332",
+        "native_school_id": "PA-126515001-8332",
+        "ncessch": "421899007534",
+        "name": "Building 21",
+        "source_roster_link_index": 207,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008329",
+        "native_school_id": "PA-126515001-8329",
+        "ncessch": "421899007547",
+        "name": "The U School: Innovative Lab",
+        "source_roster_link_index": 208,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008328",
+        "native_school_id": "PA-126515001-8328",
+        "ncessch": "421899007548",
+        "name": "The Workshop School",
+        "source_roster_link_index": 209,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008386",
+        "native_school_id": "PA-126515001-8386",
+        "ncessch": "421899007588",
+        "name": "Philadelphia Learning Academy - West",
+        "source_roster_link_index": 210,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008388",
+        "native_school_id": "PA-126515001-8388",
+        "ncessch": "421899007598",
+        "name": "Kensington HS",
+        "source_roster_link_index": 213,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008385",
+        "native_school_id": "PA-126515001-8385",
+        "ncessch": "421899007603",
+        "name": "Philadelphia Learning Academy - North",
+        "source_roster_link_index": 214,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008440",
+        "native_school_id": "PA-126515001-8440",
+        "ncessch": "421899007661",
+        "name": "Vaux HS: A Big Picture School",
+        "source_roster_link_index": 215,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      },
+      {
+        "school_id": "126515001-000008508",
+        "native_school_id": "PA-126515001-8508",
+        "ncessch": "421899010029",
+        "name": "Olney HS",
+        "source_roster_link_index": 219,
+        "exclusion": "Offered configuration is not complete pure lower grades"
+      }
+    ],
+    "retained_outside_source_profiles": [
+      {
+        "school_id": "126515001-000009999",
+        "ncessch": null,
+        "grade_source_row": 2306,
+        "exclusion": "Native building lacks exact same-year CCD school identity; no name or inactive-school substitution"
+      }
+    ],
+    "nonoperational_ccd_references": [
+      {
+        "source_row": 76610,
+        "ncessch": "421899006768",
+        "native_school_id": "PA-126515001-6768",
+        "status": "Inactive"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 162,
+        "usable_schools": 162,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 162
+        },
+        "school_types": {
+          "Regular School": 162
+        },
+        "eligible_members_with_verified_denominators": 162,
+        "ten_valid_scored_floor_certified": true,
+        "model_sampling_intervals_available": true,
+        "source_evidence_path": "data/source/philadelphia-district-audit.json",
+        "source_evidence_sha256": "6f6f1a97304ecb286d4da37401b3281fc446dc55dcd9f46bd3561cf1b9213c56"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 162,
+        "usable_schools": 162,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 162
+        },
+        "school_types": {
+          "Regular School": 162
+        },
+        "eligible_members_with_verified_denominators": 162,
+        "ten_valid_scored_floor_certified": true,
+        "model_sampling_intervals_available": true,
+        "source_evidence_path": "data/source/philadelphia-district-audit.json",
+        "source_evidence_sha256": "6f6f1a97304ecb286d4da37401b3281fc446dc55dcd9f46bd3561cf1b9213c56"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 162,
+        "usable_schools": 162,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 162
+        },
+        "school_types": {
+          "Regular School": 162
+        },
+        "eligible_members_with_verified_denominators": 162,
+        "ten_valid_scored_floor_certified": true,
+        "model_sampling_intervals_available": true,
+        "source_evidence_path": "data/source/philadelphia-district-audit.json",
+        "source_evidence_sha256": "6f6f1a97304ecb286d4da37401b3281fc446dc55dcd9f46bd3561cf1b9213c56"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "PA",
+      "name": "PSSA school totals \u00b7 grades 3\u20138",
+      "original_numerical_name": "2024\u201325 Pennsylvania regular PSSA All Students / Total grades 3\u20138",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive October grades 3\u20138; original regular PSSA All Students / Total accountable scored scope",
+      "standard": "Original published Percent Proficient and above; scored accountable regular PSSA population, one-decimal rounding and fewer-than-11 suppression. Keystone and PASA remain separate.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pssa-and-ayp-results/2025-pssa-school-level-data.xlsx"
+    },
+    "historical_state_extract": {
+      "path": "data/source/pennsylvania.json",
+      "sha256": "73d39c18bfb472ed65fc32ec55b76f65000b66e8cf8b2312708959448b55fe31"
+    },
+    "count_definition_status": {
+      "status": "verified_regular_pssa_all_students_total_number_scored",
+      "raw_fields": [
+        "Number Scored",
+        "Percent Proficient and above"
+      ],
+      "usable_original_subject_count_records": 324,
+      "sampling_intervals_available": true,
+      "ten_valid_scored_floor_certified": true,
+      "minimum_original_eligible_subject_count": 42,
+      "reason": "Every eligible rate has its exact original same-year regular PSSA All Students/Total Number Scored denominator; source floor is 11, observed minimum 42. Combined retains both subject counts and uses the smaller only for display, never a paired denominator."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": false,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": true,
+      "ten_valid_scored_floor_certified": true,
+      "all_model_members_have_conditional_intervals": true,
+      "note": "Only this separately validated exact 2024\u201325 grade-school regular PSSA contract is approved. Both historical audits keep false approvals. Every model member has its verified original scored count and conditional sampling interval. High, mixed, primary, inactive and unmatched scopes remain outside."
+    }
+  }
+}

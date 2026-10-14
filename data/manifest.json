@@ -3265,6 +3265,118 @@
       "sha256": "bb75efef08f121f4a59f86ce55afd1763afbda1907a40e21bd9fd122bc87f741"
     },
     {
+      "id": "pa-philadelphia-2025:ccd_lea_directory",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "pa-philadelphia-2025:ccd_lea_membership",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "pa-philadelphia-2025:ccd_school_directory",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "pa-philadelphia-2025:ccd_school_membership",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "pa-philadelphia-2025:extract",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/source/philadelphia.json",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pssa-and-ayp-results/2025-pssa-school-level-data.xlsx",
+      "sha256": "b66ff7ac75946aad1af39b5b08372ac0d871a806a83a23674495551b3a52e09d"
+    },
+    {
+      "id": "pa-philadelphia-2025:historical_pennsylvania_extract",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/source/pennsylvania.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/pennsylvania.json",
+      "sha256": "73d39c18bfb472ed65fc32ec55b76f65000b66e8cf8b2312708959448b55fe31"
+    },
+    {
+      "id": "pa-philadelphia-2025:numerical_audit",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/source/philadelphia-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/philadelphia-model-audit.json",
+      "sha256": "9ede3ce013d27e1947e698d9e8d1793cbec977f5e6f82822ccf197c1d8d5949d"
+    },
+    {
+      "id": "pa-philadelphia-2025:numerical_audit_code",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "scripts/audit_philadelphia_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_philadelphia_models.py",
+      "sha256": "9c8136f7e297531ba92338b9cf84bb085ecbd9e0816c44fcce314fa9c18cf691"
+    },
+    {
+      "id": "pa-philadelphia-2025:numerical_audit_tests",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "tests/test_philadelphia_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_philadelphia_models.py",
+      "sha256": "a512a456018ba22c50b9ec51d06bc3fd2e01a45b80ba2e0e136c6ce89af2f54d"
+    },
+    {
+      "id": "pa-philadelphia-2025:pa-assessment-2025",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/pa_assessment_2025.xlsx",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pssa-and-ayp-results/2025-pssa-school-level-data.xlsx",
+      "sha256": "dcc31d40f5c33d0813c7c0b0d394dd325994e75c71d02da1d4ca1e739d01e932"
+    },
+    {
+      "id": "pa-philadelphia-2025:pa-grades-2025",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/pa_grades_2025.xlsx",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/enrollment/public-school/enrollment%20public%20schools%202024-25.xlsx",
+      "sha256": "290213eae0a86d0b339b7b5919e72eb8251724ba4530dcfb28687af71b05cdd7"
+    },
+    {
+      "id": "pa-philadelphia-2025:pa-income-2025",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/pa_income_2025.xlsx",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/loan-cancellation/public/2425%20public%20schools%20percent%20low%20income.xlsx",
+      "sha256": "bb75efef08f121f4a59f86ce55afd1763afbda1907a40e21bd9fd122bc87f741"
+    },
+    {
+      "id": "pa-philadelphia-2025:pa-pims-2025",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/raw/pa_pims_2025.pdf",
+      "url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pims/pims-manuals/2024-2025%20pims%20manual%20vol%201.pdf",
+      "sha256": "1de722a967242521f63190786cfba93cc36221451756a472294019602be86ee3"
+    },
+    {
+      "id": "pa-philadelphia-2025:roster_audit",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "data/source/philadelphia-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/philadelphia-district-audit.json",
+      "sha256": "6f6f1a97304ecb286d4da37401b3281fc446dc55dcd9f46bd3561cf1b9213c56"
+    },
+    {
+      "id": "pa-philadelphia-2025:source_audit_code",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "scripts/audit_philadelphia.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_philadelphia.py",
+      "sha256": "ee72dea41077d4e90b25f6138eb1a7c1f44e3637a4338078d3e124df2df43905"
+    },
+    {
+      "id": "pa-philadelphia-2025:source_audit_tests",
+      "dataset_id": "pa-philadelphia-2025",
+      "path": "tests/test_philadelphia_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_philadelphia_audit.py",
+      "sha256": "abb5cfb2df9bbc118b30f38927dd9e99cf0f4785b8af98720cf0b31412f57243"
+    },
+    {
       "id": "pa-pims-2025",
       "dataset_id": "pa-pssa",
       "path": "data/raw/pa_pims_2025.pdf",
@@ -19227,6 +19339,16 @@
       "source_url": "https://www.oregon.gov/ode/educator-resources/assessment/Documents/TestResults2425/pagr_schools_math_all_2425.xlsx"
     },
     {
+      "id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES",
+      "state": "PA",
+      "name": "PSSA school totals \u00b7 grades 3\u20138",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Pure lower profiles with positive October grades 3\u20138; original regular PSSA All Students / Total accountable scored scope",
+      "standard": "Original published Percent Proficient and above; scored accountable regular PSSA population, one-decimal rounding and fewer-than-11 suppression. Keystone and PASA remain separate.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pssa-and-ayp-results/2025-pssa-school-level-data.xlsx"
+    },
+    {
       "id": "pa-pssa:2025:PSSA grades 3\u20138 \u00b7 grade schools:ES",
       "state": "PA",
       "name": "PSSA grades 3\u20138 \u00b7 grade schools",
@@ -19960,6 +20082,12 @@
       "id": "pa-economic-2025",
       "name": "Pennsylvania individual reported economic disadvantage 2024\u201325",
       "definition": "Pennsylvania 2024\u201325 October 1 PIMS individual Economic Disadvantaged Status Code, field 88: low-income enrollment / total enrollment in the same-year public-school low-income workbook. Poverty sources can include TANF, census poor, Medicaid, neglected/delinquent institutions and foster homes; recent reliable free/reduced-price lunch eligibility is a fallback. CEP schools must use individual poverty sources, not universal meal eligibility (separate food-program field 131). Local source choices vary; this is the reported state-specific economic-disadvantage proxy, not uniform FRPL or direct income. Denominator includes pre-K/kindergarten where enrolled. Reporting coverage is unknown.",
+      "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pims/pims-manuals/2024-2025%20pims%20manual%20vol%201.pdf"
+    },
+    {
+      "id": "pa-philadelphia-2025:income",
+      "name": "Individual PIMS economic disadvantage",
+      "definition": "October 1, 2024 school individual PIMS Economic Disadvantaged Status Code field 88: own low-income enrollment divided by own same-year total enrollment, including enrolled pre-K/kindergarten categories. TANF, census poor, Medicaid, neglected/delinquent institutions and foster homes are allowed sources; recent reliable FRPL is a fallback. CEP must use individual poverty sources rather than universal meals. Field 131 food-program eligibility is separate. The published proportion truncates to four decimals; the comparison uses the precise original count ratio. Local source choices and reporting coverage remain unknown; no LEA income allocation, another denominator or year is substituted.",
       "source_url": "https://www.pa.gov/content/dam/copapwp-pagov/en/education/documents/data-and-reporting/pims/pims-manuals/2024-2025%20pims%20manual%20vol%201.pdf"
     },
     {
@@ -22281,6 +22409,30 @@
       "input_sha256": "ca85f423d091327897c91ccfc33cbf5428a16b6dc1e31a4e41680ccaebee76c6"
     },
     {
+      "id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES:combined:ols-v1:b74c5faa230b",
+      "dataset_id": "pa-philadelphia-2025",
+      "definition_id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "b74c5faa230b56b32797c7f93840df11bbb4cec0548e3685bc1581d184dd202c"
+    },
+    {
+      "id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES:math:ols-v1:b74c5faa230b",
+      "dataset_id": "pa-philadelphia-2025",
+      "definition_id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "b74c5faa230b56b32797c7f93840df11bbb4cec0548e3685bc1581d184dd202c"
+    },
+    {
+      "id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES:reading:ols-v1:b74c5faa230b",
+      "dataset_id": "pa-philadelphia-2025",
+      "definition_id": "pa-philadelphia-2025:2025:PSSA school totals \u00b7 grades 3\u20138:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "b74c5faa230b56b32797c7f93840df11bbb4cec0548e3685bc1581d184dd202c"
+    },
+    {
       "id": "pa-pssa:2025:PSSA grades 3\u20138 \u00b7 grade schools:ES:combined:ols-v1:4ff02b2c72fb",
       "dataset_id": "pa-pssa",
       "definition_id": "pa-pssa:2025:PSSA grades 3\u20138 \u00b7 grade schools:ES",
@@ -24220,6 +24372,23 @@
           "model_scope": "Public grade-school native PSSA grades 3\u20138 totals and same-year individual economic status",
           "map_source": "School coordinates unavailable; no authoritative coordinate crosswalk imported",
           "statewide": true
+        },
+        {
+          "id": "philadelphia",
+          "name": "Philadelphia",
+          "dataset": "pa-philadelphia-2025",
+          "status": "ready",
+          "geography": "philadelphia",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/philadelphia/schools.json",
+          "boundaries": null,
+          "comparison": "Philadelphia \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Philadelphia independent 2024\u201325 grade-school district models use exact NCES LEA 4218990 / PA-126515001 / native AUN 126515001 identities. All 162 audited pure lower profiles with positive October grades 3\u20138 and explicit-zero grades 9\u201312 remain searchable and enter separate fixed Math, ELA and independently fitted Combined models. Original regular PSSA All Students / Total published proficiency and Number Scored are matched to each school\u2019s own October individual PIMS low-income ratio. Conditional sampling intervals propagate every model member\u2019s scored-count variance while holding deleted regression scale fixed. Combined uses the maximum positive Math/ELA covariance bound and displays the smaller subject count; this display is not a paired or deduplicated denominator. High, mixed, primary, inactive and unmatched records remain outside the release; Keystone and PASA remain separate.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Philadelphia source release.",
+          "statewide": false,
+          "audit": "data/philadelphia/coverage.json"
         }
       ]
     },
