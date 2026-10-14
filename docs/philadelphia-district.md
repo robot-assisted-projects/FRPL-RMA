@@ -82,3 +82,7 @@ Repeated catalog/assessment-guide/planning exports add only Philadelphia, preser
 .venv/bin/python scripts/prepare_philadelphia.py
 .venv/bin/python -m unittest discover -s tests -p 'test_philadelphia.py' -v
 ```
+
+Philadelphia tested master delivery verified **2026-10-13 19:31:11 America/Chicago**, commit `8a185836fa07af8f6e2c3640c436b8adc59c21bb` through fine-fiddle. Local HTTP/browser checks and eight asset/19 Git-blob bindings pass. The original fixed66 TODO retains its completed row; Cypress-Fairbanks source-only work continues. Pages deployment and public readback pass **2026-10-13 19:36:06 America/Chicago**.
+
+Public-site verification passes **15 assertions** at **2026-10-13 19:36:06 America/Chicago**, after the [successful Philadelphia Pages run](https://github.com/robot-assisted-projects/FRPL-RMA/actions/runs/38490641846). All eight public HTTP200 assets match tested release `8a18583`; the separate 162-school counted models, conditional interval displays, exact native-ID cases, first off-page search, two independent Pennsylvania guide links and narrow-screen keyboard/table behavior pass. No application, script or required-data failures were found.
