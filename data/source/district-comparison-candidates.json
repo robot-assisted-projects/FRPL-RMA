@@ -6201,7 +6201,7 @@
         ]
       },
       "tier": "main",
-      "scope": "new_district_candidate",
+      "scope": "existing_cypress_fairbanks",
       "directory_raw": {
         "SCHOOL_YEAR": "2024-2025",
         "LEAID": "4816110",

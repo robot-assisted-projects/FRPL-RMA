@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "state": {
+    "id": "TX",
+    "name": "Texas"
+  },
+  "prepare_script": "scripts/prepare_cypress_fairbanks.py",
+  "regions": [
+    {
+      "id": "cypress-fairbanks",
+      "name": "Cypress-Fairbanks ISD",
+      "dataset": "tx-cypress-fairbanks-2025",
+      "status": "ready",
+      "geography": "cypress-fairbanks",
+      "levels": [
+        "ES"
+      ],
+      "schools": "data/cypress-fairbanks/schools.json",
+      "boundaries": null,
+      "comparison": "Cypress-Fairbanks ISD \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+      "model_scope": "Cypress-Fairbanks ISD independent 2024\u201325 published-rate grade-school district models use exact operational CCD LEA 4816110 / TX-101907 / TAPR district 101907 identities. All 78 native enrolled positive grades 3\u20138/no-high-grade profiles remain searchable and enter each separate Math, ELA and Combined model using original whole-percent All Students Meets or Above rates and precise same-year individual economic-status enrollment ratios. Thirteen high schools, one primary campus and two operational alternative campuses without native records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+      "map_source": "School coordinates and district boundaries are unavailable in the audited Cypress-Fairbanks ISD source release.",
+      "statewide": false,
+      "audit": "data/cypress-fairbanks/coverage.json"
+    }
+  ]
+}

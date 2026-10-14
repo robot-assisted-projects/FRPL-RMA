@@ -126,6 +126,8 @@ def scope(row):
         return 'existing_duval'
     if row['LEAID'] == '4218990':
         return 'existing_philadelphia'
+    if row['LEAID'] == '4816110':
+        return 'existing_cypress_fairbanks'
     if row['LEAID'] == '1200180':
         return 'existing_broward'
     if row['LEAID'] == '1200870':
@@ -316,6 +318,8 @@ def render(payload):
                 status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
             elif row['scope'] == 'existing_philadelphia':
                 status = 'Existing Philadelphia comparison; regular PSSA pure grade-school scope only'
+            elif row['scope'] == 'existing_cypress_fairbanks':
+                status = 'Existing Cypress-Fairbanks comparison; published TAPR pure grade-school scope only'
             elif row['scope'] == 'existing_broward':
                 status = 'Existing Broward comparison; pure grade schools only'
             elif row['scope'] == 'existing_hillsborough':
@@ -353,7 +357,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County and Philadelphia have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia and Cypress-Fairbanks have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -633,6 +637,23 @@ def render(payload):
         'Historical approvals stay false; readiness belongs only to the validated '
         'normalized scope. High/mixed/primary, admissions, provider and geometry remain '
         'unaudited. Planning never approves a model; fixed66 retains completed districts.', ''])
+    lines.extend([
+        'The [Cypress-Fairbanks source, numerical and integration audits](cypress-fairbanks-district.md) '
+        'retain exact LEA `4816110` / `TX-101907` / TAPR `101907`, all94 operational CCD '
+        'identities and92 native campuses. The separate published-rate grade-school '
+        'comparison retains78 exact profiles and three independent78-school models, '
+        'with all234 deletions verified. Original whole-percent TAPR R outcomes stay '
+        'separate from count-ratio precision; individual fall ED uses its own enrollment '
+        'and excludes universal meal service or funding multipliers. Both alternative '
+        'campus identities absent from all native originals stay unjoined; the269-pupil '
+        'membership discrepancy at72 campuses remains unassigned. Hairgrove and all '
+        'influential members stay included, with no enrollment weighting or shrinkage. '
+        'Counts, valid-score floor, sampling variances and intervals remain uncertified '
+        'or unavailable under the retained Texas N/M source hold. Historical approvals '
+        'remainfalse; readiness belongs only to the separate normalized population. '
+        'High/primary/unmatched populations, admissions, provider and geometry remain '
+        'outside or unaudited. Planning never grants model approval; fixed66 retains '
+        'completed rows.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

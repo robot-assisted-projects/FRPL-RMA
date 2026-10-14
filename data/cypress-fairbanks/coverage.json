@@ -1,0 +1,722 @@
+{
+  "year": 2025,
+  "schools": 78,
+  "cohorts": {
+    "grade": {
+      "directory": 78,
+      "eligible": {
+        "math": 78,
+        "reading": 78,
+        "combined": 78
+      }
+    }
+  },
+  "exclusions": {},
+  "source_audit": {
+    "complete_source_reference": {
+      "path": "data/source/cypress-fairbanks-district-audit.json",
+      "sha256": "35f22cc72da43df22624a0ca1b98c3f0b78385eaaaedde3aa6f1aa93494fdb9a",
+      "source_scope": "source_cohort_audit_only",
+      "source_status": "audit_pending",
+      "approved_for_source": false,
+      "approved_for_modeling": false,
+      "complete_original_record_count": 1107,
+      "complete_original_cell_count": 42828,
+      "note": "Every original record/header/definition/raw value remains in the immutable linked source artifact and must validate on every numerical replay; compact references never permit unavailable or changed source evidence."
+    },
+    "complete_numerical_reference": {
+      "path": "data/source/cypress-fairbanks-model-audit.json",
+      "sha256": "32c6593c2171eb31eefbc9bca37a192e514cdb83cec06555c55505cbeb8305b3"
+    },
+    "audit_code_test_references": {
+      "source_audit_code": {
+        "path": "scripts/audit_cypress_fairbanks.py",
+        "sha256": "f590527fb75201336c00cda5a19377be7a9b2946fc9456f384e12b98432563f7"
+      },
+      "source_audit_tests": {
+        "path": "tests/test_cypress_fairbanks_audit.py",
+        "sha256": "d9f06a36bc72cc1edc8fb975f474371ad968147728a7f31b14916af4d1505026"
+      }
+    },
+    "numerical_code_test_references": {
+      "code": {
+        "path": "scripts/audit_cypress_fairbanks_models.py",
+        "sha256": "e5303e2c516977814e6238770537c8861e49a11af0901ef375e1a69c0d4547dc"
+      },
+      "tests": {
+        "path": "tests/test_cypress_fairbanks_models.py",
+        "sha256": "9b152770de56f5f4e7aba2d57bb5df0a349587847dc654dbb252e9aadf1cae66"
+      }
+    },
+    "immutable_raw_input_fingerprint": "a78218830702a4fabeebe6b5655e4d65124bebdd32131b88ec591ec039f86681",
+    "immutable_schema_fingerprint": "afaa08ab40ef16e96e0a90e910e8f5df9048581868dc47cea6f1487a262212d6",
+    "immutable_definition_fingerprint": "41c83100bb0930615830e19b012bf223610e82375602b586dd1d485980605fdc",
+    "immutable_source_policy_fingerprint": "76a4e6d67788097d1159c372f03c751fabbddde32a6d42c1ec14696134e0dcf2",
+    "immutable_source_runtime_fingerprint": "b619643dc029b91818eba99279e254a2c8e01ea73ef32dcd2c6fcdb1017364d6",
+    "immutable_source_identity_fingerprint": "900bd6b82a458e1de2d4a3c58933adde692dcff3875f120b015344b854dc924b",
+    "immutable_secondary_texas_fingerprint": "bb8a0882cc64fd569168bed05853cd9070d4ec4e0940fa27a2c6a029e1d78aac",
+    "immutable_numerical_policy_fingerprint": "7eddf7fba55ab8030ae89afdc375ef80401e763904c13e2f499cefb59d868763",
+    "immutable_numerical_runtime_fingerprint": "0cfd9b54bd4ca5e59690bc802fa750ddb49899a438bd0019afedfe6e0218b9a6",
+    "operational_roster": {
+      "source_rows": {
+        "directory": 94,
+        "membership": 720,
+        "lea_directory": 1,
+        "lea_membership": 16,
+        "ref": 92,
+        "stud": 92,
+        "assessment": 92
+      },
+      "original_records": 1107,
+      "original_typed_cells": 42828,
+      "directory_records": 94,
+      "operational_schools": 94,
+      "native_campuses": 92,
+      "native_scope_counts": {
+        "grade-school": 78,
+        "high": 13,
+        "primary-only": 1
+      },
+      "ccd_school_types": {
+        "Alternative School": 3,
+        "Regular School": 91
+      },
+      "ccd_charter": {
+        "No": 94
+      },
+      "native_usable_income": 92,
+      "prospective_subject_members": {
+        "math": 78,
+        "reading": 78,
+        "combined": 78
+      },
+      "grade_school_published_rates_differing_from_unverified_count_ratios": {
+        "math": 78,
+        "reading": 78
+      },
+      "native_absent_from_ccd": [],
+      "ccd_absent_from_native": [
+        "481611008601",
+        "481611012265"
+      ],
+      "native_reference_high_grade_contradictions": [],
+      "verified_valid_score_counts": 0,
+      "reported_reconciled_performance_arithmetic_rows": {
+        "math": 78,
+        "reading": 78
+      },
+      "valid_score_verification_hold": "Current2025 primary documentation must map N/NAAR and M/medical exemption score statuses to these exact native enrolled-grade3\u20138 TAPR #Tests fields.",
+      "ten_valid_scored_floor_certified": false,
+      "sampling_intervals_available": false,
+      "model_results": 0,
+      "canonical_import_performed": false,
+      "served_comparison_created": false
+    },
+    "retained_scope_exclusions": [
+      {
+        "school_id": "481611001148",
+        "native_school_id": "101907007",
+        "name": "CYPRESS FALLS H S",
+        "source_roster_link_index": 0,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611001182",
+        "native_school_id": "101907002",
+        "name": "CY-FAIR H S",
+        "source_roster_link_index": 6,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611001183",
+        "native_school_id": "101907004",
+        "name": "CYPRESS CREEK H S",
+        "source_roster_link_index": 7,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611001186",
+        "native_school_id": "101907003",
+        "name": "JERSEY VILLAGE H S",
+        "source_roster_link_index": 10,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611005973",
+        "native_school_id": "101907005",
+        "name": "LANGHAM CREEK H S",
+        "source_roster_link_index": 31,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611007623",
+        "native_school_id": "101907009",
+        "name": "CYPRESS SPRINGS H S",
+        "source_roster_link_index": 39,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611007624",
+        "native_school_id": "101907037",
+        "name": "CYPRESS-FAIRBANKS J J A E P",
+        "source_roster_link_index": 40,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611008601",
+        "native_school_id": "101907006",
+        "name": "ALTERNATIVE LEARNING CTR-EAST",
+        "source_roster_link_index": 41,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481611009266",
+        "native_school_id": "101907010",
+        "name": "CYPRESS RIDGE H S",
+        "source_roster_link_index": 48,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611011252",
+        "native_school_id": "101907011",
+        "name": "CYPRESS WOODS H S",
+        "source_roster_link_index": 59,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611011253",
+        "native_school_id": "101907012",
+        "name": "CYPRESS RANCH H S",
+        "source_roster_link_index": 60,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611011254",
+        "native_school_id": "101907013",
+        "name": "CYPRESS LAKES H S",
+        "source_roster_link_index": 61,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611012265",
+        "native_school_id": "101907014",
+        "name": "ALTERNATIVE LEARNING CTR - WEST",
+        "source_roster_link_index": 72,
+        "exclusion": "Native same-year TAPR campus absent",
+        "native_scope": null
+      },
+      {
+        "school_id": "481611013325",
+        "native_school_id": "101907015",
+        "name": "CYPRESS PARK H S",
+        "source_roster_link_index": 79,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      },
+      {
+        "school_id": "481611013432",
+        "native_school_id": "101907159",
+        "name": "HOOVER EL",
+        "source_roster_link_index": 80,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: primary-only",
+        "native_scope": "primary-only"
+      },
+      {
+        "school_id": "481611013434",
+        "native_school_id": "101907016",
+        "name": "BRIDGELAND H S",
+        "source_roster_link_index": 81,
+        "exclusion": "Outside positive grades3\u20138/no-high-grade cohort: high",
+        "native_scope": "high"
+      }
+    ],
+    "subject_coverage": {
+      "math": {
+        "grade_school_configuration_profiles": 78,
+        "usable_schools": 78,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 78
+        },
+        "school_types": {
+          "Regular School": 78
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cypress-fairbanks-district-audit.json",
+        "source_evidence_sha256": "35f22cc72da43df22624a0ca1b98c3f0b78385eaaaedde3aa6f1aa93494fdb9a"
+      },
+      "reading": {
+        "grade_school_configuration_profiles": 78,
+        "usable_schools": 78,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 78
+        },
+        "school_types": {
+          "Regular School": 78
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cypress-fairbanks-district-audit.json",
+        "source_evidence_sha256": "35f22cc72da43df22624a0ca1b98c3f0b78385eaaaedde3aa6f1aa93494fdb9a"
+      },
+      "combined": {
+        "grade_school_configuration_profiles": 78,
+        "usable_schools": 78,
+        "excluded_configuration_profiles": 0,
+        "excluded_configuration_records": [],
+        "exclusions": {},
+        "charter": {
+          "No": 78
+        },
+        "school_types": {
+          "Regular School": 78
+        },
+        "eligible_members_with_verified_denominators": 0,
+        "ten_valid_scored_floor_certified": false,
+        "model_sampling_intervals_available": false,
+        "source_evidence_path": "data/source/cypress-fairbanks-district-audit.json",
+        "source_evidence_sha256": "35f22cc72da43df22624a0ca1b98c3f0b78385eaaaedde3aa6f1aa93494fdb9a"
+      }
+    },
+    "native_assessment_definition": {
+      "state": "TX",
+      "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Enrolled grades 3\u20138, including applicable Algebra I and English I\u2013II EOC",
+      "standard": "2024\u201325 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I\u2013II EOC; separate Cypress-Fairbanks no-high-grade population",
+      "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R"
+    },
+    "enrollment_reconciliation": {
+      "ccd_lea_reported": 117927,
+      "ccd_operational_school_sum": 117927,
+      "native_campus_sum": 117927,
+      "native_peims_membership_sum": 117658,
+      "native_enrollment_membership_differences": [
+        {
+          "native_school_id": "101907007",
+          "enrollment": 3018,
+          "membership": 3017
+        },
+        {
+          "native_school_id": "101907107",
+          "enrollment": 957,
+          "membership": 952
+        },
+        {
+          "native_school_id": "101907044",
+          "enrollment": 1076,
+          "membership": 1075
+        },
+        {
+          "native_school_id": "101907002",
+          "enrollment": 3216,
+          "membership": 3213
+        },
+        {
+          "native_school_id": "101907004",
+          "enrollment": 3222,
+          "membership": 3217
+        },
+        {
+          "native_school_id": "101907106",
+          "enrollment": 757,
+          "membership": 756
+        },
+        {
+          "native_school_id": "101907003",
+          "enrollment": 3323,
+          "membership": 3320
+        },
+        {
+          "native_school_id": "101907103",
+          "enrollment": 834,
+          "membership": 822
+        },
+        {
+          "native_school_id": "101907111",
+          "enrollment": 742,
+          "membership": 740
+        },
+        {
+          "native_school_id": "101907105",
+          "enrollment": 1026,
+          "membership": 1025
+        },
+        {
+          "native_school_id": "101907110",
+          "enrollment": 899,
+          "membership": 897
+        },
+        {
+          "native_school_id": "101907104",
+          "enrollment": 798,
+          "membership": 794
+        },
+        {
+          "native_school_id": "101907108",
+          "enrollment": 749,
+          "membership": 748
+        },
+        {
+          "native_school_id": "101907109",
+          "enrollment": 708,
+          "membership": 704
+        },
+        {
+          "native_school_id": "101907049",
+          "enrollment": 1474,
+          "membership": 1472
+        },
+        {
+          "native_school_id": "101907130",
+          "enrollment": 951,
+          "membership": 944
+        },
+        {
+          "native_school_id": "101907131",
+          "enrollment": 831,
+          "membership": 829
+        },
+        {
+          "native_school_id": "101907132",
+          "enrollment": 919,
+          "membership": 917
+        },
+        {
+          "native_school_id": "101907050",
+          "enrollment": 1424,
+          "membership": 1423
+        },
+        {
+          "native_school_id": "101907112",
+          "enrollment": 734,
+          "membership": 729
+        },
+        {
+          "native_school_id": "101907113",
+          "enrollment": 908,
+          "membership": 906
+        },
+        {
+          "native_school_id": "101907115",
+          "enrollment": 873,
+          "membership": 871
+        },
+        {
+          "native_school_id": "101907116",
+          "enrollment": 660,
+          "membership": 656
+        },
+        {
+          "native_school_id": "101907119",
+          "enrollment": 779,
+          "membership": 776
+        },
+        {
+          "native_school_id": "101907118",
+          "enrollment": 756,
+          "membership": 755
+        },
+        {
+          "native_school_id": "101907005",
+          "enrollment": 3011,
+          "membership": 3009
+        },
+        {
+          "native_school_id": "101907046",
+          "enrollment": 1067,
+          "membership": 1066
+        },
+        {
+          "native_school_id": "101907120",
+          "enrollment": 583,
+          "membership": 580
+        },
+        {
+          "native_school_id": "101907121",
+          "enrollment": 785,
+          "membership": 781
+        },
+        {
+          "native_school_id": "101907047",
+          "enrollment": 1375,
+          "membership": 1374
+        },
+        {
+          "native_school_id": "101907124",
+          "enrollment": 856,
+          "membership": 855
+        },
+        {
+          "native_school_id": "101907009",
+          "enrollment": 2800,
+          "membership": 2797
+        },
+        {
+          "native_school_id": "101907051",
+          "enrollment": 1424,
+          "membership": 1423
+        },
+        {
+          "native_school_id": "101907052",
+          "enrollment": 1360,
+          "membership": 1358
+        },
+        {
+          "native_school_id": "101907134",
+          "enrollment": 743,
+          "membership": 741
+        },
+        {
+          "native_school_id": "101907135",
+          "enrollment": 911,
+          "membership": 907
+        },
+        {
+          "native_school_id": "101907136",
+          "enrollment": 940,
+          "membership": 937
+        },
+        {
+          "native_school_id": "101907137",
+          "enrollment": 984,
+          "membership": 981
+        },
+        {
+          "native_school_id": "101907010",
+          "enrollment": 2861,
+          "membership": 2860
+        },
+        {
+          "native_school_id": "101907138",
+          "enrollment": 900,
+          "membership": 892
+        },
+        {
+          "native_school_id": "101907139",
+          "enrollment": 1040,
+          "membership": 1003
+        },
+        {
+          "native_school_id": "101907140",
+          "enrollment": 1135,
+          "membership": 1123
+        },
+        {
+          "native_school_id": "101907141",
+          "enrollment": 980,
+          "membership": 978
+        },
+        {
+          "native_school_id": "101907053",
+          "enrollment": 1126,
+          "membership": 1125
+        },
+        {
+          "native_school_id": "101907143",
+          "enrollment": 1135,
+          "membership": 1130
+        },
+        {
+          "native_school_id": "101907144",
+          "enrollment": 780,
+          "membership": 778
+        },
+        {
+          "native_school_id": "101907145",
+          "enrollment": 918,
+          "membership": 917
+        },
+        {
+          "native_school_id": "101907012",
+          "enrollment": 3463,
+          "membership": 3460
+        },
+        {
+          "native_school_id": "101907013",
+          "enrollment": 3175,
+          "membership": 3174
+        },
+        {
+          "native_school_id": "101907146",
+          "enrollment": 1014,
+          "membership": 1008
+        },
+        {
+          "native_school_id": "101907147",
+          "enrollment": 753,
+          "membership": 750
+        },
+        {
+          "native_school_id": "101907148",
+          "enrollment": 1125,
+          "membership": 1120
+        },
+        {
+          "native_school_id": "101907149",
+          "enrollment": 1168,
+          "membership": 1162
+        },
+        {
+          "native_school_id": "101907150",
+          "enrollment": 961,
+          "membership": 958
+        },
+        {
+          "native_school_id": "101907056",
+          "enrollment": 1091,
+          "membership": 1089
+        },
+        {
+          "native_school_id": "101907151",
+          "enrollment": 947,
+          "membership": 942
+        },
+        {
+          "native_school_id": "101907153",
+          "enrollment": 892,
+          "membership": 887
+        },
+        {
+          "native_school_id": "101907155",
+          "enrollment": 1260,
+          "membership": 1258
+        },
+        {
+          "native_school_id": "101907154",
+          "enrollment": 974,
+          "membership": 973
+        },
+        {
+          "native_school_id": "101907156",
+          "enrollment": 997,
+          "membership": 992
+        },
+        {
+          "native_school_id": "101907157",
+          "enrollment": 990,
+          "membership": 987
+        },
+        {
+          "native_school_id": "101907058",
+          "enrollment": 1442,
+          "membership": 1441
+        },
+        {
+          "native_school_id": "101907159",
+          "enrollment": 660,
+          "membership": 658
+        },
+        {
+          "native_school_id": "101907158",
+          "enrollment": 1133,
+          "membership": 1128
+        },
+        {
+          "native_school_id": "101907160",
+          "enrollment": 1408,
+          "membership": 1400
+        },
+        {
+          "native_school_id": "101907133",
+          "enrollment": 930,
+          "membership": 925
+        },
+        {
+          "native_school_id": "101907125",
+          "enrollment": 949,
+          "membership": 947
+        },
+        {
+          "native_school_id": "101907126",
+          "enrollment": 999,
+          "membership": 992
+        },
+        {
+          "native_school_id": "101907127",
+          "enrollment": 855,
+          "membership": 854
+        },
+        {
+          "native_school_id": "101907128",
+          "enrollment": 795,
+          "membership": 790
+        },
+        {
+          "native_school_id": "101907129",
+          "enrollment": 847,
+          "membership": 843
+        },
+        {
+          "native_school_id": "101907162",
+          "enrollment": 1138,
+          "membership": 1134
+        }
+      ],
+      "native_economic_disadvantage_sum": 69352,
+      "matched_school_enrollment_differences": [],
+      "definition_note": "TAPR enrolled and CCD reported membership are independent administrative concepts; equality here does not make either a tested denominator."
+    },
+    "historical_state_consistency": {
+      "matched_native_profiles": 92,
+      "original_csv_cells_and_rows_verified": true,
+      "selected_outcome_basis": "Original published whole-percent R cells only; state count-ratio arithmetic and model fits are not reused.",
+      "statewide_ratio_precision_is_not_selected": true,
+      "district_source_approval": false,
+      "district_modeling_approval": false
+    },
+    "count_definition_status": {
+      "status": "unverified_exact_2025_N_M_performance_scope",
+      "raw_fields": {
+        "math": [
+          "CDA38AM0E025D",
+          "CDA38AM0E225N"
+        ],
+        "reading": [
+          "CDA38AR0E025D",
+          "CDA38AR0E225N"
+        ]
+      },
+      "valid_score_counts": null,
+      "sampling_variances": null,
+      "sampling_intervals_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "reason": "Exact native reported-performance N/NAAR and M/medical status mapping remains held; native counts/enrollment never screen this published-rate audit or certify the ten-scored floor."
+    },
+    "release_basis": {
+      "exact_source_roster_replayed": true,
+      "numerical_audit_without_holds": true,
+      "minimum_subject_schools": 30,
+      "historical_audits_approved_for_source": false,
+      "historical_audits_approved_for_modeling": false,
+      "all_models_point_only": true,
+      "normalized_source_approved": true,
+      "district_modeling_approved": true,
+      "verified_valid_score_denominators_available": false,
+      "ten_valid_scored_floor_certified": false,
+      "numerical_success_resolves_count_hold": false,
+      "note": "Only this separate exact same-year enrolled-grade point-only contract is approved. Complete original source and numerical audits remain immutable with false historical approvals; compact references require both artifacts and code/test/policy pins on every replay. Count, high/mixed/primary and nonoperational holds remain."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 20:01:55 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 20:30:41 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -213,3 +213,5 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 19:51:17:** Cypress-Fairbanks separate numerical verification began after the completed source audit was saved to `expansion/all-states` at `7351e6c`. The original 78-school cohorts and all count/floor/interval holds remain unchanged; no canonical or browser release has begun.
 
 - **2026-10-13 20:01:55:** Cypress-Fairbanks numerical gate passes fifteen tests, two identical actual builds and both reviews, including all234 deleted fits and separate Combined statistics. Historical approvals and all count/floor/interval holds stay unchanged. Isolated integration begins; actual main/browser delivery remains held and finish blank.
+
+- **2026-10-13 20:30:41:** Cypress-Fairbanks repeated main integration and shared exports pass, preserving every old nine-table row and257 prior assets. All87 targeted Python/20 JavaScript tests pass; catalog39 states /66 regions /83 definitions, eleven holds unchanged. Browser/master delivery follows, with historical approvals/count/interval holds intact and finish blank.

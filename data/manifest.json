@@ -3594,6 +3594,160 @@
       "sha256": "03f24547726ebf7529d946cee85f84e3de3ac3962b5dbc8b96e0a4db3744247d"
     },
     {
+      "id": "tx-cypress-fairbanks-2025:accountability-manual",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_accountability_manual_2025.pdf",
+      "url": "https://tea.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/2025-accountability-manual-full.pdf",
+      "sha256": "8734f5ce994c9e255ff34da3a8ddf3b2430a17e3d7f18cbff06bba85ae6b649f"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:assessment",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_assessment_2025.csv",
+      "url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+      "sha256": "dcc2e16290ba99a47ace88e2bf3bafc60cb409f6d27d792fd7659df1c74cdf0d"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:ccd_state_notes",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "url": "https://nces.ed.gov/ccd/xls/SY_2024-25_CCD_Final_2a_Data_Notes.xlsx",
+      "sha256": "6476b6b28b700389e261b87377d9cd249935503d53b5919fe1b7ef8b1052d1a7"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:dictionary",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_dictionary_2025.html",
+      "url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&sumlev=C&dsname=STAAR_GR38&dd=performance&asvab=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_dictionary.sas",
+      "sha256": "100f1f3d128bbe8a6be2a00e327b907dd15d5e2acc0e680c526bf9b59b4caf66"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:directory",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:extract",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/source/cypress-fairbanks.json",
+      "url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R",
+      "sha256": "852f6fc7ac9fafe84d85062e564b23049dbbcd7fc7e1ee02dfd319029641c7a5"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:glossary",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_glossary_2025.pdf",
+      "url": "https://tea.texas.gov/school-and-district-leaders/accountability/academic-accountability/performance-reporting/2024-25-comprehensive-tapr-glossary-0.pdf",
+      "sha256": "846810954d479a13467d9e4add3b0ed626247bd48ca9b677ff8a5ec11aedd416"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:income-extension",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_income_extension_2025.html",
+      "url": "https://tea.texas.gov/taa-letters/school-year-2024-2025-income-eligibility-verification-forms-extension",
+      "sha256": "9f2137a25a1e3bc2006b0b3dfee413bc38b1d6928c155574dd04934bd99a04ef"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:income-guide",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_income_reporting_2025.pdf",
+      "url": "https://www.texasstudentdatasystem.org/sites/texasstudentdatasystem.org/files/TEDS_Data_Submission_Requirements_Student_Identification_and_Demographics_Domain.pdf",
+      "sha256": "05de25f2c0fcc21368d3810ff3124d2866d86289fcc7b5548232bcccc262ac3a"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:lea_directory",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:lea_membership",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:masking",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_masking_2025.html",
+      "url": "https://rptsvr1.tea.texas.gov/perfreport/tapr/2025/masking.html",
+      "sha256": "7b6e5840645656bf3c0d977431e7f9fcd6ea984bb1734b6387471f8ad4851de8"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:membership",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:numerical_audit",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/source/cypress-fairbanks-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/cypress-fairbanks-model-audit.json",
+      "sha256": "32c6593c2171eb31eefbc9bca37a192e514cdb83cec06555c55505cbeb8305b3"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:numerical_audit_code",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "scripts/audit_cypress_fairbanks_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_cypress_fairbanks_models.py",
+      "sha256": "e5303e2c516977814e6238770537c8861e49a11af0901ef375e1a69c0d4547dc"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:numerical_audit_tests",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "tests/test_cypress_fairbanks_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_cypress_fairbanks_models.py",
+      "sha256": "9b152770de56f5f4e7aba2d57bb5df0a349587847dc654dbb252e9aadf1cae66"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:performance-listing",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_performance_participation_listing_2025.pdf",
+      "url": "https://sboe.texas.gov/texas-schools/accountability/academic-accountability/performance-reporting/interpreting-staar-performance-participation-student-list-2025.pdf",
+      "sha256": "1c1e59441f6733b6f77b70946deeed401c59714a6cbdc4e8609d15a49741b6b1"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:ref",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_ref_2025.csv",
+      "url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=REF&key=GRDSPAN&key=GRDTYPE&key=COUNTY%7CCNTYNAME&key=CFLALTED",
+      "sha256": "8c75df541a408dfb0f49161aef8c0c0229ff6f5e73765bebf6ce5ef070cdac72"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:roster_audit",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/source/cypress-fairbanks-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/cypress-fairbanks-district-audit.json",
+      "sha256": "35f22cc72da43df22624a0ca1b98c3f0b78385eaaaedde3aa6f1aa93494fdb9a"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:source_audit_code",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "scripts/audit_cypress_fairbanks.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_cypress_fairbanks.py",
+      "sha256": "f590527fb75201336c00cda5a19377be7a9b2946fc9456f384e12b98432563f7"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:source_audit_tests",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "tests/test_cypress_fairbanks_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_cypress_fairbanks_audit.py",
+      "sha256": "d9f06a36bc72cc1edc8fb975f474371ad968147728a7f31b14916af4d1505026"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:stud",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "path": "data/raw/tx_stud_2025.csv",
+      "url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STUD&key=ETALL%7CNTALL&key=NTECO%7CNTNED%7CNT504%7CNTLEP%7CNTDSL%7CNTFOS%7CNTHOM%7CNTIMM%7CNTMIG%7CNTTT1%7CNTMLC%7CNTRSK%7CNTBIL&key=ETECO%7CETNED%7CET504%7CETLEP%7CETDIS%7CETDSL%7CETFOS%7CETHOM%7CETIMM%7CETMIG%7CETTT1%7CETMLC%7CETRSK&key=NTGEEC%7CNTGEEP%7CNTGPKC%7CNTGPKP%7CNTGP3C%7CNTGP3P%7CNTGP4C%7CNTGP4P%7CNTGKNC%7CNTGKNP%7CNTG01C%7CNTG01P%7CNTG02C%7CNTG02P%7CNTG03C%7CNTG03P%7CNTG04C%7CNTG04P%7CNTG05C%7CNTG05P%7CNTG06C%7CNTG06P%7CNTG07C%7CNTG07P%7CNTG08C%7CNTG08P%7CNTG09C%7CNTG09P%7CNTG10C%7CNTG10P%7CNTG11C%7CNTG11P%7CNTG12C%7CNTG12P&var_type=N&var_type=D&var_type=R",
+      "sha256": "24e2b867023b8c979d0f7f5d662db4d1eeb3eca00f0413b12bd059790eb7b6f6"
+    },
+    {
       "id": "tx-dallas-2025:accountability-manual",
       "dataset_id": "tx-dallas-2025",
       "path": "data/raw/tx_accountability_manual_2025.pdf",
@@ -19389,6 +19543,16 @@
       "source_url": "https://www.tn.gov/education/districts/federal-programs-and-oversight/data/data-downloads.html"
     },
     {
+      "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
+      "state": "TX",
+      "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
+      "year": 2025,
+      "level": "ES",
+      "grades": "Enrolled grades 3\u20138, including applicable Algebra I and English I\u2013II EOC",
+      "standard": "2024\u201325 Texas All Students accountability subset; STAAR with/without accommodations, Spanish STAAR, Alternate 2 and applicable Algebra I/English I\u2013II EOC; separate Cypress-Fairbanks no-high-grade population",
+      "source_url": "https://rptsvr1.tea.texas.gov/cgi/sas/broker/?_service=marykay&_program=perfrept.perfmast.sas&_debug=0&ccyy=2025&tapr=all_c&sumlev=C&level=Campus&id=&prgopt=reports%2Ftapr%2Fdd%2Fdd_tapr_step_7.sas&datafmt=csv&dsname=STAAR_GR38&key=38AR0E2%7C38AR0E0&key=38AM0E2%7C38AM0E0&var_type=N&var_type=D&var_type=R"
+    },
+    {
       "id": "tx-dallas-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
       "state": "TX",
       "name": "STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages",
@@ -20107,6 +20271,12 @@
       "name": "Direct certification",
       "definition": "Reported school-level CCD 2024\u201325 Direct Certification Education Unit Total divided by reported positive same-year CCD Membership Education Unit Total, including pre-K where enrolled. Direct certification identifies individual students categorically eligible through benefits and other qualifying statuses (for example SNAP, TANF, FDPIR, foster care, migrant, homeless and Head Start; Medicaid eligibility varies by state). It is a benefits-based economic proxy, not all students eligible through household income or all students receiving free meals at a CEP school. No CEP multiplier, universal-meal count, FRPL fallback, tested-subgroup ratio or prior-year income is used. CCD membership is the fall snapshot; counts use the same academic year and exact NCES ID. No school-allocation warning is published in the audited CCD 2a state notes.",
       "source_url": "https://nces.ed.gov/learn/blog/understanding-school-lunch-eligibility-common-core-data"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:income",
+      "name": "Individually classified economic disadvantage",
+      "definition": "Individual October 25, 2024 PEIMS fall economic status uses each school\u2019s own count of individually classified economically disadvantaged pupils divided by its own all-enrolled EE\u201312 count. State codes 01/02/99 include free or reduced-price meal eligibility or other public assistance. ED plus non-ED and the native tenth-percent display must reconcile. This broader state-specific proxy is not uniform FRPL or household income and does not exactly describe the tested pupils. CEP requires individual direct certification and annual local income surveys; universal meals do not classify all children. Provision 2 may retain base-year eligibility for continuously enrolled students. Missing surveys may yield code 00; identification coverage and undercount are unknown. The January 16, 2025 resubmission extension requires enrollment and eligibility on October 25, 2024, without another-year backfill.",
+      "source_url": "https://www.texasstudentdatasystem.org/sites/texasstudentdatasystem.org/files/TEDS_Data_Submission_Requirements_Student_Identification_and_Demographics_Domain.pdf"
     },
     {
       "id": "tx-dallas-2025:income",
@@ -22529,6 +22699,30 @@
       "input_sha256": "85ed59c737cf794c8ddeb5fa12d866a4545ad72ea300d6ce873d0792075f162a"
     },
     {
+      "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES:combined:ols-v1:70fba0c3539a",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "definition_id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "70fba0c3539a4d3773c4d83fbed645f5c83bb7efd6be44792cd7142afec2b87f"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES:math:ols-v1:70fba0c3539a",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "definition_id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "70fba0c3539a4d3773c4d83fbed645f5c83bb7efd6be44792cd7142afec2b87f"
+    },
+    {
+      "id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES:reading:ols-v1:70fba0c3539a",
+      "dataset_id": "tx-cypress-fairbanks-2025",
+      "definition_id": "tx-cypress-fairbanks-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "70fba0c3539a4d3773c4d83fbed645f5c83bb7efd6be44792cd7142afec2b87f"
+    },
+    {
       "id": "tx-dallas-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES:combined:ols-v1:2111afe5e903",
       "dataset_id": "tx-dallas-2025",
       "definition_id": "tx-dallas-2025:2025:STAAR enrolled grades 3\u20138 Including EOC \u00b7 TAPR published Meets or Above percentages:ES",
@@ -24462,6 +24656,23 @@
       "id": "TX",
       "name": "Texas",
       "regions": [
+        {
+          "id": "cypress-fairbanks",
+          "name": "Cypress-Fairbanks ISD",
+          "dataset": "tx-cypress-fairbanks-2025",
+          "status": "ready",
+          "geography": "cypress-fairbanks",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/cypress-fairbanks/schools.json",
+          "boundaries": null,
+          "comparison": "Cypress-Fairbanks ISD \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Cypress-Fairbanks ISD independent 2024\u201325 published-rate grade-school district models use exact operational CCD LEA 4816110 / TX-101907 / TAPR district 101907 identities. All 78 native enrolled positive grades 3\u20138/no-high-grade profiles remain searchable and enter each separate Math, ELA and Combined model using original whole-percent All Students Meets or Above rates and precise same-year individual economic-status enrollment ratios. Thirteen high schools, one primary campus and two operational alternative campuses without native records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Cypress-Fairbanks ISD source release.",
+          "statewide": false,
+          "audit": "data/cypress-fairbanks/coverage.json"
+        },
         {
           "id": "dallas",
           "name": "Dallas ISD",

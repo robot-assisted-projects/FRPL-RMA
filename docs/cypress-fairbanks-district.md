@@ -52,3 +52,19 @@ Verified score counts, scored floor, sampling variances and all interval endpoin
 .venv/bin/python scripts/audit_cypress_fairbanks_models.py --check
 .venv/bin/python -m unittest discover -s tests -p 'test_cypress_fairbanks_models.py' -v
 ```
+
+## Canonical and browser integration
+
+The separately validated [normalized release](../data/source/cypress-fairbanks.json), rebuilt by [prepare_cypress_fairbanks.py](../scripts/prepare_cypress_fairbanks.py), supplies exact `tx-cypress-fairbanks-2025` /region `cypress-fairbanks` readiness. All six historical source/numerical files retain false approvals. Every API binds complete current source/code/test/raw/policy/schema/definition evidence, literal/runtime contracts and normalized fingerprints before canonical access. All nine ownership tables preserve the separate statewide Texas dataset, including legal shared native identities.
+
+The release retains78 searchable canonical NCES-ID profiles,78 individual-income observations,156 native subject observations,22 provenance records and three independent78-school models. Exact native nine-digit campus identities stay in original provenance; names or NCES suffixes do not establish joins. All234 canonical/current/history results match original-source numerical verification. Hairgrove remains the highest Cook influence in every subject. The two absent native alternatives, thirteen high/one primary profiles and membership gaps remain outside or explicit. Published whole-percent R and precise individual October income are preserved; enrollment never weights or shrinks a fit. Counts, scored floor, sampling variances and interval endpoints remain uncertified/unavailable modelwide.
+
+Thirteen adapter tests, two actual normalized CLI builds and two private full-database-copy imports pass. Both independent integration reviews pass, including73,214 original/canonical/current/history checks per import,262 independent ownership/freshness rejection checks and99 complementary policy rejections. Two authorized actual main imports repeat all target rows and four export bytes, preserving every preceding row in nine tables,257 previous served files and330 preceding scientific files before shared regeneration. Readable public income and assessment definitions were finalized before the final private repeats.
+
+Repeated catalog/guide/planning exports add only Cypress-Fairbanks, retaining65 previous regions,82 previous definitions/provider bindings and geometry. The ready catalog contains39 states /66 regions; the guide83 definitions, with eleven source holds unchanged. Planning marks only exact4816110 as existing Cypress-Fairbanks; fixed66 keeps completed rows. All87 distinct targeted Python tests (eleven source,fifteen numerical,thirteen adapter and48 shared regressions), twenty JavaScript tests and syntax/diff checks pass. HTTP/browser and master delivery are recorded separately; finish remains blank until remote delivery is verified. Admissions, provider and geometry remain unaudited.
+
+```sh
+.venv/bin/python scripts/prepare_cypress_fairbanks.py --extract-only
+.venv/bin/python scripts/prepare_cypress_fairbanks.py
+.venv/bin/python -m unittest discover -s tests -p 'test_cypress_fairbanks.py' -v
+```
