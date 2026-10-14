@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 05:11:25 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 05:18:53 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -16,12 +16,12 @@ Last tracker update: **2026-10-14 05:11:25 America/Chicago**. GitHub account: **
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
-| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Final review; counts/intervals unavailable | — |
+| [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Merged; counts/intervals unavailable | 2026-10-14 05:15:03 |
 | [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying private repeat; counts/status held | — |
 | KATY ISD | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Verifying numerical models; counts/status held | — |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
-| San Diego Unified | CA | 0634320 / CA-3768338 | — | Not yet started | — |
-| DeKalb County | GA | 1301740 / GA-644 | — | Not yet started | — |
+| San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying original source/cohort | — |
+| DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Verifying original source/cohort | — |
 | School District No. 1 in the county of Denver and State of C | CO | 0803360 / CO-0880 | — | Not yet started | — |
 | Prince William County Public Schools | VA | 5103130 / VA-075 | — | Not yet started | — |
 | PINELLAS | FL | 1201560 / FL-52 | — | Not yet started | — |
@@ -316,11 +316,11 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - Finish: tested commit `7827d79e6729a211f85fdc001b6f0d553feda761` reached master **2026-10-14 03:23:01**, through fine-fiddle; nine localhost/Git and23 changed release-file Git bindings pass. Pages run38534615742 and public verification pass **03:27:43**, with12 browser assertions and nine independent exact asset matches. Ten finished /56 remaining; fixed66 identities/order stay intact.
 - Limitations: counts, scored floor, variances and intervals unavailable; accelerated EOG/EOC coverage and broader attribution/program/admission/geometry limits remain uncertified. Historical approvals stay false; readiness belongs only to the separately audited normalized scope.
 
-## In progress: Lee County
+## Completed: Lee County
 
 - Exact **1201080 / FL-36 / FDOE36**,2024–25. Source/cohort work started **2026-10-14 02:31:47**; [independent source gate](docs/lee-district.md) passed **03:35:18**.
 - Done:78 source-certified prospective schools per subject, eleven charters and Island’s real0% own February eligibility ratio retained; four missing native identities, primary9123,25 protected-grade profiles/70 cells and16 offered/enrolled disagreements stay explicit.1449 needed rows34610cells, complete13198school/227LEA omissions,14 tests/two identical builds and230571 independent comparisons/51 rejections/nine controls pass. All historical assets/data preserved through documented Cobb addition.
-- Done: numerical234 deletions, final12 adapter checks and independently reviewed private/main import pairs. Shared exports repeat and93 Python/20 JavaScript checks pass. Next: local website/final shared review, tested master push and public verification. Source/model6 stays immutable/false; counts/floor/intervals remain unavailable. Finish stays blank.
+- Done: numerical234 deletions, final12 adapter checks and independently reviewed private/main import pairs. Shared exports repeat and93 Python/20 JavaScript checks pass. Local17/final independent shared review/HTTP9/Git30 passed. Tested master delivery609cbb0 is verified05:15:03; Pages/public checks follow. Source/model6 stays immutable/false; counts/floor/intervals remain unavailable.
 
 - **2026-10-14 03:55:19**: Northside independent source gate passes03:51:14:107 profiles /104 per subject; all131 records,15 sources,1543 needed rows /59450 cells plus complete omissions,14 tests/two identical builds,327295 comparisons/88 rejections/13 controls. Three masked alternatives, Homebound missing native ID and72 unassigned membership differences remain. Northside requires312 numerical deletions; its numerical work begins with104 members per fit, counts/status/floor/CIs held and no release. Lee producer numerical18 tests and identical actual CLI pair pass, retaining all234 deletions; independent numerical review is pending. Ten of fixed66 finished /56 remain.
 
@@ -340,3 +340,11 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 05:07:38**: Lee’s two actual main imports repeat all target tables/four exports exactly and pass independent review; all prior rows/assets/science preserved. Shared builds repeat:39 ready states /71 comparisons /88 definitions, preserving old70/87/provider bindings/geometry.93 targeted Python/20 JavaScript checks pass; final shared/browser/master/public checks follow, finish blank. Northside final16 adapter tests/two normalized builds pass; its first private full-current-copy import is authorized, then independent checkpoint before repeat. Katy source gate passes196798 independent comparisons/89 rejections/13 controls and14 tests/two identical builds; separate64-member numerical verification begins. Ten fixed66 finished /56 remain.
 
 - **2026-10-14 05:10:53**: Lee passes17 actual local browser assertions, including first off-page Varsity search/keyboard,75→78 pagination, retained Athenian/Island0% history, fixed78 subject models, native share/empty/invalid links, separate nine Florida definitions and390px rendered widths/clean console. Final independent shared/prose review and exact HTTP/Git binding precede master delivery; finish remains blank. Northside first private import passes independent checkpoint and one private repeat is authorized; Katy numerical work continues.
+
+- **2026-10-14 05:15:03**: Lee tested commit `609cbb05adef0d37e9af7af8684210dcd3159a54` is verified on master and expansion/all-states through fine-fiddle. Independent source/numerical/private/main/shared review,93 targeted Python/20 JavaScript checks,17 local browser assertions and nine HTTP/30 changed Git bindings pass. Eleven original66 districts finished;55 remain. Pages38548182759/public verification follow; counts/floor/intervals remain unavailable.
+
+- **2026-10-14 05:13:48**: Started exact San Diego Unified `0634320 / CA-3768338 / CDS3768338` original-source/cohort audit, next unblocked fixed66 member. Authoritative original identity/cohort/income/rate/suppression and attribution evidence require review; no fits/imports/release. Jefferson Kentucky stays on its documented totals/weights/income hold, without repeated failed investigation. Northside final private pair passes repeatability and is undergoing final canonical/guard review; Katy numerical work continues.
+
+- **2026-10-14 05:18:11**: Lee successful exacttested609cbb0 Pages38548182759/public verification passes12 browser assertions and nine independent exact HTTP/Git assets. Eleven fixed66 finished /55 remain; source/count/floor/interval and attribution limits remain unchanged. Northside final canonical/guards review and Katy independent numerical review are next.
+
+- **2026-10-14 05:18:06**: Started exact DeKalb County `1301740 / GA-644` original-source/cohort audit, within the fixed66. Reopen authoritative Georgia/CCD IDs, enrolled/offer scope, individual same-year direct certification, native whole-school outcomes and held/outside/program-attribution evidence. No fits/imports/release approval.
