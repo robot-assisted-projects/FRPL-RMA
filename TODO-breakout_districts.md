@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 06:36:12 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 06:55:00 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -18,12 +18,12 @@ Last tracker update: **2026-10-14 06:36:12 America/Chicago**. GitHub account: **
 | [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | [LEE](docs/lee-district.md) | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Merged; counts/intervals unavailable | 2026-10-14 05:15:03 |
 | [NORTHSIDE ISD](docs/northside-district.md) | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Merged; counts/status held | 2026-10-14 05:42:30 |
-| [KATY ISD](docs/katy-district.md) | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Final review; counts/status held | — |
+| [KATY ISD](docs/katy-district.md) | TX | 4825170 / TX-101914 | 2026-10-14 04:09:20 | Merged; counts/status held | 2026-10-14 06:43:06 |
 | Jefferson County | KY | 2102990 / KY-056275000 | — | Blocked by totals/weights and income definition | — |
 | San Diego Unified | CA | 0634320 / CA-3768338 | 2026-10-14 05:13:48 | Verifying models and sampling intervals | — |
 | DeKalb County | GA | 1301740 / GA-644 | 2026-10-14 05:18:06 | Independent numerical review next | — |
 | School District No. 1 in the county of Denver and State of C | CO | 0803360 / CO-0880 | 2026-10-14 06:34:12 | Verifying original source/cohort | — |
-| Prince William County Public Schools | VA | 5103130 / VA-075 | — | Not yet started | — |
+| Prince William County Public Schools | VA | 5103130 / VA-075 | 2026-10-14 06:40:47 | Verifying original source/cohort | — |
 | PINELLAS | FL | 1201560 / FL-52 | — | Not yet started | — |
 | Fulton County | GA | 1302280 / GA-660 | — | Not yet started | — |
 | Alpine District | UT | 4900030 / UT-01 | — | Blocked by population/rate reconciliation | — |
@@ -362,3 +362,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 06:36:12**: Katy final16 adapter checks/private/main pairs and independent158159 comparisons/307 required rejections/five controls pass, with65 profiles /64 per subject /192 results and all prior data preserved. Two shared builds repeat39 states /73 comparisons /90 definitions, retaining old72/89/provider/geometry.97 targeted Python/20 JavaScript checks and17 local browser assertions pass. Final independent shared/prose review/HTTP-Git/master/public follow; finish blank. Twelve fixed66 finished /54 remain.
 
 - **2026-10-14 06:34:12**: Started exact Denver `0803360 / CO-0880` original-source/cohort audit, within fixed66. DeKalb original source gate passes96744 derived checks/103 rejections/six controls and15 tests/identical source builds; its103-member/309-deletion numerical producer18 tests/identical builds now await independent review. San Diego original source gate passes606677 checks/54 rejections/12 controls and14 tests/identical builds;143 profiles/141 members retain missing-grade/source holds, with verified scored denominators allowing all-member sampling intervals in numerical verification. No new actual main/static release beyond Katy’s separately reviewed work.
+
+- **2026-10-14 06:43:06**: Katy tested commit `0098f797d731029fd36aba81ba2bca1ff1ee44ae` is verified on master and expansion/all-states through fine-fiddle. Final independent source/numerical/private/main/shared review,97 targeted Python/20 JavaScript checks,17 local browser assertions, nine exact local HTTP/23 changed Git bindings pass. Thirteen original66 districts finished;53 remain. Pages38558489572/public verification follow; Harris mask/true100% income, native gaps, membership differences and N/M/count/floor/interval limits remain.
+
+- **2026-10-14 06:40:47**: Started exact Prince William `5103130 / VA-075` original-source/cohort audit, within fixed66. Reopen authoritative Virginia/CCD IDs, native regular/alternate/EOC population, individual sameyear income/denominator, valid scores, masks/omissions and source definitions. No fits/imports/release. Denver source audit and independent San Diego/DeKalb numerical reviews continue; no outside-fixed66 work.
+
+- **2026-10-14 06:55:00**: Katy exact tested0098f797 Pages38558489572 succeeds/all three jobs;12 public browser assertions and nine independent exact HTTP/Git matches pass. Thirteen original66 finished /53 remain. San Diego141-member/423-deletion interval review and DeKalb103-member/309-deletion review continue; Denver and Prince William remain source-only. All original holds remain.
