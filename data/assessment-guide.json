@@ -1292,6 +1292,31 @@
       "blocker_summary": null,
       "assessments": [
         {
+          "id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+          "state": "MD",
+          "name": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+          "year": 2025,
+          "level": "ES",
+          "grades": "3–8 plus accelerated Math courses",
+          "standard": "2021–22 four-level regular MCAP standards; 2024–25 Math includes accelerated Algebra 1, Geometry and Algebra 2 with applicable grade 6–7 course waiver; DLM remains separate",
+          "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+          "dataset_id": "md-baltimore-county-2025",
+          "family": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+          "provider": null,
+          "provider_source_url": null,
+          "provider_role": null,
+          "provider_evidence_ids": [],
+          "ambition_comparison": null,
+          "regions": [
+            {
+              "id": "baltimore-county",
+              "name": "Baltimore County",
+              "url": "./?state=MD&region=baltimore-county&level=ES",
+              "model_scope": "Baltimore County independent 2024–25 regular MCAP grade-school district models: exact operational NCES LEA 2400120 / CCD native MD-03 / MSDE 03 identities. All 137 native E/M/EM profiles with positive September grades 3–8 and no high-grade row remain searchable. Original regular School_Level All Students All Grades Levels 3/4 published rates support 126 Math, 137 ELA and 126 independently fitted Combined results; 11 Math masks retain ELA. Precise same-year individual Early Attendance ratios use their own denominators. Accelerated Math courses and the applicable grade 6–7 waiver remain in native totals; DLM stays separate. High, mixed, primary, unknown, unmatched and closed records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide."
+            }
+          ]
+        },
+        {
           "id": "md-mcap-2025:2025:MCAP regular ELA/math · grade schools · 2025:ES",
           "state": "MD",
           "name": "MCAP regular ELA/math · grade schools · 2025",

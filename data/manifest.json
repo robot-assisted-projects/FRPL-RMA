@@ -1739,6 +1739,132 @@
       "sha256": "13ec489a54be27483ec2f3cac4aaef53b4037eeb0e6fa9930aafc80dc6d6a15b"
     },
     {
+      "id": "md-baltimore-county-2025:ccd_directory",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_029_2425_w_1a_073025.zip",
+      "sha256": "39326da788aa322353d20ceaf8ad4baed26272502cd05b066cf6c594988b21ab"
+    },
+    {
+      "id": "md-baltimore-county-2025:ccd_lea_directory",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/ccd_lea_029_2425_w_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_029_2425_w_1a_073025.zip",
+      "sha256": "2745169e4bc7cd53adff179830c3d4b9bb035ac79580ecea01ef389a161936a9"
+    },
+    {
+      "id": "md-baltimore-county-2025:ccd_lea_membership",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/ccd_lea_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_lea_052_2425_l_1a_073025.zip",
+      "sha256": "501d72720a01c26e0e041cd3b1aa6653d0a94725ba0a1e85c42c4f183bc627ba"
+    },
+    {
+      "id": "md-baltimore-county-2025:ccd_membership",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/ccd_sch_052_2425_l_1a_073025.zip",
+      "url": "https://nces.ed.gov/ccd/Data/zip/ccd_sch_052_2425_l_1a_073025.zip",
+      "sha256": "4a7f660c5fc5eaae488dd02fd43498f349fc828b227edd0970d5b6995ead4d4d"
+    },
+    {
+      "id": "md-baltimore-county-2025:extract",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/source/baltimore-county.json",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+      "sha256": "8e527c68dcbfd2a4a2df5a5eab240b2700482e65a67c781e7a3153705663fb94"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_assessment",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-mcap-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562",
+      "sha256": "61789e732bbeff40a451d14a0e6eeb66c0dac54430c26c7ed49db9718aab583f"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_definitions",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-definitions.html",
+      "url": "https://www.reportcard.msde.maryland.gov/Definitions/Index",
+      "sha256": "5086eb37ee1de68c9aa22f9e7d2606f8d7550acfaeb85bd2b139c3f765d2f3f7"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_directory",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-directory-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/539",
+      "sha256": "963f3447d40eb95586efa6f7250c96cd55818313015178a30d05b0b637a916fa"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_enrollment",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-enrollment-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/541",
+      "sha256": "132b3520b0c75e1cbcb83b40a5b8c8b6fa1f064fb300c14710a75dd72b73c061"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_income",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-special-services-2025.zip",
+      "url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/561",
+      "sha256": "3ed47214da42d4d3bbb88077b3598637a56e8eba52498216dc9c923547984d5c"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_mcap_overview",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/montgomery-mcap-overview-march2025.pdf",
+      "url": "https://www.marylandpublicschools.org/about/Documents/DAAIT/Assessment/MCAP/MCAP-Overview-A.pdf",
+      "sha256": "594f383d7917939572b99d293e89582decfc7819f5a888de21e2b9b6cbcb4680"
+    },
+    {
+      "id": "md-baltimore-county-2025:msde_reportcard",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/raw/maryland-reportcard.html",
+      "url": "https://reportcard.msde.maryland.gov/graphs",
+      "sha256": "9857e65d009ccc6614beeaa12e289cbb93c37c8c67f809d394226dc19b5f8125"
+    },
+    {
+      "id": "md-baltimore-county-2025:numerical_audit",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/source/baltimore-county-model-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/baltimore-county-model-audit.json",
+      "sha256": "88ddb5e7a40927d22d620afb0ed79412567037f9ad9bd7a83c24c90670c7645b"
+    },
+    {
+      "id": "md-baltimore-county-2025:numerical_audit_code",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "scripts/audit_baltimore_county_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_baltimore_county_models.py",
+      "sha256": "095d632ede8be39150d93c502f941d638b7907d736faea55a21f990f62a3c55f"
+    },
+    {
+      "id": "md-baltimore-county-2025:numerical_audit_tests",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "tests/test_baltimore_county_models.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_baltimore_county_models.py",
+      "sha256": "2791ed4ad70d4ef6f675d4409893405b69dbafe1c56b6bafa72d39169c035a56"
+    },
+    {
+      "id": "md-baltimore-county-2025:roster_audit",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "data/source/baltimore-county-district-audit.json",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/data/source/baltimore-county-district-audit.json",
+      "sha256": "1e09964862a0e3220ca076a0a5a45702747f7e04fe44883141f0b5d48b7d4ef9"
+    },
+    {
+      "id": "md-baltimore-county-2025:source_audit_code",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "scripts/audit_baltimore_county.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/scripts/audit_baltimore_county.py",
+      "sha256": "93e5f6600bb4737e9e1eb10c4611bb46c8b30eaa33ff671a22d6966ad53efa45"
+    },
+    {
+      "id": "md-baltimore-county-2025:source_audit_tests",
+      "dataset_id": "md-baltimore-county-2025",
+      "path": "tests/test_baltimore_county_audit.py",
+      "url": "https://github.com/robot-assisted-projects/FRPL-RMA/blob/expansion/all-states/tests/test_baltimore_county_audit.py",
+      "sha256": "4c30b50b0e9b85901199e347c18996c7c4db689dc30a8e375dc741af691d08ef"
+    },
+    {
       "id": "md-mcap-2025:ccd",
       "dataset_id": "md-mcap-2025",
       "path": "data/raw/ccd_sch_029_2425_w_1a_073025.zip",
@@ -19459,6 +19585,16 @@
       "source_url": "https://www.doe.mass.edu/mcas/tech/2025-technical-report.pdf"
     },
     {
+      "id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "state": "MD",
+      "name": "Regular MCAP All Students All Grades published Levels 3/4 proficiency",
+      "year": 2025,
+      "level": "ES",
+      "grades": "3\u20138 plus accelerated Math courses",
+      "standard": "2021\u201322 four-level regular MCAP standards; 2024\u201325 Math includes accelerated Algebra 1, Geometry and Algebra 2 with applicable grade 6\u20137 course waiver; DLM remains separate",
+      "source_url": "https://www.reportcard.msde.maryland.gov/DataDownloads/FileDownload/562"
+    },
+    {
       "id": "md-mcap-2025:2025:MCAP regular ELA/math \u00b7 grade schools \u00b7 2025:ES",
       "state": "MD",
       "name": "MCAP regular ELA/math \u00b7 grade schools \u00b7 2025",
@@ -20377,6 +20513,12 @@
       "name": "Massachusetts Low Income 2024\u201325",
       "definition": "Massachusetts published Low Income percentage of October 1, 2024 enrollment for school year 2024\u201325, from SIMS. Since 2022, classification includes SNAP, TAFDC, DCF foster care and expanded MassHealth/Medicaid benefits up to 185% of the federal poverty level, district-reported homeless students, and supplemental low-income students confirmed through the documented DESE application process. This is not the narrower 2015\u201321 Economically Disadvantaged definition or a universal-meal participation count. Use the published percentage, preserving low-income and enrollment counts; enrollment includes pre-K and students beyond grade 12.",
       "source_url": "https://profiles.doe.mass.edu/help/data.aspx?section=students"
+    },
+    {
+      "id": "md-baltimore-county-2025:income",
+      "name": "Individual direct-certification economic disadvantage",
+      "definition": "2024\u201325 individual Economically Disadvantaged Cnt divided by the same school\u2019s own Early Attendance Total Student Cnt. Use the exact whole-school All row when native bands overlap, or the single complete school band; reconcile the published one-decimal percentage without replacing the precise count ratio. This benefits/status measure includes specified assistance/direct-certification categories and is not full household-income FRPL or universal meal receipt; identification coverage is unknown. Never replace with FARMS, September/CCD enrollment, participation, tested-subgroup income or another year. The collection as-of date is unspecified; original masks and missingness remain unavailable.",
+      "source_url": "https://www.reportcard.msde.maryland.gov/Definitions/Index"
     },
     {
       "id": "md-mcap-2025:income",
@@ -22155,6 +22297,30 @@
       "subject": "reading",
       "method_version": "ols-studentized-v1",
       "input_sha256": "c1c638b07c431d70739f6f8de68087186f74da8a5dec024e7f762faa01440be5"
+    },
+    {
+      "id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:combined:ols-v1:1b8f4dccda70",
+      "dataset_id": "md-baltimore-county-2025",
+      "definition_id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "combined",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "1b8f4dccda707f22695a12657f941cf1d2a57fb03bd2bac3e7b41fcee17d194c"
+    },
+    {
+      "id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:math:ols-v1:1b8f4dccda70",
+      "dataset_id": "md-baltimore-county-2025",
+      "definition_id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "math",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "1b8f4dccda707f22695a12657f941cf1d2a57fb03bd2bac3e7b41fcee17d194c"
+    },
+    {
+      "id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES:reading:ols-v1:1b8f4dccda70",
+      "dataset_id": "md-baltimore-county-2025",
+      "definition_id": "md-baltimore-county-2025:2025:Regular MCAP All Students All Grades published Levels 3/4 proficiency:ES",
+      "subject": "reading",
+      "method_version": "ols-studentized-v1",
+      "input_sha256": "1b8f4dccda707f22695a12657f941cf1d2a57fb03bd2bac3e7b41fcee17d194c"
     },
     {
       "id": "md-mcap-2025:2025:MCAP regular ELA/math \u00b7 grade schools \u00b7 2025:ES:combined:ols-v1:8939df8e6ae6",
@@ -24455,6 +24621,23 @@
       "id": "MD",
       "name": "Maryland",
       "regions": [
+        {
+          "id": "baltimore-county",
+          "name": "Baltimore County",
+          "dataset": "md-baltimore-county-2025",
+          "status": "ready",
+          "geography": "baltimore-county",
+          "levels": [
+            "ES"
+          ],
+          "schools": "data/baltimore-county/schools.json",
+          "boundaries": null,
+          "comparison": "Baltimore County \u00b7 {year} \u00b7 {assessment} \u00b7 {note}",
+          "model_scope": "Baltimore County independent 2024\u201325 regular MCAP grade-school district models: exact operational NCES LEA 2400120 / CCD native MD-03 / MSDE 03 identities. All 137 native E/M/EM profiles with positive September grades 3\u20138 and no high-grade row remain searchable. Original regular School_Level All Students All Grades Levels 3/4 published rates support 126 Math, 137 ELA and 126 independently fitted Combined results; 11 Math masks retain ELA. Precise same-year individual Early Attendance ratios use their own denominators. Accelerated Math courses and the applicable grade 6\u20137 waiver remain in native totals; DLM stays separate. High, mixed, primary, unknown, unmatched and closed records remain outside this point-only release. Valid-score count scope and the ten-valid-scored floor remain uncertified; sampling intervals are unavailable modelwide.",
+          "map_source": "School coordinates and district boundaries are unavailable in the audited Baltimore County source release.",
+          "statewide": false,
+          "audit": "data/baltimore-county/coverage.json"
+        },
         {
           "id": "maryland",
           "name": "Statewide",

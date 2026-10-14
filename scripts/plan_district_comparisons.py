@@ -126,6 +126,8 @@ def scope(row):
         return 'existing_duval'
     if row['LEAID'] == '1201590':
         return 'existing_polk'
+    if row['LEAID'] == '2400120':
+        return 'existing_baltimore_county'
     if row['LEAID'] == '4700148':
         return 'existing_memphis'
     if row['LEAID'] == '4218990':
@@ -322,6 +324,8 @@ def render(payload):
                 status = 'Existing Duval comparison; native School Grades pure grade-school scope only'
             elif row['scope'] == 'existing_polk':
                 status = 'Existing Polk comparison; native School Grades pure grade-school scope only'
+            elif row['scope'] == 'existing_baltimore_county':
+                status = 'Existing Baltimore County comparison; regular MCAP grade schools with eleven Math masks'
             elif row['scope'] == 'existing_memphis':
                 status = 'Existing Memphis-Shelby comparison; regular TNReady grade schools with four attribution holds'
             elif row['scope'] == 'existing_philadelphia':
@@ -365,7 +369,7 @@ def render(payload):
     table('First tier · largest new district comparisons', main)
     table('Second tier · substantial regional comparisons', secondary)
     lines.extend(['## Existing comparisons and components', '',
-        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk and Memphis-Shelby have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
+        "CPS, Los Angeles Unified, Miami-Dade, Duval, Clark County, Broward, Hillsborough, Orange, Palm Beach, Gwinnett, Fairfax, Houston, Wake County, Montgomery County, Charlotte-Mecklenburg, Dallas ISD, Prince George's County, Philadelphia, Cypress-Fairbanks, Polk, Memphis-Shelby and Baltimore County have implemented district comparisons with the populations documented below. Hawaii’s single state LEA already has its statewide "
         'comparison. The NYC geographic LEAs below are components of the existing NYC system; '
         'they would be optional subdistrict work, not additional whole-city systems. Do not '
         'add their counts to the Chancellor’s Office supervisory total or include District 75 '
@@ -694,6 +698,20 @@ def render(payload):
         'uncertified/unavailable. High/mixed/primary populations, admissions, provider roles '
         'and geometry remain outside or unaudited. The fixed 66-district TODO retains '
         'the completed row; planning never approves a model.', ''])
+    lines.extend([
+        'The [Baltimore County source, numerical and integration audits](baltimore-county-district.md) '
+        'retain exact LEA `2400120` / `MD-03` / MSDE `03`, 137 grade-school profiles and '
+        'separate 126 Math, 137 ELA and 126 paired Combined models with all 389 deletion fits. '
+        'Original regular MCAP All Students All Grades Levels 3–4 published rates retain '
+        'eleven Math masks; Meadowood and Crossroads alternatives remain ELA-only. '
+        'Watershed charter stays outside because original offered-grade flags are Adjusted. '
+        'Individual Early Attendance economic ratios use each school’s own same-year denominator; '
+        'September/CCD membership never substitutes. Accelerated Math and the grade 6–7 waiver '
+        'remain explicit; DLM stays separate. Enrollment differences stay unassigned. '
+        'Historical approvals remain false; readiness belongs only to the separately validated '
+        'normalized scope. Counts, scored floor, variances and intervals remain unavailable. '
+        'Admissions, provider roles and geometry remain unaudited; high/mixed/primary populations '
+        'stay outside. Discovery counts never approve models; fixed66 retains completed rows.', ''])
     lines.extend(['', '## Provenance and rebuild', '',
         'Enrollment uses the native LEA **Education Unit Total**, with `DMS_FLAG=Reported`; '
         'it is not a sum of school enrollment and is never a tested-score denominator. '

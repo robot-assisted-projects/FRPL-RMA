@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 01:13:52 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 02:05:33 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -14,8 +14,8 @@ Last tracker update: **2026-10-14 01:13:52 America/Chicago**. GitHub account: **
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
-| [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Isolated integration; 11 Math masks retained | — |
-| Cobb County | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying original source/cohort | — |
+| [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Ready for tested release; 11 Math masks retained | — |
+| Cobb County | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying separate models | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | — | Not yet started; scored-count scope unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
@@ -269,3 +269,15 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-14 01:10:08:** Memphis Pages/public verification passes:12 public browser assertions and nine exact independent HTTP/Git asset bindings after successful Pagesrun38520339618. Eight fixed66 districts finished;58 remain. Four attribution holds and unavailable counts/floor/intervals remain. Baltimore County isolated integration continues.
 
 - **2026-10-14 01:13:52**: Started exact Cobb County `1301290 / GA-633` original-source/cohort audit, next unstarted member of the fixed66. Reopen native Georgia/CCD inputs; directory identity, grade eligibility, same-year income, outcome populations and source notes require independent review. No fits/imports/static release approval. Baltimore County isolated integration continues.
+
+- **2026-10-14 01:21:18**: Baltimore County first private full-MAIN-copy import passes198,653 independent canonical/current/history comparisons, preserving all prior nine-table rows and269 served assets. Four adapted test fixtures were corrected; ten earlier passing checks plus four successful affected checks cover14 distinct adapter tests. Final private repeat/current-evidence review is pending before any actual main import. Eleven Math masks and unavailable counts/floor/intervals remain.
+
+- **2026-10-14 01:23:33**: Cobb provisional original-source reconciliation retains110 Open directory schools,92 offered lower/16 high/2 mixed configurations and90 independently reconstructed tested-grade candidates. All90 have native Math/ELA pairs and own same-year direct-certification income; all are non-charter Regular schools. LEA and school enrollment105,738 reconcile. Georgia identification/PK caveats remain; no Cobb-named shared-time note appears in the pinned workbook. These provisional counts do not approve sources, models or imports; testing and independent review follow.
+
+- **2026-10-14 01:38:19:** Baltimore County isolated integration gate passes14 distinct adapter checks, final normalized CLI pair and final-test-file-bound private import pair. Independent198,653 canonical/current/history plus47,124 original normalized comparisons and269 corruption/5 positive controls pass. Both original and supplemental pairs are retained transparently. Exact137 profiles /126 Math /137 ELA /126 Combined /389 results retain11 Math masks, two ELA-only alternatives and unavailable counts/floor/intervals. One actual main import is authorized; second import/shared/browser/master remain gated.
+
+- **2026-10-14 01:57:20**: Baltimore County two actual main imports and repeated catalog/guide/planning exports pass:137 profiles /126/137/126 models /389 results; all old nine-table rows and269 served assets preserved. Catalog39 states /69 regions;86 guide definitions with all old68/85/provider/geometry preserved. Planning139 potential lower schools remains discovery; two native masked-grade profiles do not enter source-certified137. All96 targeted Python/20 JavaScript checks pass. Final shared review/browser/master/public follow; finish remains blank. Cobb source original builds/tests pass and independent review is underway.
+
+- **2026-10-14 02:01:53:** Cobb source gate passes14 focused tests, two identical actual original builds and917,416 independent comparisons/66 meaningful rejections/13 controls.90 source profiles supply90 prospective Math/ELA/Combined members; original grade/primary/charter/income/assessment limits remain. Source approvals stay false; separate numerical-only verification is authorized. No canonical/browser approval and finish remains blank.
+
+- **2026-10-14 02:05:33:** Baltimore County independent shared review and17 local browser assertions pass, retaining all eleven Math/Combined masks with available ELA, alternative histories, unchanged fixedmodels/influence, native-ID shares and390px rendered widths. All96 targeted Python/20 JavaScript tests already pass; HTTP/Git and master/public verification follow. Counts/floor/intervals remain unavailable; finish blank. Cobb separate numerical review continues.
