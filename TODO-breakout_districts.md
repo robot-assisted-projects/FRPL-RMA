@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-14 03:14:21 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-14 03:28:41 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -15,7 +15,7 @@ Last tracker update: **2026-10-14 03:14:21 America/Chicago**. GitHub account: **
 | [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | [Memphis-Shelby County Schools](docs/memphis-district.md) | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Merged; 4 attribution holds retained | 2026-10-14 01:07:10 |
 | [Baltimore County Public Schools](docs/baltimore-county-district.md) | MD | 2400120 / MD-03 | 2026-10-13 23:35:01 | Merged; 11 Math masks retained | 2026-10-14 02:19:44 |
-| [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Verifying browser/release; counts/intervals unavailable | — |
+| [Cobb County](docs/cobb-district.md) | GA | 1301290 / GA-633 | 2026-10-14 01:13:52 | Merged; counts/intervals unavailable | 2026-10-14 03:23:01 |
 | LEE | FL | 1201080 / FL-36 | 2026-10-14 02:31:47 | Verifying original source/cohort | — |
 | NORTHSIDE ISD | TX | 4833120 / TX-015915 | 2026-10-14 03:14:21 | Verifying published-rate cohort; counts unresolved | — |
 | KATY ISD | TX | 4825170 / TX-101914 | — | Not yet started; scored-count scope unresolved | — |
@@ -304,3 +304,14 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 
 - Exact **4833120 / TX-015915**,2024–25. Actual source/cohort audit started **2026-10-14 03:14:21 America/Chicago**, within the fixed66 queue.
 - Next: independently reconstruct exact operational CCD/TAPR identities, offered/enrolled lower grades, own same-year economic numerator/denominator and native published whole-percent outcomes, with all excluded/held records retained. Existing scored-count/status and floor scope remains unresolved; do not retry the failed count investigation without new evidence or infer counts from enrollment. Source-only approvals stay false; no model/import/browser release.
+
+- **2026-10-14 03:23:01**: Cobb tested commit `7827d79e6729a211f85fdc001b6f0d553feda761` is verified on master and expansion/all-states through fine-fiddle. All91 targeted Python/20 JavaScript checks,17 local browser assertions, final independent review, nine exact localhost/Git assets and23 changed release-file Git bindings pass. Finish recorded; ten of the original66 districts finished,56 remain. Pages run38534615742 is in progress; public verification remains separate. Lee independent source review and Northside original-source work continue; their unready source files were excluded.
+
+- **2026-10-14 03:24:27**: Lee independent original reconstruction confirms78 profiles /78/78/78 prospective subjects, eleven charters and a real0% income case; four missing native identities, primary9123 and all protected-grade/offer-enrollment differences stay outside or explicit. Source guard/preservation review is pending; no fits/imports. Northside provisional originals identify131 directory /128 operational /127 native,107 lower configurations and104/104/104 usable published-rate prospects after three fully masked alternatives. Seven needed tables retain1543 records /59450 cells; one missing native identity and72 enrollment differences remain, with counts/status/floor unverified. These provisional counts do not approve models.
+
+## Completed: Cobb County
+
+- Exact **1301290 / GA-633**,2024–25. Started **2026-10-14 01:13:52**; source gate02:01:53 and numerical gate02:23:33 pass. [Reviewed district evidence](docs/cobb-district.md).
+- Done:90 exact source-certified lower profiles, separate90/90/90 models and270 explicit deletion fits. Both actual imports/shared exports repeat, preserving prior nine tables,69 regions/86 definitions/provider bindings/geometry. All91 targeted Python/20 JavaScript checks,17 local browser assertions and final independent review pass.
+- Finish: tested commit `7827d79e6729a211f85fdc001b6f0d553feda761` reached master **2026-10-14 03:23:01**, through fine-fiddle; nine localhost/Git and23 changed release-file Git bindings pass. Pages run38534615742 and public verification pass **03:27:43**, with12 browser assertions and nine independent exact asset matches. Ten finished /56 remaining; fixed66 identities/order stay intact.
+- Limitations: counts, scored floor, variances and intervals unavailable; accelerated EOG/EOC coverage and broader attribution/program/admission/geometry limits remain uncertified. Historical approvals stay false; readiness belongs only to the separately audited normalized scope.
