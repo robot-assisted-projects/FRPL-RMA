@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 22:19:55 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 22:37:20 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -12,8 +12,8 @@ Last tracker update: **2026-10-13 22:19:55 America/Chicago**. GitHub account: **
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
-| [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Verifying district models | — |
-| Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Auditing source/cohort | — |
+| [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Testing isolated import | — |
+| Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Verifying 4 attribution holds | — |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | — | Not yet started | — |
 | Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
 | LEE | FL | 1201080 / FL-36 | — | Not yet started | — |
@@ -233,3 +233,9 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 22:18:51:** Started the separate source/cohort audit for exact `4700148 / TN-00792`, 2024–25, in parallel with Polk’s later gates. Reopen original CCD identities/membership/individual direct certification and documented original TNReady grade totals. Statewide data is a cross-check; district fits need separate approval. Unknown valid-score denominators/count floor/intervals remain held. No unlisted or second-tier districts enter the queue; finish remains blank.
 
 - **2026-10-13 22:19:55:** Polk source gate passes: thirteen focused tests, eleven shared regressions, two identical actual original builds and both independent reviews. The replay guard repair is verified; all prior canonical bytes, 261 served assets and 333 scientific files are preserved. Historical approvals/count/floor/interval holds remain. [Source definitions and exact exclusions](docs/polk-district.md); numerical verification is next and finish remains blank.
+
+- **2026-10-13 22:29:44:** Memphis’s original CCD Final 2a notes name district `4700148` and shared-time service campuses. Retain the exact note/IDs and audit overlap with the prospective grade-school population; enrollment-versus-service attribution remains unresolved where applicable. Do not infer individual scope from counts below enrollment or repair identities. Existing Tennessee statewide outputs remain unchanged.
+
+- **2026-10-13 22:31:39:** Original Final 2a note row 463 names 13 Memphis shared-time campuses; four overlap the 154 prospective pure lower profiles: Germantown Middle (`470014801583`), Woodstock Middle (`470014801595`), Treadwell Middle (`470014802217`) and White Station Middle (`470014801960`). Their original records, direct-certification ratios and native rates remain evidence, with enrolled-versus-served attribution held. Nine named high/mixed campuses stay outside this population. Individual counts below enrollment do not clear the holds. Independent source review and usable-count reconciliation remain pending.
+
+- **2026-10-13 22:37:20:** Polk numerical gate passes sixteen focused tests, two identical actual builds and independent original/math/current-evidence review: all 327 deleted fits, 184,185 comparisons, high-precision checks and 202 rejections pass. Historical flags/count/floor/interval holds remain; all prior canonical data and 261 assets are preserved. [Numerical evidence](docs/polk-district.md#independent-numerical-audit). Isolated import testing begins; finish remains blank.

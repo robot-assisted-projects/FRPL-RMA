@@ -35,3 +35,32 @@ Next: independent full and deleted-school numerical verification; then separate 
 .venv/bin/python scripts/audit_polk.py
 .venv/bin/python -m unittest discover -s tests -p 'test_polk_audit.py' -v
 ```
+
+## Independent numerical audit
+
+The compact [numerical audit](../data/source/polk-model-audit.json), rebuilt by [audit_polk_models.py](../scripts/audit_polk_models.py), verifies separate unweighted 2024–25 grade-school Math, ELA and Combined models. Original raw records remain stored once in the source audit. Every current, cached and expected replay verifies complete source/code/test/policy/raw/schema/definition/identity and immutable runtime evidence. Exact original inputs and typed row/column pointers remain linked.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Usable schools | 109 | 109 | 109 |
+| Intercept | 90.657935 | 89.923788 | 90.290862 |
+| Disadvantage slope | -0.598339 | -0.616455 | -0.607397 |
+| R² | 0.418555 | 0.500983 | 0.480033 |
+| Maximum leverage | 0.139972 | 0.139972 | 0.139972 |
+| Maximum Cook distance | 0.350452 | 0.285860 | 0.348552 |
+
+All **327 explicit deleted-school fits** have rank two and positive finite residual scales, with full/deleted residual degrees of freedom 107/106 and no hard holds. Externally studentized residuals use the other members' fitted scale. Combined independently fits the equally weighted paired original rates, with its own residual scale, deletions and studentization; the common income vector explains coefficient linearity but never permits averaging subject t scores or scales.
+
+All nineteen rated charters remain included. Cypress Junction Montessori (`53-8171` /NCES `120159008572`) has the highest Cook distance in every subject, with Math/ELA/Combined t approximately -2.756641/-2.473391/-2.748625, and stays in all three models. Lakeland Montessori School House (`53-8141` /NCES `120159004178`) retains the highest leverage and the original 5/122 individual eligibility ratio. Source incomes range 4.09836%–99.04031%. Observed predictions lie in 0–100, but the linear model remains unbounded and unclamped; a synthetic endpoint verifies this behavior. No enrollment weights, shrinkage, admissions inference or diagnostic exclusions are introduced.
+
+All 110 source profiles, Compass's missing achievement, protected grades, exact unjoined identities, provider-specific attribution and the unassigned reporting discrepancy remain linked. Valid-score counts, the scored floor, sampling variances and intervals remain uncertified/unavailable modelwide; any internal zero-variance computational vector is a point-estimate sentinel, never an uncertainty estimate.
+
+Sixteen numerical tests, two actual byte-identical CLI builds, offline replay and compilation pass. The independent review verifies **184,185** original input/pointer/math fields, all 327 NumPy deletions, three 60-digit full fits and ten selected high-precision deletions, with maximum difference `1.82e-12`. All **202** metric/input/degeneracy/current-evidence rejection checks and six controls pass. Complete prior canonical bytes/all nine tables, 261 served assets and the 336 preceding scientific files remain unchanged; concurrently created Memphis source files are separate authorized work. Gate verified **2026-10-13 22:37:20 America/Chicago**.
+
+```sh
+.venv/bin/python scripts/audit_polk_models.py
+.venv/bin/python scripts/audit_polk_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_polk_models.py' -v
+```
+
+Status remains `numerically_verified_pending_integration`, scope `numerical_audit_only`, with both historical source/modeling approvals false. Isolated normalized/canonical/static validation and independent review follow; actual main imports, browser checks and tested master delivery remain held until those separate gates pass.
