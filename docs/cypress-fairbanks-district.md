@@ -31,3 +31,24 @@ Next: independent full/deleted Math, ELA and paired Combined numerical verificat
 .venv/bin/python scripts/audit_cypress_fairbanks.py
 .venv/bin/python -m unittest discover -s tests -p 'test_cypress_fairbanks_audit.py' -v
 ```
+
+## Independent numerical audit
+
+The compact [numerical artifact](../data/source/cypress-fairbanks-model-audit.json), rebuilt by [audit_cypress_fairbanks_models.py](../scripts/audit_cypress_fairbanks_models.py), references the complete historical raw inventory once. Every fresh, cached and expected replay verifies current source/code/test/policy/raw/schema/definition and secondary-extract evidence, including literal/runtime guards and exact original types and native/NCES references. Both historical approvals remain false; scope is `numerical_audit_only`, status `numerically_verified_pending_integration`.
+
+| Diagnostic | Math | ELA | Combined |
+| --- | ---: | ---: | ---: |
+| Eligible schools | 78 | 78 | 78 |
+| Intercept | 85.827135 | 92.614039 | 89.220587 |
+| Disadvantage slope | -0.573815 | -0.481449 | -0.527632 |
+| R² | 0.821410 | 0.833196 | 0.843035 |
+
+All **234 explicit deleted-school fits** have rank-two designs and positive finite scales, with full/deleted residual degrees of freedom 76/75 and no hard holds. The same78 income values make Combined coefficients legitimate subject means by OLS linearity; Combined still has its own paired outcomes, scales, deletion fits and studentized residuals. Hairgrove, native `101907128` /NCES `481611021298`, has the highest Cook distance in all three fits and remains included. No eligible campus has 100% individual income or a naturally out-of-range prediction; the synthetic prediction guard verifies that no clipping is introduced. Enrollment does not weight or shrink these fits.
+
+Verified score counts, scored floor, sampling variances and all interval endpoints remain unavailable modelwide. Published whole-percent R outcomes stay distinct from count-ratio precision. Fifteen numerical tests, two identical actual CLI builds, offline replay/compile and both independent reviews pass; all234 original NumPy deletions and selected50-digit Decimal cases agree within4.55e−13. Every prior canonical row in nine tables,257 served files and327 preceding scientific files remains exact. Numerical gate passed **2026-10-13 20:01:55 America/Chicago**. Next is isolated normalized/canonical/static integration, with actual main writes held until its tests, ownership checks and reviews pass. Browser and master delivery follow separately; finish remains blank.
+
+```sh
+.venv/bin/python scripts/audit_cypress_fairbanks_models.py
+.venv/bin/python scripts/audit_cypress_fairbanks_models.py --check
+.venv/bin/python -m unittest discover -s tests -p 'test_cypress_fairbanks_models.py' -v
+```

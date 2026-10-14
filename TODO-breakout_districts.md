@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 19:49:30 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 20:01:55 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -11,7 +11,7 @@ Last tracker update: **2026-10-13 19:49:30 America/Chicago**. GitHub account: **
 | [Prince George's County Public Schools](docs/prince-georges-district.md) | MD | 2400510 / MD-16 | 2026-10-13 15:18:59 | Merged; counts/intervals unavailable | 2026-10-13 16:55:35 |
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
-| [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Source verified; district model next | — |
+| [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Verifying browser/canonical integration | — |
 | POLK | FL | 1201590 / FL-53 | — | Not yet started | — |
 | Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | — | Not yet started | — |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | — | Not yet started | — |
@@ -209,3 +209,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 19:36:06:** Philadelphia Pages deployment and 15 public-browser assertions pass. All eight public assets match tested master release `8a18583`; 162 profiles, three fixed counted models, intervals and separate Pennsylvania guide links remain intact. Cypress-Fairbanks source-only work continues within the unchanged fixed66 list.
 
 - **2026-10-13 19:49:30:** Cypress-Fairbanks source/cohort gate passes eleven source/twelve Texas-planning tests, two identical actual original builds and both reviews. All 78 prospective subject members retain exact identities, precise individual fall ratios and published R rates. Two absent alternatives and all membership gaps remain; counts/floor/intervals and historical approvals stay uncertified/false. Separate numerical verification is next; finish remains blank.
+
+- **2026-10-13 19:51:17:** Cypress-Fairbanks separate numerical verification began after the completed source audit was saved to `expansion/all-states` at `7351e6c`. The original 78-school cohorts and all count/floor/interval holds remain unchanged; no canonical or browser release has begun.
+
+- **2026-10-13 20:01:55:** Cypress-Fairbanks numerical gate passes fifteen tests, two identical actual builds and both reviews, including all234 deleted fits and separate Combined statistics. Historical approvals and all count/floor/interval holds stay unchanged. Isolated integration begins; actual main/browser delivery remains held and finish blank.
