@@ -1,6 +1,6 @@
 # Large breakout district TODO
 
-Last tracker update: **2026-10-13 23:24:51 America/Chicago**. GitHub account: **fine-fiddle**.
+Last tracker update: **2026-10-13 23:32:15 America/Chicago**. GitHub account: **fine-fiddle**.
 
 **Work scope: only the 66 first-tier large breakout districts listed below.** The saved size screen is at least 50,000 students and at least 30 potential pure grade schools or pure high schools. Exact original selection: `tier = main` and `scope = new_district_candidate` in the [planning extract](data/source/district-comparison-candidates.json), frozen at SHA-256 `0d59066af16650999ae170dec6330452d595f1f3da02633c8b110696dd8b1c10`. Completed districts stay in this table as the discovery shortlist shrinks.
 
@@ -12,7 +12,7 @@ Last tracker update: **2026-10-13 23:24:51 America/Chicago**. GitHub account: **
 | [DUVAL](docs/duval-district.md) | FL | 1200480 / FL-16 | 2026-10-13 16:44:40 | Merged; counts/intervals unavailable | 2026-10-13 18:07:51 |
 | [Philadelphia City SD](docs/philadelphia-district.md) | PA | 4218990 / PA-126515001 | 2026-10-13 17:57:35 | Merged; verified counts/intervals | 2026-10-13 19:31:11 |
 | [CYPRESS-FAIRBANKS ISD](docs/cypress-fairbanks-district.md) | TX | 4816110 / TX-101907 | 2026-10-13 19:23:44 | Merged; counts/intervals unavailable | 2026-10-13 20:41:07 |
-| [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Browser verified; preparing tested master delivery | — |
+| [POLK](docs/polk-district.md) | FL | 1201590 / FL-53 | 2026-10-13 21:56:38 | Merged; counts/intervals unavailable | 2026-10-13 23:28:56 |
 | Memphis-Shelby County Schools | TN | 4700148 / TN-00792 | 2026-10-13 22:18:51 | Verifying separate models; 4 attribution holds retained | — |
 | Baltimore County Public Schools | MD | 2400120 / MD-03 | — | Not yet started | — |
 | Cobb County | GA | 1301290 / GA-633 | — | Not yet started | — |
@@ -243,3 +243,7 @@ Duval local HTTP/browser verification passes **28 assertions**, completed **2026
 - **2026-10-13 23:24:51:** Polk repeated canonical/static integration and independent preservation review pass. All 90 targeted Python and 20 JavaScript tests pass; 15 local browser assertions verify first off-page search, keyboard access, missing achievement, influence, fixed 109-school models, sharing, empty/invalid URLs, guide links and 390-pixel layout. Catalog:39 states /67 regions /84 definitions; all eleven source holds remain. Master/public delivery follows; finish is blank.
 
 - **2026-10-13 23:15:20:** Memphis-Shelby original-source review passes:13 focused tests, two identical actual source builds,242,594 independent comparisons and54 meaningful rejections. All154 grade-school profiles remain; four specifically named shared-time campuses retain attribution holds. Usable Math/ELA/Combined inputs:142/147/142. Nonlisted-campus attribution coverage is not certified; counts/floor/intervals stay unavailable. Separate numerical verification is underway.
+
+- **2026-10-13 23:28:56:** Polk tested release `7543dec4fef5cc9d7503fedef58a94a9a6c1dd7e` is verified on master and expansion/all-states through fine-fiddle. All scientific/import/shared/browser gates and independent review pass; the completed row remains in fixed66. Seven fixed66 districts are finished;59 remain. Counts/floor/intervals stay unavailable. Pages/public readback is pending; Memphis separate numerical verification continues.
+
+- **2026-10-13 23:32:15:** Polk Pages/public verification passes:11 public browser assertions and nine exact HTTP/Git/original asset bindings, successful Pages run. Seven fixed66 districts remain finished,59 remain; Memphis separate numerical verification continues. No source-count or attribution holds are cleared by deployment.
